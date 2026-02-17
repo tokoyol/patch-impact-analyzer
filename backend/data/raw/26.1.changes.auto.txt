@@ -1,0 +1,804 @@
+[system] Bugfixes
+  Fixed several issues where Actualizer could incorrectly increase mana costs indefinitely.
+  Fixed a bug where Die Another day wouldn't cast if you were untargetable when you pressed it.
+
+[system] Known Issues
+  Some settings are not available when in Ranked games.
+  When in spectator mode if you skip forward in time towers will remain standing after being destroyed.
+  Winter Rift Baron is still appearing. (sorry Baron just wants to be on the Winter Rift a little longer, we'll get him to put the mittens away later)
+
+[system] Patch Highlights
+  Prestige Veiled Lady Morgana, Petricite Cho'Gath, Petricite Nautilus, and Durand's Legacy Taliyah will be available January 8, 2026.
+
+[system] Queuing Up
+  Custom Summoner's Rift lobbies will now require players to select a position.
+  Swiftplay and rotating game modes will not have this feature enabled, and will retain the same jungle and support quest rules as before.
+
+[system] Crimson Lucidity
+  Upgrades from Ionian Boots of Lucidity
+  Ability Haste: 20
+  Movement Speed: 45
+  Ionian Lucidity: Gain 20 Summoner Haste.
+  Noxian Haste: Empowering or protecting allies with abilities, dealing damage to enemy Champions with abilities, or casting a Summoner Spell grants 10% Movement Speed for 4 seconds.
+
+[system] Swiftmarch
+  Upgrades from Boots of Swiftness
+  Movement Speed: 65
+  Fleetfooted: Reduce the effectiveness of Slows by 40%.
+  Noxian Fervor: Gain 5% of your Movement Speed as Adaptive Force.
+
+[system] Spellslinger's Shoes
+  Upgrades from Sorcerer's Shoes
+  Magic Penetration: 18
+  Magic Penetration: 8%
+  Movement Speed: 45
+
+[system] Gunmetal Greaves
+  Upgrades from Berserker's Greaves
+  Attack Speed: 40%
+  Movement Speed: 45
+  Life Steal: 5%
+
+[system] Chainlaced Crushers
+  Upgrades from Mercury's Treads
+  Magic Resist: 30
+  Movement Speed: 45
+  Noxian Persistence (15s cooldown): After taking magic damage from a Champion, gain a (10-120 [level scaling] +10% Health) magic shield for 5s.
+
+[system] Armored Advance
+  Upgrades from Plated Steelcaps
+  Armor: 35
+  Movement Speed: 45
+  Plating: Reduces incoming damage from Attacks by 10%.
+  Noxian Endurance (15s cooldown): After taking physical damage from a Champion, gain a (10-120 [level scaling] +10% Health) physical shield for 5s.
+
+[system] Support
+  Gold and experience from minion kills and from Support Quest Items is reduced by 25% outside of bot lane until level 3
+  Zaz'Zak's Realmspike, Solstice Sleigh, Bloodsong, Dream Maker, and Celestial Opposition: 5g per 10s ⇒ 9g per 10s
+  After Quest Completion, Control Ward gold cost reduced to 40g
+  After Quest Completion, store up to 2 Control Wards on your Role Quest slot instead of your item inventory
+  Atakhan, Blood Roses, Feats, and Kills
+  Feats of Strength have been removed from the game.
+  First Blood once again grants +100g to the killer.
+  The first Turret destroyed once again grants +300g.
+  Atakhan has been removed from the game and will no longer spawn.
+  Blood Roses have been removed from the game and will no longer spawn.
+  Base kill gold devaluation per 1 gold given on death: 0.2 ⇒ 0.4. For example, dying and giving away 300g will reduce your base kill gold by 75g.
+  Base kill gold revaluation per 1 gold earned: 0.1 ⇒ 0.2. This change does not affect the accrual of positive bounties.
+
+[system] Void Grubs
+  Minimum level: 4 ⇒ 7
+  Armor: 0 ⇒ 34 + 8 Growth (73+)
+  Magic Resistance: 0 ⇒ 32 + 4 Growth (51+)
+  Health: 2,250-3,750 ⇒ 1300 + 200 Growth (2,269+)
+  AD: 30-45 by game time ⇒ 12 + 2 Growth (22+)
+  Grubs now deal 50% more damage to non-champions, matching Dragon and Baron
+  Mite AD: 4.2-6.6 by game time ⇒ 1.8 + 0.3 Growth (3+)
+  Mite HP: 470-710 by game time ⇒ 180 + 30 Growth (325+)
+  Gold: 20 local + 50 global (210g) ⇒ 30 local (90g)
+  Experience: 75 + 2% per level / 4 (79.5-84) ⇒ 65 (195 for 3)
+  XP radius: 0 ⇒ 2000
+  No longer heals its killer for 60 HP
+
+[system] Atakhan
+  Spawns ⇒ No longer spawns
+
+[system] Buff Camps
+  Baron's spawn no longer corrupts Red and Blue buff, which made their buffs global and gave the monsters 30% more HP. A second version of the buff still drops after the Elemental Terrain transition.
+  Red buff regen: 0.5/1/3% at level 1/4/6 ⇒ 0.5/1/1.5/3% at 1/4/6/11
+  Red melee slow: 5/10/15/20% ⇒ 10/15/20%
+  Red ranged slow: 5/7.5/10% (unchanged)
+  Red buff burn: 10-75 ⇒ 15-54
+  Burn now displays its cumulative damage on its target
+  Red/Blue buff tooltips now show exactly how much power they provide.
+  Bugfix: Red/blue buff no longer last 30 seconds longer if a jungler kills a champion for it
+
+[system] Faelights
+  Grants +25% vision radius to the ward
+  Reveals a bonus vision region for 45 seconds
+  The bonus vision region shape is specific to that faelight location
+  The bonus region particles are only visible to your team
+  The bonus vision region is not affected by the type of ward being used (e.g. Control Wards don't enhance it.)
+  This duration is represented by a countdown circle visual on the ward
+  The bonus vision region can see into brush if the brush is in the region shape
+  Enemies will know they're in the bonus region while their team has a detector/sweeper effect within the region
+  Enemies will know they're in the bonus region if their team has ping-tracked the ward directly (including via Sixth Sense)
+  All faelight superward buffs are suppressed while the ward has nearsight, and removed when the ward dies
+  If your team already has a ward on the faelight, that ward will be destroyed to make room for the new superward
+  For the sake of Vision Score, the ward has a +25% score mod
+  For the sake of Vision Score, the bonus vision region is treated as an extra ward obeying the Position modifier rule, but no other modifier rules (e.g. staleness)
+
+[system] Faelight Locations
+  One near each base gate (4 total), providing vision into the nearby jungle
+  One in each island brush near top and bot (2 total), providing vision into river
+  One in each river wall brush near mid AKA banana brush (2 total), providing vision of nearby river (hugging the mid lane brush but not overlapping it)
+  [After Elemental Rift Transformation] One near side lanes in each quadrant (4 total), providing vision in the jungle path along the lane
+
+[system] Other Vision Changes
+  Stealth Ward Trinket Cooldown: 210-120s (by level) ⇒ 170-90s (by level)
+  Oracle Lens Trinket Duration: 6s ⇒ 8s
+  Scryer's Bloom Default Respawn Time: 260-350s (random) ⇒ 200-260s (random)
+  One at each river coast near side lanes (2 total)
+  One behind each side lane inner turret (4 total)
+  One near the rocks in base where Hexgates spawn (4 total)
+  Elemental rift Scryer's Bloom locations near these points have been deprecated, and any other plants too close by have been repositioned
+  These new Scryer's Bloom locations have much shorter default respawn times: 90-120s (random)
+
+[system] Homeguards
+  Homeguard no longer has a duration.
+  Homeguard is now removed after reaching the endpoint, entering combat, or entering the jungle.
+  Homeguard will always take you at least to just before your outermost living turret in a lane.
+  Homeguard will always take you at least to your Inhibitor in your base.
+  After 14:00 or after at least one turret on either team has been destroyed in a given lane, Homeguard will track the furthest minion in the lane, ending approximately 2000 units before reaching the minion wave.
+  Before 14:00, Homeguard grants 80% movement speed ramping down to 40% over 4 seconds.
+  After 14:00, Homeguard grants 150% movement speed ramping down to 65% over 4 seconds.
+  In Swiftplay, Homeguard always grants 200% movement speed, ramping down to 100% over 4 seconds.
+
+[system] Crystalline Overgrowth
+  Targetable lane turrets are now subject to Crystalline Overgrowth.
+  Crystalline overgrowth will appear after a 90s startup/cooldown (30s in Swiftplay); at that point, the turret will take true damage the next time an enemy champion attacks it.
+  The overgrowth will stay at its minimum damage state for 60s (30s in Swiftplay), then scale the damage up linearly for 240s (180s in Swiftplay), then hold at max damage indefinitely.
+  The damage calculation is based on the average level of the attacking team:
+  At level 1 , the damage range is 2% - 3.3% of the turret's max Health (2.15% - 3.76% in Swiftplay).
+  At level 18 , the damage range is 8.8% - 18.9% of the turret's max Health (13.2% - 39.6% in Swiftplay).
+  The attack hitbox of the turret is increased for melee champions based on the size of the overgrowth.
+  Crystalline overgrowth will not proc from attacks while the turret has backdoor protection.
+  If an enemy unit is near the turret at that 90 second mark when it would become active, Crystalline Overgrowth will be suppressed and not appear. Once enemies are gone, the Overgrowth will then be applied and it will "fast forward" its state to make up for where it should be. This is to avoid sudden mid-push activations.
+
+[system] Demolish
+  Demolish trigger: Charge up a powerful attack against a tower while near it. ⇒ Your third attack against towers deals bonus physical damage.
+  Cooldown: 45s ⇒ 30s
+  Melee Damage: 100 + [35% of maximum health] ⇒ 85 + [28% of maximum health]
+  Ranged Damage: 100 + [35% of maximum health] ⇒ 50 + [20% of maximum health]
+
+[system] Game Start Time
+  Minion spawn time: 1:05 ⇒ 30 seconds
+  Murk Wolf, Blue Sentinel, Red Brambleback, Raptor Camps: Spawn at 55 seconds
+  Krug, Gromp Camps: Spawn at 1:07
+  River Scuttler Camps: Spawn at 2:55
+  Baron Nashor: 25:00 ⇒ 20:00
+  Epic Monster spawn times are unchanged unless noted above.
+  Ambient Gold Start Time: 65 seconds
+  Most miscellaneous start of game systems (for example, World Atlas's first charge) start 35 seconds faster.
+  Remake Eligibility: 1:30 through 3:00 ⇒ 0:55 through 2:25
+  Early Surrender (with AFK) eligibility: 3:30 ⇒ 2:55
+
+[system] Turrets
+  Bulwark resist duration: 20s, refreshing on each plate takedown: 20s, overlapping durations
+  Bulwark resist visualization updated and new effects have been added. VFX no longer disappear when champions walk out of range.
+  Turret plates take 17% less damage from minions and ranged champions ⇒ Turrets take 20% more damage from melee champions
+  Updated all turret item tooltips to more clearly explain turret mechanics.
+  Turret true sight range: 1095 ⇒ 1100. Tooltip updated to reflect the accurate range.
+
+[system] Outer Turrets
+  Nearby players are now rewarded a share of 300g for destroying the first turret of the game.
+  Plates are now permanent instead of falling off at 14 minutes.
+  Resistances: Set armor/MR to 40 at 14 minutes ⇒ Lose 15 armor/mr per minute starting at minute 11, capped at -60
+  Plate gold: Turret plates drop at 14 minutes, awarding no further gold ⇒ Plate value reduces by 10g per minute at minute 11, capped at -40
+  Plate thresholds: 20/40/60/80/100% ⇒ 10/25/45/70/100% missing HP
+  No longer gains 50 permanent resists per dead plate.
+  In-world turret plate models have been removed. They now only show as health bar segments.
+  Base resists: 15 ⇒ 60
+  Base HP: 5,000 ⇒ 9,000
+  Maximum bonus AD: 192 at 16 minutes ⇒ 168 at 14 minutes
+  Local gold: 250 ⇒ 0
+  Turret plate gold: 125 ⇒ 120
+  Maximum local gold: 875 ⇒ 600
+  Minimum local gold: 250 ⇒ 400
+
+[system] Inner and Inhibitor Turrets
+  NEW: Turret Plates claimed at 10/25/45/70/100% missing HP
+  Inner turret local gold: 425/675 ⇒ 600 spread across 5 plates
+  Inner turret health: 4000 ⇒ 5000
+  Inner turret resistances: 55 ⇒ 60
+  Inner turrets no longer gain up to 15 armor/MR at minutes 16-30
+  Inhibitor turret local gold: 375 ⇒ 600 spread across 5 plates
+  Inhibitor turret regen thresholds: 33/66% HP ⇒ 30/75% HP
+  Inhibitor turret health: 3500 ⇒ 4750
+  Inhibitor turret resistances: 70 ⇒ 60
+
+[system] Nexus Turrets
+  NEW: Turret Plates claimed at 10/25/45/70/100% missing HP
+  Nexus turret health: 3000 ⇒ 3500
+  Nexus turret resists: 70 ⇒ 60
+  Nexus turret HP on respawn: 100% ⇒ 40%
+  6 HP/sec Nexus turret regen: 33/66% ⇒ 40/70% HP
+  Added a separate tower item for Nexus Turrets to show that they respawn.
+
+[champion] Cassiopeia
+  Base Stats
+  Base Movement Speed : 328 ⇒ 335
+  Passive - Serpentine Grace
+  Passive Rework : Gain 4-72 Movement Speed (Based on level), but she cannot purchase boots. ⇒ Increased effectiveness of all Movement Speed buffs by 6-40% (based on level).
+
+[champion] Samira
+  Q - Flair
+  Q Non-Crit Damage : 5/10/15/20/25 (+ 95/102.5/110/117.5/125% total AD) ⇒ 0/5/10/15/20 (+ 110% total AD)
+  Q Critical Strike Damage : 1.25/1.65x with IE ⇒ 50% of bonus crit damage: 1.5/1.65x with IE
+  R - Inferno Trigger
+  R Non-Crit Damage : 5/15/25 + 45% total AD ⇒ 20/40/60 + 30% total AD
+  R Critical Damage : 1.75/2.15x with IE ⇒ 100% of bonus crit damage: 2.0/2.3x with IE
+
+[champion] Aphelios
+  Calibrum
+  Bonus Damage per Mark : 15 (+ 20% bonus AD) ⇒ 15 (+ 10% bonus AD)
+  Severum
+  Onslaught Damage per Hit : 10/15/20/25/30/35/40 (+ 22/25/28/31/34/37/40% bonus AD) ⇒ (+ 19/22.5/26/29.5/33/36.5/40% total AD)
+  Still critically strikes for 100% crit damage (1.75/2.15x ⇒ 2.0/2.3x)
+  Infernum
+  Duskwave Active Damage : 25/31.67/38.33/45/51.67/58.33/65 (+ 56/60/64/68/72/76/80% bonus AD) ⇒ 20/35/50/65/80/95/110 (+ 10/11/12/13/14/15/16% bonus AD)
+  Follow-up attack still critically strikes for 100% crit damage (1.75/2.15x ⇒ 2.0/2.3x)
+  Crescendum
+  Sentry Active Damage : 35/50/65/80/95/110/125 (+ 42/45/48/51/54/57/60% bonus AD) ⇒ 35/50/65/80/95/110/125 (+ 30/32/34/36/38/40/42% bonus AD)
+  Still critically strikes for 100% crit damage (1.75/2.15x ⇒ 2/2.3x)
+  R - Moonlight Vigil
+  Follow-Up Attack Critical Damage : 1.2/1.6x with IE ⇒ 30% of bonus critical strike damage: 1.3/1.39x with IE
+
+[champion] Caitlyn
+  Passive - Headshot
+  Crit Scaling : 0-148.75/182.75% total AD ⇒ 100%*Bonus Crit Damage (0-100/130% total AD)
+  R - Ace in the Hole
+  Crit Scaling : Up to 1.5x ⇒ 30% of bonus critical strike damage: up to 1.3/1.39x with IE
+
+[champion] Tristana
+  E - Explosive Charge
+  Non-crit Damage : 60/70/80/90/100 (+ 100/110/120/130/140% bonus AD) ⇒ 60/85/110/135/160 (+ 80% bonus AD)
+  Crit Scaling : 100%: Up to 1.75/2.15x with IE ⇒ 40% of critical strike damage: 1.40/1.52x with IE
+
+[champion] Nilah
+  Base Stats
+  Attack Speed Growth : 2.25% ⇒ 2%
+  Q - Formless Blade
+  Active Damage : 5/10/15/20/25 (+ 90/95/100/105/110% total AD) ⇒ 0/10/20/30/40 (+ 100% total AD)
+  Crit Scaling : Up to 2x ⇒ 80% of bonus crit damage: 1.8/2.04x
+  Armor Penetration Crit Scaling : 0-33% ⇒ 0-30%
+  R - Apotheosis
+  Mana Cost : 80 ⇒ 100
+
+[champion] Jinx
+  Base Stats
+  Attack Speed Growth : 1.4% ⇒ 1%
+  R - Super Mega Death Rocket!
+  Maximum Flat Damage : 250/400/550 (+ 130% bonus AD) ⇒ 200/350/500 (+ 120% bonus AD)
+
+[champion] Jhin
+  Base Stats
+  Multiplicative Crit Damage Mod : 86% ⇒ 75% (1.505x ⇒ 1.5x)
+
+[champion] Sivir
+  Q - Boomerang Blade
+  Damage : 60/85/110/135/160 (+ 85% bonus AD) ⇒ 60/85/110/135/160 (+ 70% bonus AD)
+  Crit Scaling : Up to 1.5x ⇒ 40%: 1.4/1.52x
+
+[champion] Zeri
+  W - Ultrashock Laser
+  Damage : 30/70/110/150/190 (+ 130% total AD) ⇒ 30/70/110/150/190 (+ 120% total AD)
+  Through-Wall Damage : 1.75x, 2.15x with IE ⇒ 75% of bonus critical strike damage: 1.75/1.975x
+  Tooltip now shows the enhanced damage
+  Damage now cosmetically critically strikes its targets when shot through a wall
+  E - Spark Surge
+  Damage : 20/22/24/26/28 (+12% bonus AD) ⇒ 17/19/21/23/25 (+ 10% bonus AD)
+  Crit Scaling : Up to 1.85x every hit ⇒ 100% of bonus crit damage on crit: 2.0/2.3x
+  R - Lightning Crash
+  Active Damage : 200/300/400 (+ 100% bonus AD) ⇒ 150/250/350 (+ 100% bonus AD)
+
+[champion] Lucian
+  Base Stats
+  Attack Damage Growth : 2.9 ⇒ 2.5
+  Attack Speed Growth : 3.3% ⇒ 2.5%
+  Q - Piercing Light
+  Damage : 85/115/145/175/205 (+ 60/75/90/105/120% bonus AD) ⇒ 80/115/150/185/220 (+ 100% bonus AD)
+  R - The Culling
+  R Extra Bolts from Crit Chance : Up to 25 ⇒ 100% of bonus crit damage: Up to 22/28
+  Total R Bolts : 22-47 (based on critical strike chance) ⇒ 22-44/50 (based on critical strike chance and damage)
+
+[champion] Xayah
+  E - Bladecaller
+  Damage : 55/65/75/85/95 (+ 60% bonus AD) ⇒ 50/65/80/95/110 (+ 40% bonus AD)
+  Crit Scaling : Up to 75% ⇒ Up to 50% of bonus crit damage: 1.5/1.65x
+
+[champion] Draven
+  Base Stats
+  AD Growth : 3.6 ⇒ 3
+  W - Blood Rush
+  Attack Speed : 30/35/40/45/50% ⇒ 20/25/30/35/40%
+
+[champion] Yunara
+  Q - Cultivation of Spirit
+  Attack Speed : 25/35/45/55/65% ⇒ 20/30/40/50/60%
+
+[champion] >R+W - Arc of Ruin
+  Damage : 175/350/525 (+ 150% bonus AD) ⇒ 160/320/480 (+ 120% bonus AD)
+
+[champion] Akshan
+  Passive - Dirty Fighting
+  P second shot crit damage : 30% of bonus crit damage (1.225/1.345x) ⇒ 100% of bonus crit damage: 2/2.3x
+  Fixed a bug where the second shot could bypass blind if it didn't crit.
+  Q - Avengerang
+  Damage : 5/25/45/65/85 (+ 80% total AD) ⇒ 45/75/105/135/165 (+ 70% bonus AD)
+  E - Heroic Swing
+  Damage : 15/30/45/60/75 (+ 15% total AD) ⇒ 8/16/24/32/40 (+ 25% total AD)
+  Crit Scaling : 1.575/1.935x ⇒ 50% of bonus crit damage: 1.5/1.65x
+  Clarified that damage scales with attack speed in tooltip.
+  R - Comeuppance
+  Crit Scaling : 1.5/1.7x ⇒ 30% of bonus crit damage: 1.3/1.42x
+
+[champion] Gangplank
+  Passive - Trial by Fire
+  Damage : 50-250 (based on level) (+100% bonus AD) (+200% Crit Chance) ⇒ 50-250 (+ 100% bonus AD) (+ 0% crit scaling)
+  E - Powder Keg
+  Bonus Champion Damage : 75 / 105 / 135 / 165 / 195 ⇒ 75 / 95 / 115 / 135 / 155
+  Timer no longer reduces to 0.25 seconds at level 19.
+  No longer deals 5% more damage on critical strike.
+
+[champion] Yone
+  Base Stats
+  Crit Damage : 1.75/2.15x ⇒ 90% (1.8/2.07x)
+
+[champion] Yasuo
+  Base Stats
+  Crit Damage : 1.75/2.15x ⇒ 90% (1.8/2.07x)
+
+[champion] Miss Fortune
+  Q - Double Up
+  Active Critical Damage : 1.75/2.15x ⇒ 50% of bonus crit damage (1.5/1.65x)
+  R - Bullet Time
+  Damage : 80% total AD (+ 25% AP) ⇒ 20 / 30 / 40 (+60% Total AD) (+ 25% AP)
+  Crit Scaling : 1.2/1.28x ⇒ 30% of bonus crit damage (1.3/1.39x)
+
+[champion] Tryndamere
+  Q - Bloodlust
+  Bonus AD : 5 / 10 / 15 / 20 / 25 (+ up to 15 / 25 / 35 / 45 / 55 based on missing health) ⇒ 0 (+20 / 35 / 50 / 65 / 80 based on missing health)
+  Maximum Bonus AD : Max at 0% remaining HP ⇒ Max at 10% remaining HP
+  Clarified the per-fury and maximum heal in Q's tooltip.
+  W - Mocking Shout
+  No longer slows enemies who are facing away when cast for 4 seconds.
+  Now slows any enemy while they're facing away from Tryndamere during the 2.5 second debuff.
+  Slow : 30 / 37.5 / 45 / 52.5 / 60% ⇒ 30 / 35 / 40 / 45 / 50%
+  Enemy attack damage is still reduced by 4 seconds.
+  E - Spinning Slash
+  Damage : 75 / 105 / 135 / 165 / 195 (+ 130% Bonus AD) ⇒ 70 / 105 / 140 / 175 / 210 (+ 100% Bonus AD)
+
+[champion] Twitch
+  Base Stats
+  Attack Speed Growth : 3.38% ⇒ 3%
+  Attack Damage Growth : 3.1 ⇒ 3
+  Q - Ambush
+  Bonus Attack Speed : 45 / 50 / 55 / 60 / 65% ⇒ 40 / 45 / 50 / 55 / 60%
+
+[champion] Ashe
+  Base Stats
+  Attack Speed Growth : 3.33% ⇒ 3%
+  Attack Damage Growth : 3.45 ⇒ 3
+  Passive - Frost Shot
+  Crit Scaling : 100% (up to 1.75/2.15x) ⇒ 100% (up to 2/2.3x)
+  W - Volley
+  Damage : 60 / 95 / 130 / 165 / 200 (+ 110% Bonus AD) ⇒ 60 / 95 / 130 / 165 / 200 (+ 100% Bonus AD)
+
+[champion] Smolder
+  Q - Super Scorcher Breath
+  Crit Scaling : Up to 1.75/2.15x ⇒ 50% of bonus crit damage (Up to 1.5/1.65x) (also affects passive Q stacks)
+
+[champion] Kindred
+  E - Mounting Dread
+  Missing Health Crit : 1.5/1.9x if target is below 25-75% (based on crit chance) Health ⇒ 50% of bonus crit chance and crit damage always (up to 1.5/1.65x)
+  Pounce Damage : 1.75/2.15x on crit ⇒ 50% of bonus crit chance and crit damage always (up to 1.5/1.65x)
+  Monster Damage Cap : 300 including base damage and bonus AD ratio ⇒ 200 to only the %HP portion (This is a buff in almost all scenarios)
+
+[champion] Corki
+  W - Valkyrie
+  Damage per second : 40 / 55 / 70 / 85 / 100 (+40% bonus AD) (+ 30% AP) ⇒ 30 / 45 / 60 / 75 / 90 (+40% bonus AD) (+ 30% AP)
+
+[champion] Shaco
+  Passive - Backstab
+  Damage : 20-35 (based on level) (+25% bonus AD) ⇒ 20-35 (based on level) (+ 20% bonus AD)
+  Crit Modifier : 100% (1.75/2.15x) ⇒ 100% (2.0/2.3x)
+  Q - Deceive
+  Backstab Modifier : 1.55/1.95x ⇒ 60% of bonus crit damage (1.6/1.78x)
+  Backstab on Crit : 100% (1.75/2.15x) ⇒ 100% (2.0/2.3x)
+
+[champion] Graves
+  Base Stats
+  Crit Damage : 45% of bonus (33.75/51.75%) ⇒ 35% of bonus (35/45.5%)
+  Total Damage on Crit : 250-357% total AD ⇒ 252-360% total AD
+
+[champion] Quinn
+  Passive - Harrier
+  Damage : 10-95 (based on level) (+ 16-50% (based on level) total AD) ⇒ 15-120 (based on level) (+ 40% bonus AD)
+
+[champion] Senna
+  Base Stats
+  Crit Damage : 100% of total crit damage (1.75/2.15x) ⇒ 90% of total (1.8/2.07x)
+
+[champion] Garen
+  E - Judgement
+  E Crit Ratio : 80% of total (1.4/1.72x) ⇒ 30% of bonus (1.3/1.39x)
+
+[champion] Rengar
+  All abilities rescripted
+  Q - Savagery
+  Q is now consumed on plants
+  Q is no longer always always considered a critical strike
+  Q damage no longer deals up to 101.25% total AD bonus damage based on crit chance and damage
+  Q now deals 100/130% total AD bonus damage if Rengar crits the attack.
+
+[champion] Viego
+  Q - Blade of the Ruined King
+  % Current HP Crit Scaling : 100% of total (1.75/2.15x) ⇒ 50% of bonus (1.5/1.65x)
+  Second Strike Crit Scaling : 100% of total (1.75/2.15x) ⇒ 100% of bonus (2/2.3x)
+  Active Crit Mod : 100% of total (Up to 1.75/2.15x) ⇒ 50% of bonus (Up to 1.5/1.65x)
+  R - Heartbreaker
+  Crit Scaling : Up to 2x ⇒ 70% of bonus (Up to 1.7/1.91x)
+
+[champion] Elise
+  Q - Neurotoxin / Venomous Bite
+  Monster Damage Cap : 75/100/125/150/175 ⇒ 65/85/105/125/145 (+ 90% AP)
+  Maximum Damage to Monsters : 115/170/225/280/335 ⇒ 105155/205/255/305 (+ 90% AP)
+
+[champion] Jax
+  Passive - Relentless Assault
+  Now gains an additional 1.5% attack speed per stack at level 19.
+
+[champion] Omnivamp
+  Omnivamp: Now applies at 100% value, reduced to 33% value from pets, damage over time damage, and area effect spells against Minions.
+
+[champion] Doran's Blade
+  Removed: Life Draining passive
+  Added: 2.5% Omnivamp
+
+[item] Dusk and Dawn
+  Build Path: Sheen + Blasting Wand + Kindlegem + Dagger + 300g
+  Total Gold Cost: 3100g
+  Ability Power: 70
+  Health: 300
+  Ability Haste: 20
+  Attack Speed: 25%
+  Spellblade (1.5s cooldown): After using an Ability, your next Attack deals 100% base AD + 10% AP bonus magic damage on-hit and applies on-hit effects an additional time.
+
+[item] Fiendhunter Bolts
+  Build Path: Zeal + Scout's Slingshot + 850g
+  Total Gold Cost: 2650g
+  Attack Speed: 40%
+  Critical Strike Chance: 25%
+  Movement Speed: 4%
+  Night Vigil: Gain 30 Ultimate Haste.
+  Opening Barrage (45s cooldown): After casting your Ultimate, your next 3 basic attacks within 8s gain 50% attack speed and critically strike for 75% of your normal critical strike damage. If an attack would already critically strike, it deals normal critical strike damage and also deals 10% bonus true damage.
+
+[item] Endless Hunger
+  Build Path: Caulfield's Warhammer + Pickaxe + 1075g
+  Total Gold Cost: 3000g
+  Attack Damage: 60
+  Tenacity: 20%
+  Omnivamp: 5%
+  Famine: Gain (5 + 10% bonus AD) Ability Haste
+  Feast: When a champion that you damaged within 3 seconds dies, gain 15% omnivamp for 8 seconds.
+
+[item] Bastionbreaker
+  Build Path: Brutalizer + Serrated Dirk + 863g
+  Total Gold Cost: 3200g
+  Attack Damage: 55
+  Lethality: 22
+  Ability Haste: 15
+  Shaped Charge: Dealing Ability damage to a champion or epic monster deals an additional (30 + 150% lethality) true damage.
+  Sabotage: Taking down a champion within 3 seconds of damaging them grants Sabotage for 90 seconds. While you have Sabotage, your next attack against an epic monster or turret deals an additional (300 + 2500% lethality) true damage over 3 seconds.
+
+[item] Actualizer
+  Build Path: Lost Chapter + Blasting Wand + 1050g
+  Total Gold Cost: 3100g
+  Ability Power: 90
+  Mana: 300
+  Ability Haste: 10
+  [ACTIVE] Mana Made Real (60s cooldown): For 8 seconds, your mana is Empowered. While Empowered, your spells cost 100% more mana, you gain (15 + .005% bonus mana)% increased ability damage, healing, and shielding, and your basic ability cooldowns progress 30% faster.
+
+[item] Hexoptics C44
+  Build Path: Pickaxe + Noonquiver + Long Sword + 275g
+  Total Gold Cost: 2800g
+  Attack Damage: 50
+  Critical Strike Chance: 25%
+  Magnification: Deal up to 10% increased damage with attacks, based on how far away the enemy is (max damage at 750 range).
+  Arcane Aim: When a champion that you damaged within 3 seconds dies, gain 100 additional attack range for 6 seconds.
+
+[item] Bandlepipes
+  Build Path: Kindlegem + Cloth Armor + Null-Magic Mantle + 500g
+  Total Gold Cost: 2000g
+  Health: 200
+  Armor: 20
+  Magic Resistance: 20
+  Ability Haste: 15
+  Fanfare: Slowing or Immobilizing an enemy champion grants Fanfare for 8 (melee) / 4 (ranged) seconds. Fanfare grants 20 Movement Speed. While you have Fanfare, nearby allies, including yourself, gain 30% (melee) / 20% (ranged) attack speed.
+
+[item] Protoplasm Harness
+  Build Path: Kindlegem + Giant's Belt + 800g
+  Total Gold Cost: 2500g
+  Health: 600
+  Ability Haste: 15
+  Lifeline: Taking damage that would reduce your health below 30% causes you to gain 200 maximum health for 5 seconds, then heal (200-400 [level scaling] + 250% armor + 250% magic resistance) health over the duration. While regenerating health, you gain 15% increased size, 10% Movement Speed, and 25% tenacity.
+
+[item] Whispering Circlet
+  Build Path: Forbidden Idol + Ruby Crystal + Tear of the Goddess + 850g
+  Total Gold Cost: 2250g
+  Health: 200
+  Mana: 300
+  Base Mana Regeneration: 75%
+  Heal and Shield Power: 8%
+  Harmony: Gain (.005% bonus mana)% Heal and Shield Power.
+  Manaflow: Landing Abilities grants 4 max mana (doubled vs champions). Transforms into Diadem of Songs at 360 max mana.
+
+[item] Diadem of Songs
+  Health: 200
+  Mana: 1000
+  Base Mana Regeneration: 100%
+  Heal and Shield Power: 8%
+  Harmony: Gain (.005% bonus mana)% Heal and Shield Power.
+  Consonance: While you or any ally you've healed or shielded in the last 3 seconds is in combat with champions, each second, heal the lowest health nearby ally champion for (.008% bonus mana).
+
+[item] Hextech Gunblade
+  Build path: Vampiric Scepter + Hextech Alternator + Amplifying Tome + 600g
+  Total Gold Cost: 3000g
+  Ability Power: 80
+  Attack Damage: 40
+  Omnivamp: 10%
+  [ACTIVE] Lightning Bolt (60s cooldown): Shock the target enemy champion, dealing (175-253 [level scaling] + 30% Ability Power) magic damage and slowing them by 25% for 1.5 seconds.
+
+[item] Stormrazor
+  Build Path: B. F. Sword + Cloak of Agility + Scout's Slingshot + 700g
+  Total Gold Cost: 3200g
+  Attack Damage: 50
+  Attack Speed: 20%
+  Critical Strike Chance: 25%
+  Energized: Moving and Attacking generates an Energized Attack.
+  Bolt: Your Energized Attack applies 100 bonus magic damage and grants 45% Movement Speed for 1.5s.
+
+[item] Unending Despair
+  Build path: Aegis of the Legion + Giant's Belt + 800g ⇒ Chain Vest + Kindlegem + Ruby Crystal + 800g
+  Total Gold Cost: 2800g (unchanged)
+  Armor: Increased from 25 ⇒ 50
+  Magic Resistance: 25 ⇒ 0 (REMOVED)
+  Ability Haste: Increased from 10 ⇒ 15
+
+[item] Aegis of the Legion
+  Removed from the game
+
+[item] Horizon Focus
+  Build Path: Fiendish Codex + Fiendish Codex + Blasting Wand + 200g ⇒ Fiendish Codex + Fiendish Codex + Amplifying Tome + 600g
+  Total Gold Cost: 2750g ⇒ 2700g
+  Ability Power: 125 ⇒ 75
+  Ability Haste: 25 (unchanged)
+  Hypershot: Dealing ability damage to champions at 600 range or more units away from the cast position reveals them for 6 seconds ⇒ Dealing ability damage to champions at 600 range or greater reveals them for 6 seconds. Deal 10% increased damage to enemies revealed by Hypershot.
+  Focus (30s cooldown): When Hypershot is triggered, reveal all other enemy champions with 1400 range of them for 3 seconds.
+
+[item] Sundered Sky
+  Attack Damage: 40 ⇒ 45
+  Lightshield Strike: Critical strike damage decreased from 100% ⇒ 80%
+  Lightshield Strike Cooldown: 8s ⇒ 10s
+
+[item] Luden's Companion
+  Name: Luden's Companion ⇒ Luden's Echo
+  Icon: Reverted to the staff
+
+[item] Echoes of Helia
+  Kindlegem + Bandleglass Mirror + 500g (2200g)
+  35 Ability Power
+  200 Health
+  125% Base Mana Regen
+  20 Ability Haste
+  Soul Siphon: Gain 35% of pre-mitigation damage dealt to champions as Soul Charges, up to (80-250 [based on level]) charges. Healing or shielding an ally consumes all Soul Charges to restore 100% of that value as health.
+
+[item] Essence Reaver
+  Build Path: Pickaxe + Caulfield's Warhammer + Cloak of Agility + 375g ⇒ Sheen + Caulfield's Warhammer + Cloak of Agility + 350g
+  Total Gold Cost: 2900g (unchanged)
+  Attack Damage: 60 ⇒ 55
+  25% Crit Chance
+  Ability Haste: 15 ⇒ 20
+  Spellblade (1.5s cooldown): After using an ability, your next attack deals (125% base AD + [50 * crit chance]) bonus physical damage and grants 50% of the damage value as mana on-hit.
+  Essence Drain passive is removed.
+
+[item] Umbral Glaive
+  Build Path: Serrated Dirk + Caulfield's Warhammer + 450g ⇒ Serrated Dirk + Caulfield's Warhammer + 750g
+  Total Gold Cost: 2500g ⇒ 2800g
+  Attack Damage: 55 ⇒ 60
+  Ability Haste: 10 ⇒ 15
+  Lethality: 15 ⇒ 18
+  Nightstalker: After being unseen by enemies for 1 second, your next attack against a champion deals an additional (50 + 150% lethality) true damage.
+  Blackout (90s cooldown): When you are near enemy Stealth Wards and traps, reveal them for 8 seconds. While revealing wards, your attacks deal 3 (melee) / 2 (ranged) damage to them.
+  Extinguish is removed. (It's rolled into the above Blackout)
+
+[item] Redemption
+  Build path: Kindlegem + Forbidden Idol + 900g ⇒ Fiendish Codex + Forbidden Idol + 850g
+  Total Gold Cost: 2300g ⇒ 2250g
+  Health: 200 ⇒ 0
+  NEW 30 Ability Power
+
+[item] Zeke's Convergence
+  NEW : Cryocombustion: Gain 15 Ultimate Ability Haste.
+
+[item] Muramana
+  Mana: 860 ⇒ 1000
+
+[item] Fimbulwinter
+  Mana: 860 ⇒ 1000
+
+[item] Mortal Reminder
+  Build Path: Executioner's Calling + Last Whisper + Cloak of Agility + 450g ⇒ Executioner's Calling + Last Whisper + Cloak of Agility + 150g
+  Cost: 3300g ⇒ 3000g
+  Armor penetration: 35% ⇒ 30%
+
+[item] Lord Dominik's Regards
+  Build Path: Last Whisper + Noonquiver + 350g ⇒ Last Whisper + Noonquiver + 550g
+  Cost: 3100g ⇒ 3300g
+  Armor penetration: 40% ⇒ 35%
+  NEW: Giant Slayer: Deal up to 15% bonus damage against champions based on their bonus health. Maximum damage bonus reached at 1500 bonus health.
+
+[item] Yun Tal Wildarrows
+  Build Path: B. F. Sword + Scout's Slingshot + Long Sword + 750g ⇒ B.F. Sword + Scout's Slingshot + Long Sword + 850g
+  Cost: 3000g ⇒ 3100g
+  Attack Damage: 55 ⇒ 50
+  Attack Speed: 35% ⇒ 40%
+
+[item] Infinity Edge
+  Build Path: B.F. Sword + Pickaxe + Cloak of Agility + 675g ⇒ B. F. Sword + Pickaxe + Cloak of Agility + 725g
+  Cost: 3450g ⇒ 3500g
+  Attack Damage: 65 ⇒ 75
+  Critical Strike Damage: 40% ⇒ 30%
+
+[item] Symbiotic Soles
+  Removed.
+
+[item] Vigilant Wardstone
+  Removed.
+
+[item] SR Ranked and Matchmaking
+  2025 Season 3 End and 2026 Season 1 Start
+  Shard Transfers will be disabled 2026-01-07 at 00:00 PST globally while we prepare to grant ranked rewards.
+  Ranked Season 1, 2026 will start on local server time 2026-01-08 at 12:00:00. Ranked Queues (Solo/Duo and Flex) will be re-enabled on season start. Season 1 2026 Ranked Reward Missions will start at the same time.
+  When the new season starts in 2026, player ranks will reset, and after playing 5 provisional games, players will be assigned a starting rank of the season to climb with.
+  End of Season Year 2025 Ranked Rewards
+  Victorious Skin Border that is compatible with all 3 Victorious Skins of 2025 (requires owning all 3 Victorious skins of the year)
+  2025 Ranked Emote
+  2025 Ranked Icon
+  In order to receive rewards players must have an honor level of 3 or above.
+
+[item] Aegis of Valor
+  Autofill status won't go away by dodging the champ select. If a player dodges an autofilled game during champ select, the status would carry on until the player plays their autofilled game.
+  For Master or above players, dodging a ranked champ select would cost more LP.
+  Ranked Flex will have better and more reasonable skill rating based on your Solo/Duo queue rank.
+  Apex Duo Restriction Update for Solo/Duo Queue
+  D1 can duo with D3-D1, Master, Grandmaster and Challenger.
+  Grandmaster can duo with D1, Master, Grandmaster, Challenger
+  Challenger can duo with D1, Master, Grandmaster, Challenger
+  Master can duo with D1, Master, Grandmaster, Challenger
+  For CN, duo queuing is allowed up to Master with the premade party lower band at D1. CN Grandmaster and Challenger can only solo queue.
+  For KR, Master, Grandmaster and Challenger can only solo queue.
+  For CN and KR, similar to previous years, their APEX duo MMR restriction (CN at Grandmaster target MMR, KR at Master target MMR) will be temporarily disabled for 26.1, so if you are Grandmaster MMR in CN, or Master MMR in KR, if you have not achieved the visual Rank because you are still climbing, you can still duo. Visual Rank restrictions will always be on.
+
+[item] Start of Game Flow
+  Starting Level: 1 ⇒ 3
+  Starting Gold: 500g ⇒ 1400g
+  Doran's Blade, Doran's Shield, and Doran's Ring have been removed from the item shop.
+  Guardian's Horn, Guardian's Orb, Guardian's Blade, and Guardian's Hammer have been added to the Swiftplay item shop.
+
+[system] Pacing Changes
+  Rubberbanding start time: 4:00 ⇒ 0:30
+  Gold and experience accelerate faster over game time
+  Rubberbanding slightly decreased per instance of gold or experience earned
+  Rubberbanding can no longer add more than 100% to the value of a single source of gold or experience.
+  Bugfix for gold acceleration from game time and rubberbanding double counting for some gold sources.
+  Turrets begin to lose resists: 25:00 ⇒ 20:00
+  Turrets begin to burn down from Sudden Death: 30:00 ⇒ 25:00
+  Death timers by level: 10s - 52.5s ⇒ 10s - 40s
+  Death timers no longer scale up with game time until 25:00, scaling up to a maximum of +50% by 27:30.
+  Minions scale up 50% faster
+  Cannon Minion health scaling: 85 ⇒ 100
+  Start of minion waves spawning every 25 seconds
+  There is now a Cannon Minion in every Minion Wave from the third wave on.
+  Turrets deal reduced damage to Cannon Minions
+  Minion damage to turrets multiplier: 50% ⇒ 60%
+
+[system] General
+  Critical Strike Damage increased from 190% > 200%
+
+[system] Fame Track
+  Hybrid - 100 Fame
+  Righteous Fury - 1,600 Fame
+  Combat Intro Card - 3,600 Fame
+  Panic Room - 6,100 Fame
+  Bonus Reroll - 9,100 Fame
+  Multitool - 12,600 Fame
+  Energetic - 16,600 Fame
+  Combat Intro Card - 21,600 Fame
+  Hive Mind - 26,600 Fame
+  Aim for the Head - 31,600 Fame
+  Quest: Rite of the Forge God - 37,600 Fame
+  Combat Intro Card - 47,600 Fame
+
+[system] Augments
+  Hitting an Ability boosts your next Attack. Hitting an Attack boosts your next Ability.
+  Healing/Shielding increases your Ability damage for the round.
+  The first time you would die, instead be safely whisked far away.
+  Gain a special item that becomes a new item of your choice each round.
+  Become Energized much faster. Triggering Energize shoots magic missiles.
+  Attacking plants harvest Bees! Damaging enemies launches the Bees at them.
+  Your Crit Chance is capped lower. Gain a ton of Crit Damage.
+  After buying some Item Anvils, all your Items become Masterwork.
+  You can now cast your ultimate on allied champions. Gain 50 Ultimate Haste.
+  Augment Tier: Prismatic ⇒ Gold
+  Instead of storing damage from all sources, now only store from the augment owner.
+  Instead of refreshing 1 charge every 180s, will now refresh all 3 charges every 120 seconds.
+  We've updated the functionality of the reward to now multiply future stacks by 3 and not just the stacks at the time of completion.
+  The tooltip implied this but it didn't actually work this way, so we're just making it do that to match the expectation and so Heartsteel can go brr.
+  Golden Spatula Stats:
+  Attack Damage: 60 ⇒ 90
+  Ability Power: 80 ⇒ 110
+  Movement Speed: 5% ⇒ 10%
+  Immolate Range: 300 ⇒ 400
+
+[champion] Bug Fixes
+  Fixed a bug where Ultimate's Awakening's buff bar is displaying incorrect Ability Haste.
+  Add a cooldown tracker for Ultimate Awakening.
+  Fixed a bug where Executioner is not working with Renger's basic abilities.
+  Fixed a bug where Orbital Laser's Ground damage is doing incorrect damage to minions.
+  Fixed a bug where Orbital Laser is tracking damage dealt to minions.
+  Fixed a bug where Gold Rend fails to function if your ally also takes it.
+
+[champion] Demacia Rising
+  Daily and weekly missions will be available to provide large amounts of Silver Shields. Playing LoL or TFT and completing missions will earn enough Silver Shields to finish the entire game.
+  Purchasing the Battle Pass will instantly reward Silver Shields, and also increase the amount you earn from the recurring mission.
+  Playing a game with a skin released during Season 1 will reward a one-time bonus of Silver Shields.
+  Lobby Hostage Taking & Player Behavior Updates
+  Champion selects will be terminated when a player in champion select is reported and determined to be holding the lobby hostage to force a dodge or for any other reason. This will never trigger without a report in champion select, so be to sure to report players you believe are hostaging.
+  When a champion select is terminated by hostaging detection, the offender will receive a penalty that will not allow them to immediately queue again, and all other players will re-enter matchmaking similar to if a player dodges today.
+  Penalties for repeated disruptive gameplay have been increased.
+  Improved detections for intentional non-participation in-game.
+  If you receive an Account Ban for having an inappropriate Riot ID, you'll be unable to change your Riot ID until the ban is over.
+
+[system] Clash - Summoner's Rift Demacia Cup
+  Registration Begins: January 12 @ 11:00 AM (Local Time)
+  Tournament Dates: January 17 and 18 (~4-7 PM Local Time, varies by region)
+
+[system] Bugfixes & QoL Changes
+  Fixed an issue that caused Fizz's W basic attacks to be heard from Fog of War.
+  Fixed an issue where the Guardian items in ARAM were missing their unique tooltip tags.
+  Fixed an issue where Ivern's E failed to break Banshee's Spellshield.
+  Fixed an issue where Skarner's Q auto's failed to stack Spear of Shojin (shoutout to the Skarner mains who tweeted this to us)
+  Fixed an issue that allowed players to right click through rule quest selection UI resulting in unwanted move commands.
+  Fixed an issue where it was possible to obtain excessive gold from rubberbanding after a large amount of time in the match.
+  Fixed an issue that caused the "Enable Streamer Mode" option to be missing in the Interface settings.
+  Fixed an issue that caused Rengar to lose targeting on champions that go invisible during his R
+  Fixed an issue that caused Rengar to be able to leap after a melee auto attack during R
+  Fixed an issue that caused Rengar to inconsistently gain stacks of conqueror/other effects
+  Fixed an issue that caused Rengar leap to not trigger some attack effects (i.e. Navori, Lethal Tempo)
+  Fixed an issue that caused Rengar R damage to not be increased by Ultimate Damage amp (i.e. Axiom Arcanist)
+  Fixed an issue that caused Rengar to gain grey health before levelling W
+  Fixed an issue that caused Rengar to apply R shred/damage to monsters in melee range
+  Fixed an issue that caused Rengar E to not root Dr. Mundo
+  Fixed an issue that caused Rengar to sometimes not gain ferocity from a melee bush/R attack
+  Fixed an issue that caused Rengar's empowered state to override certain cooldown reduction effects (i.e. Navori, Trancendence)
+  Fixed an issue that caused Rengar to be unable to leap for a short period of time when flashing during R
+  Fixed an issue that caused Rengar to deal more damage to towers with Q if cast during leap
+  Fixed an issue that caused Rengar Q to not go on cooldown if held with 4 ferocity
+  Fixed an issue that caused Rengar to not see camouflage indicators during R
+  Fixed an issue that caused Rengar's basic abilities to not refresh from practice tool cheats
+  Fixed an issue that caused Rengar to sometimes do no damage to nexus when leaping
+  Fixed an issue that caused Rengar to sometimes not leap over a wall when his target is close to the edge
+  Fixed a bug where Slayer Kayn's R would fail to heal him if his target died at specific times during the ability.
+  Fixed an bug that caused Zeri to be able to cast Q during ally bard R and Kalista R
+  Added Slayer Kayn's R's base damage to the level-up tooltip.
+  Fixed a bug where the ranked end of season memorial modal shows the wrong season year
+  Fixed a bug where the ranked end of season memorial modal shows the wrong reward eligibility due to honor level database discrepancy.
+
+[system] Upcoming Skins & Chromas
+  The following skins will be released in this patch:
+
+[system] Durand's Legacy Taliyah
+  The following chromas will be released this patch:
+
+[system] Related Articles
+  Game Updates 2026-02-03T19:00:00.000Z Patch 26.3 Notes Celebrate the new year and revel in Patch 26.3 🎊
+  Game Updates 2026-01-21T19:00:00.000Z Patch 26.2 Notes Patch 26.2 ready to deploy!
+  Game Updates 2025-12-02T19:00:00.000Z Patch 25.24 Notes The last patch of the year, 25.24 is here!
+  Game Updates 2025-11-18T19:00:00.000Z Patch 25.23 Notes Patch 25.23 has ascended 🙏
+  Game Updates 2025-11-04T19:00:00.000Z Patch 25.22 Notes We’re going to Chengdu with Patch 25.22!
+  Game Updates 2025-10-21T18:00:00.000Z Patch 25.21 Notes Patch 25.21 is bee-autiful! 🐝
+  Game Updates 2025-10-07T18:00:00.000Z Patch 25.20 Notes Get ready for Worlds with patch 25.20!
+  Game Updates 2025-09-23T18:00:00.000Z Patch 25.19 Notes Your fate is sealed in Patch 25.19.
+  Game Updates 2025-09-09T18:00:00.000Z Patch 25.18 Notes Celebrate patch 25.18 with our ‘24 World’s Winners, T1!

@@ -1,0 +1,459 @@
+
+Champion Bounties
+
+    We accelerated how quickly champion kill gold devalued in the new season since there were already guaranteed wins around getting role quest progress and denying it from your opponents. However, we swung the tuning a little too hard, which has created scenarios where champion kills feel valueless. So in this patch we're landing in between the 25.24 tuning and 26.1 to achieve our goals. 
+
+    Devalue rate on death: 1 per 2.5 gold given out ⇒ 1 per 3.5 gold given out
+    Re-increment rate from farming: 1 per 5 gold earned ⇒ 1 per 7 gold earned
+
+Turret Plates
+
+    It's too hard for teams to convert a winning teamfight into meaningful progress into the enemy base but split-pushing razes towers a little too quickly. To solve both these issues we're re-architecting temporary turret resists to resist solo pushes a little better and blockade teams less well. 
+
+    Bulwark Temporary Resistances: 20-100 per plate based on nearby enemy champions ⇒ 30-50 per plate based on nearby enemy champions
+    Reactive VFX when hit by champions are now smaller, especially if the turret was recently attacked.
+
+Faelights & Vision
+
+    The vision meta with faelights is still evolving in ways that mostly look healthy so far, but one concerning trend is the degree to which early game vision disrupts and zones junglers.
+
+    A major contributor to this is the shape of the bonus vision regions from the river pixel brush faelights. These provide large, reliable vision coverage early game, despite the ward locations already being valuable and high-traffic. It's not necessary for faelights' systemic goals that these particular faelight spots are so powerful, so this is a good candidate for nerfs.
+
+    The other major contributor is the season's yellow trinket buffs. We buffed yellow trinkets so players could make vision plays without their support, but this isn't as relevant in laning phase, so we've decided to pull back on the cooldown for early levels. We're still seeing high-level players regularly swap out yellow trinket later on, so we don't think the later-level cooldown buffs need to be reverted. 
+
+Faelights at River Pixel Brush Locations
+
+    Reveal region shape: expanded past scuttle pad and epic pit entrance ⇒ cuts off before scuttle pad and epic pit entrance
+
+Stealth Ward Trinket
+
+    Cooldown: 170-90s (by level) ⇒ 210-90s (by level)
+
+Other Changes
+
+    Scryer's Blooms: Removed the Scryer's Blooms just outside base gates (from Cloud/Chemtech rift)
+    Fiddlesticks: While pretending to be an effigy on a faelight, Fiddlesticks will now display on-model visual effects as if a faelight-enhanced effigy (does not gain bonus vision or destroy existing wards)
+    Neeko: While disguised as a ward on a faelight, Neeko will now display on-model visual effects as if a faelight-enhanced ward (does not gain bonus vision or destroy existing wards)
+
+Support Control Wards
+
+    For support players on SR, control wards will now start in your role quest slot from the beginning of the match. Combined with the ability to double bind this hotkey, this should help smooth out the experience for supports. 
+
+Champions
+Ahri
+
+    As the new season has shaken out, Ahri is performing worse than last year and worse than she ought to. Now that she's back on high burst builds, we're reverting a nerf from her “Rod of Ages every game” phase of her K-pop career. Some artists just fall off, you know? 
+
+W - Fox-Fire
+
+    Cooldown: 10 / 9 / 8 / 7 / 6 ⇒ 9 / 8 / 7 / 6 / 5
+
+Bel'Veth
+
+    Bel'Veth is one of several AD junglers who suffered in the new season and we're here to buff her back up. We're aiming to bring up her late game in ways that synergize with squishy high attack speed builds by giving her a better payout for that attack speed and enough health to not need to buy as much of it. 
+
+Base Stats
+
+    Health Growth: 99 ⇒ 105
+
+R - Endless Banquet
+
+    True Damage on attack per stack: 6 / 8 / 10 (+ 12% Bonus AD) ⇒ 6 / 10 / 14 (+ 12% Bonus AD)
+
+Braum
+
+    Braum has easily become a top tier support with the start of the new season. New items like Bandlepipes have been instrumental in helping him and his allies stick onto enemies and take them down. Given that Braum is still looking quite strong even after the nerf to Bandlepiepes, we'll be looking to revert the health buffs we gave him at the end of last year and bring down some of his overall fighting power. 
+
+Base Stats
+
+    Health: 630 ⇒ 610
+
+Q - Winter's Bite
+
+    Damage: 75 / 125 / 175 / 225 / 275 (+ 2.5% HP) ⇒ 75 / 120 / 165 / 210 / 255 (+ 2.5% HP)
+
+Briar
+
+    Briar lost some of her luster in the new season and as someone with ample counter-play, she deserves to win more games than she currently does. We want to make sure her lifesteal-focused durability can manifest by giving her enough health and resists to make that healing efficient and while we're here, we're also throwing top lane Briar a bone by letting her trade more efficiently as well. 
+
+Base Stats
+
+    Health Growth: 95 ⇒ 100
+    Armor Growth: 4.2 ⇒ 4.5
+
+Q - Head Rush
+
+    Health Cost: 6% current health ⇒ 5% current health
+
+W - Blood Frenzy
+/ Snack Attack
+
+    Health Cost: 6% current health ⇒ 5% current health
+
+E - Chilling Scream
+
+    Health Cost: 6% current health ⇒ 5% current health
+
+R - Certain Death
+
+    Health Cost: 6% current health ⇒ 5% current health
+
+Diana
+
+    Diana has gone to the moon due to seasonal changes, and in addition to Dusk & Dawn adjustments, this nerf should make sure her power wanes. 
+
+Passive - Moonsilver Blade
+
+    Monster Damage: 280% ⇒ 230%
+
+Draven
+
+    Draven's Q was initially bugged to deal less damage at the start of the season, which was micropatched within the first week. Players are also trying Essence Reaver over Bloodthirster, which currently performs worse. After accounting for all of these factors, Draven's still not doing as well as he was last year, so we're coming to prop him back up by reverting one of our preemptive pre-season nerfs. 
+
+Base Stats
+
+    AD Growth: 3 ⇒ 3.4
+
+Ekko
+
+    Time has been on Ekko's side this year. We're taking a swing at both his clear speed and burst after early game to prevent him from going haywire after getting a lead. 
+
+Passive - Z-Drive Resonance
+
+    AP Ratio: 90% ⇒ 80%
+    Monster Damage: 300% ⇒ 270%
+
+Ezreal
+
+    Ezreal's been in a pretty weak spot for most players this season, especially after Essence Reaver got nerfed in the micropatch. While we think there's some winrate to be gained through players optimizing their builds, we still want to bring Ezreal more in line. 
+
+Base Stats
+
+    AD Growth: 3.25 ⇒ 3.5
+
+E - Arcane Shift
+
+    Damage: 80 / 130 / 180 / 230 / 280 (+ 50% Bonus AD) (+ 75% AP) ⇒ 80 / 130 / 180 / 230 / 280(+ 60% Bonus AD) (+ 75% AP)
+
+Hecarim
+
+    Hecarim isn't doing very well in the new season so he's got a buff coming up. We're doing this by giving him a strong mid game power spike that he can use to try to run the map and get his team a lead. And even if he fails to do so, at least he's got slightly better base damage to fall back on. For those who don't want to do the math, the net result of both Q changes is a strict buff until around 225 bonus AD. 
+
+Q - Rampage
+
+    Damage per hit: 60 / 85 / 110 / 135 / 160 (+ 90% Bonus AD) ⇒ 60 / 90 / 120 / 150 / 180 (+ 90% Bonus AD)
+    Damage amp per Rampage stack: 3% (+ 4% per 100 Bonus AD) ⇒ 3% (+ 3% per 100 Bonus AD)
+
+Heimerdinger
+
+    Slaps roof We can fit so many Arcane champs in this patch. Heimerdinger's been performing worse in the new season and he was balanced before then, so we're here to return him to his former glory. We know top lane Heimer can feel suffocating when his turrets are all setup, so we're looking to re-buff him in ways that allow him to be proactive instead of turtling. 
+
+Base Stats
+
+    Health Growth: 101 ⇒ 105
+
+W - Hextech Micro-Rockets
+
+    Initial hit damage: 40 / 65 / 90 / 115 / 140 (+ 55% AP) ⇒ 50 / 75 / 100 / 125 / 150 (+ 55% AP)
+    Follow-up damage: unchanged
+
+Jayce
+
+    Jayce's build has bounced around a lot over time. He's been a tank, he's been (and currently is) a lethality burst mage, and he's been a fighter. We'd like if Jayce were an AD fighter, caring about both his damage output and durability to stick it out in melee once in a while. He's also still better in the jungle than in the top lane after last patch's nerf, so we're here to re-visit him. Ultimately our goals for Viktor's better half are to give him a viable fighter build and a viable but not overbearing jungle role. To achieve these goals, we're reducing his reliance on bonus AD and shifting power from his poke into his melee damage and follow-up. 
+
+Q - To the Skies!
+
+    Damage: 60 / 105 / 150 / 295 / 240 / 285 (+135% Bonus AD)⇒ 60 / 110 / 160 / 210 / 260 / 310 (+ 135% Bonus AD)
+    Monster bonus damage: 25 ⇒ 10
+
+Q - Shock Blast
+
+    Damage: 80 / 126 / 172 / 218 / 264 / 310 (+ 140% Bonus AD) ⇒ 80 / 121 / 162 / 203 / 244 / 285 (+ 130% Bonus AD)
+    Monster bonus damage: 25 ⇒ 10
+
+R - Cannon Stance: Mercury Cannon
+
+    Armor/Magic Resistance Shred: 10 / 15 / 20 / 25% ⇒ 20 / 25 / 30 / 35%
+
+Kayn
+
+    Blue Kayn specifically became much weaker in the new season and we'd like to fix that with some direct buffs. There's not much fancy here except that as an assassin, he should be lethal when fighting up close and personal with his targets. As a reminder, Slayer Kayn replaces his Q when transformed. 
+
+Q - Reaping Slash
+
+    Damage: 75 / 100 / 125 / 150 / 175 (+ 85% Bonus AD) ⇒ 75 / 105 / 135 / 165 / 195 (+ 85% Bonus AD)
+
+Maokai
+
+    Maokai has been struggling to find his place both in the top lane and in the jungle. We want to give him a little bit of extra power to find relevance in our new season by boosting hist damage 
+
+Q - Bramble Smash
+
+    Flat Damage: 65 / 110 / 155 / 200 / 245 ⇒ 75 / 120 / 165 / 210 / 255
+
+Mel
+
+    This changelist is intended to help lower player frustration while playing against Mel through opening up additional counterplay opportunities for opponents beyond the ban button.
+
+    One big change we have is changing her reflect damage immunity to a shield which will ensure when Fizz successfully lands his ultimate she no longer completely negates the damage with a late W. We also want to make sure when you're laning against her that you can see her Q coming and dodge out of the way at long ranges like many spammable projectile spells. Both her Q and E should now be more visually clear (thus easier to dodge) and we've reduced some of the power from her reflect in some situations where her reflections resulted in unexpectedly high damage.
+
+    While we believe that champion agency can yield frustrating interactions, we also believe there should be avenues for counterplay to balance that out. Frankly, we underestimated how frustrating the play-against experience for Mel would be and are aiming to improve that with this change list. And for players looking to play Mel we want her to be playable more consistently after the ban phase while making sure her core gameplay that her players have come to love isn't lost.
+
+    Our goals with these changes are that more players feel they can outplay Mel in ways that match their expectations, and that Mel players can feel more skillful and that their success is a result of that skill. We expect that there will continue to be players whose main champions are highly impacted by Mel's reflection that may continue to prioritize her as a ban, but we're targeting to get her out of must-ban territory for many players. 
+
+Base Stats
+
+    Attack Speed Ratio: 0.4 ⇒ 0.625
+
+Passive - Searing Brilliance
+
+    Projectile Damage: 8-50 (based on level) (+ 5% AP) ⇒ 8-25 (based on level) (+ 3% AP)
+    Total Projectile Damage: 24-150 (based on level) (+ 15% AP) ⇒ 24-75 (based on level) (+ 9% AP)
+    Reduced the visual clutter by no longer displaying the passive mark on non-champions for enemies.
+    Fixed certain champion spawned units dying to Overwhelm from an unempowered basic attack.
+
+Q - Radiant Volley
+
+    Now deals additional damage the first time an explosion hits with reduced effectiveness from subsequent hits.
+    Initial Hit: 60 / 90 / 120 / 150 / 180 (+ 60% AP)
+    Subsequent Hits: 5 / 6 / 7 / 8 / 9 (+ 5% AP)
+    Total Damage: 78 / 109 / 144 / 185 / 230 (+51-85% AP) ⇒ 85 / 126 / 169 / 214 / 261 (+ 85-105% AP)
+    Mana Cost: 70 / 80 / 90 / 100 / 110 ⇒ 70 / 75 / 80 / 85 / 90
+    Minion Damage: 75% ⇒ 100%
+    Cast Time: 0.25s ⇒ 0.35s
+    Projectile Speed: 4500 ⇒ 3800
+    Explosion Radius: 230 ⇒ 200
+    Area Spread: 30 ⇒ 25
+    Channel Time: 0.75s ⇒ 0.5s
+    Damage type is now DoT AoE (reduced effectiveness in resetting Arcane Comet).
+    Stronger area telegraph visual.
+
+W - Rebuttal
+
+    No longer provides Damage Immunity.
+    Shield: 80 / 110 / 140 / 170 / 200 (+ 60% AP)
+    Physical damage reflected is reduced by 30% before magic damage conversion.
+    Now destroys projectiles that target each unit in an area instead of reflecting them when those projectiles aren't targeting Mel. (ex. Ryze E, Brand E, Katarina R, Samira R, Yunara Q)
+    Decaying Move Speed: 30% over 0.75s⇒ 40% over 1.5s
+
+E - Solar Snare
+
+    Root Missile Radius: 80 ⇒ 70
+    End of Travel Linger Duration: 0.5s ⇒ 0.25s
+    DoT Radius: 260 ⇒ 230
+    Cast Range: 1050 ⇒ 1000
+    Projectile Speed: 1000 ⇒ 1100
+    Cooldown: 12 / 11.5 / 11 / 10.5 / 10 ⇒ 11 / 10.5 / 10 / 9.5 / 9
+    Root Duration: 1.1 / 1.2 / 1.3 / 1.4 / 1.5 ⇒ 1.5
+    Damage: 60 / 100 / 140 / 180 / 220 ⇒ 60 / 105 / 150 / 195 / 240
+    Damage per Second: 16 / 26 / 36 / 46 / 56 ⇒ 16 / 28 / 40 / 52 / 64
+    No longer visually pops at the end when descending terrain.
+
+R - Golden Eclipse
+
+    Damage per Stack: 4 / 7 / 10 (+ 3.5% AP) ⇒ 4 / 7 / 10 (+ 4% AP)
+
+Naafiri
+
+    Naafiri's doing pretty well in the mid lane at the moment but her jungling hasn't kept up so we're giving our favorite pack of dogs more of a fighting chance with her current slow clear. 
+
+Passive - We Are More
+
+    Packmate Monster Damage: 1.35x ⇒ 1.55x
+
+Nilah
+
+    Even after her micropatch nerfs, Nilah is still sooo happy (overpowered) about the new season. We're looking to bring her overall power down now that the dust has settled. 
+
+Base Stats
+
+    Attack Damage: 60 ⇒ 58
+    Armor Growth: 4.5 ⇒ 4.2
+
+Nunu and Willump
+
+    We aimed to give Nunu & Willump a hefty nerf but overshot our goals so we're here to walk back part of the nerf package. 
+
+W - Biggest Snowball Ever!
+
+    Maximum Damage: 150 / 195 / 240 / 285 / 330 ⇒ 180 / 225 / 270 / 315 / 360
+
+E - Snowball Barrage
+
+    Base Damage per hit: 14 / 21 / 28 / 35 / 42 ⇒ 15 / 22.5 / 30 / 37.5 / 45
+
+Riven
+
+    Riven's been crushing it ever since she discovered Axiom Arc. We like that she's swift and lethal in the early game but ultimately she's bursting down her competition too quickly once mid game arrives. Additionally, with all the extra gold and experience in the game right now, players have cited that late game fights resolve too quickly. So, all that considered, we're here to take out some of her late game burst power. 
+
+Passive - Runic Blade
+
+    Total AD Ratio: 30-50% (based on level) ⇒ 30-45% (based on level)
+
+Q - Broken Wings
+
+    Damage: 40 / 75 / 105 / 135 / 165 (+ 65 / 70 / 75 / 80 / 85% Bonus AD) ⇒ 40 / 75 / 105 / 135 / 165 (+ 60 / 65 / 70 / 75 / 80% Bonus AD)
+
+Ryze
+
+    Ryze has risen up the ranks this season and is due for a reduction in power. While we're nerfing Phase Rush, we're also buffing Actualizer so we think he deserves a direct nerf in this patch. With his late game damage going up and the overall game being more lethal than we'd like, we're reducing some late game damage in kind. 
+
+W - Rune Prison
+
+    Damage: 60 / 90 / 120 / 150 / 180 (+70% AP) (+ 4% Bonus Mana) ⇒ 60 / 90 / 120 / 150 / 180(+ 60% AP) (+ 3% Bonus Mana)
+
+Trundle
+
+    Trundle's doing very poorly in both of his main roles and as a very straightforward champion should be much more successful than he is now. We want to make sure he's good at playing the role of the front-line juggernaut who's great at tank-busting, so we're playing up his late game sustained damage output and resilience 
+
+Base Stats
+
+    Armor Growth: 3.9 ⇒ 4.5
+    Attack Damage Growth: 4 ⇒ 4.5
+
+Tryndamere
+
+    After his micropatch buffs back in 26.1, Tryndamere's power level is close but not quite back to its former glory so we'd like to bring him back up to where he was and continue pushing him toward strong sustained damage. 
+
+Base Stats
+
+    Attack Damage Growth: 4 ⇒ 4.5
+
+Varus
+
+    Last patch's Varus buffs heavily overshot our target and has resulted in him becoming one of the game's strongest top laners as well. We're sorry for the inaccurate tuning and now that we've got more room to work with, we're looking to weaken his top lane performance as much as possible by rendering him more susceptible to all-ins, reducing his affinity for the top lane role quest, and weakening his top-specific build of AP and maxing W first. 
+
+Base Stats
+
+    Armor Growth: 4.6 ⇒ 4
+
+W - Blighted Quiver
+
+    On-hit damage: 8 / 17 / 26 / 35 / 44 (+ 35% AP) ⇒ 8 / 17 / 26 / 35 / 44 (+ 25% AP)
+    Max health damage: 3 / 3.5 / 4 / 4.5 / 5% (+1.5% per 100 AP) ⇒ 3 / 3.5 / 4 / 4.5 / 5% (+ 1.3% per 100 AP)
+
+Vi
+
+    Vi certainly does not stand for victory anywhere but pro play. We'd like to make her much more successful for the average League player without indexing too hard into her strengths in tightly coordinated environments, which means we're aiming to play up her self-sufficiency and long-term brawling. 
+
+Base Stats
+
+    Health Growth: 99 ⇒ 105
+    Attack Damage Growth: 3 ⇒ 3.5
+
+Volibear
+
+    We're happy that Volibear is seeing action at all levels with a new build as our signature garage sale enjoyer, but we want to make sure he's a little less overBearing, primarily in jungle. We're targeting his main build path's Q max burst without changing how it feels to get into combat, as well as his clear speed so that he has to work a little harder to show up to fights, and compensating with some AD ratio for anyone who's gotten a good deal on a Triforce or Gunblade recently. 
+
+Q - Thundering Smash
+
+    Bonus Physical Damage: 10 / 30 / 50 / 70 / 90 (+ 120% Bonus AD) ⇒ 10 / 20 / 30 / 40 / 50 (+ 140% Bonus AD)
+
+E - Sky Splitter
+
+    Cooldown: 14 ⇒ 16
+    Non-champion damage cap: 190 / 305 / 420 / 535 / 650 (+ 70% AP) ⇒ 150 / 265 / 380 / 495 / 610 (+ 70% AP)
+
+Xin Zhao
+
+    Xin Zhao just can't catch a break. First he dies to Atakhan, now he's underpowered in solo queue? When will these tragedies cease? Today. They cease today. Xin Zhao buff time! Much like Vi's changes in this patch, we want to play up Xin Zhao's ability to stick up for himself and scrap with enemy champions in long-term fights. 
+
+Passive - Determination
+
+    Heal every third hit: 3 / 3.5 / 4% max HP (Level 1/6/11) ⇒ 3/4/5% max HP
+
+E - Audacious Charge
+
+    Bonus Attack Speed: 40 / 45 / 50 / 55 / 60% ⇒ 40 / 50 / 60 / 70 / 80%
+
+Yone
+
+    Yone's on the weaker side of the roster right now so we think he could use a buff. We know it can feel unfair to simply lose to him right clicking you during his E but we don't want him to be super bursty either, so we're pushing power into his Q, which has more gameplay around predictions and dodging. 
+
+Q - Mortal Steel
+
+    Damage: 25 / 50 / 75 / 100 / 125 (+ 105% Total AD) ⇒ 25 / 50 / 75 / 100 / 125(+ 110% Total AD)
+
+Zaahen
+
+    Zaahen was meant to have a secondary player base in the jungle and while he's great in the top lane, he's not performing well enough elsewhere. So we're delivering some straightforward jungle-specific buffs to bring him back up where he was at the end of last year. 
+
+Q - The Darkin Glaive
+
+    Monster Modifier: 1.75x ⇒ 2x
+
+E - Aureate Rush
+
+    Bonus Monster Damage: 50 ⇒ 75
+
+Zed
+
+    We regret having jungle Zed in three of the past four patches now but players keep getting better at playing and itemizing this shadow ninja to the point where he wins more frequently today than he did before we shipped that first nerf. We're comfortable with how mid lane Zed is sitting but he's still overshadowing too many champions in the jungle. While this nerf looks very large on paper, the net impact of nerfing his jungle mod from 2.0 to 1.2 was under 1% of win rate movement, and we're looking for more than that here. 
+
+Passive - Contempt for the Weak
+
+    Damage to monsters: 1.2x ⇒ 0.5x
+    Maximum damage to epic monsters: 300 ⇒ 100
+
+Items
+Actualizer
+
+    Actualizer is not looking particularly powerful and has a very painful combine cost. While we know players haven't had enough time to fully optimize the use cases yet, we're looking to give it a bit of a boost because it's not looking competitive on any champions besides a certain rune mage. 
+
+    Total Gold Cost: 3100 Gold ⇒ 2800 Gold
+    Combine Cost: 1050 Gold ⇒ 750 Gold
+
+Dusk and Dawn
+
+    We've landed Dusk and Dawn into a spot where it has a healthy number of good users, but it's a bit too good at bursting and taking a little too much of Lich Bane's space, so we're hitting it with a slight nerf that should shift it towards more fighter-y builds. 
+
+    Spellblade Damage: 100% Base AD + 10% AP ⇒ 75% Base AD +10% AP
+    Health: 300 ⇒ 350
+
+Endless Hunger
+
+    This item is looking okay late in builds for the intended caster fighter audience but could be a bit better earlier in the game and can be awkward to build. A small change to the build path and a bit more AD should help this item really shine for the caster champions it was made for. 
+
+    Recipe: Caulfield's Warhammer + Pickaxe + 1075 Gold ⇒ Caulfield's Warhammer + Pickaxe + Longsword + 825 Gold
+    Total Gold Cost: 3000 ⇒ 3100
+    Attack Damage: 60 ⇒ 65
+
+Protoplasm Harness
+
+    The current shape of this Lifeline effect ended up being a bit too sharp, where it's extraordinarily powerful for the users that can leverage the resistance scaling and somewhat unexciting for most other potential users. We're shifting some power around to make the item more consistently useful and less eye-popping in the outlier cases. 
+
+    Lifeline max health gain: 200 ⇒ 200-300 (based on level)
+    Lifeline healing: 200-400 (based on level) (+ 250% Armor) (+ 250% Magic Resistance) ⇒ 200-400 (based on level)(+ 175% Armor) (+ 175% Magic Resistance)
+    Ability Haste: 15 ⇒ 20
+
+Armored Advance
+
+    When we updated the mid lane quest boots we wanted to make sure that champions had the option to pick items that strongly suited them. We did not want to let early defensive purchases trivialize their competition, as mid lane is a home of many assassins. So in this patch we're adjusting the upgraded versions of Mercury's Treads and Plated Steelcaps to make them weaker anti-burst options for champions who aren't buying any other durability items. These changes represent a tuning close to the end of last season, but with numbers that are more readily apparent at first glance, as no one can acquire these boots at level 1, and the prior max HP ratio carried most of the shield's value, even to squishies. 
+
+    Noxian Endurance Shield: 10-120 (based on level 1-18) (+ 7% max HP) ⇒ 100-200 (based on level, scaling begins at level 9) (+ 8% Bonus HP)
+
+Chainlaced Crushers
+
+    See Armored Advance. 
+
+    Noxian Endurance Shield: 10-120 (based on level 1-18) (+ 7% max HP) ⇒ 100-200 (based on level, scaling begins at level 9) (+ 8% Bonus HP)
+
+Runes
+Cash Back
+
+    Cash Back was buffed late last year and finally has an audience of its own. However, that buff shot a little overboard. We're happy that it's turned some heads but now it's time for the rune to be balanced across its rune competitors. 
+
+    Gold Refund: 8% ⇒ 7.5%
+
+Phase Rush
+
+    We think Phase Rush restricts the viable mid lane pool at the highest levels of play, as it's very easy for any ranged champion to trigger Phase Rush and escape most ganks or would-be melee opponents. Among its most common ranged users, Orianna, Vladimir, and Taliyah all have viable alternatives, and for Ryze, we intend for a direct reduction of power due to his general strong performance and an Actualizer buff in this patch. Ultimately, we are nerfing this rune for ranged champions only and retaining its power for melee users to swiftly navigate fights and skirmishes. 
+
+    Ranged Effectiveness: 75% (18.75 - 37.5% Movement Speed) ⇒ 50% (12.5% - 25% Movement Speed)
+
+Triple Tonic
+
+    Like with Cash Back, we buffed Triple Tonic strongly late last year and it's been enough to get people to switch over to their old favorites. Now that senpais everywhere have noticed me the rune, we're bringing its power level to a more balanced state, namely by reducing the eye-popping level of burst the level 6 elixir provides. 
+
+    Elixir of Force Adaptive Force: 30 ⇒ 25
+

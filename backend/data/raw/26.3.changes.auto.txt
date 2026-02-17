@@ -1,0 +1,392 @@
+[system] Patch Highlights
+  Firecracker Skins will be available February 4th, 2026.
+
+[system] MAYHEM PROGRESSION TRACK
+  Level 1 - Red Envelope Augment - Pick up Red Envelopes around the map to increase your Gold and a random stat.
+  Level 2 - Weighted Popoffs Augment - Strike enemies to "popoff" allowing your abilities to cooldown faster.
+  Level 3 - "Poro Snack, Please" Emote
+  Level 4 - +300 Starting Gold - Gain 300 more Gold at the start of each Mayhem game.
+  Level 5 - Growth Spurt Augment - When cast, increase your size, health and Knockup nearby enemies.
+  Level 6 - Poro Blast Icon
+  Level 7 - Donation Augment - Gain a significant amount of Gold. No questions asked.
+  Level 8 - Bounce of the Poro King Augment - Bounce on enemies crazy style as the Poro King to Knockback and deal damage.
+  Level 9 - "So Bright!" Emote
+  Level 10 - Speed Demon Augment - Damage an enemy to temporarily gain movement speed.
+  Level 11 - Spirit Bloom Slumber Icon
+  Level 12 - Shrink Engine Augment - Gain Ability Haste, Move Speed, and Shrink on every takedown.
+  Level 13 - Gold Reroll - Chance to reroll an Augment into a higher tier Augment.
+  Level 14 - Crack Open That Egg Augment - Your shields can now detonate, dealing damage to nearby enemies.
+  Level 15 - "Avalanche!" Emote
+  Level 16 - Void Immolation Augment - Convert Sunfire Aegis and Hollow Radiance into Void Immolation.
+  Level 17 - Gift-Giving Poros Icon
+  Level 18 - Anvil Voucher - You'll get an Anvil Voucher item at the start of each game that you can redeem to gain extra stats.
+  Level 19 - Inferno Triggered Augment - Automatically cast Samira's R when you reach "S" in style.
+  Level 20 - Champion Selfie Icon
+  Level 21 - Thornmail Upgrade - Thornmail and Bramble Vest will reflect more damage from attacks.
+  Level 22 - "Pls Send Help" Emote
+  Level 23 - Elixirs- Gain free Elixir at levels 9/12/16.
+  Level 24 – Dropkick Augment - Your attacks execute enemy champions, restoring health, and Knocking Back enemies.
+  Level 25 - Sonata - Automatically alternate casting Sona's E and W.
+  Level 26 - Poro King Banner
+  Level 27 - Stuck in Here with Me Augment - Gain damage reduction and taunt enemies after casting your ultimate.
+  Level 28 - Loving Family Emote
+  Level 29 - Empowered By The Faith Augment - Heal and Shield allies to earn "Devotion" which will execute low-health enemies.
+  Level 30 - "Blasting Off!" Icon
+  Level 31 - Golden Reroll - Further increased chance to reroll into a higher tier augment
+  Level 32 - ??? - Your Missing Pings now do something… no idea what though.
+
+[system] AUGMENT SETS
+  Deathknell
+  (2) Reduce death timer by 40%
+  Augments: Clown College, Train of the Dead, Self Destruct, Dive Bomber
+  Firecracker
+  (2) 2 bounces, dealing 40% of original damage.
+  (4) 3 bounces, dealing 80% of original damage
+  Augments: Fan the Hammer, Magic Missile, Critical Missile, Light'em Up, Typhoon, Twin Fire
+  High Roller
+  (2) Minions have a chance to drop a Stat Anvil on death.
+  (3) +50% chance for Gold or Prismatic Anvils.
+  (4) +50% chance for Gold or Prismatic Anvils.
+  Augments: Transmute Chaos, Pandora's Box, Stats on Stats on Stats, Transmute Prismatic, Stats on Stats, Stats, Transmute Gold
+  Stackasaurus Rex
+  (2) Gain 50% More.
+  (3) Gain 100% More.
+  (4) Gain 200% More.
+  Augments: Infinite Recursion, Master of Duality, Tap Dancer, Soul Eater, Quest: Steal your heart, Phenomenal Evil, Shrink Engine, Hubris, Slap Around
+  Wee Woo Wee Woo
+  (2) 40% Speed, 25% Heal and Shield Power.
+  (3) 50% Speed, 35% Heal and Shield Power.
+  (4) 60% Speed, 45% Heal and Shield Power.
+  Augments: Windspeaker's Blessing, I'm a Baby Kitty Where is Mama, Upgrade: Mikaels Blessing, All For You, Critical Healing, Sonata, First Aid Kit.
+  Fully Automated
+  (2) Reduce Autocast cooldowns by 30%
+  (3) Autocast cooldown scales with Ability Haste.
+  Augments: Prom Queen, Quantum Computing, Ok Boomerang, Sonata, Divine Intervention, Self Destruct, Frost Wraith, Firefox
+  Archmage
+  (2) Refund 40% of a random ability's cooldown when you cast a spell.
+  Augments: Overflow, Mind to Matter, Buff Buddy, Juiced, Ocean Soul
+  Make it Rain
+  (2) 25% more gold from augments and kills.
+  (3) 50% more gold from augments and kills.
+  (4) 100% more gold from augments and kills.
+  Augments: Goldrend, Heads Up Cupcake!, Donation, Red Envelope, From Beginning to End, Upgrade Immolate, Upgrade Collector
+  Snowday
+  (2) Gain 50 Ability Haste on Snowball and snowballs deal an extra 30% more damage.
+  (3) Gain 100 Ability Haste on Snowball and snowballs deal an extra 50% more damage.
+  (2) Gain 150 Ability Haste on Snowball and snowballs deal an extra 100% more damage.
+  Augments: Biggest Snowball, Golden Snowball, Snowball Upgrade, Pinball Snowball, Snowball Roulette
+
+[system] QUALITY OF LIFE
+  You can now take any summoner spells you want. For active Summoner Spell augments like Blade Waltz or Biggest Snowball you'll be able to select which slot to replace it.
+
+[champion] Turret Plates
+  Bulwark Temporary Resistances : 20-100 per plate based on nearby enemy champions ⇒ 30-50 per plate based on nearby enemy champions
+  Reactive VFX when hit by champions are now smaller, especially if the turret was recently attacked.
+
+[champion] Faelights & Vision
+  Faelights at River Pixel Brush Locations
+  Reveal region shape: expanded past scuttle pad and epic pit entrance ⇒ cuts off before scuttle pad and epic pit entrance
+  Stealth Ward Trinket
+  Cooldown: 170-90s (by level) ⇒ 210-90s (by level)
+  Other Changes
+  Scryer's Blooms: Removed the Scryer's Blooms just outside base gates (from Cloud/Chemtech rift)
+  Fiddlesticks: While pretending to be an effigy on a faelight, Fiddlesticks will now display on-model visual effects as if a faelight-enhanced effigy (does not gain bonus vision or destroy existing wards)
+  Neeko: While disguised as a ward on a faelight, Neeko will now display on-model visual effects as if a faelight-enhanced ward (does not gain bonus vision or destroy existing wards)
+
+[champion] Ahri
+  W - Fox-Fire
+  Cooldown : 10 / 9 / 8 / 7 / 6 ⇒ 9 / 8 / 7 / 6 / 5
+
+[champion] Bel'Veth
+  Base Stats
+  Health Growth : 99 ⇒ 105
+  R - Endless Banquet
+  True Damage on attack per stack : 6 / 8 / 10 (+ 12% Bonus AD) ⇒ 6 / 10 / 14 (+ 12% Bonus AD)
+
+[champion] Braum
+  Base Stats
+  Health : 630 ⇒ 610
+  Q - Winter's Bite
+  Damage : 75 / 125 / 175 / 225 / 275 (+ 2.5% HP) ⇒ 75 / 120 / 165 / 210 / 255 (+ 2.5% HP)
+
+[champion] Briar
+  Base Stats
+  Health Growth : 95 ⇒ 100
+  Armor Growth : 4.2 ⇒ 4.5
+  Q - Head Rush
+  Health Cost : 6% current health ⇒ 5% current health
+  W - Blood Frenzy
+  E - Chilling Scream
+  R - Certain Death
+
+[champion] Diana
+  Passive - Moonsilver Blade
+  Monster Damage : 280% ⇒ 230%
+
+[champion] Draven
+  Base Stats
+  AD Growth : 3 ⇒ 3.4
+
+[champion] Ekko
+  Passive - Z-Drive Resonance
+  AP Ratio : 90% ⇒ 80%
+  Monster Damage : 300% ⇒ 270%
+
+[champion] Ezreal
+  Base Stats
+  AD Growth : 3.25 ⇒ 3.5
+  E - Arcane Shift
+  Damage : 80 / 130 / 180 / 230 / 280 (+ 50% Bonus AD) (+ 75% AP) ⇒ 80 / 130 / 180 / 230 / 280 (+ 60% Bonus AD) (+ 75% AP)
+
+[champion] Hecarim
+  Q - Rampage
+  Damage per hit : 60 / 85 / 110 / 135 / 160 (+ 90% Bonus AD) ⇒ 60 / 90 / 120 / 150 / 180 (+ 90% Bonus AD)
+  Damage amp per Rampage stack : 3% (+ 4% per 100 Bonus AD) ⇒ 3% (+ 3% per 100 Bonus AD)
+
+[champion] Heimerdinger
+  Base Stats
+  Health Growth : 101 ⇒ 105
+  W - Hextech Micro-Rockets
+  Initial hit damage : 40 / 65 / 90 / 115 / 140 (+ 55% AP) ⇒ 50 / 75 / 100 / 125 / 150 (+ 55% AP)
+  Follow-up damage : unchanged
+
+[champion] Jayce
+  Q - To the Skies!
+  Damage : 60 / 105 / 150 / 295 / 240 / 285 (+135% Bonus AD)⇒ 60 / 110 / 160 / 210 / 260 / 310 (+ 135% Bonus AD)
+  Monster bonus damage : 25 ⇒ 10
+  Q - Shock Blast
+  Damage : 80 / 126 / 172 / 218 / 264 / 310 (+ 140% Bonus AD) ⇒ 80 / 121 / 162 / 203 / 244 / 285 (+ 130% Bonus AD)
+  R - Cannon Stance: Mercury Cannon
+  Armor/Magic Resistance Shred : 10 / 15 / 20 / 25% ⇒ 20 / 25 / 30 / 35%
+
+[champion] Kayn
+  Q - Reaping Slash
+  Damage : 75 / 100 / 125 / 150 / 175 (+ 85% Bonus AD) ⇒ 75 / 105 / 135 / 165 / 195 (+ 85% Bonus AD)
+
+[champion] Maokai
+  Q - Bramble Smash
+  Flat Damage : 65 / 110 / 155 / 200 / 245 ⇒ 75 / 120 / 165 / 210 / 255
+
+[champion] Mel
+  Base Stats
+  Attack Speed Ratio : 0.4 ⇒ 0.625
+  Passive - Searing Brilliance
+  Projectile Damage : 8-50 (based on level) (+ 5% AP) ⇒ 8-25 (based on level) (+ 3% AP)
+  Total Projectile Damage : 24-150 (based on level) (+ 15% AP) ⇒ 24-75 (based on level) (+ 9% AP)
+  Reduced the visual clutter by no longer displaying the passive mark on non-champions for enemies.
+  Fixed certain champion spawned units dying to Overwhelm from an unempowered basic attack.
+  Q - Radiant Volley
+  Now deals additional damage the first time an explosion hits with reduced effectiveness from subsequent hits.
+  Initial Hit : 60 / 90 / 120 / 150 / 180 (+ 60% AP)
+  Subsequent Hits : 5 / 6 / 7 / 8 / 9 (+ 5% AP)
+  Total Damage : 78 / 109 / 144 / 185 / 230 (+51-85% AP) ⇒ 85 / 126 / 169 / 214 / 261 (+ 85-105% AP)
+  Mana Cost : 70 / 80 / 90 / 100 / 110 ⇒ 70 / 75 / 80 / 85 / 90
+  Minion Damage : 75% ⇒ 100%
+  Cast Time : 0.25s ⇒ 0.35s
+  Projectile Speed : 4500 ⇒ 3800
+  Explosion Radius : 230 ⇒ 200
+  Area Spread : 30 ⇒ 25
+  Channel Time : 0.75s ⇒ 0.5s
+  Damage type is now DoT AoE (reduced effectiveness in resetting Arcane Comet).
+  Stronger area telegraph visual.
+  W - Rebuttal
+  No longer provides Damage Immunity.
+  Shield : 80 / 110 / 140 / 170 / 200 (+ 60% AP)
+  Physical damage reflected is reduced by 30% before magic damage conversion.
+  Now destroys projectiles that target each unit in an area instead of reflecting them when those projectiles aren't targeting Mel. (ex. Ryze E, Brand E, Katarina R, Samira R, Yunara Q)
+  Decaying Move Speed : 30% over 0.75s⇒ 40% over 1.5s
+  E - Solar Snare
+  Root Missile Radius : 80 ⇒ 70
+  End of Travel Linger Duration : 0.5s ⇒ 0.25s
+  DoT Radius : 260 ⇒ 230
+  Cast Range : 1050 ⇒ 1000
+  Projectile Speed : 1000 ⇒ 1100
+  Cooldown : 12 / 11.5 / 11 / 10.5 / 10 ⇒ 11 / 10.5 / 10 / 9.5 / 9
+  Root Duration : 1.1 / 1.2 / 1.3 / 1.4 / 1.5 ⇒ 1.5
+  Damage : 60 / 100 / 140 / 180 / 220 ⇒ 60 / 105 / 150 / 195 / 240
+  Damage per Second : 16 / 26 / 36 / 46 / 56 ⇒ 16 / 28 / 40 / 52 / 64
+  No longer visually pops at the end when descending terrain.
+  R - Golden Eclipse
+  Damage per Stack : 4 / 7 / 10 (+ 3.5% AP) ⇒ 4 / 7 / 10 (+ 4% AP)
+
+[champion] Naafiri
+  Passive - We Are More
+  Packmate Monster Damage : 1.35x ⇒ 1.55x
+
+[champion] Nilah
+  Base Stats
+  Attack Damage : 60 ⇒ 58
+  Armor Growth : 4.5 ⇒ 4.2
+
+[champion] Nunu and Willump
+  W - Biggest Snowball Ever!
+  Maximum Damage : 150 / 195 / 240 / 285 / 330 ⇒ 180 / 225 / 270 / 315 / 360
+  E - Snowball Barrage
+  Base Damage per hit : 14 / 21 / 28 / 35 / 42 ⇒ 15 / 22.5 / 30 / 37.5 / 45
+
+[champion] Riven
+  Passive - Runic Blade
+  Total AD Ratio : 30-50% (based on level) ⇒ 30-45% (based on level)
+  Q - Broken Wings
+  Damage : 40 / 75 / 105 / 135 / 165 (+ 65 / 70 / 75 / 80 / 85% Bonus AD) ⇒ 40 / 75 / 105 / 135 / 165 (+ 60 / 65 / 70 / 75 / 80% Bonus AD)
+
+[system] Trundle
+  Base Stats
+  Armor Growth : 3.9 ⇒ 4.5
+  Attack Damage Growth : 4 ⇒ 4.5
+
+[system] Tryndamere
+  Base Stats
+  Attack Damage Growth : 4 ⇒ 4.5
+
+[system] Varus
+  Base Stats
+  Armor Growth : 4.6 ⇒ 4
+  W - Blighted Quiver
+  On-hit damage : 8 / 17 / 26 / 35 / 44 (+ 35% AP) ⇒ 8 / 17 / 26 / 35 / 44 (+ 25% AP)
+  Max health damage : 3 / 3.5 / 4 / 4.5 / 5% (+1.5% per 100 AP) ⇒ 3 / 3.5 / 4 / 4.5 / 5% (+ 1.3% per 100 AP)
+
+[system] Vi
+  Base Stats
+  Health Growth : 99 ⇒ 105
+  Attack Damage Growth : 3 ⇒ 3.5
+
+[system] Volibear
+  Q - Thundering Smash
+  Bonus Physical Damage : 10 / 30 / 50 / 70 / 90 (+ 120% Bonus AD) ⇒ 10 / 20 / 30 / 40 / 50 (+ 140% Bonus AD)
+  E - Sky Splitter
+  Cooldown : 14 ⇒ 16
+  Non-champion damage cap : 190 / 305 / 420 / 535 / 650 (+ 70% AP) ⇒ 150 / 265 / 380 / 495 / 610 (+ 70% AP)
+
+[system] Xin Zhao
+  Passive - Determination
+  Heal every third hit : 3 / 3.5 / 4% max HP (Level 1/6/11) ⇒ 3/4/5% max HP
+  E - Audacious Charge
+  Bonus Attack Speed : 40 / 45 / 50 / 55 / 60% ⇒ 40 / 50 / 60 / 70 / 80%
+
+[system] Yone
+  Q - Mortal Steel
+  Damage : 25 / 50 / 75 / 100 / 125 (+ 105% Total AD) ⇒ 25 / 50 / 75 / 100 / 125 (+ 110% Total AD)
+
+[system] Zaahen
+  Q - The Darkin Glaive
+  Monster Modifier : 1.75x ⇒ 2x
+  E - Aureate Rush
+  Bonus Monster Damage : 50 ⇒ 75
+
+[system] Zed
+  Passive - Contempt for the Weak
+  Damage to monsters : 1.2x ⇒ 0.5x
+  Maximum damage to epic monsters : 300 ⇒ 100
+
+[item] Actualizer
+  Total Gold Cost : 3100 Gold ⇒ 2800 Gold
+  Combine Cost : 1050 Gold ⇒ 750 Gold
+
+[item] Dusk and Dawn
+  Spellblade Damage : 100% Base AD + 10% AP ⇒ 75% Base AD +10% AP
+  Health : 300 ⇒ 350
+
+[item] Endless Hunger
+  Recipe : Caulfield's Warhammer + Pickaxe + 1075 Gold ⇒ Caulfield's Warhammer + Pickaxe + Longsword + 825 Gold
+  Total Gold Cost : 3000 ⇒ 3100
+  Attack Damage : 60 ⇒ 65
+
+[item] Protoplasm Harness
+  Lifeline max health gain : 200 ⇒ 200-300 (based on level)
+  Lifeline healing : 200-400 (based on level) (+ 250% Armor) (+ 250% Magic Resistance) ⇒ 200-400 (based on level) (+ 175% Armor) (+ 175% Magic Resistance)
+  Ability Haste : 15 ⇒ 20
+
+[item] Armored Advance
+  Noxian Endurance Shield : 10-120 (based on level 1-18) (+ 7% max HP) ⇒ 100-200 (based on level, scaling begins at level 9) (+ 8% Bonus HP)
+
+[item] Chainlaced Crushers
+  Noxian Endurance Shield : 10-120 (based on level 1-18) (+ 7% max HP) ⇒ 100-200 (based on level, scaling begins at level 9) (+ 8% Bonus HP)
+
+[system] Cash Back
+  Gold Refund : 8% ⇒ 7.5%
+
+[system] Phase Rush
+  Ranged Effectiveness : 75% (18.75 - 37.5% Movement Speed) ⇒ 50% (12.5% - 25% Movement Speed)
+
+[system] Triple Tonic
+  Elixir of Force Adaptive Force : 30 ⇒ 25
+
+[item] Hellfire Hatchet
+  Char Damage : (5% – 10% (+ 0.2% – 0.4% per 1 Lethality) based on maximum health difference) of the targets current health ⇒ (15% – 37% (+ 0.05% – 0.125% per 1 Lethality) based on maximum health difference) of the targets current health.
+  Maximum health difference still reached at 2500 HP.
+  Cooldown: Now is applied per target rather than an internal cooldown
+  Cooldown : 15 seconds ⇒ 10 seconds
+
+[item] Arena Bugfixes
+  Fixed Twin Masks. It now grants proper stats from your teammate. We've also identified and removed closed feedback loops that were causing this item to grant infinity stats when synergizing with stat conversions from augments, items, and characters (looking at you Ryze and Vladimir).
+  Fixed a bug where Multitool was being duplicated
+  Fixed a bug where AFKing during Planning Rounds were granting permanent items via Multitool
+  Fixed a bug where Multitool was causing game crashes
+  Fixed a bug where Rengar's basic abilities were not refreshed on takedowns with Executioner
+  Fixed a bug where Actualizer would not synergize with the Overflow augment (they stack now!)
+  Fixed a bug where Infernal Conduit cooldown reduction was a bit higher than intended when multiple enemies are affected
+  Fixed a bug where Kinkou Jette weakpoints weren't always being proc'd
+  Fixed a bug where players can issue a move command right before entering the Cannon from Cannon Fodder at the beginning of each Combat rounds
+
+[system] AEGIS OF VALOR ELIGIBILITY
+  Mastery rating to unlock Aegis of Valor is pushed from C to B.
+
+[system] WASD
+  There is a known issue with Nidalee and this setting that will be fixed in a future patch.
+
+[system] Demacia Rising
+  Level 3 Settlements and Research are now available. Upgrade Zeffira to level 3 to unlock them.
+  Two new champions, Galio and Kayle, are available for research and training.
+  Galio is a tanky front-line champion who uses Shield of Durand to resist incoming damage.
+  Kayle is a high damage, medium-range champion who gains splash damage and attack speed on her attacks.
+  Complete Chapter 3 to earn an Icon, and Chapter 4 to earn an Orb and an Emote.
+
+[system] Bugfixes & QoL Changes
+  Fixed an issue where the friends list was sorted incorrectly, sometimes placing friends into the wrong groups.
+  Fixed Rengar's R applying shred before the bonus damage was applied
+  Fixed Rengar's Q, Empowered Q and R damage not being reduced by Plated Steelcaps
+  Plants / Wards are now considered combat for the sake of Rengar's ferocity
+  Fixed an issue where Rengar sometimes wouldn't heal when W was cast after an empowered ability
+  Fixed an issue where flashing during leap would remove Rengar's passive stacks
+  Fixed an issue where Rengar's Q was being consumed by on-hit augments without granting ferocity
+  Fixed an issue where ferocity stacks would fall off if E landed as combat timer was running out
+  Target's going invulnerable during leap no longer drop combat for Rengar
+  Fixed an issue where Damage over time effects extended Rengar's ferocity timer
+  Fixed an issue where Rengar's leap would be delayed by up to 0.325s when casting R
+  Fixed an issue where Rengar's leap could be delayed by up to 0.325s when flashing during R
+  Fixed an issue where Rengar's Q attack speed buff lasted for 3 auto attacks instead of 2
+  Fixed Rengar Q / Empowered Q timing out mid leap sometimes
+  Fixed an issue where Sylas stealing Rengar ult would lose all mana on leap
+  Fixed an issue where Rengar would sometimes drop vision when attacking from melee in a bush
+  Fixed an issue where melee during Rengar's R would sometimes not grant a ferocity stack
+  Fixed an issue where Bel'Veth's passive would prevent the support item from properly executing minions.
+  Fixed an issue where Azir's W autos would only grant 1 Conqueror stack.
+  Fixed an issue where Zigg's VO wouldn't trigger during his Run animation.
+  Fixed an issue where Senna's passive wouldn't convert excess crit chance from Yuntal into lifesteal.
+  Fixed an issue where Seraphine's Recall when interrupted by animation pause effects she would return to idle pose.
+  Fixed an issue where Mel could destroy Yorick's W with a single basic attack.
+  Fixed an issue where Annie's passive VFX is missing when her Passive is ready.
+  Fixed an issue where Ashe's base skin VO in Spanish was at a low volume.
+  Fixed an issue where Karthus's first encounter with Varus VO would fail to play.
+  Fixed an issue where multiple Project Katarina VO lines would fail to play during her R channel.
+  Fixed an issue where Nidalee's killing Milio VO was not audible.
+  Fixed an issue where Nidalee's first encounter VO for Milio was not audible.
+  Fixed an issue where Yorick's joke VO couldn't be triggered.
+
+[system] Upcoming Skins & Chromas
+  The following skins will be released in this patch:
+
+[system] Firecracker Caitlyn
+  The following chromas will be released this patch:
+
+[system] Related Articles
+  Game Updates 2026-01-21T19:00:00.000Z Patch 26.2 Notes Patch 26.2 ready to deploy!
+  Game Updates 2026-01-07T19:00:00.000Z Patch 26.1 Notes Demacia rises in Patch 26.1 🛡️
+  Game Updates 2025-12-02T19:00:00.000Z Patch 25.24 Notes The last patch of the year, 25.24 is here!
+  Game Updates 2025-11-18T19:00:00.000Z Patch 25.23 Notes Patch 25.23 has ascended 🙏
+  Game Updates 2025-11-04T19:00:00.000Z Patch 25.22 Notes We’re going to Chengdu with Patch 25.22!
+  Game Updates 2025-10-21T18:00:00.000Z Patch 25.21 Notes Patch 25.21 is bee-autiful! 🐝
+  Game Updates 2025-10-07T18:00:00.000Z Patch 25.20 Notes Get ready for Worlds with patch 25.20!
+  Game Updates 2025-09-23T18:00:00.000Z Patch 25.19 Notes Your fate is sealed in Patch 25.19.
+  Game Updates 2025-09-09T18:00:00.000Z Patch 25.18 Notes Celebrate patch 25.18 with our ‘24 World’s Winners, T1!

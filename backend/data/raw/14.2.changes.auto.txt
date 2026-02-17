@@ -1,0 +1,351 @@
+[system] Patch Highlights
+  Primal Ambush Sivir, Primal Ambush Riven, Primal Ambush Vi, Primal Ambush Talon, Three Honors Akshan, and Foreseen Yasuo will be available on January 24, 2024 at 20:00 UTC.
+  Our newest champion Smolder, the Fiery Fledgling, (and his Heavenscale skin) will be heating up the Rift on January 31, 2024 at 20:00 UTC!
+
+[system] MMR and Matchmaking
+  Reducing the amount of games of demotion protection from tier boundaries (eg. Gold to Silver). This should only affect people who seed/promote into the bottom of a rank tier (eg. Gold 4) and then lose many games in a row. It will make no difference if you’ve been in the rank for a while.
+  Fixed a bug where a small number of Diamond 1 players would sometimes receive negative LP gains (losing more LP on losses than gaining on wins). Unfortunately, while we cannot immediately resolve this issue for existing accounts, the problem will resolve itself with some games.
+  Fixed a bug where players who would be seeded into Iron IV were seeded into Iron II with negative LP gains
+  Patch 14.1: How it Landed
+
+[champion] Smolder
+  Smolder Abilities Rundown here !
+  Smolder Champion Insights here !
+
+[champion] Ahri
+  E cooldown decreased.
+  E - Charm
+  Cooldown : 14 seconds ⇒ 12 seconds
+
+[champion] Blitzcrank
+  Base armor decreased. E damage decreased.
+  Base Stats
+  Base Armor : 40 ⇒ 37
+  E - Power Fist
+  Damage : 200% Total AD (+25% AP) ⇒ 180% Total AD (+25% AP)
+
+[champion] Briar
+  Passive healing amplification decreased, bleed tick rate decreased. Q damage increased, damage type changed to magic, now applies on-hit effects and lifesteal. W heal on bite adjusted, critical strike modifier removed.
+  Passive - Crimson Curse
+  Healing Amplification : 0.5% per 1% missing health ⇒ 0.4% (+0.025% per 100 bonus health) per 1% missing health
+  Bleed Tick Rate : 1 second ⇒ 0.5 seconds (Note: Total bleed damage and duration are unchanged.)
+  Q - Head Rush
+  Damage : 60/90/120/150/180 (+80% bonus AD) physical damage ⇒ 60/90/120/150/180 (+80% bonus AD) (+60% AP) magic damage
+  Defensive Reductions : 10/12.5/15/17.5/20% armor reduction ⇒ 10/12.5/15/17.5/20% armor and magic resistance reduction
+  new Healthy Hits : Q now applies on-hit effects and lifesteal
+  W - Blood Frenzy
+  Bite Heal : 36/42/48/54/60% of damage dealt ⇒ 25/30/35/40/45% of damage dealt (+5% of Briar’s maximum health)
+  removed Less Critical Strikes : W no longer critically strikes for 5-65(+5% AD) bonus damage. (Note: W can still critically strike like a basic attack for 100% total AD.)
+
+[champion] Camille
+  Base health increased. Passive cooldown decreased. Q bonus movement speed increased.
+  Base Stats
+  Base Health : 646 ⇒ 670
+  Passive - Adaptive Defenses
+  Cooldown : 20/15/10 seconds (levels 1/7/13) ⇒ 18/14/10 seconds (levels 1/7/13)
+  Q - Precision Protocol
+  Bonus Movement Speed : 20/25/30/35/40% ⇒ 30/32.5/35/37.5/40%
+
+[champion] Darius
+  Q mana cost decreased, healing based on missing health increased. E passive armor penetration increased.
+  Q - Decimate
+  Mana Cost : 30/35/40/45/50 mana ⇒ 25/30/35/40/45 mana
+  Healing based on Missing Health per Target : 13% per target (up to a maximum of 39%) ⇒ 15% per target (up to a maximum of 45%)
+  E - Apprehend
+  Passive Armor Penetration : 15/20/25/30/35% ⇒ 20/25/30/35/40%
+
+[champion] Ezreal
+  Q damage increased. W damage increased. R damage increased.
+  Q - Mystic Shot
+  Damage : 20/45/70/95/120 (+130% AD) (+15% AP) ⇒ 20/45/70/95/120 (+135% AD) (+15% AP)
+  W - Essence Flux
+  Damage : 80/135/190/245/300 (+60% bonus AD) (+70/75/80/85/90% AP) ⇒ 80/135/190/245/300 (+100% bonus AD) (+70/75/80/85/90% AP)
+  R - Trueshot Barrage
+  Damage : 350/500/650 (+100% bonus AD) (+90% AP) ⇒ 350/ 525/700 (+120% bonus AD) (+90% AP)
+
+[champion] Fizz
+  Q damage decreased. W damage decreased.
+  Q - Urchin Strike
+  Magic Damage : 10/25/40/55/70 (+50% AP) ⇒ 10/25/40/55/70 (+45% AP) (Note: 100% AD physical damage and on-hit effectiveness unchanged.)
+  W - Seastone Trident
+  Total Magic Damage Over Time : 20/30/40/50/60 (+40% AP) ⇒ 20/30/40/50/60 (+30% AP)
+
+[champion] Garen
+  W active duration adjusted. E damage increased.
+  W - Courage
+  30% Damage Reduction Duration : 2/2.75/3.5/4.25/5 ⇒ 4 seconds at all ranks
+  E - Judgment
+  Damage per Spin : 4/8/12/16/20 (+0-8.2 (based on level)) (+32/34/36/38/40% AD) ⇒ 4/8/12/16/20 (+0-8.2 (based on level)) (+36/37/38/39/40% AD)
+
+[champion] Gragas
+  Armor and health growth increased. R cooldown decreased.
+  Base Stats
+  Armor Growth : 4.8 ⇒ 5
+  Health Growth : 109 ⇒ 115
+  R - Explosive Cask
+  Cooldown : 120/100/80 seconds ⇒ 100/85/70 seconds
+
+[champion] Gwen
+  Passive damage increased.
+  Passive - A Thousand Cuts
+  Damage : 1% (+0.65% per 100 AP) of the target's maximum health ⇒ 1% (+0.72% per 100 AP) of the target's maximum health
+
+[champion] Hwei
+  E cooldown decreased. EQ flee duration now increases with rank.
+  E - Subject: Torment
+  Cooldown : 15/14/13/12/11 seconds ⇒ 12/11.5/11/10.5/10 seconds
+
+[champion] EQ - Grim Visage
+  Flee Duration : 1 second at all ranks ⇒ 1/1.125/1.25/1.375/1.5 seconds
+
+[champion] Illaoi
+  Base mana, mana growth, and health growth increased. Passive heal increased.
+  Base Stats
+  Base Mana : 300 ⇒ 350
+  Mana Growth : 50 ⇒ 60
+  Health Growth : 109 ⇒ 115
+  Passive - Prophet of an Elder God
+  Missing Health Heal upon Tentacle Hit : 4.5% of missing health ⇒ 5% of missing health
+
+[champion] Jax
+  E damage decreased.
+  E - Counter Strike
+  Minimum Damage : 55/85/115/145/175 (+70% AP) (+4% of target's maximum health) ⇒ 40/70/100/130/160 (+70% AP) (+3.5% of target's maximum health) (Note: Maximum damage values are still 2x the minimum damage values.)
+
+[champion] Karma
+  Base health increased. Q damage increased. E shield strength increased.
+  Base Stats
+  Base Health : 604 ⇒ 630
+  Q - Inner Flame
+  Damage : 70/120/170/220/270 (+50% AP) ⇒ 70/120/170/220/270 (+70% AP)
+  E - Inspire
+  Shield Strength : 80/120/160/200/240 (+45% AP) ⇒ 80/125/170/215/260 (+60% AP)
+
+[champion] Karthus
+  Q damage increased. W magic resist reduction increased.
+  Q - Lay Waste
+  Damage : 43/61/79/97/115 (+35% AP) ⇒ 45/65/85/105/125 (+35% AP)
+  W - Wall of Pain
+  Magic Resist Reduction : 15% ⇒ 25%
+
+[champion] Rumble
+  Q damage increased. E magic resist reduction decreased.
+  Q - Flamespitter
+  Damage : 135/150/165/180/195 (+110% AP) (+6/7/8/9/10% of target's maximum health) ⇒ 125/140/155/170/185 (+110% AP) (+6/7/8/9/10% of target's maximum health)
+  E - Electro Harpoon
+  Magic Resist Reduction : 12/14/16/18/20% ⇒ 10/12/14/16/18%
+
+[champion] Shen
+  Base attack damage increased.
+  Base Stats
+  Base Attack Damage : 60 ⇒ 64
+
+[champion] Teemo
+  E damage decreased. R charge time increased.
+  E - Toxic Shot
+  Magic Damage On-Hit : 14/25/36/47/58 (+30% AP) ⇒ 14/25/36/47/58 (+25% AP)
+  R - Noxious Trap
+  R Charge Time : 30/25/20 seconds ⇒ 35/30/25 seconds
+
+[champion] Twisted Fate
+  Multiple adjustments to support more itemization options.
+  Base Stats
+  Base Attack Speed : 0.651 ⇒ 0.625 (Note: Attack Speed ratio unchanged.)
+  Attack Speed Growth : 3.22% ⇒ 3%
+  Passive - Loaded Dice
+  new Nat 20 : Critical strikes now roll an additional 6 sided die that is weighted towards 1 rather than 6.
+  Q - Wild Cards
+  Damage : 60/100/140/180/220 (+90% AP) ⇒ 60/100/140/180/220 (+90% AP) (+50% bonus AD)
+  W - Pick A Card
+  new Blue Crits : 0.575 critical strike multiplier added (increases damage by up to 57.5% based on critical strike chance)
+  new Red Crits : 0.350 critical strike multiplier added (increases damage by up to 35% based on critical strike chance)
+  new Gold Crits : 0.250 critical strike multiplier added (increases damage by up to 25% based on critical strike chance)
+  QoL Adjustment : Locking in a card now resets Twisted Fate’s auto attack timer
+  QoL Adjustment : Pick a Card now affects Inhibitors and the Nexus
+  E - Stacked Deck
+  Bonus Attack Speed : 10/17.5/25/32.5/40% ⇒ 10/22.5/35/47.5/60%
+  Damage : 65/90/115/140/165 (+50% AP) ⇒ 65/90/115/140/165 (+50% AP) (+75% bonus AD)
+  QoL Adjustment : Stacked Deck now affects towers at 50% effectiveness
+  QoL Adjustment : TF’s deck now becomes fully stacked on spawn
+
+[champion] Veigar
+  Base health increased.
+  Base Stats
+  Base Health : 550 ⇒ 580
+
+[item] Bloodsong
+  Expose Weakness Increased Damage : 12% (melee) / 8% (ranged) ⇒ 10% (melee) / 6% (ranged)
+
+[item] Experimental Hexplate
+  Item Recipe : Noonquiver + Tunneler + 600 gold ⇒ Hearthbound Axe + Tunneler + 700 gold
+  Attack Speed : 20% ⇒ 25%
+  Passive - Overdrive : 35% bonus Attack Speed ⇒ 30% bonus Attack Speed
+
+[item] Frozen Heart
+  Total Cost : 2300 ⇒ 2400
+
+[item] Horizon Focus
+  Passive - Hypershot and Focus Range Requirement : 700 ⇒ 600
+  Passive - Focus AoE Reveal Radius : 1200 units ⇒ 1400 units
+
+[item] Phantom Dancer
+  Item Recipe : Hearthbound Axe + Cloak of Agility + 1000 gold ⇒ Zeal + Rectrix + 800 gold
+
+[item] Riftmaker
+  Total Cost : 3000 ⇒ 3100
+
+[item] Steel Sigil
+  Total Cost : 1200 ⇒ 1100 (Note: Due to the gold decrease to Steel Sigil, the combine costs for items building out of of it such as Death’s Dance and Guardian Angel have had their combine costs increased by 100, but total cost is unchanged.)
+
+[item] Stormsurge
+  Ability Power : 100 ⇒ 90
+  Passive - Squall Damage : 100-200 (+30% AP) (melee) / 75-150 (+22.5% AP) (ranged) ⇒ 100-200 (+20% AP) (melee) / 75-150 (+15% AP) (ranged)
+
+[item] Stridebreaker
+  Attack Speed : 25% ⇒ 30%
+  Total Cost : 3100 ⇒ 3000
+
+[champion] Other Changes
+  Scryer’s Bloom will no longer reveal champion pets for longer than champions, as that was unintentionally revealing those characters for longer.
+  Shifted Tiamat and Ravenous Hydra actives to use attack timers if those are lower than their cast time.
+  Momentum items (Dead Man’s Plate, Trailblazer) will no longer lose Momentum when attacking traps or plants.
+  A number of champions properly have cooldowns listed on their passives.
+
+[system] Nerf
+  Aphelios : Damage Dealt: 105% ⇒ 100%
+  Gwen : Damage Dealt: 105% ⇒ 100%
+  Mordekaiser : Damage Taken: 100% ⇒ 105%
+  Kayle : Damage Taken: 100% ⇒ 110%
+  Teemo : R Maximum Charges: 3/4/5 (levels 6/11/16) ⇒ 2/3/4 (levels 6/11/16)
+
+[system] Brand VFX Update
+  Base Brand
+  Crycore Brand
+  Zombie Brand
+  Spiritfire Brand
+  Battle Boss Brand
+
+[system] Clash - Noxus Cup
+  Registration Begins: January 22 @ 11:00 AM (Local Time)
+  Tournament Dates: January 27-28 (~4-7 PM Local Time, varies by region)
+
+[system] Practice Tool Updates
+  new Button added to spawn Voidgrubs and Jungle Monsters
+  new Button added to create a Spell Shield on your Target
+  new Button added to copy your Inventory to your Target
+  new Button added to cycle between various CC Effects on your champion
+  new Reset Game now sets the game times to 0:00 in order to help with timing jungle clears
+  Fixed a bug that caused Reset Game to use the incorrect icon
+
+[system] Now Available
+  Prestige Empyrean K’Sante
+  Prestige PROJECT Zed
+  Prestige Pulsefire Thresh
+  Prestige Conqueror Jax
+
+[system] Leaving the Mythic Shop
+  Prestige PROJECT Irelia
+  Prestige K/DA Kai’Sa
+  Prestige Spirit Blossom Master Yi
+  Prestige Battle Academia Lux
+  Mythic Chroma Storm Dragon Lee Sin
+  Mythic Chroma Dawnbringer Riven
+  Winterblessed 2022 Mythic Essence Icon
+  Lunar Revel 2023 Mythic Essence Icon
+  Faerie Court 2023 Mythic Essence Icon
+  Inkshadow 2023 Mythic Essence Icon
+  Soul Fighter 2023 Mythic Essence Icon
+  Worlds 2023 Mythic Essence Icon
+  Faerie Court 2023 Grab Bag
+
+[system] Bugfixes
+  Fixed a bug that caused kills to sometimes show up as double kills on the scoreboard.
+  Fixed a bug that caused Master Yi’s Highlander ability to not block the slow effect from Ahri’s charm.
+  Fixed a bug that caused Akali to be unable to cast abilities for about 1.5 seconds if she uses passive auto attack at the last second.
+  Fixed a bug that caused Katarina R to get into states where the spell casts but does not deal damage or launch knives.
+  Fixed a bug that caused Lux Q to rarely break spell shields but still apply full effects.
+  Fixed a bug that caused Bard’s W visuals to not properly sync with the faster prep time.
+  Fixed a bug that caused players to be able to flash out of grounded zones they had teleported onto if they were spamming the flash key, F.
+  Fixed a bug that caused Jhin’s 4th shot, when fired within a few frames of his out of combat reload, to sometimes fail.
+  Fixed a bug that caused Heimerdinger’s turrets to have their attack speed slowed by Warden’s Mail and Randuin’s Omen.
+  Shaco clone will properly duplicate energized stacks and effects.
+  Shaco boxes will proc cosmic drive.
+  Fixed a bug that sometimes caused Neeko to get stuck running on all fours for the duration of the game.
+  Fixed a bug that caused Arcane Comet to cancel auto attacks if it fires in the windup.
+  Fixed a bug that caused Glacial Augment missiles to break spell shields.
+  Fixed a bug that caused Sion passive movement speed to decay at variable speeds depending on the other effects acting on him at the time.
+  Fixed a bug that caused Rakan’s W to count as an immunity.
+  Fixed a bug that caused Irelia’s Q dash to not properly reset if cast at max range and the target dies right before she arrives.
+  Fixed a bug that caused Lulu’s R bonus health to be slightly delayed in some rare cases.
+  Fixed a bug that caused Lulu to be unable to cast Q when she was CC’d.
+  Fixed a bug that caused Rift Scuttler to respawn at 3:32 instead of 3:30.
+  Fixed a bug where Rift Scuttler would create inaccurate timers when killed early in the game.
+  Fixed a bug that caused Hwei’s QQ to sometimes explode when hitting walls or other champion abilities.
+  Fixed a bug that caused Hwei’s E to sometimes get redirected by walls or other champion abilities.
+  Fixed a bug that caused multiple champions to be able to pilot Rift Herald at the same time.
+  Fixed a bug that caused Stormsurge to reflect damage back to the caster when attacking Neeko’s clone.
+  Fixed a bug that caused Neeko to be able to remove the turret backdoor bonus.
+  Fixed a bug that caused Mikael’s Blessing to be able to be used on non-champions.
+  Fixed a bug that caused Malignance and Hexplate to sometimes grant too much ability haste to certain champions.
+  Fixed a bug that caused Bard’s W to be able to be cast repeatedly.
+  Fixed a bug that caused Azir to sometimes be knocked out extremely far when charging with Rift Herald.
+  Fixed a bug that caused Lich Bane to not show up under the Ability Haste items section of the shop.
+  Fixed a bug that caused Zeke’s Convergence to not show up under the mana items section of the shop.
+  Fixed a bug that caused Cosmic Drive to not show up under the health and regeneration section of the shop.
+  Fixed a bug that caused the Anguish passive of Unending Despair to deal less damage after being upgraded by Ornn into Hope Adrift.
+  Fixed a bug that caused The Unspoken Parasite to unintentionally grant the user Ability Haste.
+  Fixed a bug that caused secondary objective timers over 10 minutes to overlap the icon on the scoreboard.
+  Fixed a bug that caused jungle companions to deal more damage than intended when dashing onto a camp.
+  Fixed a bug that caused Stormsurge to improperly give kill credit when activated early.
+  Fixed a bug that caused Tahm Kench to be able to activate Experimental Hexplate without using his R.
+  Fixed a bug that caused Ravenous Hydra’s cast time to not use attack windup values.
+  Fixed a bug that caused Void Sentinel and Brambleback to spawn after the first time their draconic counterparts were killed, regardless of the Baron Timer.
+  Fixed a bug that caused Verdant Barrier’s cooldown to not be inherited by Banshee’s Veil.
+  Fixed a bug that caused Rod of Ages to still display in the Ability Haste section of the shop.
+  Fixed a bug that caused Stridebreaker to still display in the Ability Haste section of the shop.
+  Fixed a bug that caused Experimental Hexplate to still display in the armorpenetration section of the shop.
+  Fixed a bug that caused some abilities to not receive Ability Haste directly after spawning. For example, as Karthus spawned and was spamming R the ability would sometimes go on
+  Fixed a bug that caused Voltaic Cyclosword to be able to slow through Unstoppable and Unslowable states.
+  Fixed a bug that caused Spirit Visage’s bonus shielding counter to count Kaenic Rookern’s Magebane passive shield.
+  Fixed a bug that caused T.U.R.B.O.’s item icon to not display the item’s passive cooldown.
+  Fixed a bug that caused Kaenic Rookern and Celestial Opposition shield sizes to not adjust based on champion size.
+  Fixed a bug that caused slows from Hwei’s QE and EE to stack.
+  Fixed a bug where Baron could take excess damage from specific abilities when damaged from far away
+  Fixed a bug that caused Hwei’s spellslot to lock temporarily if he leveled up a skill while opening a spellbook.
+  Fixed a bug that caused Imperial Mandate’s debuff VFX to be shorter than the actual debuff duration.
+  Fixed a bug that caused Hwei’s Q to be locked into one form if he died while casting QQ as the player was reconnecting to the game.
+  Fixed a bug that caused some abilities to be cast backwards when used simultaneously with a blink in conjunction with the Clamp Cast Targeting setting.
+  Fixed a bug that caused some ability indicators to point the wrong direction when channeling and moving in conjunction with the Clamp Cast Targeting setting.
+  Fixed a bug that caused Zac’s E to sometimes go backwards after maxing the ability.
+  Fixed a bug that caused Wit’s End to still appear in the Attack Damage section of the shop.
+  Fixed a bug that caused Zoe’s Ravenous Hydra shard to have no effect.
+  Fixed a bug that caused Hwei to be able to open a spellbook despite not having enough Mana.
+  Fixed a bug that caused Bard’s W animation to be partially skipped when transitioning to the fully charged version.
+  Fixed a bug that caused certain jungle monsters to not spawn in the practice tool.
+  Fixed a bug that caused Lucian’s passive to sometimes spam the ability’s VFX.
+  Fixed a bug that caused Rumble R and Viktor E to have issues when used with Clamp Cast Targeting.
+
+[system] Cosmetic Bugfixes
+  Fixed a bug where Cosmic Reaver’s Kassadin was missing his parallax textures.
+  Fixed a bug where Dawnbringer and Pulsefire Riven’s Shield of Valor (E) VFX was rendering over impassable terrain and structures.
+  Fixed a bug where Broken Covenant Riven’s Dance (Ctrl+3), Recall (B), and Revive VFX were cut-off when triggered on lower graphic settings.
+  Fixed a bug where Battle Bunny Prime Riven’s feet were sliding on the ground during Idle animations.
+  Fixed a bug where Winter Wonder, Bewitching, and Street Demons Neeko’s Pop Blossom (R) outer ring indicator appears skewed under certain circumstances from the enemy’s POV.
+  Fixed a bug where Withered Rose Talon’s Rake (W) VFX were extending past the spell's hitbox.
+
+[system] Upcoming Skins and Chromas
+  The following skins will be released in this patch:
+
+[system] Heavenscale Smolder
+  The following chromas will be released this patch:
+
+[system] Related Articles
+  Game Updates 2026-02-03T19:00:00.000Z Patch 26.3 Notes Celebrate the new year and revel in Patch 26.3 🎊
+  Game Updates 2026-01-21T19:00:00.000Z Patch 26.2 Notes Patch 26.2 ready to deploy!
+  Game Updates 2026-01-07T19:00:00.000Z Patch 26.1 Notes Demacia rises in Patch 26.1 🛡️
+  Game Updates 2025-12-02T19:00:00.000Z Patch 25.24 Notes The last patch of the year, 25.24 is here!
+  Game Updates 2025-11-18T19:00:00.000Z Patch 25.23 Notes Patch 25.23 has ascended 🙏
+  Game Updates 2025-11-04T19:00:00.000Z Patch 25.22 Notes We’re going to Chengdu with Patch 25.22!
+  Game Updates 2025-10-21T18:00:00.000Z Patch 25.21 Notes Patch 25.21 is bee-autiful! 🐝
+  Game Updates 2025-10-07T18:00:00.000Z Patch 25.20 Notes Get ready for Worlds with patch 25.20!
+  Game Updates 2025-09-23T18:00:00.000Z Patch 25.19 Notes Your fate is sealed in Patch 25.19.

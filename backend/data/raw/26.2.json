@@ -1,0 +1,578 @@
+{
+  "version": "26.2",
+  "release_date": "2026-01-21",
+  "raw_notes": "Aegis Frame Galio, Aegis Frame Ornn, Battle Academia Briar, Battle Professor Samira, and Revenant Reign Viego will be available January 22, 2026. The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Support Quest Usability",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Aatrox",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Bonus Magic Damage based on Target Max Health",
+          "old_value": "4-8% (based on level)",
+          "new_value": "4-10% (based on level)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Damage to Monsters",
+          "old_value": 15,
+          "new_value": 25,
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ashe",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 3,
+          "new_value": 3.5,
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gwen",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage Cap",
+          "old_value": "5 (+10% AP)",
+          "new_value": "3 (+5% AP)",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jayce",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Bonus Damage to Monsters",
+          "old_value": 50,
+          "new_value": 25,
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lillia",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Heal Against Large Monsters",
+          "old_value": "39 (+15% AP)",
+          "new_value": "39 (+9% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain",
+            "jungle"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "AP Ratio",
+          "old_value": "35% AP",
+          "new_value": "30% AP",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Malphite",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage",
+          "old_value": "2x",
+          "new_value": "1.8x",
+          "delta_value": -0.19999999999999996,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "80 / 120 / 160 / 200 / 240 (+ 60% AP) (+ 40% armor)",
+          "new_value": "60 / 95 / 130 / 165 / 200 (+ 60% AP) (+ 40% armor)",
+          "delta_value": -20.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": 50,
+          "new_value": "50 / 55 / 60 / 65 / 70",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "130 / 105 / 80",
+          "new_value": "130 / 115 / 100",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master Yi",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": 4.2,
+          "new_value": 4.5,
+          "delta_value": 0.2999999999999998,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "On-Hit Damage Mod",
+          "old_value": "65%",
+          "new_value": "75%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nunu & Willump",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "12 / 11 / 10 / 9 / 8",
+          "new_value": "13 / 12 / 11 / 10 / 9 seconds",
+          "delta_value": 1.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Maximum Damage",
+          "old_value": "180 / 225 / 270 / 315 / 360 (+ 150% AP)",
+          "new_value": "150 / 195 / 240 / 285 / 330 (+ 150% AP)",
+          "delta_value": -30.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage per Hit",
+          "old_value": "16 / 24 / 32 / 40 / 48 (+ 15% AP)",
+          "new_value": "14 / 21 / 28 / 35 / 42",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sivir",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Growth",
+          "old_value": "2%",
+          "new_value": "1.6%",
+          "delta_value": -0.3999999999999999,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": 4.45,
+          "new_value": 4.0,
+          "delta_value": -0.4500000000000002,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smolder",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": 4.7,
+          "new_value": 4.0,
+          "delta_value": -0.7000000000000002,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Taliyah",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Bonus Damage to Monsters",
+          "old_value": 20,
+          "new_value": "20 / 25 / 30 / 35 / 40 (Note: Empowered Boulder damage is still increased by 80% to primary target.)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage Modifier",
+          "old_value": "190%",
+          "new_value": "225%",
+          "delta_value": 35.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Varus",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Maximum Charge Base Damage",
+          "old_value": "80 / 150 / 220 / 290 / 360",
+          "new_value": "80 / 160 / 240 / 320 / 400",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "On-Hit Base Damage",
+          "old_value": "6 / 14 / 22 / 30 / 38",
+          "new_value": "8 / 17 / 26 / 35 / 44",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Viego",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Growth",
+          "old_value": "2.25%",
+          "new_value": "2.75%",
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Percent HP On-Hit Bonus Crit Damage Mod",
+          "old_value": "50%",
+          "new_value": "70%",
+          "delta_value": 20.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Active Bonus Crit Damage Mod",
+          "old_value": "50%",
+          "new_value": "60%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zed",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage",
+          "old_value": "1.8x",
+          "new_value": "1.2x",
+          "delta_value": -0.6000000000000001,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bandlepipes",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Price",
+          "old_value": 2000,
+          "new_value": "2300 gold",
+          "delta_value": 300.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "cost",
+          "stat_name": "Combine Cost",
+          "old_value": 500,
+          "new_value": "800 gold",
+          "delta_value": 300.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fiendhunter Bolts",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": "40%",
+          "new_value": "45%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage Multiplier for Guaranteed Critical Strikes",
+          "old_value": "75%",
+          "new_value": "80%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus True Damage for Critical Strikes",
+          "old_value": "10%",
+          "new_value": "15%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hexoptics C44",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 50,
+          "new_value": 55,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Distance Required for Max Damage Amp",
+          "old_value": 700,
+          "new_value": 600,
+          "delta_value": -100.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Augments",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "ARURF",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Swiftplay",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Surrender Time",
+          "old_value": "15 minutes",
+          "new_value": "12 minutes",
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Clash - Summoner's Rift Demacia Cup",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "WASD",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Bugfixes & QoL Changes",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Upcoming Skins & Chromas",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Revenant Reign Viego",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Related Articles",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}

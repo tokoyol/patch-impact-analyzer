@@ -1,0 +1,2636 @@
+{
+  "version": "26.1",
+  "release_date": "2026-01-07",
+  "raw_notes": "Prestige Veiled Lady Morgana, Petricite Cho'Gath, Petricite Nautilus, and Durand's Legacy Taliyah will be available January 8, 2026. The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Bugfixes",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Known Issues",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Patch Highlights",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Queuing Up",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Crimson Lucidity",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Swiftmarch",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Spellslinger's Shoes",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Gunmetal Greaves",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Chainlaced Crushers",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Armored Advance",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Support",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Zaz'Zak's Realmspike, Solstice Sleigh, Bloodsong, Dream Maker, and Celestial Opposition",
+          "old_value": "5g per 10s",
+          "new_value": "9g per 10s",
+          "delta_value": 4.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Base kill gold devaluation per 1 gold given on death",
+          "old_value": 0.2,
+          "new_value": "0.4. For example, dying and giving away 300g will reduce your base kill gold by 75g.",
+          "delta_value": 0.2,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Base kill gold revaluation per 1 gold earned",
+          "old_value": 0.1,
+          "new_value": "0.2. This change does not affect the accrual of positive bounties.",
+          "delta_value": 0.1,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Void Grubs",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Minimum level",
+          "old_value": 4,
+          "new_value": 7,
+          "delta_value": 3.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor",
+          "old_value": 0,
+          "new_value": "34 + 8 Growth (73+)",
+          "delta_value": 34.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Magic Resistance",
+          "old_value": 0,
+          "new_value": "32 + 4 Growth (51+)",
+          "delta_value": 32.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": "2,250-3,750",
+          "new_value": "1300 + 200 Growth (2,269+)",
+          "delta_value": 1298.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "AD",
+          "old_value": "30-45 by game time",
+          "new_value": "12 + 2 Growth (22+)",
+          "delta_value": -18.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mite AD",
+          "old_value": "4.2-6.6 by game time",
+          "new_value": "1.8 + 0.3 Growth (3+)",
+          "delta_value": -2.4000000000000004,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Mite HP",
+          "old_value": "470-710 by game time",
+          "new_value": "180 + 30 Growth (325+)",
+          "delta_value": -290.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Gold",
+          "old_value": "20 local + 50 global (210g)",
+          "new_value": "30 local (90g)",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Experience",
+          "old_value": "75 + 2% per level / 4 (79.5-84)",
+          "new_value": "65 (195 for 3)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "XP radius",
+          "old_value": 0,
+          "new_value": 2000,
+          "delta_value": 2000.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Atakhan",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Buff Camps",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Red buff regen",
+          "old_value": "0.5/1/3% at level 1/4/6",
+          "new_value": "0.5/1/1.5/3% at 1/4/6/11",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Red melee slow",
+          "old_value": "5/10/15/20%",
+          "new_value": "10/15/20%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Red buff burn",
+          "old_value": "10-75",
+          "new_value": "15-54",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Faelights",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Faelight Locations",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Other Vision Changes",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Stealth Ward Trinket Cooldown",
+          "old_value": "210-120s (by level)",
+          "new_value": "170-90s (by level)",
+          "delta_value": -40.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown",
+            "utility"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Oracle Lens Trinket Duration",
+          "old_value": "6s",
+          "new_value": "8s",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Scryer's Bloom Default Respawn Time",
+          "old_value": "260-350s (random)",
+          "new_value": "200-260s (random)",
+          "delta_value": -60.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Homeguards",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Crystalline Overgrowth",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Demolish",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Demolish trigger",
+          "old_value": "Charge up a powerful attack against a tower while near it.",
+          "new_value": "Your third attack against towers deals bonus physical damage.",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "45s",
+          "new_value": "30s",
+          "delta_value": -15.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Melee Damage",
+          "old_value": "100 + [35% of maximum health]",
+          "new_value": "85 + [28% of maximum health]",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Ranged Damage",
+          "old_value": "100 + [35% of maximum health]",
+          "new_value": "50 + [20% of maximum health]",
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Game Start Time",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Minion spawn time",
+          "old_value": "1:05",
+          "new_value": "30 seconds",
+          "delta_value": 29.0,
+          "direction": "buff",
+          "tags": [
+            "waveclear"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Baron Nashor",
+          "old_value": "25:00",
+          "new_value": "20:00",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Remake Eligibility",
+          "old_value": "1:30 through 3:00",
+          "new_value": "0:55 through 2:25",
+          "delta_value": -1.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Early Surrender (with AFK) eligibility",
+          "old_value": "3:30",
+          "new_value": "2:55",
+          "delta_value": -1.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Turrets",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Turret true sight range",
+          "old_value": 1095,
+          "new_value": "1100. Tooltip updated to reflect the accurate range.",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Outer Turrets",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Resistances",
+          "old_value": "Set armor/MR to 40 at 14 minutes",
+          "new_value": "Lose 15 armor/mr per minute starting at minute 11, capped at -60",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Plate gold",
+          "old_value": "Turret plates drop at 14 minutes, awarding no further gold",
+          "new_value": "Plate value reduces by 10g per minute at minute 11, capped at -40",
+          "delta_value": -4.0,
+          "direction": "nerf",
+          "tags": [
+            "utility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Plate thresholds",
+          "old_value": "20/40/60/80/100%",
+          "new_value": "10/25/45/70/100% missing HP",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Base resists",
+          "old_value": 15,
+          "new_value": 60,
+          "delta_value": 45.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Base HP",
+          "old_value": "5,000",
+          "new_value": "9,000",
+          "delta_value": 4.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Maximum bonus AD",
+          "old_value": "192 at 16 minutes",
+          "new_value": "168 at 14 minutes",
+          "delta_value": -24.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Local gold",
+          "old_value": 250,
+          "new_value": 0,
+          "delta_value": -250.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Turret plate gold",
+          "old_value": 125,
+          "new_value": 120,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Maximum local gold",
+          "old_value": 875,
+          "new_value": 600,
+          "delta_value": -275.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Minimum local gold",
+          "old_value": 250,
+          "new_value": 400,
+          "delta_value": 150.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Inner and Inhibitor Turrets",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Inner turret local gold",
+          "old_value": "425/675",
+          "new_value": "600 spread across 5 plates",
+          "delta_value": 175.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Inner turret health",
+          "old_value": 4000,
+          "new_value": 5000,
+          "delta_value": 1000.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Inner turret resistances",
+          "old_value": 55,
+          "new_value": 60,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Inhibitor turret local gold",
+          "old_value": 375,
+          "new_value": "600 spread across 5 plates",
+          "delta_value": 225.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Inhibitor turret regen thresholds",
+          "old_value": "33/66% HP",
+          "new_value": "30/75% HP",
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Inhibitor turret health",
+          "old_value": 3500,
+          "new_value": 4750,
+          "delta_value": 1250.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Inhibitor turret resistances",
+          "old_value": 70,
+          "new_value": 60,
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nexus Turrets",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Nexus turret health",
+          "old_value": 3000,
+          "new_value": 3500,
+          "delta_value": 500.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Nexus turret resists",
+          "old_value": 70,
+          "new_value": 60,
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Nexus turret HP on respawn",
+          "old_value": "100%",
+          "new_value": "40%",
+          "delta_value": -60.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "6 HP/sec Nexus turret regen",
+          "old_value": "33/66%",
+          "new_value": "40/70% HP",
+          "delta_value": 7.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cassiopeia",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Base Movement Speed",
+          "old_value": 328,
+          "new_value": 335,
+          "delta_value": 7.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Passive Rework",
+          "old_value": "Gain 4-72 Movement Speed (Based on level), but she cannot purchase boots.",
+          "new_value": "Increased effectiveness of all Movement Speed buffs by 6-40% (based on level).",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Samira",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Q Non-Crit Damage",
+          "old_value": "5/10/15/20/25 (+ 95/102.5/110/117.5/125% total AD)",
+          "new_value": "0/5/10/15/20 (+ 110% total AD)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Q Critical Strike Damage",
+          "old_value": "1.25/1.65x with IE",
+          "new_value": "50% of bonus crit damage: 1.5/1.65x with IE",
+          "delta_value": 48.75,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "R Non-Crit Damage",
+          "old_value": "5/15/25 + 45% total AD",
+          "new_value": "20/40/60 + 30% total AD",
+          "delta_value": 15.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "R Critical Damage",
+          "old_value": "1.75/2.15x with IE",
+          "new_value": "100% of bonus crit damage: 2.0/2.3x with IE",
+          "delta_value": 98.25,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aphelios",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Bonus Damage per Mark",
+          "old_value": "15 (+ 20% bonus AD)",
+          "new_value": "15 (+ 10% bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Onslaught Damage per Hit",
+          "old_value": "10/15/20/25/30/35/40 (+ 22/25/28/31/34/37/40% bonus AD)",
+          "new_value": "(+ 19/22.5/26/29.5/33/36.5/40% total AD)",
+          "delta_value": 9.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Duskwave Active Damage",
+          "old_value": "25/31.67/38.33/45/51.67/58.33/65 (+ 56/60/64/68/72/76/80% bonus AD)",
+          "new_value": "20/35/50/65/80/95/110 (+ 10/11/12/13/14/15/16% bonus AD)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "waveclear"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Sentry Active Damage",
+          "old_value": "35/50/65/80/95/110/125 (+ 42/45/48/51/54/57/60% bonus AD)",
+          "new_value": "35/50/65/80/95/110/125 (+ 30/32/34/36/38/40/42% bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Follow-Up Attack Critical Damage",
+          "old_value": "1.2/1.6x with IE",
+          "new_value": "30% of bonus critical strike damage: 1.3/1.39x with IE",
+          "delta_value": 28.8,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Caitlyn",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "0-148.75/182.75% total AD",
+          "new_value": "100%*Bonus Crit Damage (0-100/130% total AD)",
+          "delta_value": 100.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "Up to 1.5x",
+          "new_value": "30% of bonus critical strike damage: up to 1.3/1.39x with IE",
+          "delta_value": 28.5,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tristana",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Non-crit Damage",
+          "old_value": "60/70/80/90/100 (+ 100/110/120/130/140% bonus AD)",
+          "new_value": "60/85/110/135/160 (+ 80% bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "100%: Up to 1.75/2.15x with IE",
+          "new_value": "40% of critical strike damage: 1.40/1.52x with IE",
+          "delta_value": -60.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nilah",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Growth",
+          "old_value": "2.25%",
+          "new_value": "2%",
+          "delta_value": -0.25,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Active Damage",
+          "old_value": "5/10/15/20/25 (+ 90/95/100/105/110% total AD)",
+          "new_value": "0/10/20/30/40 (+ 100% total AD)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "Up to 2x",
+          "new_value": "80% of bonus crit damage: 1.8/2.04x",
+          "delta_value": 78.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Penetration Crit Scaling",
+          "old_value": "0-33%",
+          "new_value": "0-30%",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": 80,
+          "new_value": 100,
+          "delta_value": 20.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jinx",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Growth",
+          "old_value": "1.4%",
+          "new_value": "1%",
+          "delta_value": -0.3999999999999999,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Maximum Flat Damage",
+          "old_value": "250/400/550 (+ 130% bonus AD)",
+          "new_value": "200/350/500 (+ 120% bonus AD)",
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jhin",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Multiplicative Crit Damage Mod",
+          "old_value": "86%",
+          "new_value": "75% (1.505x \u21d2 1.5x)",
+          "delta_value": -11.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sivir",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "60/85/110/135/160 (+ 85% bonus AD)",
+          "new_value": "60/85/110/135/160 (+ 70% bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "Up to 1.5x",
+          "new_value": "40%: 1.4/1.52x",
+          "delta_value": 38.5,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Zeri",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "30/70/110/150/190 (+ 130% total AD)",
+          "new_value": "30/70/110/150/190 (+ 120% total AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Through-Wall Damage",
+          "old_value": "1.75x, 2.15x with IE",
+          "new_value": "75% of bonus critical strike damage: 1.75/1.975x",
+          "delta_value": 73.25,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "20/22/24/26/28 (+12% bonus AD)",
+          "new_value": "17/19/21/23/25 (+ 10% bonus AD)",
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "Up to 1.85x every hit",
+          "new_value": "100% of bonus crit damage on crit: 2.0/2.3x",
+          "delta_value": 98.15,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Active Damage",
+          "old_value": "200/300/400 (+ 100% bonus AD)",
+          "new_value": "150/250/350 (+ 100% bonus AD)",
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lucian",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 2.9,
+          "new_value": 2.5,
+          "delta_value": -0.3999999999999999,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Growth",
+          "old_value": "3.3%",
+          "new_value": "2.5%",
+          "delta_value": -0.7999999999999998,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "85/115/145/175/205 (+ 60/75/90/105/120% bonus AD)",
+          "new_value": "80/115/150/185/220 (+ 100% bonus AD)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "R Extra Bolts from Crit Chance",
+          "old_value": "Up to 25",
+          "new_value": "100% of bonus crit damage: Up to 22/28",
+          "delta_value": 75.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Total R Bolts",
+          "old_value": "22-47 (based on critical strike chance)",
+          "new_value": "22-44/50 (based on critical strike chance and damage)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xayah",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "55/65/75/85/95 (+ 60% bonus AD)",
+          "new_value": "50/65/80/95/110 (+ 40% bonus AD)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "Up to 75%",
+          "new_value": "Up to 50% of bonus crit damage: 1.5/1.65x",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draven",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "AD Growth",
+          "old_value": 3.6,
+          "new_value": 3,
+          "delta_value": -0.6000000000000001,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": "30/35/40/45/50%",
+          "new_value": "20/25/30/35/40%",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yunara",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": "25/35/45/55/65%",
+          "new_value": "20/30/40/50/60%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    
+    {
+      "name": "Akshan",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "P second shot crit damage",
+          "old_value": "30% of bonus crit damage (1.225/1.345x)",
+          "new_value": "100% of bonus crit damage: 2/2.3x",
+          "delta_value": 70.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "5/25/45/65/85 (+ 80% total AD)",
+          "new_value": "45/75/105/135/165 (+ 70% bonus AD)",
+          "delta_value": 40.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "15/30/45/60/75 (+ 15% total AD)",
+          "new_value": "8/16/24/32/40 (+ 25% total AD)",
+          "delta_value": -7.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "1.575/1.935x",
+          "new_value": "50% of bonus crit damage: 1.5/1.65x",
+          "delta_value": 48.425,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "1.5/1.7x",
+          "new_value": "30% of bonus crit damage: 1.3/1.42x",
+          "delta_value": 28.5,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gangplank",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "50-250 (based on level) (+100% bonus AD) (+200% Crit Chance)",
+          "new_value": "50-250 (+ 100% bonus AD) (+ 0% crit scaling)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Champion Damage",
+          "old_value": "75 / 105 / 135 / 165 / 195",
+          "new_value": "75 / 95 / 115 / 135 / 155",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yone",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Crit Damage",
+          "old_value": "1.75/2.15x",
+          "new_value": "90% (1.8/2.07x)",
+          "delta_value": 88.25,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yasuo",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Crit Damage",
+          "old_value": "1.75/2.15x",
+          "new_value": "90% (1.8/2.07x)",
+          "delta_value": 88.25,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Miss Fortune",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Active Critical Damage",
+          "old_value": "1.75/2.15x",
+          "new_value": "50% of bonus crit damage (1.5/1.65x)",
+          "delta_value": 48.25,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "80% total AD (+ 25% AP)",
+          "new_value": "20 / 30 / 40 (+60% Total AD) (+ 25% AP)",
+          "delta_value": -60.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "1.2/1.28x",
+          "new_value": "30% of bonus crit damage (1.3/1.39x)",
+          "delta_value": 28.8,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tryndamere",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus AD",
+          "old_value": "5 / 10 / 15 / 20 / 25 (+ up to 15 / 25 / 35 / 45 / 55 based on missing health)",
+          "new_value": "0 (+20 / 35 / 50 / 65 / 80 based on missing health)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Maximum Bonus AD",
+          "old_value": "Max at 0% remaining HP",
+          "new_value": "Max at 10% remaining HP",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Slow",
+          "old_value": "30 / 37.5 / 45 / 52.5 / 60%",
+          "new_value": "30 / 35 / 40 / 45 / 50%",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "75 / 105 / 135 / 165 / 195 (+ 130% Bonus AD)",
+          "new_value": "70 / 105 / 140 / 175 / 210 (+ 100% Bonus AD)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Twitch",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Growth",
+          "old_value": "3.38%",
+          "new_value": "3%",
+          "delta_value": -0.3799999999999999,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 3.1,
+          "new_value": 3,
+          "delta_value": -0.10000000000000009,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus Attack Speed",
+          "old_value": "45 / 50 / 55 / 60 / 65%",
+          "new_value": "40 / 45 / 50 / 55 / 60%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ashe",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Growth",
+          "old_value": "3.33%",
+          "new_value": "3%",
+          "delta_value": -0.33000000000000007,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 3.45,
+          "new_value": 3,
+          "delta_value": -0.4500000000000002,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "100% (up to 1.75/2.15x)",
+          "new_value": "100% (up to 2/2.3x)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "60 / 95 / 130 / 165 / 200 (+ 110% Bonus AD)",
+          "new_value": "60 / 95 / 130 / 165 / 200 (+ 100% Bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smolder",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "Up to 1.75/2.15x",
+          "new_value": "50% of bonus crit damage (Up to 1.5/1.65x) (also affects passive Q stacks)",
+          "delta_value": 48.25,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Missing Health Crit",
+          "old_value": "1.5/1.9x if target is below 25-75% (based on crit chance) Health",
+          "new_value": "50% of bonus crit chance and crit damage always (up to 1.5/1.65x)",
+          "delta_value": 48.5,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Pounce Damage",
+          "old_value": "1.75/2.15x on crit",
+          "new_value": "50% of bonus crit chance and crit damage always (up to 1.5/1.65x)",
+          "delta_value": 48.25,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage Cap",
+          "old_value": "300 including base damage and bonus AD ratio",
+          "new_value": "200 to only the %HP portion (This is a buff in almost all scenarios)",
+          "delta_value": -100.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "durability",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corki",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage per second",
+          "old_value": "40 / 55 / 70 / 85 / 100 (+40% bonus AD) (+ 30% AP)",
+          "new_value": "30 / 45 / 60 / 75 / 90 (+40% bonus AD) (+ 30% AP)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shaco",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "20-35 (based on level) (+25% bonus AD)",
+          "new_value": "20-35 (based on level) (+ 20% bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Crit Modifier",
+          "old_value": "100% (1.75/2.15x)",
+          "new_value": "100% (2.0/2.3x)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Backstab Modifier",
+          "old_value": "1.55/1.95x",
+          "new_value": "60% of bonus crit damage (1.6/1.78x)",
+          "delta_value": 58.45,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Backstab on Crit",
+          "old_value": "100% (1.75/2.15x)",
+          "new_value": "100% (2.0/2.3x)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Graves",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Crit Damage",
+          "old_value": "45% of bonus (33.75/51.75%)",
+          "new_value": "35% of bonus (35/45.5%)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Total Damage on Crit",
+          "old_value": "250-357% total AD",
+          "new_value": "252-360% total AD",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quinn",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "10-95 (based on level) (+ 16-50% (based on level) total AD)",
+          "new_value": "15-120 (based on level) (+ 40% bonus AD)",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Senna",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Crit Damage",
+          "old_value": "100% of total crit damage (1.75/2.15x)",
+          "new_value": "90% of total (1.8/2.07x)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garen",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "E Crit Ratio",
+          "old_value": "80% of total (1.4/1.72x)",
+          "new_value": "30% of bonus (1.3/1.39x)",
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Rengar",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Viego",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "% Current HP Crit Scaling",
+          "old_value": "100% of total (1.75/2.15x)",
+          "new_value": "50% of bonus (1.5/1.65x)",
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Second Strike Crit Scaling",
+          "old_value": "100% of total (1.75/2.15x)",
+          "new_value": "100% of bonus (2/2.3x)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Active Crit Mod",
+          "old_value": "100% of total (Up to 1.75/2.15x)",
+          "new_value": "50% of bonus (Up to 1.5/1.65x)",
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Crit Scaling",
+          "old_value": "Up to 2x",
+          "new_value": "70% of bonus (Up to 1.7/1.91x)",
+          "delta_value": 68.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Elise",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage Cap",
+          "old_value": "75/100/125/150/175",
+          "new_value": "65/85/105/125/145 (+ 90% AP)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Maximum Damage to Monsters",
+          "old_value": "115/170/225/280/335",
+          "new_value": "105/155/205/255/305 (+ 90% AP)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jax",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Omnivamp",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Doran's Blade",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Dusk and Dawn",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Fiendhunter Bolts",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Endless Hunger",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Bastionbreaker",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Actualizer",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Hexoptics C44",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Bandlepipes",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Protoplasm Harness",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Whispering Circlet",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Diadem of Songs",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Hextech Gunblade",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Stormrazor",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Unending Despair",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build path",
+          "old_value": "Aegis of the Legion + Giant's Belt + 800g",
+          "new_value": "Chain Vest + Kindlegem + Ruby Crystal + 800g",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor",
+          "old_value": "Increased from 25",
+          "new_value": 50,
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Magic Resistance",
+          "old_value": 25,
+          "new_value": "0 (REMOVED)",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Haste",
+          "old_value": "Increased from 10",
+          "new_value": 15,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Aegis of the Legion",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Horizon Focus",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build Path",
+          "old_value": "Fiendish Codex + Fiendish Codex + Blasting Wand + 200g",
+          "new_value": "Fiendish Codex + Fiendish Codex + Amplifying Tome + 600g",
+          "delta_value": 400.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "cost",
+          "stat_name": "Total Gold Cost",
+          "old_value": "2750g",
+          "new_value": "2700g",
+          "delta_value": -50.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Power",
+          "old_value": 125,
+          "new_value": 75,
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Hypershot",
+          "old_value": "Dealing ability damage to champions at 600 range or more units away from the cast position reveals them for 6 seconds",
+          "new_value": "Dealing ability damage to champions at 600 range or greater reveals them for 6 seconds. Deal 10% increased damage to enemies revealed by Hypershot.",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "utility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundered Sky",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 40,
+          "new_value": 45,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Lightshield Strike",
+          "old_value": "Critical strike damage decreased from 100%",
+          "new_value": "80%",
+          "delta_value": -20.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "sustain"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Lightshield Strike Cooldown",
+          "old_value": "8s",
+          "new_value": "10s",
+          "delta_value": 2.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown",
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Luden's Companion",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Name",
+          "old_value": "Luden's Companion",
+          "new_value": "Luden's Echo",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Echoes of Helia",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Essence Reaver",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build Path",
+          "old_value": "Pickaxe + Caulfield's Warhammer + Cloak of Agility + 375g",
+          "new_value": "Sheen + Caulfield's Warhammer + Cloak of Agility + 350g",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 60,
+          "new_value": 55,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Haste",
+          "old_value": 15,
+          "new_value": 20,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Umbral Glaive",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build Path",
+          "old_value": "Serrated Dirk + Caulfield's Warhammer + 450g",
+          "new_value": "Serrated Dirk + Caulfield's Warhammer + 750g",
+          "delta_value": 300.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "cost",
+          "stat_name": "Total Gold Cost",
+          "old_value": "2500g",
+          "new_value": "2800g",
+          "delta_value": 300.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 55,
+          "new_value": 60,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Haste",
+          "old_value": 10,
+          "new_value": 15,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Lethality",
+          "old_value": 15,
+          "new_value": 18,
+          "delta_value": 3.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Redemption",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build path",
+          "old_value": "Kindlegem + Forbidden Idol + 900g",
+          "new_value": "Fiendish Codex + Forbidden Idol + 850g",
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "cost",
+          "stat_name": "Total Gold Cost",
+          "old_value": "2300g",
+          "new_value": "2250g",
+          "delta_value": -50.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": 200,
+          "new_value": 0,
+          "delta_value": -200.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zeke's Convergence",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Muramana",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Mana",
+          "old_value": 860,
+          "new_value": 1000,
+          "delta_value": 140.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fimbulwinter",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Mana",
+          "old_value": 860,
+          "new_value": 1000,
+          "delta_value": 140.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mortal Reminder",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build Path",
+          "old_value": "Executioner's Calling + Last Whisper + Cloak of Agility + 450g",
+          "new_value": "Executioner's Calling + Last Whisper + Cloak of Agility + 150g",
+          "delta_value": -300.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "cost",
+          "stat_name": "Cost",
+          "old_value": "3300g",
+          "new_value": "3000g",
+          "delta_value": -300.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor penetration",
+          "old_value": "35%",
+          "new_value": "30%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lord Dominik's Regards",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build Path",
+          "old_value": "Last Whisper + Noonquiver + 350g",
+          "new_value": "Last Whisper + Noonquiver + 550g",
+          "delta_value": 200.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "cost",
+          "stat_name": "Cost",
+          "old_value": "3100g",
+          "new_value": "3300g",
+          "delta_value": 200.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor penetration",
+          "old_value": "40%",
+          "new_value": "35%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yun Tal Wildarrows",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build Path",
+          "old_value": "B. F. Sword + Scout's Slingshot + Long Sword + 750g",
+          "new_value": "B.F. Sword + Scout's Slingshot + Long Sword + 850g",
+          "delta_value": 100.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "cost",
+          "stat_name": "Cost",
+          "old_value": "3000g",
+          "new_value": "3100g",
+          "delta_value": 100.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 55,
+          "new_value": 50,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": "35%",
+          "new_value": "40%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infinity Edge",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build Path",
+          "old_value": "B.F. Sword + Pickaxe + Cloak of Agility + 675g",
+          "new_value": "B. F. Sword + Pickaxe + Cloak of Agility + 725g",
+          "delta_value": 50.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "cost",
+          "stat_name": "Cost",
+          "old_value": "3450g",
+          "new_value": "3500g",
+          "delta_value": 50.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 65,
+          "new_value": 75,
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Critical Strike Damage",
+          "old_value": "40%",
+          "new_value": "30%",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Symbiotic Soles",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Vigilant Wardstone",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "SR Ranked and Matchmaking",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Aegis of Valor",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Start of Game Flow",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Starting Level",
+          "old_value": 1,
+          "new_value": 3,
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Starting Gold",
+          "old_value": "500g",
+          "new_value": "1400g",
+          "delta_value": 900.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Pacing Changes",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Rubberbanding start time",
+          "old_value": "4:00",
+          "new_value": "0:30",
+          "delta_value": -4.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Turrets begin to lose resists",
+          "old_value": "25:00",
+          "new_value": "20:00",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Turrets begin to burn down from Sudden Death",
+          "old_value": "30:00",
+          "new_value": "25:00",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Death timers by level",
+          "old_value": "10s - 52.5s",
+          "new_value": "10s - 40s",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Cannon Minion health scaling",
+          "old_value": 85,
+          "new_value": 100,
+          "delta_value": 15.0,
+          "direction": "buff",
+          "tags": [
+            "waveclear",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Minion damage to turrets multiplier",
+          "old_value": "50%",
+          "new_value": "60%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "waveclear"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Fame Track",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Augments",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Augment Tier",
+          "old_value": "Prismatic",
+          "new_value": "Gold",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 60,
+          "new_value": 90,
+          "delta_value": 30.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Power",
+          "old_value": 80,
+          "new_value": 110,
+          "delta_value": 30.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Movement Speed",
+          "old_value": "5%",
+          "new_value": "10%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Immolate Range",
+          "old_value": 300,
+          "new_value": 400,
+          "delta_value": 100.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Bug Fixes",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Demacia Rising",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Clash - Summoner's Rift Demacia Cup",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Bugfixes & QoL Changes",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Upcoming Skins & Chromas",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Durand's Legacy Taliyah",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Related Articles",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}

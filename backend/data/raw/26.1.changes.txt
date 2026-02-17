@@ -1,0 +1,505 @@
+Aphelios
+
+    Many of Aphelios's abilities can crit, and while we compensated for this power increase, he's still become one of the strongest champions in the game. We're here to reduce some of that burst damage while preserving the power of his weaker AD-AS builds. 
+
+Passive - The Hitman and the Seer
+
+    Lethality per E rank: 5.5 ⇒ 4.5
+
+Graves
+
+    Graves is looking worse for wear in the new season and seems to not need some of the preemptive crit damage mitigations we put in place. So we're here to help his crit attacks have more oomph. Graves's critical strikes are pretty complicated but the short of it is that now a crit will deal twice as much damage as a non-crit if all pellets hit. 
+
+Passive - New Destiny
+
+    Crit Scaling: 35% bonus crit damage ⇒ 50% bonus crit damage
+    Maximum damage on crit relative to non crit: 1.8x ⇒ 2x
+
+Kayle
+
+    Kayle - Q max is looking very strong this patch due to the top lane XP buffs. Removing some AP scaling we added back when there were less AP items available that improved attack power. 
+
+Passive - Divine Ascent
+
+    Attack Speed per stack: 6% (+1% per 100 AP) ⇒ 6%
+
+Q - Radiant Blast
+
+    Mana Cost: 70 / 75 / 80 / 85 / 90 ⇒ 60 / 70 / 80 / 90 / 100
+    Slow: 26 / 32 / 38 / 44 / 50% ⇒ 25 / 30 / 35 / 40 / 45%
+
+Nilah
+
+    Nilah has been the biggest winner of this patch's systemic changes to bot lane and so is deserving of a meaningful adjustment. Because she gets plenty of attack speed from her Q, we're taking a chunk out of her base stat growth. 
+
+Base Stats
+
+    AS Growth: 2% ⇒ 1.25%
+
+Q - Formless Blade
+
+    Crit scaling multiplier: 80% bonus crit damage ⇒ 70% bonus crit damage
+
+Quinn
+
+    Quinn has suffered more than most in the new season from systemic changes like the removal of Symbiotic Soles and role quests. Since she was hit hardest in top lane, we're targeting her level scaling and giving a boost to her passive. This should further reward effective snowballing and buff the early trading she needs to get her quest online earlier, supporting Quinn players whether they want to continue playing a heavy roaming style or lean more into split pushing. 
+
+Base Stats
+
+    AD Growth: 2.7 ⇒ 3.2
+
+Passive - Harrier
+
+    Base Cooldown: 8 seconds ⇒ 7 seconds
+
+Rammus
+
+    Rammus has had a lot of success with some of the new map changes. We still want him to maintain his identity as a particularly strong pick into an AD comp, but we look to curve a bit of that power against magic damage champs. 
+
+Base Stats
+
+    Health: 675 ⇒ 645
+
+W - Defensive Ball Curl
+
+    Magic Resist: 27 / 32 / 37 / 42 / 47 ⇒ 20 / 25 / 30 / 35 / 40
+
+Tryndamere
+
+    We overcompensated for how much Tryndamere would gain from the base crit damage increases, so we're here to make things better for him. We're leading with a big E buff to make him less reliant on lucky crits for successful trades and help him not need a Tiamat for wave clear. He's also getting a W slow duration to make him better at taking extended fights. 
+
+W - Mocking Shout
+
+    Slow Duration: 2.5 seconds ⇒ 3.25 seconds
+
+E - Spinning Slash
+
+    Base Damage: 70 / 105 / 140 / 175 / 210 ⇒ 80 / 120 / 160 / 200 / 240
+Cassiopeia
+
+    While Cassiopeia's no boots passive is very thematic, the addition of more boot based systems over the years (like role quest rewards) has made it feel like a punishment at times instead of a boon. We think it's important for Cassio to have the opportunity to engage with these new systems so we're reworking the passive into a new movement based effect. (We also wanted to do Soobin a solid.) 
+
+Base Stats
+
+    Base Movement Speed: 328 ⇒ 335
+
+Passive - Serpentine Grace
+
+    Passive Rework: Gain 4-72 Movement Speed (Based on level), but she cannot purchase boots. ⇒ Increased effectiveness of all Movement Speed buffs by 6-40% (based on level).
+
+Samira
+
+    We like that Samira's R and Q are almost direct auto-attack replacements and want to preserve as much of their crit damage as possible. However, with the value of crit going up, the value of AD must then go down. 
+
+Q - Flair
+
+    Q Non-Crit Damage: 5/10/15/20/25 (+ 95/102.5/110/117.5/125% total AD) ⇒ 0/5/10/15/20 (+ 110% total AD)
+    Q Critical Strike Damage: 1.25/1.65x with IE ⇒ 50% of bonus crit damage: 1.5/1.65x with IE
+
+R - Inferno Trigger
+
+    R Non-Crit Damage: 5/15/25 + 45% total AD ⇒ 20/40/60 + 30% total AD
+    R Critical Damage: 1.75/2.15x with IE ⇒ 100% of bonus crit damage: 2.0/2.3x with IE
+
+Aphelios
+
+    Aphelios has a lot of intricacies and some of his abilities try to behave exactly like basic attacks. With that in mind, we're converting Severum's active to total attack damage in line with similar abilities and generally lowering the bonus AD ratios of several abilities that already scale well due to firing off basic attacks that can crit as part of their cast. 
+
+Calibrum
+
+    Bonus Damage per Mark: 15 (+ 20% bonus AD) ⇒ 15 (+ 10% bonus AD)
+
+Severum
+
+    Onslaught Damage per Hit: 10/15/20/25/30/35/40 (+ 22/25/28/31/34/37/40% bonus AD) ⇒ (+ 19/22.5/26/29.5/33/36.5/40% total AD)
+    Still critically strikes for 100% crit damage (1.75/2.15x ⇒ 2.0/2.3x)
+
+Infernum
+
+    Duskwave Active Damage: 25/31.67/38.33/45/51.67/58.33/65 (+ 56/60/64/68/72/76/80% bonus AD) ⇒ 20/35/50/65/80/95/110 (+ 10/11/12/13/14/15/16% bonus AD)
+    Follow-up attack still critically strikes for 100% crit damage (1.75/2.15x ⇒ 2.0/2.3x)
+
+Crescendum
+
+    Sentry Active Damage: 35/50/65/80/95/110/125 (+ 42/45/48/51/54/57/60% bonus AD) ⇒ 35/50/65/80/95/110/125 (+ 30/32/34/36/38/40/42% bonus AD)
+    Still critically strikes for 100% crit damage (1.75/2.15x ⇒ 2/2.3x)
+
+R - Moonlight Vigil
+
+    Follow-Up Attack Critical Damage: 1.2/1.6x with IE ⇒ 30% of bonus critical strike damage: 1.3/1.39x with IE
+
+Caitlyn
+
+    Caitlyn's top-end Headshot damage has gotten out of hand and with the value of critical strikes going up it's about to get even stronger, so we're taking a heavy swing to Headshot's top end. We're also making her R scale with Infinity Edge, as it already scales with critical strike chance, but we're reducing its damage to make room for her stronger basic attacks. 
+
+Passive - Headshot
+
+    Crit Scaling: 0-148.75/182.75% total AD ⇒ 100%*Bonus Crit Damage (0-100/130% total AD)
+
+R - Ace in the Hole
+
+    Crit Scaling: Up to 1.5x ⇒ 30% of bonus critical strike damage: up to 1.3/1.39x with IE
+
+Tristana
+
+    Tristana's E is one of the sharpest-scaling abilities in the game, and considering her late game is already poised to be great with a strong attack speed steroid, long range, and lots of crit damage, we think the top end of her E can stand to go down a few pegs. 
+
+E - Explosive Charge
+
+    Non-crit Damage: 60/70/80/90/100 (+ 100/110/120/130/140% bonus AD) ⇒ 60/85/110/135/160 (+ 80% bonus AD)
+    Crit Scaling: 100%: Up to 1.75/2.15x with IE ⇒ 40% of critical strike damage: 1.40/1.52x with IE
+
+Nilah
+
+    Nilah's in an interesting place where her Q didn't scale with Infinity Edge, so unlocking that avenue marks a small power increase on top of her basic attacks getting better, so we sought to find other ways to slightly lower her late game scaling as compensation. 
+
+Base Stats
+
+    Attack Speed Growth: 2.25% ⇒ 2%
+
+Q - Formless Blade
+
+    Active Damage: 5/10/15/20/25 (+ 90/95/100/105/110% total AD) ⇒ 0/10/20/30/40 (+ 100% total AD)
+    Crit Scaling: Up to 2x ⇒ 80% of bonus crit damage: 1.8/2.04x
+    Armor Penetration Crit Scaling: 0-33% ⇒ 0-30%
+
+R - Apotheosis
+
+    Mana Cost: 80 ⇒ 100
+
+Jinx
+
+    We like the overall shape of how Jinx functions and generally just want to preserve the value of her minigun's high attack speed, so we're making sure her two stances are more distinguished from one another and generally lowering a bit of spell damage to keep her attack-focused. 
+
+Base Stats
+
+    Attack Speed Growth: 1.4% ⇒ 1%
+
+R - Super Mega Death Rocket!
+
+    Maximum Flat Damage: 250/400/550 (+ 130% bonus AD) ⇒ 200/350/500 (+ 120% bonus AD)
+
+Jhin
+
+    Jhin won't behave any differently next season as we want to avoid letting his guaranteed crit fourth shot do too much damage. 
+
+Base Stats
+
+    Multiplicative Crit Damage Mod: 86% ⇒ 75% (1.505x ⇒ 1.5x)
+
+Sivir
+
+    As Sivir's going to gain a lot of power from stronger Ricochet crits, we're reducing her Q's scaling. 
+
+Q - Boomerang Blade
+
+    Damage: 60/85/110/135/160 (+ 85% bonus AD) ⇒ 60/85/110/135/160 (+ 70% bonus AD)
+    Crit Scaling: Up to 1.5x ⇒ 40%: 1.4/1.52x
+
+Zeri
+
+    We're updating Zeri's E to crit exactly as a basic attack would, which means re-tuning some of her abilities to make room for that power. 
+
+W - Ultrashock Laser
+
+    Damage: 30/70/110/150/190 (+ 130% total AD) ⇒ 30/70/110/150/190 (+ 120% total AD)
+    Through-Wall Damage: 1.75x, 2.15x with IE ⇒ 75% of bonus critical strike damage: 1.75/1.975x
+    Tooltip now shows the enhanced damage
+    Damage now cosmetically critically strikes its targets when shot through a wall
+
+E - Spark Surge
+
+    Damage: 20/22/24/26/28 (+12% bonus AD) ⇒ 17/19/21/23/25 (+ 10% bonus AD)
+    Crit Scaling: Up to 1.85x every hit ⇒ 100% of bonus crit damage on crit: 2.0/2.3x
+
+R - Lightning Crash
+
+    Active Damage: 200/300/400 (+ 100% bonus AD) ⇒ 150/250/350 (+ 100% bonus AD)
+
+Lucian
+
+    Lucian's builds are pretty sensible and as a spell-focused ADC, but we want to make sure his spell scaling is good. We're updating R to fire even more bullets with crit damage, which will make crit scale his ult just as well as it scales basic attacks. Considering he's already got extremely strong AD scaling and we want to make sure that Navori Flickerblades feels good, we're bringing down some of his Q's AD scaling. 
+
+Base Stats
+
+    Attack Damage Growth: 2.9 ⇒ 2.5
+    Attack Speed Growth: 3.3% ⇒ 2.5%
+
+Q - Piercing Light
+
+    Damage: 85/115/145/175/205 (+ 60/75/90/105/120% bonus AD) ⇒ 80/115/150/185/220 (+ 100% bonus AD)
+
+R - The Culling
+
+    R Extra Bolts from Crit Chance: Up to 25 ⇒ 100% of bonus crit damage: Up to 22/28
+    Total R Bolts: 22-47 (based on critical strike chance) ⇒ 22-44/50 (based on critical strike chance and damage)
+
+Xayah
+
+    We're updating Xayah's E to care about crit damage and adjusting her E's overall damage profile to be more reliable and less snowbally. 
+
+E - Bladecaller
+
+    Damage: 55/65/75/85/95 (+ 60% bonus AD) ⇒ 50/65/80/95/110 (+ 40% bonus AD)
+    Crit Scaling: Up to 75% ⇒ Up to 50% of bonus crit damage: 1.5/1.65x
+
+Draven
+
+    Draven is very auto-attack focused and averages about two crit items per game, so he's also in need of some compensation. Considering he's gaining direct auto-attack DPS, we're trying to compensate him directly on the same axis. 
+
+Base Stats
+
+    AD Growth: 3.6 ⇒ 3
+
+W - Blood Rush
+
+    Attack Speed: 30/35/40/45/50% ⇒ 20/25/30/35/40%
+
+Yunara
+
+    Yunara has a crit build and an on-hit build, but even her on-hit build almost always picks up Hurricane, so she's getting stronger no matter what she does next season. We're looking for nerfs that will skew more toward low-Attack Speed high-AD crit builds, as they'll be more directly buffed by the global crit damage increase. 
+
+Q - Cultivation of Spirit
+
+    Attack Speed: 25/35/45/55/65% ⇒ 20/30/40/50/60%
+
+>R+W - Arc of Ruin
+
+    Damage: 175/350/525 (+ 150% bonus AD) ⇒ 160/320/480 (+ 120% bonus AD)
+
+Akshan
+
+    Akshan's abilities currently scale crit in three different ways and we're making that more consistent here. His passive auto, being functionally a true basic attack, will crit for 100% value. Meanwhile, the crit scaling on E and R are going down as compensation. We're also doing some discretionary adjustments to allow Q-max and E-max to perform at similar levels of power by adjusting their rank-up incentives. 
+
+Passive - Dirty Fighting
+
+    P second shot crit damage: 30% of bonus crit damage (1.225/1.345x) ⇒ 100% of bonus crit damage: 2/2.3x
+    Fixed a bug where the second shot could bypass blind if it didn't crit.
+
+Q - Avengerang
+
+    Damage: 5/25/45/65/85 (+ 80% total AD) ⇒ 45/75/105/135/165 (+ 70% bonus AD)
+
+E - Heroic Swing
+
+    Damage: 15/30/45/60/75 (+ 15% total AD) ⇒ 8/16/24/32/40 (+ 25% total AD)
+    Crit Scaling: 1.575/1.935x ⇒ 50% of bonus crit damage: 1.5/1.65x
+    Clarified that damage scales with attack speed in tooltip.
+
+R - Comeuppance
+
+    Crit Scaling: 1.5/1.7x ⇒ 30% of bonus crit damage: 1.3/1.42x
+
+Gangplank
+
+    Gangplank is one of two champions (alongside Smolder) who we think is going to gain extra power due to Essence Reaver once again building from Sheen. We expect him to perform much, much better with his increased critical strike damage, so we're pulling out many of the unique crit scalars that have been added over the years and delivering an extra hit to his E on top. 
+
+Passive - Trial by Fire
+
+    Damage: 50-250 (based on level) (+100% bonus AD) (+200% Crit Chance) ⇒ 50-250 (+ 100% bonus AD) (+ 0% crit scaling)
+
+E - Powder Keg
+
+    Bonus Champion Damage: 75 / 105 / 135 / 165 / 195 ⇒ 75 / 95 / 115 / 135 / 155
+    Timer no longer reduces to 0.25 seconds at level 19.
+    No longer deals 5% more damage on critical strike.
+
+Yone
+
+    Yone won't be much different this year. Considering he doubles how much critical strike chance he gets from each item, he just isn't allowed to crit for full damage. 
+
+Base Stats
+
+    Crit Damage: 1.75/2.15x ⇒ 90% (1.8/2.07x)
+
+Yasuo
+
+    Yasuo won't be much different this year. Considering he doubles how much critical strike chance he gets from each item, he just isn't allowed to crit for full damage. 
+
+Base Stats
+
+    Crit Damage: 1.75/2.15x ⇒ 90% (1.8/2.07x)
+
+Miss Fortune
+
+    Miss Fortune tends to build quite a lot of critical strike chance and we'd like it to stay that way, but she can't just be directly buffed so we're here to compensate some of that value by softening her Q crit mod. For her R, we want to make sure that critical strikes feel like they have some impact, so we're increasing the crit mod slightly, but in order to not push her scaling too hard, have compensated that with a new base damage and a lower AD ratio. 
+
+Q - Double Up
+
+    Active Critical Damage: 1.75/2.15x ⇒ 50% of bonus crit damage (1.5/1.65x)
+
+R - Bullet Time
+
+    Damage: 80% total AD (+ 25% AP) ⇒ 20 / 30 / 40 (+60% Total AD) (+ 25% AP)
+    Crit Scaling: 1.2/1.28x ⇒ 30% of bonus crit damage (1.3/1.39x)
+
+Tryndamere
+
+    Tryndamere is getting some real gameplay updates with this patch and some very real nerfs due to how much critical strike chance he normally has. To weaken how incredible his early game all-ins can be with 200% crit damage, we're nerfing his early bonus AD from Q and nerfing his early E as well. However, he's also getting some new tools.
+
+    First, his Q now gives full value at 10% remaining health, meaning he can get the full bonus attack damage during his ultimate and it no longer has a disincentive for ranking up. Second, his W will now slow enemies any time they are running away from Tryndamere, regardless of where they were looking when he cast it. We expect this substantial increase in reliability is a big buff, so we've preemptively nerfed the slow itself. Though the slow duration is going down, the AD reduction is still the full four seconds regardless of facing. 
+
+Q - Bloodlust
+
+    Bonus AD: 5 / 10 / 15 / 20 / 25 (+ up to 15 / 25 / 35 / 45 / 55 based on missing health) ⇒ 0 (+20 / 35 / 50 / 65 / 80 based on missing health)
+    Maximum Bonus AD: Max at 0% remaining HP ⇒ Max at 10% remaining HP
+    Clarified the per-fury and maximum heal in Q's tooltip.
+
+W - Mocking Shout
+
+    No longer slows enemies who are facing away when cast for 4 seconds.
+    Now slows any enemy while they're facing away from Tryndamere during the 2.5 second debuff.
+    Slow: 30 / 37.5 / 45 / 52.5 / 60% ⇒ 30 / 35 / 40 / 45 / 50%
+    Enemy attack damage is still reduced by 4 seconds.
+
+E - Spinning Slash
+
+    Damage: 75 / 105 / 135 / 165 / 195 (+ 130% Bonus AD) ⇒ 70 / 105 / 140 / 175 / 210 (+ 100% Bonus AD)
+
+Twitch
+
+    Twitch's late game team deletion with 200% crit damage will probably be too fast, so we're targeting some general late-game DPS nerfs. 
+
+Base Stats
+
+    Attack Speed Growth: 3.38% ⇒ 3%
+    Attack Damage Growth: 3.1 ⇒ 3
+
+Q - Ambush
+
+    Bonus Attack Speed: 45 / 50 / 55 / 60 / 65% ⇒ 40 / 45 / 50 / 55 / 60%
+
+Ashe
+
+    Ashe is already quite attack-reliant and pretty balanced but considering she buys about 1.5 crit items per game, we're lowering her late game a little to make room for the increased damage coming her way. 
+
+Base Stats
+
+    Attack Speed Growth: 3.33% ⇒ 3%
+    Attack Damage Growth: 3.45 ⇒ 3
+
+Passive - Frost Shot
+
+    Crit Scaling: 100% (up to 1.75/2.15x) ⇒ 100% (up to 2/2.3x)
+
+W - Volley
+
+    Damage: 60 / 95 / 130 / 165 / 200 (+ 110% Bonus AD) ⇒ 60 / 95 / 130 / 165 / 200 (+ 100% Bonus AD)
+
+Smolder
+
+    Smolder, like Gangplank, stands to gain a lot of power from Essence Reaver's changes in this patch so we're taking a swing at how strongly his Q scales with critical strike purchases. 
+
+Q - Super Scorcher Breath
+
+    Crit Scaling: Up to 1.75/2.15x ⇒ 50% of bonus crit damage (Up to 1.5/1.65x) (also affects passive Q stacks)
+
+Kindred
+
+    Kindred's E mechanics are rather confusing and they build several critical strike items already. So we're updating the E to be much easier to understand and reducing the numbers. We're also modernizing the E's monster cap to allow for more damage when building AD and ranking up the ability. 
+
+E - Mounting Dread
+
+    Missing Health Crit: 1.5/1.9x if target is below 25-75% (based on crit chance) Health ⇒ 50% of bonus crit chance and crit damage always (up to 1.5/1.65x)
+    Pounce Damage: 1.75/2.15x on crit ⇒ 50% of bonus crit chance and crit damage always (up to 1.5/1.65x)
+    Monster Damage Cap: 300 including base damage and bonus AD ratio ⇒ 200 to only the %HP portion (This is a buff in almost all scenarios)
+
+Corki
+
+    Corki isn't particularly strong at the moment, so while this is a nerf on paper, we expect Corki will be overall stronger at the start of the season. This nerf is aimed at weakening his ability to crush a minion wave right before a Recall. 
+
+W - Valkyrie
+
+    Damage per second: 40 / 55 / 70 / 85 / 100 (+40% bonus AD) (+ 30% AP) ⇒ 30 / 45 / 60 / 75 / 90 (+40% bonus AD) (+ 30% AP)
+
+Shaco
+
+    When Shaco crits during a Backstab or a Deceive, everything crits along with it for his full crit damage, so his top end can be very, very high. We like that he builds for crit sometimes and want to let as many of these tools inherit the new higher base crit damage, but also want to modernize his other scalings to respect crit damage mods more consistently and generally preserve the total power level of Shaco builds that don't buy any critical strike chance. 
+
+Passive - Backstab
+
+    Damage: 20-35 (based on level) (+25% bonus AD) ⇒ 20-35 (based on level)(+ 20% bonus AD)
+    Crit Modifier: 100% (1.75/2.15x) ⇒ 100% (2.0/2.3x)
+
+Q - Deceive
+
+    Backstab Modifier: 1.55/1.95x ⇒ 60% of bonus crit damage (1.6/1.78x)
+    Backstab on Crit: 100% (1.75/2.15x) ⇒ 100% (2.0/2.3x)
+
+Graves
+
+    The functional result of these Graves changes should be almost nothing. He'll deal about 1% more damage with his basic attacks when critically striking. 
+
+Base Stats
+
+    Crit Damage: 45% of bonus (33.75/51.75%) ⇒ 35% of bonus (35/45.5%)
+    Total Damage on Crit: 250-357% total AD ⇒ 252-360% total AD
+
+Quinn
+
+    As Quinn builds a decent amount of crit and that crit manifests in stronger autos and more passive procs, we're compensation nerfing those same auto-reliant passive procs. 
+
+Passive - Harrier
+
+    Damage: 10-95 (based on level) (+ 16-50% (based on level) total AD) ⇒ 15-120 (based on level) (+ 40% bonus AD)
+
+Senna
+
+    Like Jhin, Yasuo, and Yone, Senna's guaranteed critical strikes cannot sustain a 2x modifier, so we're lowering her base crit damage down to a value similar to last year. 
+
+Base Stats
+
+    Crit Damage: 100% of total crit damage (1.75/2.15x) ⇒ 90% of total (1.8/2.07x)
+
+Garen
+
+    Critical strike chance on Garen is pretty good since both his basic attacks and Judgment are improved by it. We want to continue to make space for non-crit Garen builds, so we're compensating the global critical strike damage increase and updating the calculation to properly discount bonus crit damage. 
+
+E - Judgement
+
+    E Crit Ratio: 80% of total (1.4/1.72x) ⇒ 30% of bonus (1.3/1.39x)
+
+Rengar
+
+    Rengar is getting a heavy re-script. This is mostly intended to maintain current functionality and feel, while addressing bugs and tech debt. The list of bug fixes is too long to add here so it'll be added to the bugs section. Alongside the crit changes, we're looking to make Rengar's Q work more intuitively by letting the underlying attack itself roll for critical strikes, and if so, deal bonus damage based on his total AD. This removes an optimization around rushing Infinity Edge to enhance the old forced-crit mechanic and also makes him not immediately lose 30% of his damage if his opponents build Randuin's Omen. We'll keep an eye on lethality-vs-crit Rengar and how it performs next season as we suspect Essence Reaver will be a big deal on him. 
+
+    All abilities rescripted
+
+Q - Savagery
+
+    Q is now consumed on plants
+    Q is no longer always always considered a critical strike
+    Q damage no longer deals up to 101.25% total AD bonus damage based on crit chance and damage
+    Q now deals 100/130% total AD bonus damage if Rengar crits the attack.
+
+Viego
+
+    Viego buys a decent amount of crit chance and we want to make sure those crits allow him to play out a consistent auto-attack pattern, so the larger nerfs are to the active damage of the Q and R. 
+
+Q - Blade of the Ruined King
+
+    % Current HP Crit Scaling: 100% of total (1.75/2.15x) ⇒ 50% of bonus (1.5/1.65x)
+    Second Strike Crit Scaling: 100% of total (1.75/2.15x) ⇒ 100% of bonus (2/2.3x)
+    Active Crit Mod: 100% of total (Up to 1.75/2.15x) ⇒ 50% of bonus (Up to 1.5/1.65x)
+
+R - Heartbreaker
+
+    Crit Scaling: Up to 2x ⇒ 70% of bonus (Up to 1.7/1.91x)
+
+Elise
+
+    Elise is in a silly spot where ability power quickly fails to scale her damage against monsters after the mid game. We're delivering a change that will be a slight buff on average but is primarily meant to let her damage scale up with AP like it would for anyone else. 
+
+Q - Neurotoxin / Venomous Bite
+
+    Monster Damage Cap: 75/100/125/150/175 ⇒ 65/85/105/125/145 (+ 90% AP)
+    Maximum Damage to Monsters: 115/170/225/280/335 ⇒ 105/155/205/255/305 (+ 90% AP)
+
+Jax
+
+    Now that the top lane quest can raise champion levels to 20, we're looking for any champions who intermittently scale their passives and giving them another breakpoint if they deserve one. Jax is one such champion who's gaining a bit more attack speed at level 19. 
+
+Passive - Relentless Assault
+
+    Now gains an additional 1.5% attack speed per stack at level 19.
+

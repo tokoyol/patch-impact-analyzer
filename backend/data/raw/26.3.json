@@ -1,0 +1,1349 @@
+{
+  "version": "26.3",
+  "release_date": "2026-02-03",
+  "raw_notes": "Firecracker Skins will be available February 4th, 2026. Deathknell Augments: Clown College, Train of the Dead, Self Destruct, Dive Bomber Firecracker Augments: Fan the Hammer, Magic Missile, Critical Missile, Light'em Up, Typhoon, Twin Fire High Roller Augments: Transmute Chaos, Pandora's Box, Stats on Stats on Stats, Transmute Prismatic, Stats on Stats, Stats, Transmute Gold Stackasaurus Rex Augments: Infinite Recursion, Master of Duality, Tap Dancer, Soul Eater, Quest: Steal your heart, Phenomenal Evil, Shrink Engine, Hubris, Slap Around Wee Woo Wee Woo Augments: Windspeaker's Blessing, I'm a Baby Kitty Where is Mama, Upgrade: Mikaels Blessing, All For You, Critical Healing, Sonata, First Aid Kit. Fully Automated Augments: Prom Queen, Quantum Computing, Ok Boomerang, Sonata, Divine Intervention, Self Destruct, Frost Wraith, Firefox Archmage Augments: Overflow, Mind to Matter, Buff Buddy, Juiced, Ocean Soul Make it Rain Augments: Goldrend, Heads Up Cupcake!, Donation, Red Envelope, From Beginning to End, Upgrade Immolate, Upgrade Collector Snowday Augments: Biggest Snowball, Golden Snowball, Snowball Upgrade, Pinball Snowball, Snowball Roulette Empyrean Promise Lesser Heal Cerberus Goldrend From Beginning to End Lightning Strike Mystic Punch Faelights at River Pixel Brush Locations Stealth Ward Trinket Other Changes The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Patch Highlights",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "MAYHEM PROGRESSION TRACK",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "AUGMENT SETS",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "QUALITY OF LIFE",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Turret Plates",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Bulwark Temporary Resistances",
+          "old_value": "20-100 per plate based on nearby enemy champions",
+          "new_value": "30-50 per plate based on nearby enemy champions",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faelights & Vision",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Reveal region shape",
+          "old_value": "expanded past scuttle pad and epic pit entrance",
+          "new_value": "cuts off before scuttle pad and epic pit entrance",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": [
+            "utility"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "170-90s (by level)",
+          "new_value": "210-90s (by level)",
+          "delta_value": 40.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ahri",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "10 / 9 / 8 / 7 / 6",
+          "new_value": "9 / 8 / 7 / 6 / 5",
+          "delta_value": -1.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bel'Veth",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health Growth",
+          "old_value": 99,
+          "new_value": 105,
+          "delta_value": 6.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "True Damage on attack per stack",
+          "old_value": "6 / 8 / 10 (+ 12% Bonus AD)",
+          "new_value": "6 / 10 / 14 (+ 12% Bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Braum",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": 630,
+          "new_value": 610,
+          "delta_value": -20.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "75 / 125 / 175 / 225 / 275 (+ 2.5% HP)",
+          "new_value": "75 / 120 / 165 / 210 / 255 (+ 2.5% HP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Briar",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health Growth",
+          "old_value": 95,
+          "new_value": 100,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": 4.2,
+          "new_value": 4.5,
+          "delta_value": 0.2999999999999998,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Health Cost",
+          "old_value": "6% current health",
+          "new_value": "5% current health",
+          "delta_value": -1.0,
+          "direction": "buff",
+          "tags": [
+            "mana",
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diana",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage",
+          "old_value": "280%",
+          "new_value": "230%",
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Draven",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "AD Growth",
+          "old_value": 3,
+          "new_value": 3.4,
+          "delta_value": 0.3999999999999999,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Ekko",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "AP Ratio",
+          "old_value": "90%",
+          "new_value": "80%",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage",
+          "old_value": "300%",
+          "new_value": "270%",
+          "delta_value": -30.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ezreal",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "AD Growth",
+          "old_value": 3.25,
+          "new_value": 3.5,
+          "delta_value": 0.25,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "80 / 130 / 180 / 230 / 280 (+ 50% Bonus AD) (+ 75% AP)",
+          "new_value": "80 / 130 / 180 / 230 / 280 (+ 60% Bonus AD) (+ 75% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hecarim",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage per hit",
+          "old_value": "60 / 85 / 110 / 135 / 160 (+ 90% Bonus AD)",
+          "new_value": "60 / 90 / 120 / 150 / 180 (+ 90% Bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage amp per Rampage stack",
+          "old_value": "3% (+ 4% per 100 Bonus AD)",
+          "new_value": "3% (+ 3% per 100 Bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heimerdinger",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health Growth",
+          "old_value": 101,
+          "new_value": 105,
+          "delta_value": 4.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Initial hit damage",
+          "old_value": "40 / 65 / 90 / 115 / 140 (+ 55% AP)",
+          "new_value": "50 / 75 / 100 / 125 / 150 (+ 55% AP)",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jayce",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "60 / 105 / 150 / 295 / 240 / 285 (+135% Bonus AD)",
+          "new_value": "60 / 110 / 160 / 210 / 260 / 310 (+ 135% Bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Monster bonus damage",
+          "old_value": 25,
+          "new_value": 10,
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "80 / 126 / 172 / 218 / 264 / 310 (+ 140% Bonus AD)",
+          "new_value": "80 / 121 / 162 / 203 / 244 / 285 (+ 130% Bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor/Magic Resistance Shred",
+          "old_value": "10 / 15 / 20 / 25%",
+          "new_value": "20 / 25 / 30 / 35%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kayn",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "75 / 100 / 125 / 150 / 175 (+ 85% Bonus AD)",
+          "new_value": "75 / 105 / 135 / 165 / 195 (+ 85% Bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maokai",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Flat Damage",
+          "old_value": "65 / 110 / 155 / 200 / 245",
+          "new_value": "75 / 120 / 165 / 210 / 255",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mel",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Ratio",
+          "old_value": 0.4,
+          "new_value": 0.625,
+          "delta_value": 0.22499999999999998,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Projectile Damage",
+          "old_value": "8-50 (based on level) (+ 5% AP)",
+          "new_value": "8-25 (based on level) (+ 3% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Total Projectile Damage",
+          "old_value": "24-150 (based on level) (+ 15% AP)",
+          "new_value": "24-75 (based on level) (+ 9% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Total Damage",
+          "old_value": "78 / 109 / 144 / 185 / 230 (+51-85% AP)",
+          "new_value": "85 / 126 / 169 / 214 / 261 (+ 85-105% AP)",
+          "delta_value": 7.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": "70 / 80 / 90 / 100 / 110",
+          "new_value": "70 / 75 / 80 / 85 / 90",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Minion Damage",
+          "old_value": "75%",
+          "new_value": "100%",
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "waveclear"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Cast Time",
+          "old_value": "0.25s",
+          "new_value": "0.35s",
+          "delta_value": 0.09999999999999998,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Projectile Speed",
+          "old_value": 4500,
+          "new_value": 3800,
+          "delta_value": -700.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Explosion Radius",
+          "old_value": 230,
+          "new_value": 200,
+          "delta_value": -30.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Area Spread",
+          "old_value": 30,
+          "new_value": 25,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Channel Time",
+          "old_value": "0.75s",
+          "new_value": "0.5s",
+          "delta_value": -0.25,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Decaying Move Speed",
+          "old_value": "30% over 0.75s",
+          "new_value": "40% over 1.5s",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Root Missile Radius",
+          "old_value": 80,
+          "new_value": 70,
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "End of Travel Linger Duration",
+          "old_value": "0.5s",
+          "new_value": "0.25s",
+          "delta_value": -0.25,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "DoT Radius",
+          "old_value": 260,
+          "new_value": 230,
+          "delta_value": -30.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Cast Range",
+          "old_value": 1050,
+          "new_value": 1000,
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Projectile Speed",
+          "old_value": 1000,
+          "new_value": 1100,
+          "delta_value": 100.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "12 / 11.5 / 11 / 10.5 / 10",
+          "new_value": "11 / 10.5 / 10 / 9.5 / 9",
+          "delta_value": -1.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Root Duration",
+          "old_value": "1.1 / 1.2 / 1.3 / 1.4 / 1.5",
+          "new_value": 1.5,
+          "delta_value": 0.3999999999999999,
+          "direction": "buff",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "60 / 100 / 140 / 180 / 220",
+          "new_value": "60 / 105 / 150 / 195 / 240",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage per Second",
+          "old_value": "16 / 26 / 36 / 46 / 56",
+          "new_value": "16 / 28 / 40 / 52 / 64",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage per Stack",
+          "old_value": "4 / 7 / 10 (+ 3.5% AP)",
+          "new_value": "4 / 7 / 10 (+ 4% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Naafiri",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Packmate Monster Damage",
+          "old_value": "1.35x",
+          "new_value": "1.55x",
+          "delta_value": 0.19999999999999996,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nilah",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 60,
+          "new_value": 58,
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": 4.5,
+          "new_value": 4.2,
+          "delta_value": -0.2999999999999998,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nunu and Willump",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Maximum Damage",
+          "old_value": "150 / 195 / 240 / 285 / 330",
+          "new_value": "180 / 225 / 270 / 315 / 360",
+          "delta_value": 30.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Base Damage per hit",
+          "old_value": "14 / 21 / 28 / 35 / 42",
+          "new_value": "15 / 22.5 / 30 / 37.5 / 45",
+          "delta_value": 1.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Riven",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Total AD Ratio",
+          "old_value": "30-50% (based on level)",
+          "new_value": "30-45% (based on level)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "40 / 75 / 105 / 135 / 165 (+ 65 / 70 / 75 / 80 / 85% Bonus AD)",
+          "new_value": "40 / 75 / 105 / 135 / 165 (+ 60 / 65 / 70 / 75 / 80% Bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trundle",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": 3.9,
+          "new_value": 4.5,
+          "delta_value": 0.6000000000000001,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 4,
+          "new_value": 4.5,
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tryndamere",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 4,
+          "new_value": 4.5,
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Varus",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": 4.6,
+          "new_value": 4,
+          "delta_value": -0.5999999999999996,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "On-hit damage",
+          "old_value": "8 / 17 / 26 / 35 / 44 (+ 35% AP)",
+          "new_value": "8 / 17 / 26 / 35 / 44 (+ 25% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Max health damage",
+          "old_value": "3 / 3.5 / 4 / 4.5 / 5% (+1.5% per 100 AP)",
+          "new_value": "3 / 3.5 / 4 / 4.5 / 5% (+ 1.3% per 100 AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vi",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health Growth",
+          "old_value": 99,
+          "new_value": 105,
+          "delta_value": 6.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 3,
+          "new_value": 3.5,
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Volibear",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Bonus Physical Damage",
+          "old_value": "10 / 30 / 50 / 70 / 90 (+ 120% Bonus AD)",
+          "new_value": "10 / 20 / 30 / 40 / 50 (+ 140% Bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": 14,
+          "new_value": 16,
+          "delta_value": 2.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Non-champion damage cap",
+          "old_value": "190 / 305 / 420 / 535 / 650 (+ 70% AP)",
+          "new_value": "150 / 265 / 380 / 495 / 610 (+ 70% AP)",
+          "delta_value": -40.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xin Zhao",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Heal every third hit",
+          "old_value": "3 / 3.5 / 4% max HP (Level 1/6/11)",
+          "new_value": "3/4/5% max HP",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus Attack Speed",
+          "old_value": "40 / 45 / 50 / 55 / 60%",
+          "new_value": "40 / 50 / 60 / 70 / 80%",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yone",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "25 / 50 / 75 / 100 / 125 (+ 105% Total AD)",
+          "new_value": "25 / 50 / 75 / 100 / 125 (+ 110% Total AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zaahen",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Monster Modifier",
+          "old_value": "1.75x",
+          "new_value": "2x",
+          "delta_value": 0.25,
+          "direction": "buff",
+          "tags": [
+            "jungle"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Monster Damage",
+          "old_value": 50,
+          "new_value": 75,
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zed",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage to monsters",
+          "old_value": "1.2x",
+          "new_value": "0.5x",
+          "delta_value": -0.7,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Maximum damage to epic monsters",
+          "old_value": 300,
+          "new_value": 100,
+          "delta_value": -200.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Actualizer",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cost",
+          "stat_name": "Total Gold Cost",
+          "old_value": "3100 Gold",
+          "new_value": "2800 Gold",
+          "delta_value": -300.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "cost",
+          "stat_name": "Combine Cost",
+          "old_value": "1050 Gold",
+          "new_value": "750 Gold",
+          "delta_value": -300.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dusk and Dawn",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Spellblade Damage",
+          "old_value": "100% Base AD + 10% AP",
+          "new_value": "75% Base AD +10% AP",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": 300,
+          "new_value": 350,
+          "delta_value": 50.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Endless Hunger",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Recipe",
+          "old_value": "Caulfield's Warhammer + Pickaxe + 1075 Gold",
+          "new_value": "Caulfield's Warhammer + Pickaxe + Longsword + 825 Gold",
+          "delta_value": -250.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "cost",
+          "stat_name": "Total Gold Cost",
+          "old_value": 3000,
+          "new_value": 3100,
+          "delta_value": 100.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 60,
+          "new_value": 65,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Protoplasm Harness",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Lifeline max health gain",
+          "old_value": 200,
+          "new_value": "200-300 (based on level)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Lifeline healing",
+          "old_value": "200-400 (based on level) (+ 250% Armor) (+ 250% Magic Resistance)",
+          "new_value": "200-400 (based on level) (+ 175% Armor) (+ 175% Magic Resistance)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Haste",
+          "old_value": 15,
+          "new_value": 20,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Armored Advance",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Noxian Endurance Shield",
+          "old_value": "10-120 (based on level 1-18) (+ 7% max HP)",
+          "new_value": "100-200 (based on level, scaling begins at level 9) (+ 8% Bonus HP)",
+          "delta_value": 90.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chainlaced Crushers",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Noxian Endurance Shield",
+          "old_value": "10-120 (based on level 1-18) (+ 7% max HP)",
+          "new_value": "100-200 (based on level, scaling begins at level 9) (+ 8% Bonus HP)",
+          "delta_value": 90.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cash Back",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Gold Refund",
+          "old_value": "8%",
+          "new_value": "7.5%",
+          "delta_value": -0.5,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Phase Rush",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Ranged Effectiveness",
+          "old_value": "75% (18.75 - 37.5% Movement Speed)",
+          "new_value": "50% (12.5% - 25% Movement Speed)",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Triple Tonic",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Elixir of Force Adaptive Force",
+          "old_value": 30,
+          "new_value": 25,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Hellfire Hatchet",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Char Damage",
+          "old_value": "(5% \u2013 10% (+ 0.2% \u2013 0.4% per 1 Lethality) based on maximum health difference) of the targets current health",
+          "new_value": "(15% \u2013 37% (+ 0.05% \u2013 0.125% per 1 Lethality) based on maximum health difference) of the targets current health.",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "15 seconds",
+          "new_value": "10 seconds",
+          "delta_value": -5.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arena Bugfixes",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "AEGIS OF VALOR ELIGIBILITY",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "WASD",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Demacia Rising",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Bugfixes & QoL Changes",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Upcoming Skins & Chromas",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Firecracker Caitlyn",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Related Articles",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}

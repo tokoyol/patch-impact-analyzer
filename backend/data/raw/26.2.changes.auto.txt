@@ -1,0 +1,169 @@
+[system] Support Quest Usability
+  First, you can now double bind the role quest slot. So you’ll be able to set your preferred hotkey to both the role slot and the item slot where you used to hold it in your inventory.
+  We’re also adding the role quest hotkey to the client keybinds menu so you can make your changes before you hit the rift.
+  Finally, in the following patch, we’re moving control wards to the support role quest slot at the start of the game instead of halfway through the match when the quest completes. This change should allow support players to more easily build up muscle memory.
+
+[champion] Aatrox
+  Passive - Deathbringer Stance
+  Bonus Magic Damage based on Target Max Health : 4-8% (based on level) ⇒ 4-10% (based on level)
+  Q - The Darkin Blade
+  Bonus Damage to Monsters : 15 ⇒ 25
+
+[champion] Ashe
+  Base Stats
+  Attack Damage Growth : 3 ⇒ 3.5
+
+[champion] Gwen
+  Passive - A Thousand Cuts
+  Monster Damage Cap : 5 (+10% AP) ⇒ 3 (+5% AP)
+
+[champion] Jayce
+  Q - To the Skies / Shock Blast
+  Bonus Damage to Monsters : 50 ⇒ 25
+
+[champion] Lillia
+  Passive - Dream-Laden Bough
+  Heal Against Large Monsters : 39 (+15% AP) ⇒ 39 (+9% AP)
+  Q - Blooming Blows
+  AP Ratio : 35% AP ⇒ 30% AP
+
+[champion] Malphite
+  W - Thunderclap
+  Monster Damage : 2x ⇒ 1.8x
+  E - Ground Slam
+  Damage : 80 / 120 / 160 / 200 / 240 (+ 60% AP) (+ 40% armor) ⇒ 60 / 95 / 130 / 165 / 200 (+ 60% AP) (+ 40% armor)
+  Mana Cost : 50 ⇒ 50 / 55 / 60 / 65 / 70
+  R - Unstoppable Force
+  Cooldown : 130 / 105 / 80 ⇒ 130 / 115 / 100
+
+[champion] Master Yi
+  Base Stats
+  Armor Growth : 4.2 ⇒ 4.5
+  Q - Alpha Strike
+  On-Hit Damage Mod : 65% ⇒ 75%
+
+[champion] Nunu & Willump
+  Q - Consume
+  Cooldown : 12 / 11 / 10 / 9 / 8 ⇒ 13 / 12 / 11 / 10 / 9 seconds
+  W - Biggest Snowball Ever!
+  Maximum Damage : 180 / 225 / 270 / 315 / 360 (+ 150% AP) ⇒ 150 / 195 / 240 / 285 / 330 (+ 150% AP)
+  E - Snowball Barrage
+  Damage per Hit : 16 / 24 / 32 / 40 / 48 (+ 15% AP) ⇒ 14 / 21 / 28 / 35 / 42
+
+[champion] Sivir
+  Base Stats
+  Attack Speed Growth : 2% ⇒ 1.6%
+  Armor Growth : 4.45 ⇒ 4.0
+
+[champion] Smolder
+  Base Stats
+  Armor Growth : 4.7 ⇒ 4.0
+
+[champion] Taliyah
+  Q - Threaded Volley
+  Bonus Damage to Monsters : 20 ⇒ 20 / 25 / 30 / 35 / 40 (Note: Empowered Boulder damage is still increased by 80% to primary target.)
+  E - Unraveled Earth
+  Monster Damage Modifier : 190% ⇒ 225%
+
+[champion] Varus
+  Q - Piercing Arrow
+  Maximum Charge Base Damage : 80 / 150 / 220 / 290 / 360 ⇒ 80 / 160 / 240 / 320 / 400
+  W - Blighted Quiver
+  On-Hit Base Damage : 6 / 14 / 22 / 30 / 38 ⇒ 8 / 17 / 26 / 35 / 44
+
+[champion] Viego
+  Base Stats
+  Attack Speed Growth : 2.25% ⇒ 2.75%
+  Q - Blade of the Ruined King
+  Percent HP On-Hit Bonus Crit Damage Mod : 50% ⇒ 70%
+  Active Bonus Crit Damage Mod : 50% ⇒ 60%
+
+[champion] Zed
+  Passive - Contempt for the Weak
+  Monster Damage : 1.8x ⇒ 1.2x
+
+[item] Bandlepipes
+  Price : 2000 ⇒ 2300 gold
+  Combine Cost : 500 ⇒ 800 gold
+
+[item] Fiendhunter Bolts
+  Attack Speed : 40% ⇒ 45%
+  Damage Multiplier for Guaranteed Critical Strikes : 75% ⇒ 80%
+  Bonus True Damage for Critical Strikes : 10% ⇒ 15%
+
+[item] Hexoptics C44
+  Attack Damage : 50 ⇒ 55
+  Distance Required for Max Damage Amp : 700 ⇒ 600
+
+[champion] Augments
+  Reverted to its old version || Now reduces the Cooldown of all abilities by 1.25s On-Hit.
+  Hold delay 1.25s ⇒ 0.75s
+  No longer goes into stealth when you’re unable to move, and stealth is disabled on crowd controlled.
+  Adaptive Force per hat increased from 10 ⇒ 12
+  Moved from Gold ⇒ Silver
+
+[item] ARURF
+  Solo/Duo Ranked - Apex Duo Rule Improvements
+  Master can duo with D1 ⇒ GM
+  Master cannot duo with D2
+  GM can duo with Master ⇒ Challenger
+  GM cannot duo with D1
+  Challenger can duo with GM ⇒ Challenger
+  Challenger cannot duo with Master
+  D1 Visible cannot duo with [D1/Master Visible + GM MMR]
+  D2 or below visible rank cannot duo with any Master+ MMR
+  KR and CN remain unchanged as they are already on stricter rules: KR duo is allowed up to D1 and below, and CN duo is up to Master and below.
+  Reminder: as part of the regular seasonal ranked operation, Apex MMR duo restriction will be turned back on in 26.2, after we temporarily disabled it in 26.1 to celebrate season start climbing.
+
+[item] Swiftplay
+  Surrender Time: 15 minutes ⇒ 12 minutes
+
+[item] Clash - Summoner's Rift Demacia Cup
+  Registration Begins: January 19 @ 11:00 AM (Local Time)
+  Tournament Dates: January 24 and 25 (~4-7 PM Local Time, varies by region)
+
+[item] WASD
+  Attack Delay While Moving for Melee Champions : Removed
+  Attack Delay While Moving for Non-Marksman Ranged Champions : Reduced
+  Attack Delay While Moving for Marksman : Unchanged (Note: Ezreal, Kai’Sa, and Kindred were slightly reduced)
+
+[item] Bugfixes & QoL Changes
+  Fixed a bug that caused Rengar’s melee attack in brush to sometimes not grant him a stack of ferocity.
+  Fixed a bug that caused Rangar to be granted a ferocity stack on leap end instead of leap start.
+  Fixed a bug that caused Rengar to not be revealed when starting his leap from Fog of War or brushes.
+  Fixed a bug that caused Rengar to sometimes be knocked straight up when leaping onto a Blast Cone.
+  Fixed a bug that caused Rengar’s ferocity to time out in situations where his E had landed.
+  Fixed a bug that caused Rengar’s leap to time out immediately after leaving a brush.
+  Fixed a bug that caused Rengar’s passive cooldown to visually reset on hitting a plant.
+  Fixed a bug that caused Rengar’s leap timing to be inconsistent.
+  Fixed a bug that caused all of Rengar’s leap damage when using ultimate to be increased by Axiom Arcanist instead of just the R leap damage.
+  Fixed a bug that caused Rengar’s empowered Q to grant attack speed on attack instead of on cast.
+  Fixed a bug that caused Rengar’s Q auto attack reset to be inconsistent.
+  Fixed a bug that caused Rengar’s Q and empowered Q to deal an incorrect amount of damage to towers.
+  Fixed a bug that caused Rengar’s brush leap to trigger energized on leap start as opposed to upon landing on the target.
+  Fixed a bug that caused Rengar, on activating Thrill of the Hunt (R) while inside a brush to not consume Unseen Predator (P)'s buff if he walks into melee range of his enemy target before giving a basic attack command.
+  Fixed a bug that caused Rengar’ ultimate to inconsistently grant ferocity when using an attack in melee range.
+  Fixed a bug that caused Rengar’s R ability damage to scale with the attacked enemy champion’s attack damage.
+  Fixed a bug that caused Teemo’s Q blind to not cause Rengar’s Ferocity empowered attacks to be consumed on use.
+  Fixed a bug that caused Serpahine to return to her idle pose when her recall was interrupted by animation pause effects.
+  Fixed a bug that caused Camille’s Q2 VFX to not appear correctly.
+  Fixed a bug that caused Annie’s passive VFX to sometimes be missing when her passive was ready.
+  Fixed a bug that caused Briar's W, when targeting an enemy Viego, to be ended early via Viego's EW combo.
+  Fixed a bug that caused Briar’s W to end early if a Twitch she was targeting entered camouflage.
+
+[item] Upcoming Skins & Chromas
+  The following skins will be released in this patch:
+
+[item] Revenant Reign Viego
+  The following chromas will be released this patch:
+
+[item] Related Articles
+  Game Updates 2026-02-03T19:00:00.000Z Patch 26.3 Notes Celebrate the new year and revel in Patch 26.3 🎊
+  Game Updates 2026-01-07T19:00:00.000Z Patch 26.1 Notes Demacia rises in Patch 26.1 🛡️
+  Game Updates 2025-12-02T19:00:00.000Z Patch 25.24 Notes The last patch of the year, 25.24 is here!
+  Game Updates 2025-11-18T19:00:00.000Z Patch 25.23 Notes Patch 25.23 has ascended 🙏
+  Game Updates 2025-11-04T19:00:00.000Z Patch 25.22 Notes We’re going to Chengdu with Patch 25.22!
+  Game Updates 2025-10-21T18:00:00.000Z Patch 25.21 Notes Patch 25.21 is bee-autiful! 🐝
+  Game Updates 2025-10-07T18:00:00.000Z Patch 25.20 Notes Get ready for Worlds with patch 25.20!
+  Game Updates 2025-09-23T18:00:00.000Z Patch 25.19 Notes Your fate is sealed in Patch 25.19.
+  Game Updates 2025-09-09T18:00:00.000Z Patch 25.18 Notes Celebrate patch 25.18 with our ‘24 World’s Winners, T1!
