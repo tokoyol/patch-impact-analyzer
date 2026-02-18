@@ -57,6 +57,7 @@ def _infer_entity_from_query(
 
 def _fallback_sql_search(
     db: Session,
+    query_text: str,
     k: int,
     patch_version: Optional[str],
     entity_type: Optional[str],
@@ -86,11 +87,74 @@ def _fallback_sql_search(
     if entity:
         query = query.filter(Entity.name.ilike(f"%{entity.strip()}%"))
 
+    normalized_query = _normalize_text_key(query_text)
+    tokens = [token for token in normalized_query.split() if len(token) >= 2]
+
+    # Lightweight query intent extraction for non-embedding fallback mode.
+    if not direction:
+        if any(token in {"buff", "buffs", "buffed", "increase", "increased"} for token in tokens):
+            query = query.filter(Change.direction == ChangeDirection.buff)
+        elif any(token in {"nerf", "nerfs", "nerfed", "reduce", "reduced"} for token in tokens):
+            query = query.filter(Change.direction == ChangeDirection.nerf)
+        elif any(token in {"adjust", "adjustment", "adjustments"} for token in tokens):
+            query = query.filter(Change.direction == ChangeDirection.adjustment)
+
+    if not category:
+        category_by_token = {
+            "cooldown": ChangeCategory.cooldown,
+            "cd": ChangeCategory.cooldown,
+            "damage": ChangeCategory.damage,
+            "dmg": ChangeCategory.damage,
+            "cost": ChangeCategory.cost,
+            "gold": ChangeCategory.cost,
+            "mana": ChangeCategory.cost,
+            "scaling": ChangeCategory.scaling,
+            "ratio": ChangeCategory.scaling,
+            "base": ChangeCategory.base_stat,
+            "stats": ChangeCategory.base_stat,
+            "stat": ChangeCategory.base_stat,
+            "mechanic": ChangeCategory.mechanic,
+        }
+        inferred_category = next(
+            (category_by_token[token] for token in tokens if token in category_by_token),
+            None,
+        )
+        if inferred_category is not None:
+            query = query.filter(Change.category == inferred_category)
+
     rows = (
         query.order_by(desc(Change.impact_score), Patch.version.desc(), Entity.name.asc(), Change.id.asc())
-        .limit(max(1, min(k, 100)))
+        .limit(500)
         .all()
     )
+
+    def lexical_score(change: Change, entity_name: str, row_patch_version: str) -> int:
+        if not tokens:
+            return 0
+        haystack = " ".join(
+            [
+                entity_name or "",
+                change.stat_name or "",
+                change.ability_slot or "",
+                " ".join(change.tags or []),
+                change.direction.value,
+                change.category.value,
+                row_patch_version or "",
+            ]
+        ).lower()
+        return sum(1 for token in tokens if token in haystack)
+
+    if tokens:
+        scored_rows = []
+        for change, entity_name, entity_type_value, version in rows:
+            score = lexical_score(change, entity_name, version)
+            if score > 0:
+                scored_rows.append((score, change, entity_name, entity_type_value, version))
+        scored_rows.sort(key=lambda item: (item[0], float(item[1].impact_score or 0.0)), reverse=True)
+        rows = [(change, entity_name, entity_type_value, version) for _, change, entity_name, entity_type_value, version in scored_rows]
+
+    rows = rows[: max(1, min(k, 100))]
+
     results: List[Dict[str, Any]] = []
     for change, entity_name, entity_type_value, version in rows:
         results.append(
@@ -166,6 +230,7 @@ def semantic_search_changes(
         # Fall back to deterministic SQL ranking instead of failing the endpoint.
         return _fallback_sql_search(
             db=db,
+            query_text=query_text,
             k=k,
             patch_version=patch_version,
             entity_type=normalized_entity_type,
@@ -242,6 +307,7 @@ def semantic_search_changes(
 
     return _fallback_sql_search(
         db=db,
+        query_text=query_text,
         k=k,
         patch_version=patch_version,
         entity_type=normalized_entity_type,

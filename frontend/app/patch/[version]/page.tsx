@@ -22,10 +22,11 @@ type PageProps = {
 };
 
 async function getPatchSummary(version: string): Promise<PatchSummary> {
+  const configuredBaseUrl = process.env.API_BASE_URL ?? process.env.NEXT_PUBLIC_API_BASE_URL;
   const apiBaseUrl =
-    process.env.API_BASE_URL ??
-    process.env.NEXT_PUBLIC_API_BASE_URL ??
-    "http://127.0.0.1:8000";
+    configuredBaseUrl && configuredBaseUrl.startsWith("/")
+      ? "http://127.0.0.1:8000"
+      : configuredBaseUrl ?? "http://127.0.0.1:8000";
   const response = await fetch(`${apiBaseUrl}/patch/${version}`, {
     cache: "no-store",
   });
