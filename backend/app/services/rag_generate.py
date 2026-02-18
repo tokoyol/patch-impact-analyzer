@@ -1,5 +1,6 @@
 import json
 import re
+import warnings
 from typing import Any, Dict, List, Optional
 
 import requests
@@ -64,37 +65,78 @@ def _call_llm_for_rag(prompt: str) -> Dict[str, Any]:
         return json.loads(content)
 
     if llm_settings.provider == "gemini":
-        import google.generativeai as genai
-
         settings = get_gemini_settings()
-        genai.configure(api_key=settings.api_key)
         requested_model = settings.model.strip()
         fallback_models = ["gemini-2.0-flash", "gemini-1.5-flash-latest"]
         candidate_models: List[str] = [requested_model] + [
             model_name for model_name in fallback_models if model_name != requested_model
         ]
         last_error: Optional[Exception] = None
-        for model_name in candidate_models:
-            try:
-                model = genai.GenerativeModel(model_name)
-                response = model.generate_content(
-                    "You are a grounded patch analysis assistant. Return strict JSON.\n\n" + prompt,
-                    generation_config={
-                        "temperature": 0.2,
-                        "response_mime_type": "application/json",
-                    },
-                )
-                text = (getattr(response, "text", "{}") or "{}").strip()
-                if text.startswith("```"):
+
+        # Prefer the modern Gemini SDK if available.
+        try:
+            from google import genai
+
+            client = genai.Client(api_key=settings.api_key)
+            for model_name in candidate_models:
+                try:
+                    response = client.models.generate_content(
+                        model=model_name,
+                        contents="You are a grounded patch analysis assistant. Return strict JSON.\n\n"
+                        + prompt,
+                        config={
+                            "temperature": 0.2,
+                            "response_mime_type": "application/json",
+                        },
+                    )
                     text = (
-                        text.removeprefix("```json")
-                        .removeprefix("```")
-                        .removesuffix("```")
+                        (getattr(response, "text", None) or getattr(response, "output_text", "{}") or "{}")
                         .strip()
                     )
-                return json.loads(text or "{}")
-            except Exception as exc:
-                last_error = exc
+                    if text.startswith("```"):
+                        text = (
+                            text.removeprefix("```json")
+                            .removeprefix("```")
+                            .removesuffix("```")
+                            .strip()
+                        )
+                    return json.loads(text or "{}")
+                except Exception as exc:
+                    last_error = exc
+        except Exception:
+            pass
+
+        # Backward-compat fallback to deprecated SDK.
+        try:
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore", FutureWarning)
+                import google.generativeai as genai
+
+            genai.configure(api_key=settings.api_key)
+            for model_name in candidate_models:
+                try:
+                    model = genai.GenerativeModel(model_name)
+                    response = model.generate_content(
+                        "You are a grounded patch analysis assistant. Return strict JSON.\n\n" + prompt,
+                        generation_config={
+                            "temperature": 0.2,
+                            "response_mime_type": "application/json",
+                        },
+                    )
+                    text = (getattr(response, "text", "{}") or "{}").strip()
+                    if text.startswith("```"):
+                        text = (
+                            text.removeprefix("```json")
+                            .removeprefix("```")
+                            .removesuffix("```")
+                            .strip()
+                        )
+                    return json.loads(text or "{}")
+                except Exception as exc:
+                    last_error = exc
+        except Exception as exc:
+            last_error = exc
+
         if last_error is not None:
             raise last_error
 
