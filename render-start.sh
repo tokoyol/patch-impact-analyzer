@@ -3,6 +3,10 @@ set -eu
 
 PORT="${PORT:-10000}"
 
+# Ensure schema is up to date before serving requests.
+cd /workspace/backend
+alembic upgrade head
+
 # Start FastAPI on localhost; Next.js proxies /api/* to this port.
 cd /workspace/backend
 uvicorn app.main:app --host 127.0.0.1 --port 8000 &
