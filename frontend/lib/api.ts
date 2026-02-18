@@ -202,11 +202,21 @@ export type PatchSummaryReport = {
 };
 
 function getApiBaseUrl() {
-  return (
-    process.env.API_BASE_URL ??
-    process.env.NEXT_PUBLIC_API_BASE_URL ??
-    "http://127.0.0.1:8000"
-  );
+  const configuredBaseUrl =
+    process.env.API_BASE_URL ?? process.env.NEXT_PUBLIC_API_BASE_URL;
+
+  if (!configuredBaseUrl) {
+    return "http://127.0.0.1:8000";
+  }
+
+  // Server-side fetch in Node needs an absolute URL.
+  // If env is set to a browser-relative proxy path like "/api",
+  // call the colocated FastAPI process directly from SSR.
+  if (configuredBaseUrl.startsWith("/") && typeof window === "undefined") {
+    return "http://127.0.0.1:8000";
+  }
+
+  return configuredBaseUrl;
 }
 
 async function handleJsonResponse<T>(response: Response, message: string): Promise<T> {
