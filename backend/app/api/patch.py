@@ -11,7 +11,7 @@ from app.models.entity import EntityType
 from app.services.champion_impact_predictor import predict_patch_champion_impacts
 
 router = APIRouter()
-EXCLUDED_PATCH_VERSIONS = {"14.1", "14.2"}
+EXCLUDED_PATCH_VERSIONS = set()
 
 
 def get_db() -> Generator[Session, None, None]:
