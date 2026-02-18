@@ -68,18 +68,35 @@ def _call_llm_for_rag(prompt: str) -> Dict[str, Any]:
 
         settings = get_gemini_settings()
         genai.configure(api_key=settings.api_key)
-        model = genai.GenerativeModel(settings.model)
-        response = model.generate_content(
-            "You are a grounded patch analysis assistant. Return strict JSON.\n\n" + prompt,
-            generation_config={
-                "temperature": 0.2,
-                "response_mime_type": "application/json",
-            },
-        )
-        text = (getattr(response, "text", "{}") or "{}").strip()
-        if text.startswith("```"):
-            text = text.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
-        return json.loads(text or "{}")
+        requested_model = settings.model.strip()
+        fallback_models = ["gemini-2.0-flash", "gemini-1.5-flash-latest"]
+        candidate_models: List[str] = [requested_model] + [
+            model_name for model_name in fallback_models if model_name != requested_model
+        ]
+        last_error: Optional[Exception] = None
+        for model_name in candidate_models:
+            try:
+                model = genai.GenerativeModel(model_name)
+                response = model.generate_content(
+                    "You are a grounded patch analysis assistant. Return strict JSON.\n\n" + prompt,
+                    generation_config={
+                        "temperature": 0.2,
+                        "response_mime_type": "application/json",
+                    },
+                )
+                text = (getattr(response, "text", "{}") or "{}").strip()
+                if text.startswith("```"):
+                    text = (
+                        text.removeprefix("```json")
+                        .removeprefix("```")
+                        .removesuffix("```")
+                        .strip()
+                    )
+                return json.loads(text or "{}")
+            except Exception as exc:
+                last_error = exc
+        if last_error is not None:
+            raise last_error
 
     settings = get_ollama_settings()
     url = f"{settings.base_url}/api/chat"
@@ -215,6 +232,62 @@ def _fallback_retrieve_changes(
     ]
 
 
+def _deterministic_rag_fallback(
+    query: str,
+    indexed_changes: List[Dict[str, Any]],
+    relevant_notes: List[Dict[str, str]],
+) -> Dict[str, Any]:
+    if not indexed_changes:
+        return {
+            "query": query,
+            "retrieved_count": 0,
+            "retrieval_entity_type": "all",
+            "retrieval_entity": None,
+            "retrieved_items": [],
+            "relevant_patch_notes": relevant_notes,
+            "explanation": "No matching patch changes were found for this question.",
+            "impact_summary": [],
+            "reasoning": ["RAG fallback was used because LLM generation failed."],
+            "citations": [],
+        }
+
+    top_items = indexed_changes[: min(5, len(indexed_changes))]
+    patch_versions = sorted({item["patch_version"] for item in top_items})
+    entities = [item["entity"] for item in top_items]
+    explanation = (
+        "LLM generation is temporarily unavailable, so this is a deterministic summary based on retrieved changes. "
+        f"Top matches span patches {', '.join(patch_versions)} and focus on {', '.join(entities[:3])}."
+    )
+    impact_summary = [
+        f"{item['entity']} {item['direction']} {item['stat_name']} (impact {float(item['impact_score'] or 0.0):.2f})"
+        for item in top_items
+    ]
+    reasoning = [
+        "Results are ordered from retrieved semantic/fallback matches.",
+        "Use filters (patch, category, direction, entity) to narrow intent.",
+    ]
+    citations = [
+        {
+            "index": item["index"],
+            "entity": item["entity"],
+            "patch_version": item["patch_version"],
+        }
+        for item in top_items
+    ]
+    return {
+        "query": query,
+        "retrieved_count": len(indexed_changes),
+        "retrieval_entity_type": "all",
+        "retrieval_entity": None,
+        "retrieved_items": indexed_changes,
+        "relevant_patch_notes": relevant_notes,
+        "explanation": explanation,
+        "impact_summary": impact_summary,
+        "reasoning": reasoning,
+        "citations": citations,
+    }
+
+
 def rag_explain(
     db: Session,
     query: str,
@@ -290,7 +363,14 @@ def rag_explain(
     relevant_notes = _collect_relevant_patch_notes(db, patch_versions)
 
     prompt = _build_prompt(query, indexed_changes, relevant_notes)
-    generated = _call_llm_for_rag(prompt)
+    try:
+        generated = _call_llm_for_rag(prompt)
+    except Exception:
+        return _deterministic_rag_fallback(
+            query=query,
+            indexed_changes=indexed_changes,
+            relevant_notes=relevant_notes,
+        )
 
     explanation = str(generated.get("explanation", "")).strip()
     impact_summary = generated.get("impact_summary")
