@@ -11,7 +11,7 @@ from app.models.entity import EntityType
 from app.services.champion_impact_predictor import predict_patch_champion_impacts
 
 router = APIRouter()
-TEST_PATCH_VERSIONS = {"14.1", "14.2"}
+EXCLUDED_PATCH_VERSIONS = {"14.1", "14.2"}
 
 
 def get_db() -> Generator[Session, None, None]:
@@ -76,14 +76,19 @@ def _compute_patch_intelligence(version: str, db: Session):
 
 @router.get("/list")
 def list_patches(db: Session = Depends(get_db)):
-    patches = db.query(Patch).order_by(Patch.release_date.desc(), Patch.version.desc()).all()
+    patches = (
+        db.query(Patch)
+        .filter(~Patch.version.in_(EXCLUDED_PATCH_VERSIONS))
+        .order_by(Patch.release_date.desc(), Patch.version.desc())
+        .all()
+    )
     return {
         "patches": [
             {
                 "version": patch.version,
                 "release_date": patch.release_date.isoformat(),
-                "is_test": patch.version in TEST_PATCH_VERSIONS,
-                "note": "Test patch (seed/demo)" if patch.version in TEST_PATCH_VERSIONS else None,
+                "is_test": False,
+                "note": None,
             }
             for patch in patches
         ]
