@@ -159,7 +159,21 @@ def semantic_search_changes(
             if not normalized_entity_type and inferred_type in {EntityType.item.value, EntityType.system.value}:
                 normalized_entity_type = inferred_type
 
-    query_embedding = embed_text(query_text)
+    try:
+        query_embedding = embed_text(query_text)
+    except Exception:
+        # In production, embedding infra (e.g. Ollama) may be unavailable.
+        # Fall back to deterministic SQL ranking instead of failing the endpoint.
+        return _fallback_sql_search(
+            db=db,
+            k=k,
+            patch_version=patch_version,
+            entity_type=normalized_entity_type,
+            direction=normalized_direction,
+            category=normalized_category,
+            tag=tag,
+            entity=normalized_entity,
+        )
     distance = ChangeEmbedding.embedding.cosine_distance(query_embedding).label("distance")
 
     query = (
