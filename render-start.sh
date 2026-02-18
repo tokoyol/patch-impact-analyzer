@@ -12,6 +12,7 @@ python - <<'PY'
 import glob
 import os
 import sys
+from pathlib import Path
 
 from sqlalchemy import text
 
@@ -30,7 +31,7 @@ try:
 
     files = sorted(glob.glob("/workspace/backend/data/raw/*.json"))
     for file_path in files:
-        payload = load_payload_from_file(file_path)
+        payload = load_payload_from_file(Path(file_path))
         summary = ingest_patch_payload(db, payload)
         print(f"Bootstrapped patch {summary.version}: entities={summary.entities}, changes={summary.changes}")
     db.commit()
