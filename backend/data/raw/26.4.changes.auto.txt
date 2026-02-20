@@ -1,0 +1,282 @@
+[champion] Ambessa
+  Q - Cunning Sweep
+  Bonus Damage to Monsters : 150 ⇒ 125
+
+[champion] Annie
+  Q - Disintegrate
+  Base Damage : 80 / 120 / 160 / 200 / 240 ⇒ 80 / 125 / 170 / 215 / 260
+  E - Molten Shield
+  Cooldown : 12 / 11.5 / 11 / 10.5 / 10 seconds ⇒ 10 seconds
+
+[champion] Aphelios
+  Passive - The Hitman and the Seer
+  Bonus AD : 5 / 10 / 15 / 20 / 25 / 30 ⇒ 4 / 8 / 12 / 16 / 20 / 24
+
+[champion] Brand
+  Passive - Blaze
+  Ablaze Monster Damage : 265% ⇒ 270%
+  Non-Epic Monster Damage Cap : 40 ⇒ 50
+
+[champion] Braum
+  R - Glacial Fissure
+  Base Damage : 150 / 300 / 450 ⇒ 150 / 250 / 350
+  Cooldown : 120 / 100 / 80 ⇒ 130 / 115 / 100 seconds
+
+[champion] Camille
+  E - Hookshot
+  Always On Point : Attack speed is now gained when Camille dashes off a wall, regardless of whether or not she hits an enemy champion.
+
+[champion] Darius
+  Passive - Hemorrhage
+  Monster Damage : 2x ⇒ 2.5x
+
+[champion] Fizz
+  W - Seastone Trident
+  Bonus Monster Damage : 60 ⇒ 90
+
+[champion] Graves
+  E - Quickdraw
+  Armor per Stack : 4 / 7 / 10 / 13 / 16 ⇒ 7 / 10 / 13 / 16 / 19
+  MR per Stack : 2 / 3.5 / 5 / 6.5 / 8 ⇒ 3.5 / 5 / 6.5 / 8 / 9.5
+
+[champion] Gwen
+  Q - Snip Snip!
+  Base Damage per Snip : 10 / 15 / 20 / 25 / 30 ⇒ 10 / 13.5 / 17 / 20.5 / 24
+  Minion Damage Modifier : 0.75x ⇒ 0.8x
+  R - Needlework
+  Base Damage per Needle : 35 / 65 / 95 ⇒ 30 / 50 / 70
+
+[champion] Hwei
+  Maximum Shield Value : 100 / 125 / 150 / 175 / 200 ⇒ 100 / 140 / 180 / 220 / 260
+  Ally Shield Mod : 75% ⇒ 85%
+  R - Spiraling Despair
+  Cooldown : 140 / 115 / 80 ⇒ 120 / 100 / 80
+
+[champion] Illaoi
+  Passive - Prophet of an Elder God
+  Tentacle Base Damage : 9-180 (based on level) ⇒ 9-200 (based on level)
+
+[champion] Jinx
+  Base Stats
+  Armor Growth : 4.7 ⇒ 4.2
+
+[champion] Kassadin
+  Base Stats
+  Health Growth : 119 ⇒ 113
+  E - Force Pulse
+  Slow : 50 / 60 / 70 / 80 / 90% ⇒ 50 / 55 / 60 / 65 / 70%
+
+[champion] Kayle
+  Q - Radiant Blast
+  Base Damage : 60 / 100 / 140 / 180 / 220 ⇒ 60 / 90 / 120 / 150 / 180
+
+[champion] Kennen
+  R - Slicing Maelstrom
+  Cooldown : 120 / 100 / 80 ⇒ 120
+
+[champion] Lee Sin
+  W - Iron Will
+  Spell Vamp No More : Lee Sin W2 grants Life Steal and Spell Vamp. Lee Sin is unable to heal with W2 and Smite on either minions, jungle monsters or Champions ⇒ Lee Sin W2 grants Omnivamp which will apply on minions, monsters, and Champions
+
+[champion] Lux
+  Base Stats
+  Base Mana : 480 ⇒ 440
+  Starting Mana Regen : 7 ⇒ 9
+  Q - Light Binding
+  Cooldown : 11 / 10.5 / 10 / 9.5 / 9 ⇒ 10
+  W - Prismatic Barrier
+  Cooldown : 14 / 13 / 12 / 11 / 10 ⇒ 12 / 11.5 / 11 / 10.5 / 10
+
+[champion] Maokai
+  Q - Bramble Smash
+  Bonus Monster Damage : 120 / 130 / 140 / 150 / 160 ⇒ 140 / 150 / 160 / 170 / 180
+
+[champion] Naafiri
+  Base Stats
+  Base Health Regen : 7.5 ⇒ 6
+  Health Regen Growth : 0.7 ⇒ 0.6
+  Q - Darkin Daggers
+  Mana Cost : 55 / 60 / 65 / 70 / 75 ⇒ 50 / 60 / 70 / 80 / 90
+  E - Eviscerate
+  Mana Cost : 35 ⇒ 40
+
+[champion] Qiyana
+  Base Stats
+  Health Growth : 121 ⇒ 115
+
+[champion] Rengar
+  Q - Savagery
+  Damage : 30 / 60 / 90 / 120 / 150 (+ 100 / 103.75 / 107.5 / 111.25 / 115% total AD) ⇒ 20 / 55 / 90 / 125 / 160 (+ 105% total AD)
+  Ferocity Damage : 30 - 235 (based on level) (+130% total AD) ⇒ 35 - 240 (based on level) (+120% total AD)
+
+[champion] Rumble
+  Base Stats
+  Base Health : 655 ⇒ 640
+  R - The Equalizer
+  Maximum Damage : 700 / 1050 / 1400 ⇒ 600 / 1000 / 1400
+
+[champion] Ryze
+  R - Realm Warp
+  All Aboard : No longer refuses to grab a champion if they're currently pathing out of the circle while near the edge.
+
+[champion] Samira
+  Q - Flair
+  Life Steal Effectiveness : 80% ⇒ 100%
+  R - Inferno Trigger
+
+[champion] Senna
+  Q - Piercing Darkness
+  Damage : 30 / 60 / 90 / 120 / 150 (+ 40% bonus AD) ⇒ 30 / 55 / 80 / 105 / 130 (+ 60% bonus AD)
+  W - Last Embrace
+  Damage : 70 / 115 / 160 / 205 / 250 (+ 70% bonus AD) ⇒ 70 / 110 / 150 / 190 / 230 (+ 90% bonus AD)
+
+[champion] Swain
+  W - Vision of Empire
+  Slow : 50 / 55 / 60 / 65 / 70% ⇒ 50% at all ranks
+  R - Demonic Ascension
+  Damage per Second Scaling : 5% AP ⇒ 4% AP
+  Demonflare Damage Scaling : 50% AP ⇒ 40% AP
+  Demonflare Slow : 75% ⇒ 50%
+
+[champion] Syndra
+  W - Force of Will
+  Base Damage : 70 / 105 / 140 / 175 / 210 ⇒ 70 / 100 / 130 / 160 / 190
+  R - Unleashed Power
+  Base Damage : 90 / 130 / 170 ⇒ 80 / 120 / 160
+
+[champion] Teemo
+  E - Toxic Shot
+  Monster Damage : 145% ⇒ 160%
+
+[champion] Twitch
+  Base Stats
+  Health Growth : 104 ⇒ 98
+  Armor Growth : 4.2 ⇒ 4
+
+[champion] Udyr
+  Q - Wilding Claw
+  Base Bonus Damage On-Hit : 5 / 11 / 17 / 23 / 29 / 35 ⇒ 5 / 13 / 21 /29 / 37 / 45
+  W - Iron Mantle
+  Base Shield Strength : 45 / 60 / 75 / 90 / 105 / 120 ⇒ 45 / 65 / 85 / 105 / 125 / 145
+
+[champion] Xayah
+  Q - Double Daggers
+  Mana Cost : 50 ⇒ 35
+  W - Deadly Plumage
+  Cooldown : 20 / 19 / 18 / 17 / 16 ⇒ 18 / 17 / 16 / 15 / 14 seconds
+  E - Bladecaller
+  Mana Cost : 30 ⇒ 20
+
+[champion] Zac
+  Q - Stretching Strikes
+  Damage per Hit : 40 / 55 / 70 / 85 / 100 (+ 30% AP) (+ 3% of Zac's maximum health) ⇒ 60 / 90 / 120 / 150 / 180 (+ 30% AP) (+ 3% of Zac's bonus health)
+  R - Let's Bounce!
+  Initial Base Damage : 140 / 210 / 280 ⇒ 120 / 190 / 260
+  Maximum Base Damage : 350 / 525 / 700 ⇒ 300 / 475 / 650
+
+[item] Hexoptics C44
+  Range for Maximum Bonus Damage : 600 ⇒ 500
+  Bonus Range on Takedown Duration : 6 ⇒ 8 seconds
+
+[system] Progression Pass
+  300 gold ⇒ Golden Reroll
+
+[system] Augments and Set Changes
+  Can now only be picked up by 1 player per team.
+  Increased the time required to stack Poros.
+  On Pick Up Slow: 50% ⇒ 25%
+  Gold per 1000 Healing: 200 ⇒ 150
+  Missing Health Healing: 20 - 50% ⇒ 5 - 15%
+  Health Drain Near Enemies: 7.5% ⇒ 5%
+  Bonus True Damage: 20% ⇒ 15%
+  Speed Increase: 350, decays over 2 seconds ⇒ 200, decays over 1 second
+  Bonus Movement Speed Towards Low Health Champions: 100% ⇒ 60%
+  Gold Reward: 30 / 50 / 100% ⇒ 15 / 30 / 50%
+  Cooldown Refund: 40% ⇒ 30%
+  Death Timer Reduction: 40% ⇒ 25%
+  Gold per Envelope: (10 - 18) to (25 - 58) ⇒ (8-15) to (22 - 46)
+  Gold: 2500 ⇒ 1750
+  Number of Stat Anvils Given: 3 ⇒ 2
+  Number of Stat Anvils Given: 4 ⇒ 3
+  Number of Stat Anvils Given: 5 ⇒ 4
+  Haste per Stack: 10 ⇒ 8
+  Movement Speed per Stack: 2% ⇒ 1%
+  Omnivamp: 30% ⇒ 25%
+  Melee Omnivamp: 25% ⇒ 20%
+  Ranged Omnivamp: 12.5% ⇒ 10%
+  Adaptive Force: 33% ⇒ 25%
+  2 Set Missile Damage: 40% ⇒ 25%
+  4 Set Missile Damage: 80% ⇒ 50%
+  Set Bonus Heal Power: 15 / 25 / 35% ⇒ 10 / 20 / 30%
+  Set Bonus Movement Speed: 40 / 50 / 60% ⇒ 30 / 40 / 50%
+  3 Set Bonus Change for Gold or Prismatic Anvils: 50% ⇒ 20%
+  5 Set Bonus Change for Gold or Prismatic Anvils: 100% ⇒ 50%
+
+[system] Bugfixes
+  Fixed a bug where Prom Queen failed to trigger after you were dead.
+  Fixed a bug where Critical Healing and Critical Missile could trigger infinitely.
+  Fixed a bug where Critical Missile triggered too often with Tank it Or leave it.
+  Fixed a bug where Firecracker Set bonus caused attack timers to reset.
+  Fixed a bug where the Firecracker Set bonus was triggering on basic attack effects.
+  Fixed a bug where players could select the same augment multiple times.
+  Fixed a bug where you spin me around could cause champions to lose their original spells.
+  Fixed a bug where Soul Siphon healed an incorrect amount when having Jeweled Gauntlet.
+  Fixed a bug where champions are unable to select anvils from High Roller Set, examples like Kog'Maw, Sion and Karthus.
+  Fixed a bug where your augments could get overwritten when you leveled up in base.
+  Fixed a bug where you were unable to select your last augment after selecting stat anvils.
+  Fixed a bug where you would buy anvil in shop and overwrite your current augment selection.
+  Fixed a bug where the Poro King gave incorrect damage reduction.
+  Fixed a bug where Poro King did not get CC Immune during unstoppable state.
+  Fixed a bug where you can get infinite armor by reselling Thornmail in shop when having Upgrade Thornmail.
+  Fixed a bug where you can swap both summoner slots when offered active summoners, snowballs and flashes.
+  Fixed a bug where spam clicking summoner swap button can give you stacking haste on Snowball Augments.
+  Fixed a bug where selecting Gangplank's Silver Serpents's trade will swap another active summoner in your summoner slot.
+  Fixed a bug where ??? could execute players in Kindred R or execute Tryndamere when he cast R.
+  Fixed a bug where Upgrade sheen could proc double healing when you have Dusk and Dawn.
+  Fix a bug where Upgrade Sheen was tracking damages dealt to minions.
+  Fixed a bug where Pyke's ultimate did not benefit from Dashing.
+  Fixed a bug where Poro blaster was visible on champions with Stealth.
+  Fixed a bug where Whispering's Circlet and Diadem of Songs are not considered as a hat in Hat on Hat augment.
+  Fixed a bug where Grandma's Chili Oil's burn was doing incorrect damage per second.
+  Fixed a bug where Pandora's Box did not count for High Roller Augment Set.
+  Fixed a bug where Master of Duality did not grant additional Ability Power when they are gained through the Stackosaurus Set Bonus.
+  Fixed a bug where Flash's recharge was incorrect if you have flashy and flash 2.
+  Fixed a bug where Void Immolation did not trigger Upgrade Immolate's Effect.
+  Fixed a bug where Upgrade Immolate gold generation does not increase when ranking up the Make it Rain set bonus.
+  Fixed a bug where Fully Automated's 3 piece bonus is active with the 2 piece bonus.
+
+[system] Zaahen
+  Damage Dealt: 100% ⇒ 95%
+  Damage Taken: 100% ⇒ 105%
+
+[champion] Augments
+  Item Stat Amp increased from 15% ⇒ 30%
+
+[item] Demacia Rising
+  Research and Event buffs now correctly apply percent damage increases to Demacian units. In 26.3, all buffs were applying power only if a player reached a total attack damage increase of 100% over the base value.
+  Events could stop working in situations where a player had played many turns and was done with story content in Act 1. Events should now continue playing regardless of how many thousands of turns you have played.
+  Any allied units that fought in the final battle of the Chapter 4 story will now survive.
+  Combat music cutting out has been fixed. Music in Demacia Rising should no longer stop randomly based on changes in game state.
+  Demacian Steel - Guard: Current text says “+50% Attack Damage,” but the effect provides 25% Attack Damage and 25% Maximum HP to Guards.
+  Battle High: Current text says “On kill, Guards gain 20% attack speed up to a maximum of 60%,” but the effect only provides a 30% Attack Speed once, on a guard's first kill or assist.
+
+[item] Bugfixes & QoL Changes
+  Fixed a bug that caused Rengar to be unable to extend his passive duration with attacks.
+  Fixed a bug that caused High Noon Jhin's running animation to stop playing when using Tier 2 boots.
+
+[item] Upcoming Skins & Chromas
+  The following skins will be released in this patch:
+
+[item] Divine Architect Porcelain Aurelion Sol
+  The following chromas will be released this patch:
+
+[item] Related Articles
+  Game Updates 2026-02-03T19:00:00.000Z Patch 26.3 Notes Celebrate the new year and revel in Patch 26.3 🎊
+  Game Updates 2026-01-21T19:00:00.000Z Patch 26.2 Notes Patch 26.2 ready to deploy!
+  Game Updates 2026-01-07T19:00:00.000Z Patch 26.1 Notes Demacia rises in Patch 26.1 🛡️
+  Game Updates 2025-12-02T19:00:00.000Z Patch 25.24 Notes The last patch of the year, 25.24 is here!
+  Game Updates 2025-11-18T19:00:00.000Z Patch 25.23 Notes Patch 25.23 has ascended 🙏
+  Game Updates 2025-11-04T19:00:00.000Z Patch 25.22 Notes We’re going to Chengdu with Patch 25.22!
+  Game Updates 2025-10-21T18:00:00.000Z Patch 25.21 Notes Patch 25.21 is bee-autiful! 🐝
+  Game Updates 2025-10-07T18:00:00.000Z Patch 25.20 Notes Get ready for Worlds with patch 25.20!
+  Game Updates 2025-09-23T18:00:00.000Z Patch 25.19 Notes Your fate is sealed in Patch 25.19.

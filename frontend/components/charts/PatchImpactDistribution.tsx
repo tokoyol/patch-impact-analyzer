@@ -32,11 +32,20 @@ export default function PatchImpactDistribution({
     <div className="h-72 w-full">
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={data}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="champion" />
-          <YAxis />
-          <Tooltip />
-          <Bar dataKey="value" />
+          <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
+          <XAxis dataKey="champion" stroke="var(--chart-axis)" tick={{ fill: "var(--chart-axis)" }} />
+          <YAxis stroke="var(--chart-axis)" tick={{ fill: "var(--chart-axis)" }} />
+          <Tooltip
+            cursor={{ fill: "rgba(100, 116, 139, 0.12)" }}
+            contentStyle={{
+              backgroundColor: "var(--chart-tooltip-bg)",
+              borderColor: "var(--chart-tooltip-border)",
+              color: "var(--chart-tooltip-text)",
+            }}
+            labelStyle={{ color: "var(--chart-tooltip-text)" }}
+            itemStyle={{ color: "var(--chart-tooltip-text)" }}
+          />
+          <Bar dataKey="value" fill="var(--chart-bar)" />
         </BarChart>
       </ResponsiveContainer>
     </div>

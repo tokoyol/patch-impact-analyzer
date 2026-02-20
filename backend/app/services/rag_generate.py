@@ -1,7 +1,7 @@
 import json
 import re
 import warnings
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import requests
 from sqlalchemy import desc
@@ -182,6 +182,28 @@ def _collect_relevant_patch_notes(db: Session, versions: List[str]) -> List[Dict
     return notes
 
 
+def _infer_latest_patch_version_from_query(db: Session, query: str) -> Optional[str]:
+    query_lower = query.strip().lower()
+    latest_markers = (
+        "this patch",
+        "latest patch",
+        "current patch",
+        "most recent patch",
+        "newest patch",
+    )
+    if not any(marker in query_lower for marker in latest_markers):
+        return None
+
+    latest_patch = (
+        db.query(Patch.version)
+        .order_by(Patch.release_date.desc(), Patch.version.desc())
+        .first()
+    )
+    if not latest_patch:
+        return None
+    return latest_patch[0]
+
+
 def _normalize_text_key(value: str) -> str:
     lowered = value.strip().lower()
     lowered = lowered.replace("&", " and ")
@@ -190,28 +212,49 @@ def _normalize_text_key(value: str) -> str:
     return lowered
 
 
-def _infer_item_from_query(db: Session, query: str) -> Optional[str]:
+def _infer_entity_from_query(
+    db: Session,
+    query: str,
+    patch_version: Optional[str] = None,
+) -> Tuple[Optional[str], Optional[str]]:
     normalized_query = f" {_normalize_text_key(query)} "
     if len(normalized_query.strip()) < 2:
-        return None
+        return None, None
 
-    item_names = [
-        row[0]
-        for row in db.query(Entity.name)
-        .filter(Entity.entity_type == EntityType.item)
-        .all()
-    ]
-    best_match: Optional[str] = None
-    best_len = -1
-    for item_name in item_names:
-        normalized_item = _normalize_text_key(item_name)
-        if not normalized_item:
-            continue
-        # Word boundary check prevents partial-token false positives.
-        if f" {normalized_item} " in normalized_query and len(normalized_item) > best_len:
-            best_match = item_name
-            best_len = len(normalized_item)
-    return best_match
+    def scan_entities(scoped_to_patch: bool) -> Tuple[Optional[str], Optional[str]]:
+        entity_query = db.query(Entity.name, Entity.entity_type).distinct()
+        if scoped_to_patch and patch_version:
+            entity_query = (
+                entity_query.join(Change, Change.entity_id == Entity.id)
+                .join(Patch, Patch.id == Change.patch_id)
+                .filter(Patch.version == patch_version.strip())
+            )
+
+        entity_rows = entity_query.all()
+        best_match: Optional[str] = None
+        best_type: Optional[str] = None
+        best_len = -1
+        for entity_name, entity_type in entity_rows:
+            normalized_entity_name = _normalize_text_key(entity_name)
+            if not normalized_entity_name:
+                continue
+            # Word boundary check prevents partial-token false positives.
+            if (
+                f" {normalized_entity_name} " in normalized_query
+                and len(normalized_entity_name) > best_len
+            ):
+                best_match = entity_name
+                best_type = (
+                    entity_type.value if hasattr(entity_type, "value") else str(entity_type)
+                )
+                best_len = len(normalized_entity_name)
+        return best_match, best_type
+
+    if patch_version:
+        scoped_match, scoped_type = scan_entities(scoped_to_patch=True)
+        if scoped_match:
+            return scoped_match, scoped_type
+    return scan_entities(scoped_to_patch=False)
 
 
 def _fallback_retrieve_changes(
@@ -341,15 +384,26 @@ def rag_explain(
     tag: Optional[str] = None,
     entity: Optional[str] = None,
 ) -> Dict[str, Any]:
+    inferred_patch_version = patch_version or _infer_latest_patch_version_from_query(
+        db=db, query=query
+    )
     normalized_entity_type = entity_type.strip().lower() if entity_type else None
     normalized_entity = entity.strip() if entity else None
 
-    inferred_item_entity: Optional[str] = None
     if not normalized_entity:
-        inferred_item_entity = _infer_item_from_query(db=db, query=query)
-        if inferred_item_entity:
-            normalized_entity = inferred_item_entity
-            normalized_entity_type = "item"
+        inferred_entity_name, inferred_entity_type = _infer_entity_from_query(
+            db=db,
+            query=query,
+            patch_version=inferred_patch_version,
+        )
+        if inferred_entity_name:
+            normalized_entity = inferred_entity_name
+            if not normalized_entity_type and inferred_entity_type in {
+                EntityType.champion.value,
+                EntityType.item.value,
+                EntityType.system.value,
+            }:
+                normalized_entity_type = inferred_entity_type
 
     if not normalized_entity_type:
         query_lower = query.lower()
@@ -364,7 +418,7 @@ def rag_explain(
         db=db,
         query_text=query,
         k=k,
-        patch_version=patch_version,
+        patch_version=inferred_patch_version,
         entity_type=normalized_entity_type,
         direction=direction,
         category=category,
@@ -375,7 +429,7 @@ def rag_explain(
         retrieved = _fallback_retrieve_changes(
             db=db,
             k=k,
-            patch_version=patch_version,
+            patch_version=inferred_patch_version,
             entity_type=normalized_entity_type,
             direction=direction,
             category=category,

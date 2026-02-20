@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 import RagExplainPanel from "@/components/semantic/RagExplainPanel";
-import SemanticSearchPanel from "@/components/semantic/SemanticSearchPanel";
 import { getPatchList } from "@/lib/api";
 
 export default async function Page() {
@@ -45,7 +44,6 @@ export default async function Page() {
           )}
         </section>
 
-        <SemanticSearchPanel availablePatchVersions={patches.map((patch) => patch.version)} />
         <RagExplainPanel availablePatchVersions={patches.map((patch) => patch.version)} />
       </main>
     );
