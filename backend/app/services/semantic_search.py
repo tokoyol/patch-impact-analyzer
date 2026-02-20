@@ -28,31 +28,39 @@ def _infer_entity_from_query(
     if len(normalized_query.strip()) < 2:
         return None, None
 
-    query = db.query(Entity.name, Entity.entity_type).distinct()
-    if explicit_entity_type and explicit_entity_type != "all":
-        query = query.filter(Entity.entity_type == EntityType(explicit_entity_type))
-    else:
-        query = query.filter(Entity.entity_type.in_([EntityType.item, EntityType.system]))
+    def scan_entities(scoped_to_patch: bool) -> Tuple[Optional[str], Optional[str]]:
+        query = db.query(Entity.name, Entity.entity_type).distinct()
+        if explicit_entity_type and explicit_entity_type != "all":
+            query = query.filter(Entity.entity_type == EntityType(explicit_entity_type))
 
+        if scoped_to_patch and patch_version:
+            query = (
+                query.join(Change, Change.entity_id == Entity.id)
+                .join(Patch, Patch.id == Change.patch_id)
+                .filter(Patch.version == patch_version.strip())
+            )
+
+        best_name: Optional[str] = None
+        best_type: Optional[str] = None
+        best_len = -1
+        for name, entity_type in query.all():
+            normalized_name = _normalize_text_key(name)
+            if not normalized_name:
+                continue
+            if f" {normalized_name} " in normalized_query and len(normalized_name) > best_len:
+                best_name = name
+                best_type = entity_type.value if hasattr(entity_type, "value") else str(entity_type)
+                best_len = len(normalized_name)
+        return best_name, best_type
+
+    # Prefer entities that appear in the requested patch scope,
+    # then fall back to global entity names so queries like
+    # "How is Caitlyn this patch?" still lock onto Caitlyn.
     if patch_version:
-        query = (
-            query.join(Change, Change.entity_id == Entity.id)
-            .join(Patch, Patch.id == Change.patch_id)
-            .filter(Patch.version == patch_version.strip())
-        )
-
-    best_name: Optional[str] = None
-    best_type: Optional[str] = None
-    best_len = -1
-    for name, entity_type in query.all():
-        normalized_name = _normalize_text_key(name)
-        if not normalized_name:
-            continue
-        if f" {normalized_name} " in normalized_query and len(normalized_name) > best_len:
-            best_name = name
-            best_type = entity_type.value if hasattr(entity_type, "value") else str(entity_type)
-            best_len = len(normalized_name)
-    return best_name, best_type
+        scoped_name, scoped_type = scan_entities(scoped_to_patch=True)
+        if scoped_name:
+            return scoped_name, scoped_type
+    return scan_entities(scoped_to_patch=False)
 
 
 def _fallback_sql_search(
@@ -220,7 +228,11 @@ def semantic_search_changes(
         )
         if inferred_name:
             normalized_entity = inferred_name
-            if not normalized_entity_type and inferred_type in {EntityType.item.value, EntityType.system.value}:
+            if not normalized_entity_type and inferred_type in {
+                EntityType.champion.value,
+                EntityType.item.value,
+                EntityType.system.value,
+            }:
                 normalized_entity_type = inferred_type
 
     try:

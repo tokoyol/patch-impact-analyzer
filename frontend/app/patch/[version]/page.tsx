@@ -1,7 +1,7 @@
 import PatchImpactDistribution from "@/components/charts/PatchImpactDistribution";
 import PatchChangesFilterPanel from "@/components/patch/PatchChangesFilterPanel";
 import GeneratePatchSummaryPanel from "@/components/patch/GeneratePatchSummaryPanel";
-import { getPatchDistribution } from "@/lib/api";
+import { getPatchDistribution, getPatchSummaryReport, PatchSummaryReport } from "@/lib/api";
 
 type TopImpacted = {
   name: string;
@@ -46,6 +46,12 @@ export default async function Page({ params }: PageProps) {
       getPatchSummary(version),
       getPatchDistribution(version),
     ]);
+    let aiSummary: PatchSummaryReport | null = null;
+    try {
+      aiSummary = await getPatchSummaryReport(version);
+    } catch {
+      aiSummary = null;
+    }
 
     return (
       <main className="mx-auto max-w-6xl space-y-4 p-6">
@@ -53,8 +59,41 @@ export default async function Page({ params }: PageProps) {
         <p className="text-sm text-zinc-600">Release Date: {patch.release_date}</p>
 
         <section className="rounded-md border p-4">
-          <h2 className="mb-2 text-lg font-semibold">Patch Notes</h2>
-          <p>{patch.raw_notes}</p>
+          <h2 className="mb-2 text-lg font-semibold">AI Patch Summary</h2>
+          <p className="mb-2 text-sm text-zinc-600">
+            Impact score is a weighted net change estimate from this patch. Higher positive values suggest stronger net buffs,
+            while lower/negative values suggest stronger net nerfs. Larger magnitude means bigger projected meta impact.
+          </p>
+          {aiSummary ? (
+            <div className="space-y-3">
+              <p className="text-sm">{aiSummary.risk_analysis_paragraph}</p>
+              {aiSummary.top_5_impacted_champions.length ? (
+                <div>
+                  <h3 className="font-semibold text-sm">Top Impacted Champions</h3>
+                  <ul className="list-disc pl-5 text-sm">
+                    {aiSummary.top_5_impacted_champions.map((champion) => (
+                      <li key={champion.name}>
+                        {champion.name}: {champion.net_impact_score.toFixed(2)}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+            </div>
+          ) : (
+            <p className="text-sm text-zinc-600">
+              AI summary is unavailable for this patch right now. Try Generate Patch Summary again.
+            </p>
+          )}
+        </section>
+
+        <GeneratePatchSummaryPanel version={version} />
+
+        <section className="rounded-md border p-4">
+          <h2 className="mb-2 text-lg font-semibold">
+            Patch Impact Distribution (by Champion)
+          </h2>
+          <PatchImpactDistribution data={distribution.items} />
         </section>
 
         <section className="rounded-md border p-4">
@@ -77,15 +116,6 @@ export default async function Page({ params }: PageProps) {
             </ul>
           )}
         </section>
-
-        <section className="rounded-md border p-4">
-          <h2 className="mb-2 text-lg font-semibold">
-            Patch Impact Distribution (by Champion)
-          </h2>
-          <PatchImpactDistribution data={distribution.items} />
-        </section>
-
-        <GeneratePatchSummaryPanel version={version} />
 
         <PatchChangesFilterPanel version={version} />
       </main>

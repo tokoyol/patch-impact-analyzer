@@ -157,6 +157,10 @@ export type RagCitation = {
 
 export type RagResponse = {
   query: string;
+  retrieved_count?: number;
+  retrieval_entity_type?: PatchEntityType | "all" | string;
+  retrieval_entity?: string | null;
+  retrieved_items?: SemanticSearchItem[];
   explanation: string;
   impact_summary: string[];
   reasoning: string[];

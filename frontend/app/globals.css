@@ -3,6 +3,23 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --chart-grid: #d4d4d8;
+  --chart-axis: #52525b;
+  --chart-tooltip-bg: #ffffff;
+  --chart-tooltip-border: #d4d4d8;
+  --chart-tooltip-text: #18181b;
+  --chart-bar: #2563eb;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --chart-grid: #3f3f46;
+  --chart-axis: #a1a1aa;
+  --chart-tooltip-bg: #18181b;
+  --chart-tooltip-border: #3f3f46;
+  --chart-tooltip-text: #e4e4e7;
+  --chart-bar: #60a5fa;
 }
 
 @theme inline {
@@ -12,15 +29,29 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 150ms ease, color 150ms ease;
+}
+
+.dark .border {
+  border-color: #3f3f46;
+}
+
+.dark .text-zinc-600 {
+  color: #a1a1aa;
+}
+
+.dark .bg-zinc-50 {
+  background-color: #18181b;
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #18181b;
+  color: #e4e4e7;
+  border-color: #3f3f46;
 }

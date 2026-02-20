@@ -4,10 +4,6 @@ import { FormEvent, useState } from "react";
 
 import {
   explainWithRag,
-  PatchChangeCategory,
-  PatchChangeDirection,
-  PatchEntityType,
-  RagQuery,
   RagResponse,
 } from "@/lib/api";
 
@@ -15,29 +11,29 @@ type Props = {
   availablePatchVersions: string[];
 };
 
-const CATEGORY_OPTIONS: PatchChangeCategory[] = [
-  "damage",
-  "cooldown",
-  "base_stat",
-  "scaling",
-  "cost",
-  "mechanic",
-];
-const DIRECTION_OPTIONS: PatchChangeDirection[] = ["buff", "nerf", "adjustment"];
-const ENTITY_TYPE_OPTIONS: PatchEntityType[] = ["all", "champion", "item", "system"];
+function valueToText(value: unknown): string {
+  if (value === null || value === undefined) {
+    return "-";
+  }
+  if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+    return String(value);
+  }
+  return JSON.stringify(value);
+}
 
 export default function RagExplainPanel({ availablePatchVersions }: Props) {
   const [query, setQuery] = useState("");
-  const [patchVersion, setPatchVersion] = useState("");
-  const [entityType, setEntityType] = useState<PatchEntityType>("all");
-  const [direction, setDirection] = useState("");
-  const [category, setCategory] = useState("");
-  const [tag, setTag] = useState("");
-  const [entity, setEntity] = useState("");
-  const [k, setK] = useState(10);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<RagResponse | null>(null);
+
+  const citedIndexes = new Set(
+    (result?.citations ?? [])
+      .map((citation) => citation.index)
+      .filter((index): index is number => typeof index === "number" && Number.isFinite(index)),
+  );
+  const citedRetrievedItems =
+    result?.retrieved_items?.filter((_item, index) => citedIndexes.has(index)) ?? [];
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -46,21 +42,10 @@ export default function RagExplainPanel({ availablePatchVersions }: Props) {
       return;
     }
 
-    const payload: RagQuery = {
-      query: query.trim(),
-      k,
-      patch_version: patchVersion || undefined,
-      entity_type: entityType === "all" ? undefined : entityType,
-      direction: (direction || undefined) as PatchChangeDirection | undefined,
-      category: (category || undefined) as PatchChangeCategory | undefined,
-      tag: tag.trim() || undefined,
-      entity: entity.trim() || undefined,
-    };
-
     setLoading(true);
     setError(null);
     try {
-      const response = await explainWithRag(payload);
+      const response = await explainWithRag({ query: query.trim() });
       setResult(response);
     } catch (ragError) {
       const message = ragError instanceof Error ? ragError.message : "RAG explain failed unexpectedly.";
@@ -73,118 +58,23 @@ export default function RagExplainPanel({ availablePatchVersions }: Props) {
 
   return (
     <section className="rounded-md border p-4 space-y-3">
-      <h2 className="text-lg font-semibold">AI Explain (RAG)</h2>
+      <h2 className="text-lg font-semibold">AI Search + Explain (RAG)</h2>
       <p className="text-sm text-zinc-600">
-        Query then retrieve patch chunks, generate explanation, impact summary, and reasoning.
+        Ask naturally. The AI infers patch scope, direction, category, and entity context from your question.
       </p>
 
-      <form onSubmit={onSubmit} className="grid grid-cols-1 gap-3 md:grid-cols-2">
-        <label className="flex flex-col gap-1 text-sm md:col-span-2">
+      <form onSubmit={onSubmit} className="grid grid-cols-1 gap-3">
+        <label className="flex flex-col gap-1 text-sm">
           Question
           <input
             className="rounded border px-2 py-1"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="e.g. Explain likely meta impact of jungle tempo buffs."
+            placeholder='e.g. "For this patch, which jungle champs gained the most?"'
           />
         </label>
 
-        <label className="flex flex-col gap-1 text-sm">
-          Patch Version
-          <select
-            className="rounded border px-2 py-1"
-            value={patchVersion}
-            onChange={(event) => setPatchVersion(event.target.value)}
-          >
-            <option value="">All</option>
-            {availablePatchVersions.map((version) => (
-              <option key={`rag-${version}`} value={version}>
-                {version}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className="flex flex-col gap-1 text-sm">
-          Entity Type
-          <select
-            className="rounded border px-2 py-1"
-            value={entityType}
-            onChange={(event) => setEntityType(event.target.value as PatchEntityType)}
-          >
-            {ENTITY_TYPE_OPTIONS.map((option) => (
-              <option key={`rag-entity-type-${option}`} value={option}>
-                {option}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className="flex flex-col gap-1 text-sm">
-          Direction
-          <select
-            className="rounded border px-2 py-1"
-            value={direction}
-            onChange={(event) => setDirection(event.target.value)}
-          >
-            <option value="">All</option>
-            {DIRECTION_OPTIONS.map((option) => (
-              <option key={`rag-direction-${option}`} value={option}>
-                {option}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className="flex flex-col gap-1 text-sm">
-          Category
-          <select
-            className="rounded border px-2 py-1"
-            value={category}
-            onChange={(event) => setCategory(event.target.value)}
-          >
-            <option value="">All</option>
-            {CATEGORY_OPTIONS.map((option) => (
-              <option key={`rag-category-${option}`} value={option}>
-                {option}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className="flex flex-col gap-1 text-sm">
-          Top K
-          <input
-            className="rounded border px-2 py-1"
-            type="number"
-            min={1}
-            max={30}
-            value={k}
-            onChange={(event) => setK(Math.max(1, Math.min(30, Number(event.target.value) || 10)))}
-          />
-        </label>
-
-        <label className="flex flex-col gap-1 text-sm">
-          Tag
-          <input
-            className="rounded border px-2 py-1"
-            value={tag}
-            onChange={(event) => setTag(event.target.value)}
-            placeholder="e.g. jungle"
-          />
-        </label>
-
-        <label className="flex flex-col gap-1 text-sm">
-          Champion
-          <input
-            className="rounded border px-2 py-1"
-            value={entity}
-            onChange={(event) => setEntity(event.target.value)}
-            placeholder="e.g. Taliyah"
-          />
-        </label>
-
-        <div className="md:col-span-2">
+        <div>
           <button
             type="submit"
             className="rounded bg-zinc-900 px-4 py-2 text-white hover:bg-zinc-700 disabled:opacity-50"
@@ -232,7 +122,42 @@ export default function RagExplainPanel({ availablePatchVersions }: Props) {
 
           <div>
             <h3 className="font-semibold">Citations</h3>
-            {result.citations.length ? (
+            {citedRetrievedItems.length ? (
+              <div className="space-y-2">
+                {citedRetrievedItems.map((item, index) => (
+                  <div
+                    key={`${item.patch_version}-${item.entity}-${item.stat_name}-${index}`}
+                    className="rounded border p-3"
+                  >
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="text-xs text-zinc-600">
+                        #{result.retrieved_items?.findIndex(
+                          (candidate) =>
+                            candidate.patch_version === item.patch_version &&
+                            candidate.entity === item.entity &&
+                            candidate.stat_name === item.stat_name &&
+                            candidate.direction === item.direction,
+                        ) ?? "?"}
+                      </span>
+                      <span className="font-medium">{item.entity}</span>
+                      <span className="text-xs text-zinc-600">{item.entity_type}</span>
+                      <span className="text-xs text-zinc-600">Patch {item.patch_version}</span>
+                      <span className="text-xs text-zinc-600">score {item.score.toFixed(4)}</span>
+                    </div>
+                    <p className="text-sm">
+                      {item.direction} {item.category} - {item.stat_name}
+                    </p>
+                    <p className="text-xs text-zinc-600">
+                      old: {valueToText(item.old_value)} | new: {valueToText(item.new_value)} | delta:{" "}
+                      {item.delta_value ?? "-"}
+                    </p>
+                    <p className="text-xs text-zinc-600">
+                      tags: {item.tags.length ? item.tags.join(", ") : "-"}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            ) : result.citations.length ? (
               <ul className="text-sm">
                 {result.citations.map((citation, index) => (
                   <li key={`citation-${index}`}>
@@ -240,6 +165,10 @@ export default function RagExplainPanel({ availablePatchVersions }: Props) {
                   </li>
                 ))}
               </ul>
+            ) : result.retrieved_items?.length ? (
+              <p className="text-sm text-zinc-600">
+                No explicit citation indices were returned, so no evidence items are shown.
+              </p>
             ) : (
               <p className="text-sm text-zinc-600">No citations returned.</p>
             )}
