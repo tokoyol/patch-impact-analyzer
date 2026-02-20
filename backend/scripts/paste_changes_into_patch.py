@@ -253,6 +253,8 @@ def is_valid_entity_name(name: str) -> bool:
         return False
     if ABILITY_COMBO_HEADER_RE.match(stripped):
         return False
+    if re.search(r"^(?:P|Q|W|E|R){1,3}\s*[-–—]\s*", stripped, re.IGNORECASE):
+        return False
     return True
 
 

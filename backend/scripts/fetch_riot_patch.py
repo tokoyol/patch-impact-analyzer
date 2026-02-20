@@ -96,6 +96,9 @@ def _is_likely_entity_header(text: str) -> bool:
         return False
     if re.search(r"^(Passive|Q|W|E|R)\s*[-–—]\s*", text):
         return False
+    # Ability-specific headings can appear as QQ/WW/EE/RR - Ability Name.
+    if re.search(r"^(?:P|Q|W|E|R){1,3}\s*[-–—]\s*", text, re.IGNORECASE):
+        return False
     if text.startswith(">"):
         return False
     if re.search(

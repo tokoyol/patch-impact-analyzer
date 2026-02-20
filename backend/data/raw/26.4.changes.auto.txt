@@ -46,7 +46,7 @@
   R - Needlework
   Base Damage per Needle : 35 / 65 / 95 ⇒ 30 / 50 / 70
 
-[champion] WW - Pool of Reflection
+[champion] Hwei
   Maximum Shield Value : 100 / 125 / 150 / 175 / 200 ⇒ 100 / 140 / 180 / 220 / 260
   Ally Shield Mod : 75% ⇒ 85%
   R - Spiraling Despair
