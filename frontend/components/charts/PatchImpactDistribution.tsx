@@ -4,6 +4,7 @@ import {
   Bar,
   BarChart,
   CartesianGrid,
+  Cell,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -34,7 +35,11 @@ export default function PatchImpactDistribution({
         <BarChart data={data}>
           <CartesianGrid strokeDasharray="3 3" stroke="var(--chart-grid)" />
           <XAxis dataKey="champion" stroke="var(--chart-axis)" tick={{ fill: "var(--chart-axis)" }} />
-          <YAxis stroke="var(--chart-axis)" tick={{ fill: "var(--chart-axis)" }} />
+          <YAxis
+            allowDecimals={false}
+            stroke="var(--chart-axis)"
+            tick={{ fill: "var(--chart-axis)" }}
+          />
           <Tooltip
             cursor={{ fill: "rgba(100, 116, 139, 0.12)" }}
             contentStyle={{
@@ -45,7 +50,14 @@ export default function PatchImpactDistribution({
             labelStyle={{ color: "var(--chart-tooltip-text)" }}
             itemStyle={{ color: "var(--chart-tooltip-text)" }}
           />
-          <Bar dataKey="value" fill="var(--chart-bar)" />
+          <Bar dataKey="value">
+            {data.map((entry, index) => (
+              <Cell
+                key={`cell-${entry.champion}-${index}`}
+                fill={entry.value >= 0 ? "#16a34a" : "#dc2626"}
+              />
+            ))}
+          </Bar>
         </BarChart>
       </ResponsiveContainer>
     </div>

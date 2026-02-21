@@ -9,6 +9,7 @@ from app.models import Change, Entity, Patch
 from app.models.change import ChangeCategory, ChangeDirection
 from app.models.entity import EntityType
 from app.services.champion_impact_predictor import predict_patch_champion_impacts
+from app.services.impact_scale import scale_impact_score
 
 router = APIRouter()
 EXCLUDED_PATCH_VERSIONS = set()
@@ -50,7 +51,7 @@ def _compute_patch_intelligence(version: str, db: Session):
             {"buffs": 0, "nerfs": 0, "adjustments": 0, "total_changes": 0},
         )
 
-        score_value = float(impact_score or 0.0)
+        score_value = scale_impact_score(impact_score)
         risk_score += abs(score_value)
         role_bucket["total_changes"] += 1
 
@@ -173,7 +174,7 @@ def get_patch_overview(version: str, db: Session = Depends(get_db)):
     entities = [
         {
             "name": i.name,
-            "impact_score": i.impact_score,
+            "impact_score": scale_impact_score(i.impact_score),
             "buffs": i.buff_count,
             "nerfs": i.nerf_count,
         }
@@ -221,7 +222,7 @@ def get_patch_summary_report(version: str, db: Session = Depends(get_db)):
     )
 
     top_5_impacted = [
-        {"name": champion, "net_impact_score": float(net_score)}
+        {"name": champion, "net_impact_score": scale_impact_score(net_score)}
         for champion, net_score, _buffs, _nerfs, _volatility in sorted(
             champion_rollup, key=lambda row: abs(float(row[1] or 0.0)), reverse=True
         )[:5]
@@ -250,7 +251,7 @@ def get_patch_summary_report(version: str, db: Session = Depends(get_db)):
             "champion": champion,
             "stat_name": stat_name,
             "direction": direction.value,
-            "impact_score": float(impact_score),
+            "impact_score": scale_impact_score(impact_score),
             "delta_value": float(delta_value) if delta_value is not None else None,
             "tags": tags or [],
         }
@@ -259,11 +260,11 @@ def get_patch_summary_report(version: str, db: Session = Depends(get_db)):
 
     total_buffs = sum(int(row[2] or 0) for row in champion_rollup)
     total_nerfs = sum(int(row[3] or 0) for row in champion_rollup)
-    total_risk = sum(float(row[4] or 0.0) for row in champion_rollup)
+    total_risk = sum(scale_impact_score(row[4]) for row in champion_rollup)
     volatility_level = "low"
-    if total_risk > 700:
+    if total_risk > 70:
         volatility_level = "high"
-    elif total_risk > 300:
+    elif total_risk > 30:
         volatility_level = "moderate"
     nerf_pressure = total_nerfs - total_buffs
     balance_tilt = (
@@ -296,8 +297,8 @@ def get_patch_summary_report(version: str, db: Session = Depends(get_db)):
             {
                 "champion": champion,
                 "reason": (
-                    f"{direction_label} net impact ({float(net_score):.2f}) with "
-                    f"high volatility {float(volatility):.2f} "
+                    f"{direction_label} net impact ({scale_impact_score(net_score):.2f}) with "
+                    f"high volatility {scale_impact_score(volatility):.2f} "
                     f"(buffs={int(buffs)}, nerfs={int(nerfs)})."
                 ),
             }
@@ -402,7 +403,7 @@ def get_patch_changes(
                 "old_value": change.old_value,
                 "new_value": change.new_value,
                 "delta_value": change.delta_value,
-                "impact_score": change.impact_score,
+                "impact_score": scale_impact_score(change.impact_score),
                 "tags": change.tags or [],
             }
             for change, entity_name, entity_type_value in rows
@@ -460,7 +461,7 @@ def get_patch_distribution(version: str, db: Session = Depends(get_db)):
         "items": [
             {
                 "champion": champion,
-                "value": value,
+                "value": scale_impact_score(value),
                 "buffs": buffs,
                 "nerfs": nerfs,
             }

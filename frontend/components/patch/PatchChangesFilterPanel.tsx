@@ -34,6 +34,30 @@ function formatValue(value: unknown): string {
   return JSON.stringify(value);
 }
 
+function categoryLabel(category: PatchChangeCategory): string {
+  if (category === "base_stat") {
+    return "Base Stats";
+  }
+  return category
+    .split("_")
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+function directionLabel(direction: PatchChangeDirection): string {
+  return direction.charAt(0).toUpperCase() + direction.slice(1);
+}
+
+function directionClass(direction: PatchChangeDirection): string {
+  if (direction === "buff") {
+    return "text-green-700";
+  }
+  if (direction === "nerf") {
+    return "text-red-700";
+  }
+  return "text-zinc-700";
+}
+
 export default function PatchChangesFilterPanel({ version }: Props) {
   const [draft, setDraft] = useState<PatchChangesQuery>({});
   const [applied, setApplied] = useState<PatchChangesQuery>({});
@@ -112,7 +136,7 @@ export default function PatchChangesFilterPanel({ version }: Props) {
             <option value="">All</option>
             {CATEGORY_OPTIONS.map((category) => (
               <option key={category} value={category}>
-                {category}
+                {categoryLabel(category)}
               </option>
             ))}
           </select>
@@ -133,7 +157,7 @@ export default function PatchChangesFilterPanel({ version }: Props) {
             <option value="">All</option>
             {DIRECTION_OPTIONS.map((direction) => (
               <option key={direction} value={direction}>
-                {direction}
+                {directionLabel(direction)}
               </option>
             ))}
           </select>
@@ -213,7 +237,9 @@ export default function PatchChangesFilterPanel({ version }: Props) {
                 <td className="px-2 py-2">{row.entity}</td>
                 <td className="px-2 py-2">{row.ability_slot ?? "-"}</td>
                 <td className="px-2 py-2">{row.stat_name}</td>
-                <td className="px-2 py-2">{row.direction}</td>
+                <td className={`px-2 py-2 font-medium ${directionClass(row.direction)}`}>
+                  {row.direction}
+                </td>
                 <td className="px-2 py-2">{formatValue(row.old_value)}</td>
                 <td className="px-2 py-2">{formatValue(row.new_value)}</td>
                 <td className="px-2 py-2">{row.delta_value ?? "-"}</td>
