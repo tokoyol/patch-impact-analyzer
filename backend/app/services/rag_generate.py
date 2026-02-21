@@ -4,6 +4,7 @@ import warnings
 from typing import Any, Dict, List, Optional, Tuple
 
 import requests
+from sqlalchemy import case, func
 from sqlalchemy import desc
 from sqlalchemy.orm import Session
 
@@ -11,6 +12,7 @@ from app.config import get_gemini_settings, get_llm_settings, get_ollama_setting
 from app.models import Change, Entity, Patch
 from app.models.change import ChangeCategory, ChangeDirection
 from app.models.entity import EntityType
+from app.services.impact_scale import scale_impact_score
 from app.services.semantic_search import semantic_search_changes
 
 
@@ -35,6 +37,7 @@ def _build_prompt(
         "}\n"
         "Rules:\n"
         "- Ground all claims in provided data and cite used retrieved items by their index in structured changes.\n"
+        "- Never cite an index that is not present in structured changes.\n"
         "- Mention uncertainty when evidence is sparse or conflicting.\n"
         "- Do not claim role winners/losers unless supporting tags/stats are present in retrieved changes.\n"
         "- If query asks about system changes, prioritize system entities over champion specifics."
@@ -212,6 +215,137 @@ def _normalize_text_key(value: str) -> str:
     return lowered
 
 
+def _is_best_champion_query(query: str) -> bool:
+    normalized = _normalize_text_key(query)
+    words = set(normalized.split())
+    asks_for_champion = "champion" in words or "champions" in words
+    asks_for_rank = any(
+        token in words
+        for token in {"best", "strongest", "top", "highest", "op", "overpowered"}
+    )
+    return asks_for_champion and asks_for_rank
+
+
+def _best_champion_direct_response(
+    db: Session,
+    query: str,
+    patch_version: Optional[str],
+) -> Optional[Dict[str, Any]]:
+    if not patch_version:
+        return None
+
+    patch = db.query(Patch).filter(Patch.version == patch_version.strip()).first()
+    if not patch:
+        return None
+
+    rollup_rows = (
+        db.query(
+            Entity.name.label("champion"),
+            func.sum(
+                case(
+                    (Change.direction == ChangeDirection.buff, Change.impact_score),
+                    (Change.direction == ChangeDirection.nerf, -Change.impact_score),
+                    else_=0.0,
+                )
+            ).label("net_score"),
+            func.sum(case((Change.direction == ChangeDirection.buff, 1), else_=0)).label("buffs"),
+            func.sum(case((Change.direction == ChangeDirection.nerf, 1), else_=0)).label("nerfs"),
+        )
+        .join(Entity, Entity.id == Change.entity_id)
+        .filter(
+            Change.patch_id == patch.id,
+            Entity.entity_type == EntityType.champion,
+        )
+        .group_by(Entity.name)
+        .order_by(desc("net_score"))
+        .all()
+    )
+    if not rollup_rows:
+        return None
+
+    top = rollup_rows[0]
+    top_name = str(top.champion)
+    top_score = scale_impact_score(top.net_score)
+
+    change_rows = (
+        db.query(Change, Entity.name.label("entity_name"), Entity.entity_type.label("entity_type_value"), Patch.version)
+        .join(Entity, Entity.id == Change.entity_id)
+        .join(Patch, Patch.id == Change.patch_id)
+        .filter(
+            Patch.version == patch.version,
+            Entity.entity_type == EntityType.champion,
+            Entity.name == top_name,
+        )
+        .order_by(desc(Change.impact_score), Change.id.asc())
+        .limit(6)
+        .all()
+    )
+
+    indexed_changes: List[Dict[str, Any]] = []
+    for index, (change, entity_name, entity_type_value, version) in enumerate(change_rows):
+        indexed_changes.append(
+            {
+                "index": index,
+                "patch_version": version,
+                "entity": entity_name,
+                "entity_type": (
+                    entity_type_value.value
+                    if hasattr(entity_type_value, "value")
+                    else str(entity_type_value)
+                ),
+                "ability_slot": change.ability_slot,
+                "direction": change.direction.value,
+                "category": change.category.value,
+                "stat_name": change.stat_name,
+                "old_value": change.old_value,
+                "new_value": change.new_value,
+                "delta_value": change.delta_value,
+                "impact_score": scale_impact_score(change.impact_score),
+                "tags": change.tags or [],
+                "score": 1.0,
+            }
+        )
+
+    top_three = [
+        {
+            "name": str(row.champion),
+            "score": scale_impact_score(row.net_score),
+            "buffs": int(row.buffs or 0),
+            "nerfs": int(row.nerfs or 0),
+        }
+        for row in rollup_rows[:3]
+    ]
+
+    return {
+        "query": query,
+        "retrieved_count": len(indexed_changes),
+        "retrieval_entity_type": "champion",
+        "retrieval_entity": top_name,
+        "retrieved_items": indexed_changes,
+        "relevant_patch_notes": _collect_relevant_patch_notes(db, [patch.version]),
+        "explanation": (
+            f"Based on structured champion impact for patch {patch.version}, {top_name} ranks highest "
+            f"with net impact score {top_score:.2f}."
+        ),
+        "impact_summary": [
+            f"{row['name']}: net {row['score']:.2f} (buffs={row['buffs']}, nerfs={row['nerfs']})"
+            for row in top_three
+        ],
+        "reasoning": [
+            "Ranking uses champion-only net impact score within the requested patch.",
+            "Net score sums buff impact positively and nerf impact negatively.",
+        ],
+        "citations": [
+            {
+                "index": item["index"],
+                "entity": item["entity"],
+                "patch_version": item["patch_version"],
+            }
+            for item in indexed_changes
+        ],
+    }
+
+
 def _infer_entity_from_query(
     db: Session,
     query: str,
@@ -309,12 +443,70 @@ def _fallback_retrieve_changes(
             "old_value": change.old_value,
             "new_value": change.new_value,
             "delta_value": change.delta_value,
-            "impact_score": change.impact_score,
+            "impact_score": scale_impact_score(change.impact_score),
             "tags": change.tags or [],
             "embedding_model": "fallback-sql",
         }
         for change, entity_name, entity_type_value, version in rows
     ]
+
+
+def _normalize_citations(
+    raw_citations: Any,
+    indexed_changes: List[Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    if not isinstance(raw_citations, list):
+        return []
+
+    max_index = len(indexed_changes) - 1
+    seen_indexes = set()
+    normalized: List[Dict[str, Any]] = []
+
+    for entry in raw_citations:
+        if not isinstance(entry, dict):
+            continue
+        raw_index = entry.get("index")
+        if not isinstance(raw_index, int):
+            continue
+        if raw_index < 0 or raw_index > max_index:
+            continue
+        if raw_index in seen_indexes:
+            continue
+
+        row = indexed_changes[raw_index]
+        normalized.append(
+            {
+                "index": raw_index,
+                "entity": row.get("entity"),
+                "patch_version": row.get("patch_version"),
+            }
+        )
+        seen_indexes.add(raw_index)
+
+    return normalized
+
+
+def _filter_retrieval_scope(
+    retrieved: List[Dict[str, Any]],
+    normalized_entity_type: Optional[str],
+    normalized_entity: Optional[str],
+) -> List[Dict[str, Any]]:
+    if not retrieved:
+        return retrieved
+
+    filtered = retrieved
+    if normalized_entity:
+        entity_key = normalized_entity.strip().lower()
+        filtered = [item for item in filtered if str(item.get("entity", "")).strip().lower() == entity_key]
+
+    if filtered and normalized_entity_type and normalized_entity_type != "all":
+        filtered = [
+            item
+            for item in filtered
+            if str(item.get("entity_type", "")).strip().lower() == normalized_entity_type
+        ]
+
+    return filtered or retrieved
 
 
 def _deterministic_rag_fallback(
@@ -387,6 +579,15 @@ def rag_explain(
     inferred_patch_version = patch_version or _infer_latest_patch_version_from_query(
         db=db, query=query
     )
+    if _is_best_champion_query(query):
+        direct_response = _best_champion_direct_response(
+            db=db,
+            query=query,
+            patch_version=inferred_patch_version,
+        )
+        if direct_response is not None:
+            return direct_response
+
     normalized_entity_type = entity_type.strip().lower() if entity_type else None
     normalized_entity = entity.strip() if entity else None
 
@@ -411,8 +612,10 @@ def rag_explain(
             normalized_entity_type = "system"
         elif "item" in query_lower or "items" in query_lower:
             normalized_entity_type = "item"
+        elif normalized_entity:
+            normalized_entity_type = "champion"
         else:
-            normalized_entity_type = "all"
+            normalized_entity_type = "champion"
 
     retrieved = semantic_search_changes(
         db=db,
@@ -425,6 +628,11 @@ def rag_explain(
         tag=tag,
         entity=normalized_entity,
     )
+    retrieved = _filter_retrieval_scope(
+        retrieved=retrieved,
+        normalized_entity_type=normalized_entity_type,
+        normalized_entity=normalized_entity,
+    )
     if not retrieved:
         retrieved = _fallback_retrieve_changes(
             db=db,
@@ -436,6 +644,11 @@ def rag_explain(
             tag=tag,
             entity=normalized_entity,
         )
+    retrieved = _filter_retrieval_scope(
+        retrieved=retrieved,
+        normalized_entity_type=normalized_entity_type,
+        normalized_entity=normalized_entity,
+    )
     indexed_changes = [
         {
             "index": index,
@@ -449,7 +662,7 @@ def rag_explain(
             "old_value": item["old_value"],
             "new_value": item["new_value"],
             "delta_value": item["delta_value"],
-            "impact_score": item["impact_score"],
+            "impact_score": scale_impact_score(item["impact_score"]),
             "tags": item["tags"],
             "score": item["score"],
         }
@@ -477,8 +690,7 @@ def rag_explain(
         impact_summary = []
     if not isinstance(reasoning, list):
         reasoning = []
-    if not isinstance(citations, list):
-        citations = []
+    citations = _normalize_citations(citations, indexed_changes)
 
     return {
         "query": query,

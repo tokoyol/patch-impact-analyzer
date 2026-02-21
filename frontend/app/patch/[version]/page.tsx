@@ -110,7 +110,7 @@ export default async function Page({ params }: PageProps) {
             <ul className="space-y-1">
               {patch.top_impacted.map((entity) => (
                 <li key={entity.name}>
-                  {entity.name}: {entity.score}
+                  {entity.name}: {entity.score.toFixed(2)}
                 </li>
               ))}
             </ul>

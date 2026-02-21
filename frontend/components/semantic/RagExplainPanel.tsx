@@ -21,6 +21,16 @@ function valueToText(value: unknown): string {
   return JSON.stringify(value);
 }
 
+function directionClass(direction: string): string {
+  if (direction === "buff") {
+    return "text-green-700";
+  }
+  if (direction === "nerf") {
+    return "text-red-700";
+  }
+  return "text-zinc-700";
+}
+
 export default function RagExplainPanel({ availablePatchVersions }: Props) {
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
@@ -145,7 +155,10 @@ export default function RagExplainPanel({ availablePatchVersions }: Props) {
                       <span className="text-xs text-zinc-600">score {item.score.toFixed(4)}</span>
                     </div>
                     <p className="text-sm">
-                      {item.direction} {item.category} - {item.stat_name}
+                      <span className={`font-medium ${directionClass(item.direction)}`}>
+                        {item.direction}
+                      </span>{" "}
+                      {item.category} - {item.stat_name}
                     </p>
                     <p className="text-xs text-zinc-600">
                       old: {valueToText(item.old_value)} | new: {valueToText(item.new_value)} | delta:{" "}

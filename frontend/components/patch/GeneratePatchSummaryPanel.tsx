@@ -16,21 +16,21 @@ function formatDelta(change: PatchSummaryVolatilityChange): string {
   if (change.delta_value === null || change.delta_value === undefined) {
     return "-";
   }
-  return String(change.delta_value);
+  return change.delta_value.toFixed(2);
 }
 
 function buildPrintableHtml(summary: PatchSummaryReport): string {
   const topImpacted = summary.top_5_impacted_champions
     .map(
       (item) =>
-        `<li><strong>${item.name}</strong> - Net impact: ${item.net_impact_score.toFixed(3)}</li>`,
+        `<li><strong>${item.name}</strong> - Net impact: ${item.net_impact_score.toFixed(2)}</li>`,
     )
     .join("");
 
   const volatility = summary.highest_volatility_changes
     .map(
       (item) =>
-        `<li><strong>${item.champion}</strong> - ${item.direction} ${item.stat_name} (impact ${item.impact_score.toFixed(3)}, delta ${formatDelta(item)})</li>`,
+        `<li><strong>${item.champion}</strong> - ${item.direction} ${item.stat_name} (impact ${item.impact_score.toFixed(2)}, delta ${formatDelta(item)})</li>`,
     )
     .join("");
 
@@ -142,7 +142,7 @@ export default function GeneratePatchSummaryPanel({ version }: Props) {
             <ul className="list-disc pl-5 text-sm">
               {summary.top_5_impacted_champions.map((item) => (
                 <li key={item.name}>
-                  {item.name}: {item.net_impact_score.toFixed(3)}
+                  {item.name}: {item.net_impact_score.toFixed(2)}
                 </li>
               ))}
             </ul>
@@ -153,7 +153,7 @@ export default function GeneratePatchSummaryPanel({ version }: Props) {
             <ul className="list-disc pl-5 text-sm">
               {summary.highest_volatility_changes.map((item, index) => (
                 <li key={`${item.champion}-${item.stat_name}-${index}`}>
-                  {item.champion} - {item.direction} {item.stat_name} (impact {item.impact_score.toFixed(3)}, delta{" "}
+                  {item.champion} - {item.direction} {item.stat_name} (impact {item.impact_score.toFixed(2)}, delta{" "}
                   {formatDelta(item)})
                 </li>
               ))}

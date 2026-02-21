@@ -8,6 +8,7 @@ from app.models import Change, ChangeEmbedding, Entity, Patch
 from app.models.change import ChangeCategory, ChangeDirection
 from app.models.entity import EntityType
 from app.services.embed_changes import embed_text
+from app.services.impact_scale import scale_impact_score
 
 
 def _normalize_text_key(value: str) -> str:
@@ -181,7 +182,7 @@ def _fallback_sql_search(
                 "old_value": change.old_value,
                 "new_value": change.new_value,
                 "delta_value": change.delta_value,
-                "impact_score": change.impact_score,
+                "impact_score": scale_impact_score(change.impact_score),
                 "tags": change.tags or [],
                 "embedding_model": "fallback-sql",
             }
@@ -309,7 +310,7 @@ def semantic_search_changes(
                 "old_value": change.old_value,
                 "new_value": change.new_value,
                 "delta_value": change.delta_value,
-                "impact_score": change.impact_score,
+                "impact_score": scale_impact_score(change.impact_score),
                 "tags": change.tags or [],
                 "embedding_model": embedding_row.model,
             }
