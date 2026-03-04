@@ -25,15 +25,16 @@ if not bootstrap_enabled:
 
 db = SessionLocal()
 try:
-    patch_count = db.execute(text("SELECT COUNT(*) FROM patches")).scalar_one()
-    if int(patch_count) > 0:
-        sys.exit(0)
+    existing_versions = {
+        row[0] for row in db.execute(text("SELECT version FROM patches")).all()
+    }
 
     files = sorted(glob.glob("/workspace/backend/data/raw/*.json"))
     for file_path in files:
         payload = load_payload_from_file(Path(file_path))
-        summary = ingest_patch_payload(db, payload)
-        print(f"Bootstrapped patch {summary.version}: entities={summary.entities}, changes={summary.changes}")
+        if payload.get("version") not in existing_versions:
+            summary = ingest_patch_payload(db, payload)
+            print(f"Bootstrapped patch {summary.version}: entities={summary.entities}, changes={summary.changes}")
     db.commit()
 except Exception:
     db.rollback()

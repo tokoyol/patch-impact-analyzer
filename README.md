@@ -235,3 +235,13 @@ Behavior:
 - Ollama runs first.
 - If parsed coverage is below threshold, Gemini is tried automatically.
 - The higher-coverage validated result is used.
+
+### 10) Bootstrap and Deployment
+
+The `render-start.sh` script (used in Docker/Render) automatically bootstraps the database with all JSON files found in `backend/data/raw/` that aren't already in the database. 
+
+To force a re-ingest of a specific patch, you can manually run the ingest command:
+```powershell
+python -m app.ingest --file data/raw/<version>.json
+```
+or delete the patch from the DB and restart the service.
