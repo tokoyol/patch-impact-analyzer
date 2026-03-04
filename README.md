@@ -8,7 +8,7 @@ From `backend`:
 
 ```powershell
 .\venv\Scripts\Activate.ps1
-python -m app.ingest --file data/raw/14.2.json
+python -m app.ingest --file data/raw/26.4.json
 ```
 
 ### 2) Fetch Riot patch scaffold
@@ -18,16 +18,26 @@ It can also auto-extract typed change lines (`champion`/`item`/`system`) for par
 
 ```powershell
 .\venv\Scripts\Activate.ps1
-python scripts/fetch_riot_patch.py --version 14.2 --changes-out data/raw/14.2.changes.auto.txt
+python scripts/fetch_riot_patch.py --version 26.4 --changes-out data/raw/26.4.changes.auto.txt
 ```
 
 ### 3) Verify API + frontend
 
+Backend:
 ```text
-GET http://127.0.0.1:8000/patch/14.2
-GET http://127.0.0.1:8000/patch/14.2/distribution
-http://127.0.0.1:3000/patch/14.2
+GET http://127.0.0.1:8000/patch/list
+GET http://127.0.0.1:8000/patch/26.4
+GET http://127.0.0.1:8000/patch/26.4/distribution
+GET http://127.0.0.1:8000/patch/26.4/summary-report
+GET http://127.0.0.1:8000/patch/compare/intelligence?base_version=26.3&target_version=26.4
 ```
+
+Frontend UI pages (http://127.0.0.1:3000):
+- `/patch/26.4`: detailed change-list and notes
+- `/dashboard`: overview of volatility, risk, and role distribution
+- `/compare`: side-by-side patch intelligence
+- `/ai`: RAG and Semantic Search interface
+- `/entity/{name}`: detailed entity change history
 
 ### 4) One-command import (recommended)
 
@@ -35,7 +45,7 @@ From `backend`:
 
 ```powershell
 .\venv\Scripts\Activate.ps1
-.\scripts\import_patch.ps1 -Version 26.2
+.\scripts\import_patch.ps1 -Version 26.4
 ```
 
 Notes:
@@ -45,13 +55,13 @@ Notes:
 - To run the auto importer directly:
 
 ```powershell
-python scripts/auto_import_patch.py --version 26.2 --replace-entities
+python scripts/auto_import_patch.py --version 26.4 --replace-entities
 ```
 
 - If your `.changes.txt` already exists and you want to keep an edited JSON scaffold, use:
 
 ```powershell
-.\scripts\import_patch.ps1 -Version 26.2 -SkipFetch
+.\scripts\import_patch.ps1 -Version 26.4 -SkipFetch
 ```
 
 ### 5) Tag taxonomy and behavior
@@ -99,32 +109,54 @@ Optional query params:
 Examples:
 
 ```text
-GET http://127.0.0.1:8000/patch/26.1/changes?direction=buff&category=cooldown
-GET http://127.0.0.1:8000/patch/26.2/changes?entity_type=item
-GET http://127.0.0.1:8000/patch/26.2/changes?entity_type=system
-GET http://127.0.0.1:8000/patch/26.1/changes?tag=jungle
-GET http://127.0.0.1:8000/patch/26.2/changes?entity=Viego
-GET http://127.0.0.1:8000/patch/26.1/changes?ability=Q
+GET http://127.0.0.1:8000/patch/26.4/changes?direction=buff&category=cooldown
+GET http://127.0.0.1:8000/patch/26.4/changes?entity_type=item
+GET http://127.0.0.1:8000/patch/26.4/changes?entity_type=system
+GET http://127.0.0.1:8000/patch/26.4/changes?tag=jungle
+GET http://127.0.0.1:8000/patch/26.4/changes?entity=Viego
+GET http://127.0.0.1:8000/patch/26.4/changes?ability=Q
 ```
 
 Predicted champion impact from item/system changes:
 
 ```text
-GET http://127.0.0.1:8000/patch/26.2/predicted-impact
-GET http://127.0.0.1:8000/patch/26.2/predicted-impact?top_n=40
+GET http://127.0.0.1:8000/patch/26.4/predicted-impact
+GET http://127.0.0.1:8000/patch/26.4/predicted-impact?top_n=40
 ```
 
-### 7) Refresh tags in DB after parser changes
+### 7) Semantic Search & RAG
+
+Search parsed change lines using semantic similarity:
+
+```text
+POST http://127.0.0.1:8000/search/semantic
+{
+  "query": "ADC survivability against assassins",
+  "k": 20
+}
+```
+
+Generate a synthesized RAG explanation for your query:
+
+```text
+POST http://127.0.0.1:8000/rag/explain
+{
+  "query": "How are burst mages affected in recent patches?",
+  "k": 12
+}
+```
+
+### 8) Refresh tags in DB after parser changes
 
 If you update parsing/tag rules, re-parse and re-ingest to refresh stored tags:
 
 ```powershell
 .\venv\Scripts\Activate.ps1
-python scripts/paste_changes_into_patch.py --patch-json data/raw/26.1.json --input-file data/raw/26.1.changes.txt --replace-entities
-python -m app.ingest --file data/raw/26.1.json
+python scripts/paste_changes_into_patch.py --patch-json data/raw/26.4.json --input-file data/raw/26.4.changes.txt --replace-entities
+python -m app.ingest --file data/raw/26.4.json
 ```
 
-### 8) Optional AI fallback for ambiguous lines
+### 9) Optional AI fallback for ambiguous lines
 
 The parser is still rule-based by default. AI fallback is opt-in and only runs on unresolved lines.
 
@@ -151,8 +183,8 @@ $env:OLLAMA_MODEL="llama3.1:8b"
 ```
 
 Use parser directly with AI fallback (Ollama):```powershell
-python scripts/paste_changes_into_patch.py --patch-json data/raw/26.3.json --input-file data/raw/26.3.changes.txt --replace-entities --use-llm-fallback --llm-max-lines 40
-python -m app.ingest --file data/raw/26.3.json
+python scripts/paste_changes_into_patch.py --patch-json data/raw/26.4.json --input-file data/raw/26.4.changes.txt --replace-entities --use-llm-fallback --llm-max-lines 40
+python -m app.ingest --file data/raw/26.4.json
 ```
 
 #### OpenAI (optional hosted provider)
@@ -166,13 +198,13 @@ $env:OPENAI_MODEL="gpt-4.1-mini"   # optional
 Preview AI suggestions without writing:
 
 ```powershell
-python scripts/paste_changes_into_patch.py --patch-json data/raw/26.3.json --input-file data/raw/26.3.changes.txt --use-llm-fallback --llm-max-lines 20 --llm-dry-run
+python scripts/paste_changes_into_patch.py --patch-json data/raw/26.4.json --input-file data/raw/26.4.changes.txt --use-llm-fallback --llm-max-lines 20 --llm-dry-run
 ```
 
 Use one-command import with AI fallback:
 
 ```powershell
-.\scripts\import_patch.ps1 -Version 26.3 -SkipFetch -UseLlmFallback -LlmMaxLines 40
+.\scripts\import_patch.ps1 -Version 26.4 -SkipFetch -UseLlmFallback -LlmMaxLines 40
 ```
 
 Notes:
