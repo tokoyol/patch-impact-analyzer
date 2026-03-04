@@ -1,0 +1,56 @@
+name: Scrape Latest Patch Notes
+
+on:
+  schedule:
+    # Run every Wednesday at 14:00 UTC
+    - cron: '0 14 * * 3'
+  workflow_dispatch:
+    inputs:
+      use_llm_fallback:
+        description: 'Enable LLM fallback for ambiguous lines'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  scrape-patch:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Required to push changes back to the repository
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+          
+      - name: Install Dependencies
+        working-directory: ./backend
+        run: |
+          pip install -r requirements.txt
+          
+      - name: Run Scraper Script
+        working-directory: ./backend
+        env:
+          # Only pass the API key if LLM fallback is intended
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER: "gemini"
+        run: |
+          if [ "${{ github.event.inputs.use_llm_fallback }}" = "true" ]; then
+            python scripts/scrape_current_patch.py --use-llm-fallback
+          else
+            python scripts/scrape_current_patch.py
+          fi
+          
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(data): auto-scrape latest patch notes"
+          file_pattern: "backend/data/raw/*.json backend/data/raw/*.changes.auto.txt"
+          branch: main
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"

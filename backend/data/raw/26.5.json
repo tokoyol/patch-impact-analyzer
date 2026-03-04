@@ -1,0 +1,716 @@
+{
+  "version": "26.5",
+  "release_date": "2026-03-03",
+  "raw_notes": "Corrupted Petricite Maokai, Corrupted Petricite Xerath, and Prestige Requiem Sona will be available March 4, 2026. The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Akali",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Restealth Timer",
+          "old_value": "1s / .9s / .825s / .725s / .625s after your last attack or ability (at game times 0:00 / 8:00 / 11:00 / 20:00 / 30:00)",
+          "new_value": "1s / .9s / .825s / .725s / .625s (at levels 1 / 7 / 10 / 13 / 16)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "utility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Azir",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health Growth",
+          "old_value": 119,
+          "new_value": 108,
+          "delta_value": -11.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garen",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Move speed duration",
+          "old_value": "1 / 1.65 / 2.3 / 2.95 / 3.6",
+          "new_value": "1.4 / 1.95 / 2.5 / 3.05 / 3.6",
+          "delta_value": 0.3999999999999999,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage per spin",
+          "old_value": "4 / 7 / 10 / 13 / 16 (+ 38 / 41 / 44 / 47 / 50% AD)",
+          "new_value": "4 / 7 / 10 / 13 / 16 (+ 40 / 43 / 46 / 49 / 52% AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kha\u2019Zix",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Move Speed",
+          "old_value": 350,
+          "new_value": 345,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus AD",
+          "old_value": "+ 110% (231% isolated bonus)",
+          "new_value": "+ 105% (220.5% isolated bonus)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Lee Sin",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Base Damage",
+          "old_value": "60 / 90 / 120 / 150 / 180",
+          "new_value": "65 / 95 / 125 / 155 / 185",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lillia",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Monster heal bonus AP ratio",
+          "old_value": "9%",
+          "new_value": "15%",
+          "delta_value": 6.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "jungle"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Bonus AP ratio",
+          "old_value": "30%",
+          "new_value": "35%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Base damage",
+          "old_value": "100 / 150 / 200",
+          "new_value": "150 / 200 / 250",
+          "delta_value": 50.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "AP ratio",
+          "old_value": "45%",
+          "new_value": "40%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "150 / 130 / 110",
+          "new_value": "140 / 120 / 100",
+          "delta_value": -10.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mel",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Minion Damage Modifier",
+          "old_value": "0.6x",
+          "new_value": "0.5x",
+          "delta_value": -0.09999999999999998,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "waveclear"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Base Damage per Bolt",
+          "old_value": "5 / 6 / 7 / 8 / 9",
+          "new_value": "5 / 7 / 9 / 11 / 13",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Total Q Base Damage",
+          "old_value": "90 / 132 / 176 / 222 / 270",
+          "new_value": "90 / 145 / 200 / 255 / 310",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Initial Base Damage",
+          "old_value": "100 / 150 / 200",
+          "new_value": "125 / 200 / 275",
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neeko",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Nocturne",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": 13,
+          "new_value": 12,
+          "delta_value": -1.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Bonus move speed",
+          "old_value": "15 / 20 / 25 / 30 / 35%",
+          "new_value": "20 / 25 / 30 / 35 / 40%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orianna",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "6 / 5.25 / 4.5 / 3.75 / 3",
+          "new_value": "7 / 6 / 5 / 4 / 3",
+          "delta_value": 1.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Samira",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Taliyah",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Base Damage",
+          "old_value": "55 / 72.5 / 90 / 107.5 / 125",
+          "new_value": "50 / 67.5 / 85 / 102.5 / 120",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Monster Damage",
+          "old_value": "20 / 25 / 30 / 35 / 40",
+          "new_value": "23 / 28 / 33 / 38 / 43",
+          "delta_value": 3.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Varus",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Maximum damage",
+          "old_value": "80 / 160 / 240 / 320 / 400 (+ 130 / 140 / 150 / 160 / 170% bonus AD)",
+          "new_value": "80 / 150 / 220 / 290 / 360 (+ 150% bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "On-hit damage",
+          "old_value": "8 / 17 / 26 / 35 / 44 (+ 25% AP)",
+          "new_value": "8 / 17 / 26 / 35 / 44 (+ 25% AP + 15% bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Volibear",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Bonus physical damage",
+          "old_value": "+140%",
+          "new_value": "+160%",
+          "delta_value": 20.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana cost",
+          "old_value": "30 / 35 / 40 / 45 / 50",
+          "new_value": "20 / 25 / 30 / 35 / 40",
+          "delta_value": -10.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Wounded bonus",
+          "old_value": "+ 15% per 100 bonus AD",
+          "new_value": "+ 25% per 100 bonus AD",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana cost",
+          "old_value": 60,
+          "new_value": 50,
+          "delta_value": -10.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hubris",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cost",
+          "stat_name": "Combine cost",
+          "old_value": "950 gold",
+          "new_value": "750 gold",
+          "delta_value": -200.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Total price",
+          "old_value": "3000 gold",
+          "new_value": "2800 gold",
+          "delta_value": -200.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Locket of the Iron Solari",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "SHIELD",
+          "old_value": "200 - 360, scaling after level 1",
+          "new_value": "290 - 360, scaling after level 8",
+          "delta_value": 90.0,
+          "direction": "buff",
+          "tags": [
+            "sustain"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Functional Shield Level 8-18",
+          "old_value": "265 - 360",
+          "new_value": "290 - 360",
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Augments and Set Changes",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Gold per tick",
+          "old_value": 10,
+          "new_value": 12,
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage scaling off max HP",
+          "old_value": "1.5%",
+          "new_value": "2%",
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Max Health Gain",
+          "old_value": 1250,
+          "new_value": 1500,
+          "delta_value": 250.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Heal amount from immobilizing / grounding enemy",
+          "old_value": "10-150 (+ 1.5% Max HP)",
+          "new_value": "30-250 (+ 1.5% Max HP)",
+          "delta_value": 20.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Base regen",
+          "old_value": "8 Health / sec",
+          "new_value": "10 Health / sec",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Low HP regen",
+          "old_value": "16 Health / sec",
+          "new_value": "20 Health / sec",
+          "delta_value": 4.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Shield",
+          "old_value": "100-300 + 4%HP",
+          "new_value": "150-450 + 4%HP",
+          "delta_value": 50.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "MR / armor gained per immobilizing / grounding enemy",
+          "old_value": 8,
+          "new_value": 10,
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Aftershock and Glacial CD",
+          "old_value": "15s",
+          "new_value": "20s",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Post-taunt damage mitigation",
+          "old_value": "40%",
+          "new_value": "50%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "cc"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Execute threshold AD scaling",
+          "old_value": ".03%",
+          "new_value": ".035%",
+          "delta_value": 32.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "75s",
+          "new_value": "45s",
+          "delta_value": -30.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Invulnerability duration",
+          "old_value": "1s",
+          "new_value": "1.5s",
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Move speed increase",
+          "old_value": "25%",
+          "new_value": "40%",
+          "delta_value": 15.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage reduction",
+          "old_value": "85%",
+          "new_value": "70%",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "100-300 + 5% Bonus HP + 100% Bonus AD + 50% Bonus AP",
+          "new_value": "100-700",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "75-350 + 450% Lethality + 450% Magic Pen",
+          "new_value": "100-450 + 550% Lethality + 550% Magic Pen",
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Width",
+          "old_value": 210,
+          "new_value": 250,
+          "delta_value": 40.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "11 - 40+7% bonus AD + 10% AP",
+          "new_value": "20 - 100 per missile",
+          "delta_value": 9.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bugfixes",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Arena Bugfixes",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Demacia Rising",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Last Hit Indicators",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Bugfixes & QoL Changes",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Upcoming Skins & Chromas",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Corrupted Petricite Xerath",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Related Articles",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}

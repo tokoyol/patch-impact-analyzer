@@ -1,0 +1,198 @@
+[champion] Akali
+  W - Twilight Shroud
+  Restealth Timer : 1s / .9s / .825s / .725s / .625s after your last attack or ability (at game times 0:00 / 8:00 / 11:00 / 20:00 / 30:00) ⇒ 1s / .9s / .825s / .725s / .625s (at levels 1 / 7 / 10 / 13 / 16)
+
+[champion] Azir
+  Base Stats
+  Health Growth : 119 ⇒ 108
+
+[champion] Garen
+  Q - Decisive Strike
+  Move speed duration : 1 / 1.65 / 2.3 / 2.95 / 3.6 ⇒ 1.4 / 1.95 / 2.5 / 3.05 / 3.6
+  E - Judgment
+  Damage per spin : 4 / 7 / 10 / 13 / 16 (+ 38 / 41 / 44 / 47 / 50% AD) ⇒ 4 / 7 / 10 / 13 / 16 (+ 40 / 43 / 46 / 49 / 52% AD)
+
+[champion] Kha’Zix
+  Base Stats
+  Move Speed : 350 ⇒ 345
+  Q - Taste Their Fear
+  Bonus AD : + 110% (231% isolated bonus) ⇒ + 105% (220.5% isolated bonus)
+
+[champion] Lee Sin
+  Q - Sonic Wave / Resonating Strike
+  Base Damage : 60 / 90 / 120 / 150 / 180 ⇒ 65 / 95 / 125 / 155 / 185
+
+[champion] Lillia
+  Passive - Dream-Laden Bough
+  Monster heal bonus AP ratio : 9% ⇒ 15%
+  Q - Blooming Blows
+  Bonus AP ratio : 30% ⇒ 35%
+  R - Lilting Lullaby
+  Base damage : 100 / 150 / 200 ⇒ 150 / 200 / 250
+  AP ratio : 45% ⇒ 40%
+  Cooldown : 150 / 130 / 110 ⇒ 140 / 120 / 100
+
+[champion] Mel
+  Passive - Searing Brilliance
+  Minion Damage Modifier : 0.6x ⇒ 0.5x
+  Q - Radiant Volley
+  Base Damage per Bolt : 5 / 6 / 7 / 8 / 9 ⇒ 5 / 7 / 9 / 11 / 13
+  Total Q Base Damage : 90 / 132 / 176 / 222 / 270 ⇒ 90 / 145 / 200 / 255 / 310
+  R - Golden Eclipse
+  Initial Base Damage : 100 / 150 / 200 ⇒ 125 / 200 / 275
+
+[champion] Neeko
+  W - Shapeshifter
+  Slightly-Less-Tricksy-Neekoses : Cooldown now starts on clone expiration, instead of on cast
+  Fun Eliminated : Neeko can no longer use Ctrl+5, which plays the joke expression for clone only. Neeko can still joke, dance, recall, to make their clone initiate said actions.
+
+[champion] Nocturne
+  Passive - Umbra Blades
+  Cooldown : 13 ⇒ 12
+  Q - Duskbringer
+  Bonus move speed : 15 / 20 / 25 / 30 / 35% ⇒ 20 / 25 / 30 / 35 / 40%
+
+[champion] Orianna
+  Q - Command: Attack
+  Cooldown : 6 / 5.25 / 4.5 / 3.75 / 3 ⇒ 7 / 6 / 5 / 4 / 3
+
+[champion] Samira
+  Q - Flair
+  The Right Tool for the Job : Samira Q will now do multiple additional checks to see if there are units on both the right and left of her. If there are, and importantly if there are no units far in front of her, she will use Sword Q. If a unit is far in front of her, she will still use Gun Q regardless of units on the right and left.
+  Itchy Trigger Finger : Samira Q is now properly sealed during her passive. This resolves a case where Samira Q can go on cooldown despite not being used if pressed during her passive’s animation. This also applies to an instance where her ultimate was cast after her W.
+  Can’t Out-Walk Me : Samira Q will now do a check to see if the enemy is walking away from her and in the very last part of her Sword Q’s range. If so, she will instead use Gun Q. This should resolve the extreme cases where champions can simply walk away from her Q at very low move speed (higher move speeds will still likely be able to do so, rightfully.)
+
+[champion] Taliyah
+  Q - Threaded Volley
+  Base Damage : 55 / 72.5 / 90 / 107.5 / 125 ⇒ 50 / 67.5 / 85 / 102.5 / 120
+  Bonus Monster Damage : 20 / 25 / 30 / 35 / 40 ⇒ 23 / 28 / 33 / 38 / 43
+
+[champion] Varus
+  Q - Piercing Arrow
+  Maximum damage : 80 / 160 / 240 / 320 / 400 (+ 130 / 140 / 150 / 160 / 170% bonus AD) ⇒ 80 / 150 / 220 / 290 / 360 (+ 150% bonus AD)
+  W - Blighted Quiver
+  On-hit damage : 8 / 17 / 26 / 35 / 44 (+ 25% AP) ⇒ 8 / 17 / 26 / 35 / 44 (+ 25% AP + 15% bonus AD)
+
+[champion] Volibear
+  Q - Thundering Smash
+  Bonus physical damage : +140% ⇒ +160%
+  W- Frenzied Maul
+  Mana cost : 30 / 35 / 40 / 45 / 50 ⇒ 20 / 25 / 30 / 35 / 40
+  Wounded bonus : + 15% per 100 bonus AD ⇒ + 25% per 100 bonus AD
+  E - Sky Splitter
+  Mana cost : 60 ⇒ 50
+
+[item] Hubris
+  Combine cost : 950 gold ⇒ 750 gold
+  Total price : 3000 gold ⇒ 2800 gold
+
+[item] Locket of the Iron Solari
+  SHIELD : 200 - 360, scaling after level 1 ⇒ 290 - 360, scaling after level 8
+  Functional Shield Level 8-18 : 265 - 360 ⇒ 290 - 360
+
+[system] Augments and Set Changes
+  Gold per tick: 10 ⇒ 12
+  Damage scaling off max HP: 1.5% ⇒ 2%
+  Max Health Gain: 1250 ⇒ 1500
+  Heal amount from immobilizing / grounding enemy: 10-150 (+ 1.5% Max HP) ⇒ 30-250 (+ 1.5% Max HP)
+  Base regen: 8 Health / sec ⇒ 10 Health / sec
+  Low HP regen: 16 Health / sec ⇒ 20 Health / sec
+  Shield: 100-300 + 4%HP ⇒ 150-450 + 4%HP
+  MR / armor gained per immobilizing / grounding enemy: 8 ⇒ 10
+  Aftershock and Glacial CD: 15s ⇒ 20s
+  Post-taunt damage mitigation: 40% ⇒ 50%
+  Execute threshold AD scaling: .03% ⇒ .035%
+  Cooldown: 75s ⇒ 45s
+  Invulnerability duration: 1s ⇒ 1.5s
+  Move speed increase: 25% ⇒ 40%
+  Damage reduction: 85% ⇒ 70%
+  Damage: 100-300 + 5% Bonus HP + 100% Bonus AD + 50% Bonus AP ⇒ 100-700
+  Damage: 75-350 + 450% Lethality + 450% Magic Pen ⇒ 100-450 + 550% Lethality + 550% Magic Pen
+  Width: 210 ⇒ 250
+  Removed CD reset on death
+  Damage: 11 - 40+7% bonus AD + 10% AP ⇒ 20 - 100 per missile
+  Gain 100% Attack Speed
+  When you have Sword of Blossoming Dawn, your attacks against champions deal 50% damage but increase Sword of Blossoming Dawn’s healing by 250%
+  Set Bonus: Gain Bonus effects towards allies below 50% health
+  (2) Gain 50% Movement Speed
+  (3) Your next heal or shield restores 12% of the target’s missing health (10 seconds cooldown)
+
+[item] Bugfixes
+  Fixed a bug where Divine Intervention had no cooldown.
+  Fixed a bug where Grandma’s Chili Oil buff/debuff was missing icons and tooltips.
+  Fixed a bug where Grandma’s Chili Oil pool effects stopped being applied when multiple players were standing in it.
+  Fixed a bug where Inferno Conduit’s damage did not trigger Grandma’s Chili Oil.
+  Fixed a bug so that Void Immolation counts as 2 burn sources for Grandma’s Chili Oil.
+  Fixed a bug where Zilean could infinitely proc Ultimate Revolution by self-casting Chronoshift (R) after reviving.
+  Fixed a bug where Empowered by the Faithful had debug buffs on allies.
+  Fixed a bug where Empowered by the Faithful’s shockwave could cause champions to become invisible.
+  Fixed a bug where champions could be knocked back further than intended when combining Inferno Triggered and Poro Blaster.
+  Fixed a bug where the Sonata gained cooldown reduction from Ability Haste despite being at the Set 2 bonus for Fully Automated.
+  Fixed a bug where The Butcher’s Bridge cannon did not show its range indicator on the minimap.
+  Fixed a bug where The Golden Spatula could be lost if you had full items and completed the mission after selecting Quest: Urf’s Champion and using Poro-Snax.
+  Fixed a bug where Poro King removed Cho’Gath ult stacks or Sion W stacks.
+  Fixed a bug where Upgrade Immolate did not work with Void Immolation.
+  Fixed a bug where Red Envelope did not grant Attack Damage.
+  Fixed a bug where Droppybara and Poro King worked on Aurora’s and Zaahen’s passives. Aurora’s and Zaahen’s passives will no longer be procced by augment damage.
+  Fixed a bug where Upgrade Sheen did not heal on proc.
+  Fixed a bug where using a Stat Anvil Voucher before the first augment offering caused the augment offering to break.
+  Fixed a bug where Upgrade Thornmail's effect exists if you don't have the items.
+  Fixed a bug where Upgrade Thornmail's Shield can be proc by minions.
+  Fixed a bug where taking Pinball Snowball broke Hexgate’s repositioning function.
+
+[item] Arena Bugfixes
+  Fixed Mordekaiser Guest of Honor not working on occasions.
+  Fixed Cosmic Drive tooltip.
+  Fixed Atmas’ Reckoning breaking the crit cap on Aim for the Head.
+  Fixed Cosmic Drive not giving the right amount of movement speed.
+  Fixed Multitool removing items unexpectedly when inventory is full.
+  Fixed Multitool removing items unexpectedly when it was moved around in your item slot in between rounds.
+  Cleaned up Righteous Fury VFX between rounds.
+  Fixed Buff Buddies tooltip.
+
+[item] Demacia Rising
+  STORY & REWARDS : Chapters 5 and 6 are now available with 16 objectives. Complete Chapter 5 to earn “The Great City” icon, and Chapter 6 to earn the “Poster Boy” Garen emote.
+  NEW SETTLEMENTS : 4 new Settlements have been added: Hayneath (Heartland), Hawkstone (Mountain), Fossbarrow (Border), and Dawnhold (Border).
+  NOXIAN INVASION : Noxian unit types have been added. Noxian threats will begin after you complete the second objective in Chapter 5 of the story.
+  Noxian Infantry form the backbone of Noxus' military might. They rival Demacian Guards in skill.
+  Noxian Drakehounds are faster than their wild brethren, trained for war. They evade ranged attacks with ease.
+  Basilisks target ranged units. Their thick hides and armor plates are weak to Rangers’ crossbows.
+  Battlemages throw AoE fireballs from range. They rely on their frontline for safety—break through the enemy troops to reach the mages.
+  Maulers are huge, heavily armored soldiers. They attack slowly until they reach half health and enrage, striking much faster.
+  CHAMPIONS : Garen and Sona are now available.
+  Garen is a front-line damage dealer, who specializes in dealing massive damage to highly armored enemies.
+  Sona supports your ranged units by buffing them with increased attack damage.
+  STRUCTURES : All Towns and Resource Generators are upgradeable to Level 4. Additionally, several structures can now be upgraded, including:
+  Petricite Mill: Levels 2 and 3 added
+  Academy: Levels 2 and 3 added
+  Marketplace: Levels 2 and 3 added
+  EVENTS : 22 new Events have been added to the random Event pool.
+  RESEARCH : 19 new Research types are available, including upgrades to Poppy and Galio.
+
+[item] Last Hit Indicators
+  Last Hit Indicators are now available in Co-op vs. AI, Tutorials, Swiftplay, Custom Games , Practice Tool, and RGM Summoner’s Rift queues.
+  Last Hit Indicators are on by default for newly created accounts, and off by default for existing accounts.
+
+[item] Bugfixes & QoL Changes
+  Fixed a bug where Rek’Sai’s Void Rush could fail to complete its cast if enemies Flashed into fog of war at the same time the ability would finish casting.
+  Fixed a bug where Senna’s homeguard SFX started and stopped suddenly.
+  Fixed a bug where Rengar’s passive time wasn’t consistently being extended when attacking.
+  Fixed a bug where Zeke’s Convergence slow was sometimes stacking with other slows.
+  Fixed a bug where Zac’s E could be heard in Fog of War by nearby enemies.
+
+[item] Upcoming Skins & Chromas
+  The following skins will be released in this patch:
+
+[item] Corrupted Petricite Xerath
+  The following chromas will be released this patch:
+
+[item] Related Articles
+  Game Updates 2026-02-18T19:00:00.000Z League of Legends Patch 26.4 Notes Happy Lunar Revel, welcome to patch 26.4!
+  Game Updates 2026-02-03T19:00:00.000Z Patch 26.3 Notes Celebrate the new year and revel in Patch 26.3 🎊
+  Game Updates 2026-01-21T19:00:00.000Z Patch 26.2 Notes Patch 26.2 ready to deploy!
+  Game Updates 2026-01-07T19:00:00.000Z Patch 26.1 Notes Demacia rises in Patch 26.1 🛡️
+  Game Updates 2025-12-02T19:00:00.000Z Patch 25.24 Notes The last patch of the year, 25.24 is here!
+  Game Updates 2025-11-18T19:00:00.000Z Patch 25.23 Notes Patch 25.23 has ascended 🙏
+  Game Updates 2025-11-04T19:00:00.000Z Patch 25.22 Notes We’re going to Chengdu with Patch 25.22!
+  Game Updates 2025-10-21T18:00:00.000Z Patch 25.21 Notes Patch 25.21 is bee-autiful! 🐝
+  Game Updates 2025-10-07T18:00:00.000Z Patch 25.20 Notes Get ready for Worlds with patch 25.20!
