@@ -54,3 +54,9 @@ jobs:
           file_pattern: "backend/data/raw/*.json backend/data/raw/*.changes.auto.txt"
           branch: main
           commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+
+      - name: Trigger live deploy (Render)
+        # Add RENDER_DEPLOY_HOOK_URL in repo Secrets (from Render dashboard → Service → Settings → Deploy Hook)
+        if: ${{ secrets.RENDER_DEPLOY_HOOK_URL != '' }}
+        run: |
+          curl -f -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
