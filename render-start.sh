@@ -32,7 +32,7 @@ try:
     files = sorted(glob.glob("/workspace/backend/data/raw/*.json"))
     for file_path in files:
         payload = load_payload_from_file(Path(file_path))
-        if payload.get("version") not in existing_versions:
+        if payload.version not in existing_versions:
             summary = ingest_patch_payload(db, payload)
             print(f"Bootstrapped patch {summary.version}: entities={summary.entities}, changes={summary.changes}")
     db.commit()
