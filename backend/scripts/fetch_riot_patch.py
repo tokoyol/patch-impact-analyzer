@@ -33,7 +33,12 @@ def _normalize_text(value: str) -> str:
 
 
 def _notes_root(soup: BeautifulSoup):
-    return soup.find("article") or soup.find("main")
+    return (
+        soup.find("article")
+        or soup.find("main")
+        or soup.find(id=re.compile(r"patch.notes", re.I))
+        or soup.body
+    )
 
 
 def extract_notes_text(soup: BeautifulSoup) -> str:
