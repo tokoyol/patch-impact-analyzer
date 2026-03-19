@@ -66,8 +66,17 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+_BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0.0.0 Safari/537.36"
+    )
+}
+
+
 def _fetch_patch_html(url: str) -> str:
-    response = requests.get(url, timeout=30)
+    response = requests.get(url, headers=_BROWSER_HEADERS, timeout=30)
     response.raise_for_status()
     return response.text
 
