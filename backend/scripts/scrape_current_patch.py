@@ -70,8 +70,8 @@ def check_patch_exists(version: str) -> str:
             # Try HEAD first
             response = requests.head(url, headers=headers, timeout=10)
             
-            # If HEAD is not allowed, try GET
-            if response.status_code == 405:
+            # Fall back to GET if HEAD is disallowed or blocked (e.g. 403, 405)
+            if response.status_code != 200:
                 response = requests.get(url, headers=headers, timeout=10)
 
             if response.status_code == 200:
