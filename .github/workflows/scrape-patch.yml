@@ -57,6 +57,8 @@ jobs:
 
       - name: Trigger live deploy (Render)
         # Add RENDER_DEPLOY_HOOK_URL in repo Secrets (from Render dashboard → Service → Settings → Deploy Hook)
-        if: ${{ secrets.RENDER_DEPLOY_HOOK_URL != '' }}
+        if: ${{ env.RENDER_DEPLOY_HOOK_URL != '' }}
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
         run: |
-          curl -f -X POST "${{ secrets.RENDER_DEPLOY_HOOK_URL }}"
+          curl -f -X POST "$RENDER_DEPLOY_HOOK_URL"
