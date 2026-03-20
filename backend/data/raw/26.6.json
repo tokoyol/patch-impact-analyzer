@@ -1,0 +1,566 @@
+{
+  "version": "26.6",
+  "release_date": "2026-03-17",
+  "raw_notes": "Warhound Naafiri, Warhound Senna, and Warhound Warwick will be available March 18, 2026. Big Dragon Energy Omnivamp Shard Fiendhunter Bolts Zeke's Convergence Crown of the Shattered Queen Divine Sunderer Diamond-Tipped Spear Goredrinker Night Harvest Illaoi Sett Shyvana Sion Swain Urgot Vladimir Droppybara Dual Wield Fire Fox Ice Cold Juiced Prom Queen Sonata Speed Demon Stuck In Here With Me Triggered Inferno Watch Out Cupcake Make It Rain The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Ahri",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damager per Pass",
+          "old_value": "40 / 65 / 90 / 115 / 140",
+          "new_value": "35 / 60 / 85 / 110 / 135",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Azir",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage AP Ratio",
+          "old_value": "(+ 35% AP)",
+          "new_value": "(+ 35 / 40 / 45 / 50 / 55% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "0-45 (5 damage per level starting at level 10)",
+          "new_value": "0-72 (7 damage per level starting at level 10)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage AP Ratio",
+          "old_value": "(+ 32.5 / 40 / 47.5 / 55 / 62.5% AP)",
+          "new_value": "(+35 / 42.5 / 50 / 57.5 / 65% AP)",
+          "delta_value": 2.5,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cassiopeia",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base Mana",
+          "old_value": 450,
+          "new_value": 480,
+          "delta_value": 30.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Magic Damage to Poisoned Targets",
+          "old_value": "20 / 43 / 66 / 89 / 112",
+          "new_value": "20 / 45 / 70 / 90 / 120",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lissandra",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": 4.9,
+          "new_value": 4.2,
+          "delta_value": -0.7000000000000002,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Olaf",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base Attack Speed",
+          "old_value": 0.694,
+          "new_value": 0.72,
+          "delta_value": 0.026000000000000023,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Slow Amount",
+          "old_value": "25 / 30 / 40 / 45% for 1.5- 2.5 seconds (based on distance)",
+          "new_value": "30 / 40 / 45 / 50% for 1-3 seconds (based on distance)",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage to Self",
+          "old_value": "30% of Damage Dealt",
+          "new_value": "40% of Damage Dealt",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pyke",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base Armor",
+          "old_value": 43,
+          "new_value": 37,
+          "delta_value": -6.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shen",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage Cap",
+          "old_value": "120 / 140 / 160 / 180 / 200",
+          "new_value": "100 / 125 / 150 / 175 / 200",
+          "delta_value": -20.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skarner",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": 45,
+          "new_value": 30,
+          "delta_value": -15.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Third Attack Target Max Health Damage",
+          "old_value": "9%",
+          "new_value": "11%",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tryndamere",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Ratio",
+          "old_value": 0.694,
+          "new_value": 0.725,
+          "delta_value": 0.031000000000000028,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zaahen",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Secondary Damage",
+          "old_value": "40 / 60 / 80 / 100 / 120 (+ 50% bonus AD)",
+          "new_value": "30 / 50 / 70 / 90 / 110 (+ 30% bonus AD)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Damage to Monsters",
+          "old_value": 75,
+          "new_value": 50,
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chempunk Chainsword",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cost",
+          "stat_name": "Combine Cost",
+          "old_value": "350 gold",
+          "new_value": "250 gold",
+          "delta_value": -100.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "cost",
+          "stat_name": "Total Cost",
+          "old_value": 3100,
+          "new_value": "3000 gold",
+          "delta_value": -100.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sunfire Aegis",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build Path",
+          "old_value": "Bami's Cinder + Chain Vest + 1000 gold",
+          "new_value": "Bami's Cinder + Chain Vest + Ruby Crystal + 600 gold",
+          "delta_value": -400.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "FARMING AS SUPPORTS",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Minion Kills Before Gold Penalty Activates (Before 5 Minutes)",
+          "old_value": 7,
+          "new_value": 24,
+          "delta_value": 17.0,
+          "direction": "buff",
+          "tags": [
+            "waveclear"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Minion Kills Per 5 Minutes Before Gold Penalty Activates (After 5 minutes)",
+          "old_value": 20,
+          "new_value": 30,
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "waveclear"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Summoner's Rift Clash - Noxus Cup",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "AUGMENTS AND STAT ANVILS",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Omnivamp",
+          "old_value": "25 (melee)/12.5% (ranged)",
+          "new_value": "25 (melee)/15% (ranged)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AUGMENTS",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "AoE Size",
+          "old_value": 550,
+          "new_value": 650,
+          "delta_value": 100.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Max Health True Damage",
+          "old_value": "25%",
+          "new_value": "30%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Slow Amount",
+          "old_value": "35%",
+          "new_value": "45%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Bonus",
+          "old_value": "20%",
+          "new_value": "10%",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Bonus Movement Speed",
+          "old_value": "40%",
+          "new_value": "25%",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Flat Movement Speed Decrease",
+          "old_value": 100,
+          "new_value": 75,
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "On-Hit Max Mana % Damage",
+          "old_value": "3.5%",
+          "new_value": "4.5%",
+          "delta_value": 1.0,
+          "direction": "buff",
+          "tags": [
+            "mana",
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Charm Duration",
+          "old_value": 2,
+          "new_value": "1.5 seconds",
+          "delta_value": -0.5,
+          "direction": "nerf",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Self Movement Speed Buff",
+          "old_value": "50%",
+          "new_value": "30%",
+          "delta_value": -20.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ally Movement Speed Buff",
+          "old_value": "30%",
+          "new_value": "20%",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Decay Time",
+          "old_value": 1,
+          "new_value": "0.75 seconds",
+          "delta_value": -0.25,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Movement Speed per Stack",
+          "old_value": "(2.75 - 3.5)",
+          "new_value": "(4.25 - 5)",
+          "delta_value": 1.5,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage per Shot",
+          "old_value": "10 - 40 (+ 0.35 AD) (+ 0.2 AP)",
+          "new_value": "20-40 (+ 0.4 AD) (+ 0.25 AP)",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Gold for Non-Holder",
+          "old_value": 15,
+          "new_value": 50,
+          "delta_value": 35.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "AUGMENT SETS",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "QUALITY OF LIFE CHANGES",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Bugfixes",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Bugfixes & QoL Changes",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Upcoming Skins & Chromas",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Warhound Warwick",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Related Articles",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}
