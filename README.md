@@ -1,86 +1,230 @@
-## Patch Ingestion Workflow
+# Patch Impact Analyzer
 
-Use normalized JSON payloads to ingest real patch data into Postgres.
+Scrapes League of Legends patch notes, parses them into structured change data, and serves a Next.js dashboard with patch analytics, entity history, and AI-powered search.
 
-### 1) Ingest from file
+Live patch data updates automatically every Wednesday via GitHub Actions. No manual intervention required after deployment.
 
-From `backend`:
+---
+
+## What it does
+
+- **Parses patch notes** from Riot's website into typed, scored change records (champion/item/system, buff/nerf/adjustment, stat category, delta values)
+- **Scores impact** per entity per patch using weighted categories — cooldowns weigh more than base stats, mechanics more than cost changes
+- **Predicts indirect champion impact** from item and system changes by matching gameplay tags (burst, mobility, durability, etc.) against champion profiles
+- **Semantic search** over all parsed change lines using pgvector embeddings
+- **RAG interface** for natural language queries ("How are burst mages affected this patch?")
+- **Auto-scrapes** every Wednesday, detects the next patch version, commits the JSON, and triggers a Render redeploy
+
+---
+
+## Tech stack
+
+| Layer | Technology |
+|---|---|
+| Backend | Python 3.10, FastAPI, SQLAlchemy, Alembic |
+| Database | PostgreSQL + pgvector |
+| Scraping/parsing | BeautifulSoup4, requests |
+| LLM fallback | Gemini, OpenAI, or Ollama (opt-in) |
+| Frontend | Next.js (TypeScript) |
+| Deployment | Render (monorepo: backend + frontend) |
+| Automation | GitHub Actions |
+
+---
+
+## Architecture
+
+```
+GitHub Actions (weekly)
+  └── scrape_current_patch.py        # detect next patch version, check URL
+        └── auto_import_patch.py     # fetch HTML → parse → write JSON
+              └── fetch_riot_patch.py        # BeautifulSoup extraction
+              └── paste_changes_into_patch.py  # rule-based parser + optional LLM fallback
+  └── git commit + push → triggers Render deploy
+
+Render deploy
+  └── render-start.sh
+        └── alembic upgrade head
+        └── bootstrap: ingest any JSON in data/raw/ not yet in DB
+        └── uvicorn (FastAPI backend)
+        └── next start (frontend)
+
+FastAPI backend
+  ├── /patch/*        patch list, detail, changes, distribution, comparison
+  ├── /search/semantic   pgvector nearest-neighbor over change embeddings
+  └── /rag/explain       retrieval-augmented generation via Gemini
+```
+
+Patch data lives in `backend/data/raw/<version>.json` — committed to the repo and auto-ingested on each deploy. The DB is the source of truth at runtime; JSON files are the source of truth for reseeding.
+
+---
+
+## Local setup
+
+### Prerequisites
+
+- Python 3.10+
+- Node.js 18+
+- PostgreSQL with pgvector extension
+
+### Backend
 
 ```powershell
+cd backend
+python -m venv venv
 .\venv\Scripts\Activate.ps1
-python -m app.ingest --file data/raw/26.4.json
+pip install -r requirements.txt
 ```
 
-### 2) Fetch Riot patch scaffold
+Copy `.env.example` to `.env` and set `DATABASE_URL`.
 
-This fetches raw notes text and writes a normalized scaffold JSON.
-It can also auto-extract typed change lines (`champion`/`item`/`system`) for parsing.
+Run migrations:
+```powershell
+alembic upgrade head
+```
+
+Ingest existing patch data:
+```powershell
+python -m app.ingest --file data/raw/26.6.json
+```
+
+Start the API:
+```powershell
+uvicorn app.main:app --reload
+```
+
+### Frontend
 
 ```powershell
-.\venv\Scripts\Activate.ps1
-python scripts/fetch_riot_patch.py --version 26.4 --changes-out data/raw/26.4.changes.auto.txt
+cd frontend
+npm install
+npm run dev
 ```
 
-### 3) Verify API + frontend
+Frontend runs at `http://localhost:3000`. API at `http://localhost:8000`.
 
-Backend:
-```text
-GET http://127.0.0.1:8000/patch/list
-GET http://127.0.0.1:8000/patch/26.4
-GET http://127.0.0.1:8000/patch/26.4/distribution
-GET http://127.0.0.1:8000/patch/26.4/summary-report
-GET http://127.0.0.1:8000/patch/compare/intelligence?base_version=26.3&target_version=26.4
+---
+
+## Pages
+
+| Route | Description |
+|---|---|
+| `/` | Patch list |
+| `/patch/[version]` | Change list and patch notes for a version |
+| `/dashboard` | Volatility, risk score, role distribution |
+| `/compare` | Side-by-side patch intelligence |
+| `/ai` | Semantic search and RAG interface |
+| `/entity/[name]` | Full change history for a champion/item/system |
+
+---
+
+## API reference
+
+### Patch data
+
+```
+GET /patch/list
+GET /patch/{version}
+GET /patch/{version}/changes
+GET /patch/{version}/distribution
+GET /patch/{version}/summary-report
+GET /patch/{version}/predicted-impact
+GET /patch/compare/intelligence?base_version=26.5&target_version=26.6
 ```
 
-Frontend UI pages (http://127.0.0.1:3000):
-- `/patch/26.4`: detailed change-list and notes
-- `/dashboard`: overview of volatility, risk, and role distribution
-- `/compare`: side-by-side patch intelligence
-- `/ai`: RAG and Semantic Search interface
-- `/entity/{name}`: detailed entity change history
+`/changes` query params: `entity_type`, `category`, `direction`, `tag`, `entity`, `ability`
 
-### 4) One-command import (recommended)
+Examples:
+```
+GET /patch/26.6/changes?direction=buff&category=cooldown
+GET /patch/26.6/changes?tag=jungle
+GET /patch/26.6/changes?entity=Viego
+GET /patch/26.6/predicted-impact?top_n=40
+```
 
-From `backend`:
+### AI
+
+```
+POST /search/semantic
+{ "query": "ADC survivability against assassins", "k": 20 }
+
+POST /rag/explain
+{ "query": "How are burst mages affected in recent patches?", "k": 12 }
+```
+
+---
+
+## Automated scraping
+
+The GitHub Actions workflow (`.github/workflows/scrape-patch.yml`) runs every Wednesday at 14:00 UTC.
+
+It detects the highest patch version already in `data/raw/`, increments it, and checks whether that patch's notes URL is live. If it is, it scrapes and commits the data, then triggers a Render redeploy via webhook.
+
+To run manually: go to **Actions → Scrape Latest Patch Notes → Run workflow**.
+
+No secrets are required for the scrape itself. To enable the Render deploy trigger, add `RENDER_DEPLOY_HOOK_URL` to your repo secrets (from Render dashboard → Service → Settings → Deploy Hook).
+
+---
+
+## Importing a patch manually
+
+From `backend` with the venv active:
 
 ```powershell
-.\venv\Scripts\Activate.ps1
-.\scripts\import_patch.ps1 -Version 26.4
+# Fetch and parse in one command (recommended)
+python scripts/auto_import_patch.py --version 26.6 --replace-entities
+
+# Or use the PowerShell wrapper
+.\scripts\import_patch.ps1 -Version 26.6
 ```
 
-Notes:
-- If `data/raw/<version>.changes.txt` does not exist, this now runs **auto mode**:
-  fetch Riot page -> auto extract changes -> parse -> ingest.
-- If `data/raw/<version>.changes.txt` exists, it runs legacy/manual parse mode for compatibility.
-- To run the auto importer directly:
-
+To re-ingest an existing JSON without re-fetching:
 ```powershell
-python scripts/auto_import_patch.py --version 26.4 --replace-entities
+python -m app.ingest --file data/raw/26.6.json
 ```
 
-- If your `.changes.txt` already exists and you want to keep an edited JSON scaffold, use:
+---
 
+## LLM fallback (optional)
+
+The parser is rule-based by default. For lines the rules can't resolve, you can opt in to LLM processing.
+
+**Gemini** (used by the GitHub Action when `GEMINI_API_KEY` is set):
 ```powershell
-.\scripts\import_patch.ps1 -Version 26.4 -SkipFetch
+$env:LLM_PROVIDER="gemini"
+$env:GEMINI_API_KEY="your_key"
 ```
 
-### 5) Tag taxonomy and behavior
+**OpenAI:**
+```powershell
+$env:LLM_PROVIDER="openai"
+$env:OPENAI_API_KEY="your_key"
+$env:OPENAI_MODEL="gpt-4.1-mini"   # optional
+```
 
-Each parsed change now includes a normalized `tags` array (lowercase, deduplicated).
-Tags are generated deterministically from `stat_name` and value text:
+**Ollama** (local, free):
+```powershell
+$env:LLM_PROVIDER="ollama"
+ollama serve
+ollama pull llama3.1:8b
+```
 
-- `mobility`
-- `burst`
-- `waveclear`
-- `sustain`
-- `durability`
-- `cc`
-- `utility`
-- `jungle`
-- `mana`
-- `cooldown`
+Pass `--use-llm-fallback` to `auto_import_patch.py` or `paste_changes_into_patch.py` to enable it. Use `--llm-max-lines` to cap token usage. Use `--llm-dry-run` to preview without writing.
 
-Example change payload shape:
+Ollama → Gemini automatic fallback (runs Gemini if Ollama coverage falls below a threshold):
+```powershell
+$env:LLM_PROVIDER="ollama"
+$env:GEMINI_API_KEY="your_key"
+$env:LLM_ENABLE_GEMINI_FALLBACK="true"
+$env:LLM_LOW_CONFIDENCE_MIN_COVERAGE="0.45"   # optional
+```
+
+---
+
+## Tag taxonomy
+
+Each change includes a normalized `tags` array derived deterministically from `stat_name` and value text:
+
+`mobility` `burst` `waveclear` `sustain` `durability` `cc` `utility` `jungle` `mana` `cooldown`
 
 ```json
 {
@@ -90,158 +234,4 @@ Example change payload shape:
 }
 ```
 
-### 6) Query filtered changes
-
-Use:
-
-```text
-GET /patch/{version}/changes
-```
-
-Optional query params:
-- `entity_type` (`champion` default, or `item`, `system`, `all`)
-- `category`
-- `direction`
-- `tag`
-- `entity`
-- `ability`
-
-Examples:
-
-```text
-GET http://127.0.0.1:8000/patch/26.4/changes?direction=buff&category=cooldown
-GET http://127.0.0.1:8000/patch/26.4/changes?entity_type=item
-GET http://127.0.0.1:8000/patch/26.4/changes?entity_type=system
-GET http://127.0.0.1:8000/patch/26.4/changes?tag=jungle
-GET http://127.0.0.1:8000/patch/26.4/changes?entity=Viego
-GET http://127.0.0.1:8000/patch/26.4/changes?ability=Q
-```
-
-Predicted champion impact from item/system changes:
-
-```text
-GET http://127.0.0.1:8000/patch/26.4/predicted-impact
-GET http://127.0.0.1:8000/patch/26.4/predicted-impact?top_n=40
-```
-
-### 7) Semantic Search & RAG
-
-Search parsed change lines using semantic similarity:
-
-```text
-POST http://127.0.0.1:8000/search/semantic
-{
-  "query": "ADC survivability against assassins",
-  "k": 20
-}
-```
-
-Generate a synthesized RAG explanation for your query:
-
-```text
-POST http://127.0.0.1:8000/rag/explain
-{
-  "query": "How are burst mages affected in recent patches?",
-  "k": 12
-}
-```
-
-### 8) Refresh tags in DB after parser changes
-
-If you update parsing/tag rules, re-parse and re-ingest to refresh stored tags:
-
-```powershell
-.\venv\Scripts\Activate.ps1
-python scripts/paste_changes_into_patch.py --patch-json data/raw/26.4.json --input-file data/raw/26.4.changes.txt --replace-entities
-python -m app.ingest --file data/raw/26.4.json
-```
-
-### 9) Optional AI fallback for ambiguous lines
-
-The parser is still rule-based by default. AI fallback is opt-in and only runs on unresolved lines.
-
-Provider selection (defaults to Ollama):
-
-```powershell
-$env:LLM_PROVIDER="ollama"   # default if omitted
-```
-
-#### Ollama (default, local/free)
-
-Install and start Ollama, then pull a model:
-
-```powershell
-ollama serve
-ollama pull llama3.1:8b
-```
-
-Optional Ollama env vars:
-
-```powershell
-$env:OLLAMA_BASE_URL="http://127.0.0.1:11434"
-$env:OLLAMA_MODEL="llama3.1:8b"
-```
-
-Use parser directly with AI fallback (Ollama):```powershell
-python scripts/paste_changes_into_patch.py --patch-json data/raw/26.4.json --input-file data/raw/26.4.changes.txt --replace-entities --use-llm-fallback --llm-max-lines 40
-python -m app.ingest --file data/raw/26.4.json
-```
-
-#### OpenAI (optional hosted provider)
-
-```powershell
-$env:LLM_PROVIDER="openai"
-$env:OPENAI_API_KEY="your_api_key_here"
-$env:OPENAI_MODEL="gpt-4.1-mini"   # optional
-```
-
-Preview AI suggestions without writing:
-
-```powershell
-python scripts/paste_changes_into_patch.py --patch-json data/raw/26.4.json --input-file data/raw/26.4.changes.txt --use-llm-fallback --llm-max-lines 20 --llm-dry-run
-```
-
-Use one-command import with AI fallback:
-
-```powershell
-.\scripts\import_patch.ps1 -Version 26.4 -SkipFetch -UseLlmFallback -LlmMaxLines 40
-```
-
-Notes:
-- AI fallback increases latency (and token cost for hosted providers).
-- Keep `--llm-max-lines` conservative to control cost.
-- Review AI-added changes in `data/raw/<version>.json` before ingesting for production-like runs.
-
-#### Gemini (optional hosted provider)
-
-```powershell
-$env:LLM_PROVIDER="gemini"
-$env:GEMINI_API_KEY="your_api_key_here"
-$env:GEMINI_MODEL="gemini-1.5-flash"   # optional
-```
-
-#### Ollama low-confidence -> Gemini automatic fallback
-
-Keep Ollama as primary parser, but enable Gemini backup when Ollama coverage is too low:
-
-```powershell
-$env:LLM_PROVIDER="ollama"
-$env:GEMINI_API_KEY="your_api_key_here"
-$env:LLM_ENABLE_GEMINI_FALLBACK="true"
-$env:LLM_LOW_CONFIDENCE_MIN_COVERAGE="0.45"   # optional
-```
-
-Behavior:
-- Ollama runs first.
-- If parsed coverage is below threshold, Gemini is tried automatically.
-- The higher-coverage validated result is used.
-
-### 10) Bootstrap and Deployment
-
-The `render-start.sh` script (used in Docker/Render) automatically bootstraps the database with all JSON files found in `backend/data/raw/` that aren't already in the database. 
-
-To force a re-ingest of a specific patch, you can manually run the ingest command:
-```powershell
-python -m app.ingest --file data/raw/<version>.json
-```
-or delete the patch from the DB and restart the service.
+Tags power the champion impact predictor — champions whose profiles overlap with high-pressure tags in a patch get flagged as indirectly impacted.
