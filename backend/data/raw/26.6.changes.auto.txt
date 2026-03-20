@@ -1,0 +1,199 @@
+[champion] Ahri
+  Q - Orb of Deception
+  Damager per Pass : 40 / 65 / 90 / 115 / 140 ⇒ 35 / 60 / 85 / 110 / 135
+
+[champion] Azir
+  Q - Conquering Sands
+  Damage AP Ratio : (+ 35% AP) ⇒ (+ 35 / 40 / 45 / 50 / 55% AP)
+  W - Arise!
+  Damage : 0-45 (5 damage per level starting at level 10) ⇒ 0-72 (7 damage per level starting at level 10)
+  Damage AP Ratio : (+ 32.5 / 40 / 47.5 / 55 / 62.5% AP) ⇒ (+35 / 42.5 / 50 / 57.5 / 65% AP)
+
+[champion] Cassiopeia
+  Base Stats
+  Base Mana : 450 ⇒ 480
+  E - Twin Fang
+  Bonus Magic Damage to Poisoned Targets : 20 / 43 / 66 / 89 / 112 ⇒ 20 / 45 / 70 / 90 / 120
+
+[champion] Lissandra
+  Base Stats
+  Armor Growth : 4.9 ⇒ 4.2
+
+[system] Olaf
+  Base Stats
+  Base Attack Speed : 0.694 ⇒ 0.72
+  Q - Undertow
+  Slow Amount : 25 / 30 / 40 / 45% for 1.5- 2.5 seconds (based on distance) ⇒ 30 / 40 / 45 / 50% for 1-3 seconds (based on distance)
+  Bug Fix : Enemies only struck by the Lollipop at the end of the Q are now slowed for the proper amount of time (was a fixed 30% slow).
+  W - Tough it Out
+  Bug Fix : If you cast W while the previous cast was still active, it now properly re-applies its effects rather than just refreshing the prior cast (you get the attack reset and the AS value is updated).
+  E - Reckless Swing
+  Damage to Self : 30% of Damage Dealt ⇒ 40% of Damage Dealt
+
+[system] Pyke
+  Base Stats
+  Base Armor : 43 ⇒ 37
+
+[system] Shen
+  Q - Twilight Assault
+  Monster Damage Cap : 120 / 140 / 160 / 180 / 200 ⇒ 100 / 125 / 150 / 175 / 200
+
+[system] Skarner
+  Q - Shattered Earth
+  Mana Cost : 45 ⇒ 30
+  Third Attack Target Max Health Damage : 9% ⇒ 11%
+
+[system] Tryndamere
+  Base Stats
+  Attack Speed Ratio : 0.694 ⇒ 0.725
+
+[system] Zaahen
+  W - Dreaded Return
+  Secondary Damage : 40 / 60 / 80 / 100 / 120 (+ 50% bonus AD) ⇒ 30 / 50 / 70 / 90 / 110 (+ 30% bonus AD)
+  E - Aureate Rush
+  Bonus Damage to Monsters : 75 ⇒ 50
+
+[item] Chempunk Chainsword
+  Combine Cost : 350 gold ⇒ 250 gold
+  Total Cost : 3100 ⇒ 3000 gold
+
+[item] Sunfire Aegis
+  Build Path : Bami's Cinder + Chain Vest + 1000 gold ⇒ Bami's Cinder + Chain Vest + Ruby Crystal + 600 gold
+
+[system] FARMING AS SUPPORTS
+  Minion Kills Before Gold Penalty Activates (Before 5 Minutes) : 7 ⇒ 24
+  Minion Kills Per 5 Minutes Before Gold Penalty Activates (After 5 minutes) : 20 ⇒ 30
+
+[system] Summoner's Rift Clash - Noxus Cup
+  Registration Begins: March 16 @ 11:00 AM (Local Time)
+  Tournament Dates: March 21 and 22 (~4-7 PM Local Time, varies by region)
+
+[system] AUGMENTS AND STAT ANVILS
+  Big Dragon Energy
+  Shyvana gains maximum fury and does not decay. Dragon Form's final recast of (Q) Emberstrike does 200% damage.
+  Omnivamp Shard
+  Omnivamp: 25 (melee)/12.5% (ranged) ⇒ 25 (melee)/15% (ranged)
+
+[champion] AUGMENTS
+  Droppybara
+  AoE Size: 550 ⇒ 650
+  Max Health True Damage: 25% ⇒ 30%
+  Slow Amount: 35% ⇒ 45%
+  Dual Wield
+  Attack Speed Bonus: 20% ⇒ 10%
+  Fire Fox
+  Bonus Movement Speed: 40% ⇒ 25%
+  Ice Cold
+  Flat Movement Speed Decrease: 100 ⇒ 75
+  Juiced
+  On-Hit Max Mana % Damage: 3.5% ⇒ 4.5%
+  Now only affects Champions
+  Prom Queen
+  Charm Duration: 2 ⇒ 1.5 seconds
+  Sonata
+  Self Movement Speed Buff: 50% ⇒ 30%
+  Ally Movement Speed Buff: 30% ⇒ 20%
+  Speed Demon
+  Decay Time: 1 ⇒ 0.75 seconds
+  Stuck In Here With Me
+  Now casts for Katarina as soon as she begins channeling her Ultimate
+  Triggered Inferno
+  Movement Speed per Stack: (2.75 - 3.5) ⇒ (4.25 - 5)
+  Damage per Shot: 10 - 40 (+ 0.35 AD) (+ 0.2 AP) ⇒ 20-40 (+ 0.4 AD) (+ 0.25 AP)
+  Watch Out Cupcake
+  Gold for Non-Holder: 15 ⇒ 50
+
+[champion] AUGMENT SETS
+  Make It Rain
+  Enemies now drop coins on takedowns.
+  Level 2: Drops 6 coins
+  Level 3: Drops 12 coins
+  Dropped Coins each grant 5 gold and can only be picked up by the Augment holder and allied champions.
+
+[champion] QUALITY OF LIFE CHANGES
+  Red Envelopes No longer Appear on the Minimap for either team
+  Final City Transit now only displays a chat message to the augment's owner per champion hit.
+  Vampirism and Perseverance are now mutually exclusive and are no longer offered when you possess one or the other.
+  Slap Around now has an icon for its associated debuff.
+  Champion Summons such as Naafiri's Packmates no longer display a chat message when they have a large amount of Hats.
+
+[champion] Bugfixes
+  Fixed a bug where purchasing a Stat Anvil would prevent Augments from being offered in Mayhem ARAM.
+  Fixed a bug where Ornn's Living Forge (P) could trigger an unintended Augment selection after purchasing a Stat Anvil.
+  Fixed a bug where the Gold Augment Cheating allowed access to the Shop during Augment Selection.
+  Fixed an issue where Augment Selection could be replaced by Stat Anvil Selection when purchasing Stat Anvils.
+  Fixed a bug where the last rerolled Augment could refresh upon death if no selection was made while multiple offerings were queued.
+  Fixed a bug where level 11 and 15 Augment offerings could fail to be awarded if the player died while multiple offerings were queued.
+  Fixed a bug where High Roller's queued Anvils were not offered after recalling with the Cheating Augment.
+  Fixed a bug where Sion would lose part of his Magic Resist after his first death in Mayhem.
+  Fixed an issue where Ornn could see Void Immolation in his passive shop window.
+  Fixed a bug where Zilean R would remove Magic Resist from Melee allies when reviving them.
+  Fixed a bug where Xerath and Ziggs could double trigger Rabble Rousing and Ominous Pact from a single spell cast.
+  Fixed a bug where Viego could use the shop after exiting possession of an enemy.
+  Fixed a bug where Augment cards could open during combat if enemies were inside your base.
+  Fixed a bug where Viego could lose his upgrade from “King Me” if he completed the quest while possessing an enemy.
+  Fixed a bug where Viego's King Me upgrade would be reverted after exiting possession of an enemy.
+  Fixed an issue where being granted Wooglet's Witchcap caused the player to lose an extra Needlessly Large Rods.
+  Fixed a bug where players could no longer purchase items after taking lethal damage if a Stat Anvil selection was in progress.
+  Fixed a bug where players no longer could purchase items during Stat Anvil selection after recalling with the Cheating Augment.
+  Fixed an issue where choosing the Upgraded Mikael's Blessing augment could fail to grant the item.
+  Fixed a bug where Escape Plan's cooldown reset upon death.
+  Fixed a bug where Karthus' Overflow mana consumption would return to normal after revival instead of maintaining the increased cost.
+  Fixed a bug where Neeko with Tap Dancer could infinitely stack while transformed into a minion and performing basic attacks.
+  Fixed a bug where some recasts incorrectly had mana costs while using the Overflow.
+  Fixed incorrect spacing in upgraded passive descriptions for multiple upgraded items in tooltips.
+  Fixed a tooltip error where Bounce of the Poro King incorrectly stated it impacted non-champions.
+  Fixed a bug where Sion could not use abilities in his passive form if he had the Overflow augment.
+  Fixed a bug where if Quinn had Back to Basics, she would respawn in her Ultimate Form.
+  Fixed a bug where the upgraded Thornmail item name was missing in the chat callout.
+  Fixed a bug where Dropkick could grant persistent vision of a killed enemy champion after participating in a takedown.
+  Fixed a bug where the Upgrade Immolate tooltip did not track gold gained from its effect.
+  Fixed a bug where Red Envelopes did not grant Attack Damage when collected.
+  Fixed a bug where Prom Queen's cooldown would incorrectly start upon activation.
+  Fixed a bug where Cheating's recall could be interrupted by Firefox auto-cast.
+  Fixed a bug where Mordekaiser's Darkness Arise (P) generated Empowered by the Faithful stacks per tick of damage.
+  Fixed an incorrect cooldown interaction between Upgrade Zhonya's and Wooglet's WitchCap.
+  Fixed a bug where, with Pinball equipped, Triggered Inferno could replace the Summoner Spell slot with Dash after casting Mark at least once.
+  Fixed an issue where Upgrade Mikael's Blessing upgraded Purify cooldown was displayed incorrectly.
+  Fixed an issue where the Wee Woo Wee Woo set bonus VFX was difficult to see when paired with I'm a Baby Kitty Where Is Mama.
+  Fixed a bug where Soraka's P and the Wee Woo Wee Woo Set Bonus could drastically reduce Movement Speed when taking Empowered by the Faithful.
+  Fixed a UI issue where Aphelios UI combined with left-side minimap settings caused Augments to appear on the wrong side and could not be hidden.
+  Fixed an issue where Aphelios could not open the Hextech panel by pressing the C key in Mayhem ARAM.
+  Fixed a bug in Mayhem ARAM Custom Mode where selecting Butcher's Bridge would load Howling Abyss instead.
+  Fixed an issue where Atma's did not display the Ability Haste it grants.
+  Fixed a bug where Hextech Foxfire incorrectly triggered the 5% Health cost from Hextech Ominous Pact on cast.
+  Fixed a bug where the “Firefox” effect incorrectly triggered the Archmage trait set bonus.
+  Fixed a bug where Ornn's free elixir at level 12 caused his passive ability to go on cooldown.
+  Fixed an issue where Golden Spatula would sometimes not be granted by the Urf's Champion augment.
+  Fixed a bug where Tryndamere could be killed during his R after triggering Upgrade: Sheen.
+  Fixed a bug where Infernal Conduit caused Grandma's Chili Oil to trigger more often than intended.
+  Fixed a bug where From Beginning to End granted more Dark Harvest stacks than intended when combined with Transmute Augments.
+  Fixed a bug where the Divine Intervention augment showed a blank debuff icon.
+  Fixed a bug where the Dive Bomber set bonus showed a blank debuff icon.
+  Fixed a bug where Feel the Burn showed a blank debuff icon.
+  Fixed a bug where Nasus Q did not properly display how many stacks it granted in both ARAM and Mayhem.
+
+[champion] Bugfixes & QoL Changes
+  Polished the code for Ranked Apex Duo Restriction, ruled out some edge cases that don't work as expected. Those edge cases only affect a very small number of players as it usually caused by lower Apex rank + higher MMR duo that should have been disallowed, and we have it fixed in 26.6
+  Fixed a bug that caused Mel's Q to go on cooldown after blocking Zac's Q with her W.
+  Fixed a bug that caused Samira to cast Q with no effect if it was immediately cast after using her W then R.
+  Fixed a bug that caused Ivern's E shield damage to count towards Samira's passive.
+  Fixed a bug that caused Zac to be audible in the Fog of Ward by nearby enemy players.
+  Fixed a bug that caused Senna's homeguard SFX to suddenly start and stop.
+
+[champion] Upcoming Skins & Chromas
+  The following skins will be released in this patch:
+
+[champion] Warhound Warwick
+  The following chromas will be released this patch:
+
+[champion] Related Articles
+  Game Updates 2026-03-03T19:00:00.000Z League of Legends Patch 26.5 Notes Welcome to the official patch of First Stand, the first major international tournament of the year!
+  Game Updates 2026-02-18T19:00:00.000Z League of Legends Patch 26.4 Notes Happy Lunar Revel, welcome to patch 26.4!
+  Game Updates 2026-02-03T19:00:00.000Z Patch 26.3 Notes Celebrate the new year and revel in Patch 26.3 🎊
+  Game Updates 2026-01-21T19:00:00.000Z Patch 26.2 Notes Patch 26.2 ready to deploy!
+  Game Updates 2026-01-07T19:00:00.000Z Patch 26.1 Notes Demacia rises in Patch 26.1 🛡️
+  Game Updates 2025-12-02T19:00:00.000Z Patch 25.24 Notes The last patch of the year, 25.24 is here!
+  Game Updates 2025-11-18T19:00:00.000Z Patch 25.23 Notes Patch 25.23 has ascended 🙏
+  Game Updates 2025-11-04T19:00:00.000Z Patch 25.22 Notes We’re going to Chengdu with Patch 25.22!
+  Game Updates 2025-10-21T18:00:00.000Z Patch 25.21 Notes Patch 25.21 is bee-autiful! 🐝
