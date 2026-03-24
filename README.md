@@ -77,7 +77,17 @@ pip install -r requirements.txt
 
 Copy `.env.example` to `.env` and set `DATABASE_URL`.
 
-Run migrations:
+For Neon, use the pooled connection string from your Neon dashboard (Neon → your project → Connection Details → Pooled connection):
+```
+DATABASE_URL=postgresql://neondb_owner:YOUR_PASSWORD@ep-quiet-snow-a8xwokgy-pooler.eastus2.azure.neon.tech/neondb?sslmode=require
+```
+
+For local Postgres:
+```
+DATABASE_URL=postgresql://postgres:postgres@127.0.0.1:5432/patchdb
+```
+
+Run migrations (creates all tables and enables pgvector):
 ```powershell
 alembic upgrade head
 ```
