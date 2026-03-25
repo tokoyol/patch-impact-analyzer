@@ -18,6 +18,18 @@ SECTION_HEADER_BLACKLIST = {
     "crescendum",
 }
 
+# Section headings that signal non-gameplay content — clear section_type so
+# their sub-headers are not picked up as entities.
+_SKIP_SECTION_KEYWORDS = {
+    "bugfix",
+    "quality of life",
+    "upcoming skin",
+    "skins &",
+    "& chroma",
+    "related article",
+    "patch highlight",
+}
+
 
 def patch_version_to_slug(version: str) -> str:
     return version.replace(".", "-")
@@ -60,6 +72,12 @@ def parse_release_date(soup: BeautifulSoup) -> Optional[str]:
 
 def _infer_section_type(header_text: str) -> Optional[str]:
     lowered = header_text.lower()
+    # Non-gameplay sections: signal caller to clear section_type entirely.
+    if any(kw in lowered for kw in _SKIP_SECTION_KEYWORDS):
+        return "skip"
+    # Check augment before champion — "Champion Augments" is a system section.
+    if "augment" in lowered:
+        return "system"
     if "champion" in lowered:
         return "champion"
     if "item" in lowered:
@@ -140,6 +158,10 @@ def extract_structured_change_lines(soup: BeautifulSoup) -> Tuple[str, Dict[str,
 
         if tag.startswith("h"):
             inferred_type = _infer_section_type(text)
+            if inferred_type == "skip":
+                section_type = None
+                current_entity = None
+                continue
             if inferred_type:
                 section_type = inferred_type
                 current_entity = None
