@@ -1,0 +1,193 @@
+{
+  "version": "26.7",
+  "release_date": "2026-03-31",
+  "raw_notes": "Fried Chicken King Swain, Bubble Bash Blitzcrank, Pug Trainer Sejuani, Choncc Kench, Surprise Party Vex, and Prestige Money Miser Mordekaiser will be available April 15, 2026. The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Cassiopeia",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base Mana",
+          "old_value": 450,
+          "new_value": 480,
+          "delta_value": 30.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Magic Damage",
+          "old_value": "20 / 43 / 66 / 89 / 112",
+          "new_value": "20 / 45 / 70 / 95 / 120",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graves",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Base attack damage",
+          "old_value": 68,
+          "new_value": 66,
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kalista",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Total AD scaling on bonus damage per additional stack",
+          "old_value": "(+ 20 / 25 / 30 / 35 / 40% AD)",
+          "new_value": "(+ 20 / 27.5 / 35 / 42.5 / 50% AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Karma",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Empowered E - Defiance Bonus Primary / Secondary Target Shield",
+          "old_value": "50 / 100 / 150 / 200 (+45% AP)",
+          "new_value": "45 / 85 / 125 / 165 (+45% AP)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nami",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Bounce Modifier",
+          "old_value": "-10% (+10% per 100 AP) effect per bounce",
+          "new_value": "-20% (+15% per 100 AP) effect per bounce",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Ornn",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Brittle Proc Damage",
+          "old_value": "10-18% (Levels 1-18)",
+          "new_value": "9-17% (Levels 1-18)",
+          "delta_value": -1.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rell",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Move Speed",
+          "old_value": "3s of 10%, increased to 25% when facing the empowered ally or a visible enemy champion",
+          "new_value": "15%, increased to 30%",
+          "delta_value": 12.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "120 / 200 / 280 (+110% AP)",
+          "new_value": "150 / 200 / 350 (+110% AP)",
+          "delta_value": 30.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Singed",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Bonus Stats",
+          "old_value": "25 / 60 / 95",
+          "new_value": "25 / 55/ 85",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Veigar",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "100 / 80 / 60",
+          "new_value": "120 / 90 / 60",
+          "delta_value": 20.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "April Fool's",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}

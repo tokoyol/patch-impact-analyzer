@@ -1,0 +1,51 @@
+[champion] Cassiopeia
+  Base Stats
+  Base Mana : 450 ⇒ 480
+  E - Twin Fang
+  Bonus Magic Damage : 20 / 43 / 66 / 89 / 112 ⇒ 20 / 45 / 70 / 95 / 120
+
+[champion] Graves
+  Base Stats
+  Base attack damage : 68⇒ 66
+
+[champion] Kalista
+  E - Rend
+  Total AD scaling on bonus damage per additional stack : (+ 20 / 25 / 30 / 35 / 40% AD) ⇒ (+ 20 / 27.5 / 35 / 42.5 / 50% AD)
+
+[champion] Karma
+  R - Mantra
+  Empowered E - Defiance Bonus Primary / Secondary Target Shield : 50 / 100 / 150 / 200 (+45% AP) ⇒ 45 / 85 / 125 / 165 (+45% AP)
+
+[champion] Nami
+  W - Ebb and Flow
+  Bounce Modifier : -10% (+10% per 100 AP) effect per bounce ⇒ -20% (+15% per 100 AP) effect per bounce
+
+[champion] Ornn
+  W - Bellows Breath
+  Brittle Proc Damage : 10-18% (Levels 1-18) ⇒ 9-17% (Levels 1-18)
+
+[champion] Rell
+  E - Full Tilt
+  Move Speed : 3s of 10%, increased to 25% when facing the empowered ally or a visible enemy champion ⇒ 15%, increased to 30%
+  R - Magnet Storm
+  Damage : 120 / 200 / 280 (+110% AP) ⇒ 150 / 200 / 350 (+110% AP)
+
+[champion] Singed
+  R - Insanity Potion
+  Bonus Stats : 25 / 60 / 95 ⇒ 25 / 55/ 85
+
+[champion] Veigar
+  R - Primordial Burst
+  Cooldown : 100 / 80 / 60 ⇒ 120 / 90 / 60
+
+[champion] April Fool's
+  Poros now use their muscular arms to move and attack players who hoard poro snax, dealing 1 true damage repeatedly until one of them gets fed.
+  A Poro (or Wharf Rat) will welcome players in chat at game start.
+  Poro Snax now visually look like cheeseburgers.
+  Flash leaves behind an emoting afterimage.
+  Healthbars scale with champion size.
+  Turrets flash Mastery when they kill a champion and use an emote when destroyed. Dying to a turret has a chance to self-ping Missing.
+  There's a small chance for an automatic chat message addressed to Karthus when Karthus reaches level 6.
+  There's a small chance for Lissandra to send a message at the end of the game.
+  New Item, Party Favor, is in the shop. Using it starts or joins a dance party. The more the merrier!
+  New Item, Custom Healthbars, is in the shop. Purchase automatically changes the color of the buyers healthbar to the corresponding color.
