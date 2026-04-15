@@ -1,0 +1,222 @@
+{
+  "version": "26.8",
+  "release_date": "2026-04-14",
+  "raw_notes": "Let\u2019s get groovy with Patch 26.8! In this week\u2019s patch we\u2019ve got some changes to some of the more powerful picks right now like Mel and Dr. Mundo while we\u2019re also helping out some struggling champions like Lucian and Hwei. We\u2019ve also made some changes to help avoid players from taking unusable abilities at level 1 like Zyra and Zilean. In other news, we\u2019ve also got updates to ARAM, ARAM: Mayhem, and Arena, not to mention a bunch of cool and funky skins coming to the Rift this patch. Don\u2019t forget we\u2019ve also got an ARAM Clash coming this patch, the introduction of champion specific keybinds (a long asked for player request), and a swanky new Discord integration coming your way! Looking for more information on all things League of Legends? Check out our community-run wiki here ! Wrong patch notes? You can find the TFT patch notes here ! PsyOps Vladimir, PROJECT: Sivir, Space Groove Zac, and PROJECT: Command Line Master Yi will be available April 15, 2026. The Summoner\u2019s Rift Ranked Season 1 will end on the last day of patch 26.08 cycle, so if you\u2019ve got ranked goals for this season make sure you hit them this patch! Good luck! Summoner\u2019s Rift Ranked Season 2 will start on the first day of patch 26.09 cycle. A few additional things to keep in mind as we wrap up this season: Champion specific keybinds have arrived! This long awaited player request will go live this patch and will now allow for champion specific overrides to be set for most keybinds. Rumble and Viktor players rejoice, smartcast options can also be toggled on a per-champion basis. As a heads up, you won\u2019t be able to do this out of game, so make sure you go into practice tool and set them up before jumping into ranked! We\u2019re partnering with Discord to make it easier to get into your next League of Legends game with your friends. Linking your accounts unlocks new social features: We'll be running a Beta across US, Canada and Brazil starting on April 15th. We will continue to test and refine the experience and plan on expanding to additional regions in a few patches. Dr. Mundo has been able to more consistently reach his high points in the jungle where he is less concerned about his slow early game. We are looking to curb some of his clear speed to make sure he can\u2019t go where he pleases too quickly and requires some more time to scale up. Hwei has remained on the weaker side since the nerfs to his waveclear last year, and we are fixing a bug that we expect to be a further minor nerf. We still believe those waveclear nerfs to be correct as we want Hwei League's coolest combo mage, not just a walking waveclear machine. Therefore, we\u2019re buffing his combo casting output up through his passive. Last patch we made some changes to Karma to reduce how generically powerful she was by reducing her midgame shield strength. Unfortunately those weren\u2019t as effective as we had intended so we\u2019re taking another swing at Karma by directly targeting her E power and reducing her base stats a tad so she is more reliant on skillful and intentional ability usage. Our favorite bouncing deer has been a bit less than enthusiastic to prance from camp to camp as of late, it\u2019s a scary jungle out there. We\u2019re hoping to give Lillia players some more courage to bring her into the jungle by increasing her ability to have her high move speed translate into a faster clear. Lucian has a unique role as an AD Carry that dashes in, out of, and around fights which is why many of his players enjoy him. Unfortunately, he hasn\u2019t been doing that as effectively recently so we\u2019re looking to remedy that. To get there, we\u2019re lowering both the cooldown and mana cost of his dashes. Since our recent adjustments to Mel, she\u2019s been hitting too hard with her initial Q missile whether ahead or behind, even as opponents dodge the rest of the spell, so we\u2019re looking to take her damage down a notch. We\u2019re also aiming to reduce how frustrating her W can be by lowering the bonus mobility she gets and the spell\u2019s uptime, with the movespeed now matching her shield and reflect duration. As a champ in both Top and Support, Tahm Kench requires periodic maintenance as the meta shifts to ensure both roles of his roles are equally supported. In this case, Dusk and Dawn's addition to the game this season has shifted this balance in favor of top lane, so we\u2019re adjusting how his passive scales to help balance him out. We\u2019re implementing a couple bugfixes to Yuumi\u2019s ultimate, one of which will sometimes result in the magical cat outputting significantly more healing than she may have grown used to. As such, we\u2019re throwing her a FISH by increasing her base healing and best friend healing to provide a stronger baseline effect. As a quality of life change we\u2019re looking to make sure Zilean can only put points into abilities he can fully utilize level 1. Since the dawn of time Zyra\u2019s have been accidentally putting a point into W and effectively doing nothing level 1. Well no more! We\u2019re adding a small QoL change so Zyra can no longer put her first skill point into W to prevent this type of situation from being a thorn in your side and mental blooming. Hello ARAM Mayhemers! In this patch, we\u2019re continuing to reduce passive and persistent Movement Speed from Augments to give champions more room to react and make fights easier to read. To help address overall damage levels, we\u2019re also buffing a number of items and the Health Relic system. Several melee and tank support items now have lower cooldowns, making them more impactful and usable in Mayhem\u2019s fast-paced fights. See you on the Bridge! Mel Immortal Shieldbow Locket of the Iron Solari Maw of Malmortius Protoplasm Harness Randuin's Omen Shurelya's Battlesong Sterak's Gage Fan the Hammer Giant Slayer Grandma's Chili Oil Movement Speed Stat Anvil Homeguard Quantum Computing Red Envelopes With Haste For this patch we\u2019re going to be bringing over some changes we\u2019re also doing in Mayhem so that item actives can come up a bit more frequently. Mel Locket of the Iron Solari Protoplasm Harness Randuin's Omen For this patch Arena is looking to open up some alt builds for some champions, along with buffs to champions whose ultimates are designed for a larger spaces. Tristana Sivir Jarvan IV Senna Sion Vex Seraphine Vel\u2019Koz Viktor Camille Kled The Ixtal Cup will be happening on ARAM this patch! Grab your 5 stacks and get ready to rumble! If you have any questions or you're just looking for the full 2026 Clash schedule, make sure to check out our Clash FAQ support page . The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Discord Integration",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Hwei",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Base Damage",
+          "old_value": "35 - 230 (Levels 1 - 18)",
+          "new_value": "40 - 285 (Levels 1 - 18)",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Karma",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base AD",
+          "old_value": 51,
+          "new_value": 49,
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "AD Growth",
+          "old_value": 3.3,
+          "new_value": 3.0,
+          "delta_value": -0.2999999999999998,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": "50 / 55 / 60 / 65 / 70",
+          "new_value": "60 / 65 / 70 / 75 / 80",
+          "delta_value": 10.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lillia",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage Cap",
+          "old_value": 65,
+          "new_value": "70-180 (based on level)",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lucian",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "18 / 17 / 16 / 15 / 14",
+          "new_value": "16 / 15.5 / 15 / 14.5 / 14",
+          "delta_value": -2.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": "40 / 30 / 20 / 10 / 0",
+          "new_value": "32 / 24 / 16 / 8 / 0",
+          "delta_value": -8.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mel",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Initial Explosion Damage",
+          "old_value": "60 / 90 / 120 / 150 / 180 (+ 60% AP)",
+          "new_value": "60 / 85 / 110 / 135 / 160 (+ 55% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "35 / 32 / 29 / 26 / 23",
+          "new_value": "38 / 35 / 32 / 29 / 26 seconds",
+          "delta_value": 3.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Bonus Movement Speed Duration",
+          "old_value": 1.5,
+          "new_value": "0.75 seconds",
+          "delta_value": -0.75,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tahm Kench",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "6 - 48 (Levels 1 - 11) (+1.5% AP per 100 Bonus HP) (+4.5% Bonus HP)",
+          "new_value": "5 - 60 (Levels 1 - 12) (+1.25% AP per 100 Bonus HP) (+4% Bonus HP)",
+          "delta_value": -1.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yuumi",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Heal Per Wave",
+          "old_value": "30 / 40 / 50 (+10% AP)",
+          "new_value": "30 / 50 / 70 (+12% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "waveclear",
+            "sustain"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Best Friend Enhanced Heal",
+          "old_value": "30% More Healing",
+          "new_value": "30 - 60% More Healing (Levels 6 - 12)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zilean",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Zyra",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Arena",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}

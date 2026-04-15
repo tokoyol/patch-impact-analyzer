@@ -1,0 +1,66 @@
+[champion] Discord Integration
+  We’re partnering with Discord to make it easier to get into your next League of Legends game with your friends. Linking your accounts unlocks new social features:
+  Invite Discord friends straight to your party, no alt-tabbing needed!
+  Copy a party link and share it in your favorite server, no more manually inviting friends one by one.
+  See which of your friends play other Riot games and jump into parties faster.
+  We'll be running a Beta across US, Canada and Brazil starting on April 15th. We will continue to test and refine the experience and plan on expanding to additional regions in a few patches.
+
+[champion] Hwei
+  Hwei has remained on the weaker side since the nerfs to his waveclear last year, and we are fixing a bug that we expect to be a further minor nerf. We still believe those waveclear nerfs to be correct as we want Hwei League's coolest combo mage, not just a walking waveclear machine. Therefore, we’re buffing his combo casting output up through his passive.
+  Passive - Signature of the Visionary
+  Base Damage : 35 - 230 (Levels 1 - 18) ⇒ 40 - 285 (Levels 1 - 18)
+  Comboing Slows : Slows from Hwei's abilities now stack with diminishing values.
+  Bugfix : Slows from Hwei's QE and R abilities no longer stack with slows from other champions / items.
+
+[champion] Karma
+  Last patch we made some changes to Karma to reduce how generically powerful she was by reducing her midgame shield strength. Unfortunately those weren’t as effective as we had intended so we’re taking another swing at Karma by directly targeting her E power and reducing her base stats a tad so she is more reliant on skillful and intentional ability usage.
+  Base Stats
+  Base AD : 51 ⇒ 49
+  AD Growth : 3.3 ⇒ 3.0
+  E - Inspire
+  Mana Cost : 50 / 55 / 60 / 65 / 70 ⇒ 60 / 65 / 70 / 75 / 80
+
+[champion] Lillia
+  Our favorite bouncing deer has been a bit less than enthusiastic to prance from camp to camp as of late, it’s a scary jungle out there. We’re hoping to give Lillia players some more courage to bring her into the jungle by increasing her ability to have her high move speed translate into a faster clear.
+  Passive - Dream-Laden Bough
+  Monster Damage Cap : 65 ⇒ 70-180 (based on level)
+
+[champion] Lucian
+  Lucian has a unique role as an AD Carry that dashes in, out of, and around fights which is why many of his players enjoy him. Unfortunately, he hasn’t been doing that as effectively recently so we’re looking to remedy that. To get there, we’re lowering both the cooldown and mana cost of his dashes.
+  E - Relentless Pursuit
+  Cooldown : 18 / 17 / 16 / 15 / 14 ⇒ 16 / 15.5 / 15 / 14.5 / 14
+  Mana Cost : 40 / 30 / 20 / 10 / 0 ⇒ 32 / 24 / 16 / 8 / 0
+
+[champion] Mel
+  Since our recent adjustments to Mel, she’s been hitting too hard with her initial Q missile whether ahead or behind, even as opponents dodge the rest of the spell, so we’re looking to take her damage down a notch. We’re also aiming to reduce how frustrating her W can be by lowering the bonus mobility she gets and the spell’s uptime, with the movespeed now matching her shield and reflect duration.
+  Q - Radiant Volley
+  Initial Explosion Damage : 60 / 90 / 120 / 150 / 180 (+ 60% AP) ⇒ 60 / 85 / 110 / 135 / 160 (+ 55% AP)
+  W - Rebuttal
+  Cooldown : 35 / 32 / 29 / 26 / 23 ⇒ 38 / 35 / 32 / 29 / 26 seconds
+  Bonus Movement Speed Duration : 1.5 ⇒ 0.75 seconds
+
+[champion] Tahm Kench
+  As a champ in both Top and Support, Tahm Kench requires periodic maintenance as the meta shifts to ensure both roles of his roles are equally supported. In this case, Dusk and Dawn's addition to the game this season has shifted this balance in favor of top lane, so we’re adjusting how his passive scales to help balance him out.
+  Passive - An Acquired Taste
+  Damage : 6 - 48 (Levels 1 - 11) (+1.5% AP per 100 Bonus HP) (+4.5% Bonus HP) ⇒ 5 - 60 (Levels 1 - 12) (+1.25% AP per 100 Bonus HP) (+4% Bonus HP)
+
+[champion] Yuumi
+  We’re implementing a couple bugfixes to Yuumi’s ultimate, one of which will sometimes result in the magical cat outputting significantly more healing than she may have grown used to. As such, we’re throwing her a FISH by increasing her base healing and best friend healing to provide a stronger baseline effect.
+  R - Final Chapter
+  Heal Per Wave : 30 / 40 / 50 (+10% AP) ⇒ 30 / 50 / 70 (+12% AP)
+  Best Friend Enhanced Heal : 30% More Healing ⇒ 30 - 60% More Healing (Levels 6 - 12)
+  Bugfix : The attached ally is no longer healed an additional time whenever Final Chapter heals another ally
+  Bugfix : Final Chapter's overhealing shield now takes into account Heal/Shield power as well as Grievous Wounds
+
+[champion] Zilean
+  As a quality of life change we’re looking to make sure Zilean can only put points into abilities he can fully utilize level 1.
+  W - Rewind
+  W Level Up : No longer can level W at level 1.
+
+[champion] Zyra
+  Since the dawn of time Zyra’s have been accidentally putting a point into W and effectively doing nothing level 1. Well no more! We’re adding a small QoL change so Zyra can no longer put her first skill point into W to prevent this type of situation from being a thorn in your side and mental blooming.
+  W - Rampant Growth
+  W Level Up : No longer can level W level
+
+[item] Arena
+  For this patch Arena is looking to open up some alt builds for some champions, along with buffs to champions whose ultimates are designed for a larger spaces.
