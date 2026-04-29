@@ -1,0 +1,994 @@
+{
+  "version": "26.9",
+  "release_date": "2026-04-28",
+  "raw_notes": "It's time to hunt demons with Patch 26.9! In this patch we've got updates to champions, items, systems, and runes galore. Including bringing back some old favorites like Deathfire Touch and Stormraider's Surge, and giving you a lot of new options to experiment with like new starting items and a variety of alternate champion builds. For role quests, we've got some balance changes, tweaks to make progressing them more straightforward, and a small mid lane quest reward rework to better fit a scaling fantasy. Finally, we've given Shyvana some love to give more differentiation to AD and AP builds and paths to be a durable Dragon. Over in the Arena, we have a new update with events, new Augments, a new map, and more! We also have some adjustments and bugfixes for ARAM: Mayhem, WASD is coming to Ranked, and we have some demon-themed skins to kick off Season 2: Pandemonium! Looking for more information on all things League of Legends? Check out our community-run wiki here ! Wrong patch notes? You can find the TFT patch notes here ! Pandemonium Annie, Pandemonium Kindred, Demoncursed Vayne, and Prestige Pandemonium Shaco will be available April 29, 2026. To kick things off for Season 2, we have a set of changes to Role Quests that are aimed at making them generally more understandable and less punishing. With this update, we're lessening penalties when you just need to get out of your lane towards the end of laning phase. We've also adjusted the bounds in which you earn Role Quest progress. Previously, it was heavily tied to being around your lane's outer most turret, but now it'll be more broad to allow for responding to proxying and roaming. Gone are the days of having to stick to your wave so you don't fall behind, rejoice assassin mains! Passive point progression now also allows for a moderate degree of roaming. After level 3, you'll now start banking roaming time while \"in the quest lane,\"getting up to 60 seconds after spending 120 seconds in lane. For every second banked, you'll earn the increased Passive Point Progression as though you're still \"in the quest lane\" even if you're not. Finally, we have some adjustments to quest rewards. For top, we're doing a minor nerf to overall experience gain and adjusting the experience bonus to distinguish between champion and non-champion sources. Effectively, this will help out top laners who prefer scrappy teamfights over split pushing. We're also ensuring that we avoid top lane experience creep situations where top laners who end up repeatedly killing each other scale their own level and experience rewards. For mid, we're replacing the empowered recall effect with a percent-based increase to bonus AD and AP. We've felt that mid has lost some of its carry and scaling fantasy compared to top and bot's rewards, which get more levels and XP or more gold and items. We're hoping this change provides an edge over other lanes to spike harder on item purchases. We feel like bot is a little too strong and snowballs a little too hard given their late game fantasy. So we're giving a minor nerf to their bonus takedown gold. We're moderately increasing minion wave durability, mostly around mid and late laning phase, to help increase minion action. This should also have a minor impact on opening up roaming windows as well as slightly increase wave stacking effects, allowing teams to spend a bit more time outside of the lane while a wave builds up. Ambessa has carried the Medarda legacy a bit too well. Her brutality and fantasy has resonated with her mains, but we believe her ult has felt slightly fast to the point that players hit by it often don't have clarity on what happened. We're extending her cast time to open up clearer counterplay, and will be keeping a watchful eye on opportunities for follow-up work. Briar has one of the steepest mastery curves in League. However, as time has gone on, more and more players have ended up at the high end of that curve and have been finding a lot of success. So we're looking to nerf a bit of her survivability, but keep her ability to kill a target. We want to bring back some playstyles that have been lost to the sands of time. First up on that list is AP Ezreal. Bring out your global snipes\u2014there's a lot of good mages out there but none of them are this skillful! Gragas top is most impacted by the removal of Phase Rush, and only time will tell whether Grasp or Comet comes out on top. As we wait to see how his laning shakes out, this change should let Gragas players better frontline for their teams, and have a bigger impact in the late-game where they struggle most. Our second lost playstyle is AD Kennen. In this case, we're adding critical strike synergy to Kennen's W and E. While a more attack speed focused on-hit hybrid build may stand out as a more intuitive choice for an auto-attack focused Kennen, we actually think it would spill over too hard into his standard AP builds and want to avoid adjustments to his typical playstyle just to enable this one. With Shyvana having been out for a few patches, we've taken stock of where she's landed and identified two areas to address: broadening bruiser item viability and sharpening the distinction between AD and AP builds. On the bruiser side, we've reduced the emphasis on pure dps items like Kraken Slayer. Adjustments to her base stats, Q and W create more room for Sheen, ability haste, and health to meaningfully contribute to her kit. For build differentiation, AD Shyvana looks to engage in more sustained combat through auto attacks followed by big Q hits, using her W for sustain and sticking power and E for supplementary chase power. AP Shyvana, by contrast, centers damage around R and E, with W existing as a way to weave in and out of combat. Last patch's adjustment last patch ended up a very slight nerf (less than .5%) for both top and support. So we're making some support-focused improvements to compensate. Taliyah is in the same spot as Gragas (RIP Phase Rush), except she was also taken down a notch from the pro mid meta in her last nerf. We don't expect her to be able to utilize the changes as well as a lot of her competition, so we're walking back our last hit to her, while also making sure she doesn't approach sub-2:30 clears. Our third lost playstyle\u2014On-hit-focused Teemo builds have slowly fallen out of vogue as he's been tuned around Malignance and Liandries. We are adding bonus AD ratios to Teemo's E to open up itemization options for auto-attack builds featuring hybrid items like rageblade and the reworked Statikk Shiv. Currently, we feel that Udyr's AD Q builds are extremely one note\u2014which makes sense when you look at their scaling. We want to broaden his AD Q bruiser builds by shifting some of his AD ratios out of his Q and into W and E so the stance swapper has more than one stance. Our favorite wolf-boy Warwick has been struggling to find his place over game time. We are looking to soften the blow of his transition into the late game by bringing up some of his scaling. Our fourth lost playstyle is centered around Xin Zhao\u2014particularly attack speed and AP Xin Zhao. Over the years Xin has moved off of auto attack builds solidly into bruiser AD-caster builds buying items like Sundered Sky or Black Cleaver. We think more attack speed-centric Xin Zhao builds offered an enjoyable melee fighter experience, and we want to bring it back. Whether it's full AP builds revolving around drain tanking, heavy attack speed on-hit carry builds, or just some minor pivots into Stridebreaker, Titanic Hydra, and Triforce, we want to see a bit more build options. Zeri's changes have pushed her over time to become more of a bursty assassin than the fantasy that initially called to many of her players. By moving power from her burst and late-game DPS towards her mobility and early laning, these changes should allow Zeri to shine once again as the zappy, speedy legend she is (while still doing ADC damage!) Looking to move some of Zoe's power out laning phase stat checking, and into more skillful outplay around her Bubble. Last year, we adjusted Axiom Arc to have a higher base refund on its ultimate effect with less scaling. We think this was a mistake, as offering an item early in the game that reduces ultimate cooldowns to this degree on high burst lethality champions can lead to very narrow windows of opportunity for opponents to act. We're looking to give more starting item options to auto attack-focused champions. Doran's Bow offers a high risk, high reward fantasy that will reward those who are able to sneak in extra autos and come out on top even without the additional health. We wanted to give more starting item options to champions who want to stack resistances. When it comes to the fantasy of being unkillable, current items assume a losing position. Though champions who want resistances tend to start on the back foot, we want to reward players who take advantage of the opportunity to come out even or ahead in laning phase with an item that pays off in valuable stats throughout the rest of the game. One of the standout items for the season so far, we continue to feel it overlaps with Lichbane a bit too much. We want to encourage Dusk and Dawn users to stick around for multiple triggers, and empower them to do just that. Melee AD Fighters face major trade offs when considering this item against building other more durability focused items. We do want them to consider Endless Hunger however, for those pop off games when they get to play greedy, so we're giving it a minor buff for melee champs. In addition to new starting items, we're adding new boots to the game that provide omnivamp. We've felt that many fighters and casters are limited in their boot selection, with only Ionian Boots as a real offensive option, and when they do pick something else, it's purely defensive, which isn't exactly exciting. These boots should fit a nice middle ground of aggressive and defensive, offering sustain through combat. Hubris cost buffs put it in line with a lot of other 1st slot lethality items, but in its current state feels like it's crowding out other options by providing both scaling and immediate power. These changes should differentiate Hubris more from immediate powerspikes like Youmuu's, while making it even stronger than before if you get rolling. We feel that Opportunity has always overlapped a bit too much with Youmuu's, even after we tried to push them apart a year and half ago, and in its current iteration sits in between Youmuus for mobility and Voltaic for upfront trade power. In the past, Staff's unique effect granted ability haste, and then we changed that to move speed, and then we removed the move speed. We are re-adding the ability haste, as we believe only granting ability power has made the item too narrow and granting move speed made it too generic. We've been unhappy with Shiv sitting as a pure waveclear first item purchase for a while now. With so much power in deleting the wave, it removes a lot of the space for back and forth lane trading. So instead, we're taking this opportunity to move it into a scaling purchase for on-hit builds, a build path that has been missing some itemization since we opened up the 7th item slot for bot laners. This new version of Shiv allows on-hit builds to apply their effects to multiple enemies at once, creating cool combos and helping them scale into teamfighting. Similar to the reason we removed Opportunity, Trailblazer is sitting between two other tanky mobility options (Bandlepipes and Deadman's Plate). In this case, we feel not only is its output overlapping with similar effects in the space, it also had the highest complexity unique effect\u2014asking allies to pay attention to a wispy trail which simply seemed over in terms of visual noise. Voltaic Cyclosword brings some cool Energized options to AD casters, but we think we can make it even broader by allowing it to open up the strict auto-attack gate that stops many melees from being good with it. We also don't love the slow effect, as it tended to trivialize a lot of the combat once players did manage to get into melee. With Opportunity removed, Voltaic should also be able to stand as the premier \"upfront burst\" item for AD casters. Damage over time and sustained damage casters don't have a keystone made specifically for them. This gap has previously been partially covered by other keystones like Comet and Aery, but we're re-adding Deathfire Touch from the old keystone mastery system to ensure that these champions are fully supported by the runes system, and making adjustments to other keystones to compensate. Phase Rush has historically been a problematic rune for enabling some champions to subvert intended early lane gameplay. But we know that we need a mobility-based rune, so fear not... Since Stormraider's Surge asks the user to commit to dealing a lot of damage and generally ends up having its input scale well over game time, it is able to support much of the same pattern as Phase Rush in a healthier and more exciting way for the intended users. Previously, Comet was given a cooldown refund mechanic for damage over time and sustained damage casters. Now that Deathfire Touch exists, Comet no longer needs it, and can now better serve its original intended audience of control mages and artillery mages with a damage-per-distance mechanic that should be exciting for those subclasses to play with. Hail of Blades has become an extremely niche keystone that gives an eye popping amount of attack speed and basically nothing else. In other words, these blades are too sharp! We're shifting some of the attack speed power budget into a new bonus damage effect so we can tune it more comfortably for a broader variety of champions. SR Ranked Season 2 will start at 12:00:00 noon, April 29, local server time. For Apex (Master, Grandmaster, Challenger) players in NA, EUW, EUN, LAN, BR, TR, their rank status will be reset to Master, 0 LP. For all other players, nothing will change. If you want to read more about why we're resetting Apex in some regions, check out the dev blog to learn more . For all regions and all players, Victorious Ranked Mission (15 ranked game won) will be reset with Season 2 start. End of Season 1 Ranked rewards will be distributed shortly after 26.09 is live, shard transfer service will be temporarily disabled until rewards are fully granted. Welcome to *drum roll* *drum roll* *drum roll* THE ARENA!!!! Arena is receiving the major update we promised last year and we're excited to share it with all of you. Our goal with this release was to really deliver on the build crafting, adaptation, experimentation, and team focused, tactical combat that is the heart of Arena. We've amplified all of these aspects and are excited to see how you LEVEL UP your Arena game and leave the crowd speechless. We've listened to the community feedback about different ways to play, from the exciting Bravery Queue and the brand new 3x6 Arena, and the desire to push your augments to their limits! We can't wait to welcome you, and one or two friends, back into *drum roll* THE ARENA!!!! For more details on these changes check out our full dev blog here . Augment Levels We could tell you what they do, but that'd take away the fun of discovering them. Buy Round Structure Round Offering Round 1 Augment, 500 gold Round 2 Guest of Honor 1 Vote, Prismatic Item Round 3 Augment Round 4 2500 Gold Round 5 Augment Round 6 2500 Gold Round 7 Augment Round 8 Guest of Honor 2 Vote, Crafting Round Round 9 2500 Gold Round 10 Augment Round 11 2500 Gold Round 12 Augment Round 13 2500 Gold Round 14 Augment Round 15 2500 Gold Round 16+ Augment Crafting Round Fame Track Level Fame Track Level Reward Level 1 Wild Fire (Prismatic) Level 2 Transmute: Silver (Prismatic) Level 3 Replace Augment, Match up Intro Card Level 4 Demonic Clasp (Gold) Level 5 Rice and Chicken (Gold), Rice and Fish (Gold), Rice and Pork (Gold) Level 6 Mercy (Gold) Level 7 Magical Girl (Prismatic) Level 8 Match up Intro Card Level 9 Silver Spoon (Silver) Level 10 Scavenger (Gold) Level 11 Spellcraft (Prismatic), Chroma Flux (Prismatic) Level 12 Target Dummy, Match up Intro Card New Guests of Honor Reworked Guests of Honor Stat Anvils Legendary Item Anvils Shardblade (New) Hexblot Companion Reverberation Twin Mask Flesheater Kinkou Jutte Turbo Chemtank Starter Items Petricite Grove (New) Ancestral Woods (Adjusted) Koipond (Adjusted) Hats Hubris We have a few small adjustments for Mayhem focused on time-based abilities for Bard and Ornn, Health Relic improvements, and a few balance tweaks for some Augments. Bard Ornn Health Relic Upgrade Sword of Blossoming Dawn Prom Queen Grandma's Chili Oil Shortly after patch 26.9 is available, WASD will be enabled for Ranked, including Clash. The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Ambessa",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Cast Time",
+          "old_value": 0.55,
+          "new_value": 0.7,
+          "delta_value": 0.1499999999999999,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Briar",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health Growth",
+          "old_value": 100,
+          "new_value": 95,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ezreal",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "AP Ratio",
+          "old_value": "15% AP",
+          "new_value": "40% AP",
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "scaling",
+          "stat_name": "AP Ratio",
+          "old_value": "70 - 90%",
+          "new_value": "90%",
+          "delta_value": 20.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "scaling",
+          "stat_name": "AP Ratio",
+          "old_value": "90%",
+          "new_value": "110%",
+          "delta_value": 20.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage To Minions / Non-Epic Monsters",
+          "old_value": "175 / 275 / 375 (+50% bonus AD) (+45% AP)",
+          "new_value": "150 / 225 / 300 (+100% bonus AD) (+110% AP)",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "waveclear",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gragas",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage Reduction",
+          "old_value": "10 / 12 / 14 / 16 / 18% (+ 4% per 100 AP)",
+          "new_value": "10 / 14 / 18 / 22 / 26 (+ 4% per 100 AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kennen",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Shyvana",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": 0.625,
+          "new_value": 0.638,
+          "delta_value": 0.013000000000000012,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Ratio",
+          "old_value": 0.69,
+          "new_value": 0.638,
+          "delta_value": -0.051999999999999935,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 3,
+          "new_value": 4,
+          "delta_value": 1.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Passive",
+          "old_value": "1% (+ 1.1% per 100 bonus AD) (+ 1.1% per 100 AP) of target's maximum health",
+          "new_value": "1% (+ 1.1% per 100 bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Hit Reduction",
+          "old_value": "1 second",
+          "new_value": "0.5 seconds",
+          "delta_value": -0.5,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Area Physical Damage",
+          "old_value": "10 / 15 / 20 / 25 / 30 (+ 110% AD) (+ 25% AP)",
+          "new_value": "10 / 15 / 20 / 25 / 30 (+ 110% AD) (+ 30% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "14 / 13.5 / 13 / 12.5 / 12",
+          "new_value": "13 / 12 / 11 / 10 / 9",
+          "delta_value": -1.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Shield",
+          "old_value": "60 / 80 / 100 / 120 / 140 (+ 5% max health)",
+          "new_value": "75 / 95 / 115 / 135 / 155 (+12% bonus health)",
+          "delta_value": 15.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "80 / 100 / 120 / 140 / 160 (+ 40% bonus AD) (+ 20% AP)",
+          "new_value": "80 / 100 / 120 / 140 / 160 (+ 65% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Dragon Form Heal",
+          "old_value": "75 \u2013 214.71 (based on level) (+ 10% bonus AD) (+ 5% AP), increased by 0% \u2013 100% (based on her missing health) for a maximum heal of 150 \u2013 429.41 (based on level) (+ 20% bonus AD) (+ 10% AP)",
+          "new_value": "60 - 100 + 4-8% missing health (based on level)",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "12 / 11.5 / 11 / 10.5 / 10",
+          "new_value": "12 / 11 / 10 / 9 / 8",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Magic Damage",
+          "old_value": "80 / 110 / 140 / 170 / 200 (+ 35% bonus AD) (+ 70% AP)",
+          "new_value": "50 / 65 / 80 / 95 / 110 (+ 60 / 65 / 70 / 75 / 80% AP) + 5% Target Max Health",
+          "delta_value": -30.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Subsequent Explosion Damage Against Same Target",
+          "old_value": "50%",
+          "new_value": "40%",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Slow",
+          "old_value": "20 / 25 / 30 / 35 / 40%",
+          "new_value": "30%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "cc"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tahm Kench",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Grey Health to HP conversion",
+          "old_value": "45 - 100% (Level 1 - 18)",
+          "new_value": "60 - 100% (Level 1 - 18)",
+          "delta_value": 15.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Move Speed On Ally Devour",
+          "old_value": "40% for 3 seconds",
+          "new_value": "60% for 3 seconds",
+          "delta_value": 20.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Taliyah",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Base Damage",
+          "old_value": "50 / 67.5 / 85 / 102.5 / 120",
+          "new_value": "55 / 72.5 / 90 / 107.5 / 125",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Monster Damage",
+          "old_value": "23 / 28 / 33 / 38 / 43",
+          "new_value": "20 / 25 / 30 / 35 / 40",
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Teemo",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Udyr",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Bonus Damage on First 2 Attacks",
+          "old_value": "3 / 4 / 5 / 6 / 7 / 8% (+4% per 100 bonus AD) of the target's Max Health",
+          "new_value": "3 / 4 / 5 / 6 / 7 / 8% (+3.5% per 100 bonus AD) of the target's Max Health",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Damage On-Hit for 4 seconds",
+          "old_value": "5 / 13 / 21 / 29 / 37 / 45 (+25% bonus AD)",
+          "new_value": "6 / 12 / 18 / 24 / 30 / 36 (+20% bonus AD) (+1 - 2% bonus HP)",
+          "delta_value": 1.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Awakened Bonus Damage on First 2 Attacks",
+          "old_value": "An additional 2 - 4% (based on level) (+3% per 100 bonus AD) of the target's Max Health",
+          "new_value": "An additional 2 - 4% (based on level) (+1.5% per 100 bonus AD) (+1% per 1000 bonus HP of the target's Max Health)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Awakened Chain Lightning Damage Per Bounce",
+          "old_value": "1.5 - 3% (based on level) (+.8% per 100 AP)",
+          "new_value": "1.5 - 3% (based on level) (+.6% per 100 AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Warwick",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "On-hit Damage",
+          "old_value": "6 / 16 / 26 / 36 / 46",
+          "new_value": "6 / 18.25 / 30.5 / 42.75 / 55",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xin Zhao",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Healing",
+          "old_value": "3 / 4 / 5% Max HP (+65% AP) (levels 1 / 6 / 11)",
+          "new_value": "3 / 4 / 5% Max HP (+50 / 65 / 90% AP) (levels 1 / 6 / 11)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Slow On Thrust",
+          "old_value": "50% for 1.5 seconds",
+          "new_value": "50% for 1.5 (+.5 per 100 AP) seconds",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Magic Damage",
+          "old_value": "50 / 75 / 100 / 125 / 150 (+60% AP)",
+          "new_value": "50 / 75 / 100 / 125 / 150 (+120% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Buff",
+          "old_value": "40 / 50 / 60 / 70 / 80% for 5 seconds",
+          "new_value": "38 / 46 / 54 / 62 / 70% (+1% per 5% permanent AS) (+10% per 100 AP) for 5 seconds",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zeri",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Right Click Range",
+          "old_value": 500,
+          "new_value": 550,
+          "delta_value": 50.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Execute threshold",
+          "old_value": "60 / 82.5 / 105 / 127.5 / 150 (+ 18% AP)",
+          "new_value": "70 / 92.5 / 115 / 137.5 / 160 (+ 20% AP)",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "15 / 17 / 19 / 21 / 23 (+ 104 / 108 / 112 / 116 / 120% AD)",
+          "new_value": "21 / 24 / 27 / 30 / 33 (+ 102 / 104 / 106 / 108 / 110% AD)",
+          "delta_value": 6.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Excess AS to AD conversion",
+          "old_value": "70%",
+          "new_value": "50%",
+          "delta_value": -20.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Wall Crit Multiplier",
+          "old_value": "175%",
+          "new_value": "150%",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "scaling",
+          "stat_name": "AP Ratio",
+          "old_value": "25%",
+          "new_value": "50%",
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Magic Damage",
+          "old_value": "17 / 19 / 21 / 23 / 25 (+ 10% bonus AD) (+ 20% AP)",
+          "new_value": "22 / 24 / 26 / 28 / 30 (+ 20% AP)",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "22 / 21 / 20 / 19 / 18",
+          "new_value": "24 / 22.5 / 21 / 19.5 / 18",
+          "delta_value": 2.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown Refresh",
+          "old_value": "Applies on attacks and abilities vs champions",
+          "new_value": "Applies on attacks vs everything",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Burst AD ratio",
+          "old_value": "100%",
+          "new_value": "60%",
+          "delta_value": -40.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "MS per stack",
+          "old_value": "1%",
+          "new_value": "1.5%",
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Stack duration",
+          "old_value": 1.5,
+          "new_value": 2.5,
+          "delta_value": 1.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Zoe",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage Per Bolt",
+          "old_value": "20 / 30 / 40 / 50 / 60 (+ 15% AP)",
+          "new_value": "15 / 25 / 35 / 45 / 55 (+ 10% AP)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Total Damage",
+          "old_value": "60 / 90 / 120 / 150 / 180 (+ 45% AP)",
+          "new_value": "45 / 75 / 105 / 135 / 165 (+ 30% AP)",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "16 / 15 / 14 / 13 / 12",
+          "new_value": "18 / 17 / 16 / 15 / 14",
+          "delta_value": 2.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Axiom Arc",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Flux",
+          "old_value": "On takedown, refund 15% (+.15% per lethality) of your ultimate's total cooldown",
+          "new_value": "10% (+.25% per lethality)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "[NEW] Doran's Bow",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "[NEW] Doran's Helm",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Dusk And Dawn",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": 350,
+          "new_value": 300,
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Power",
+          "old_value": 70,
+          "new_value": 60,
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": "25%",
+          "new_value": "20%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Endless Hunger",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Unique Passive - Famine",
+          "old_value": "Grants 5 (+10% Bonus AD) Ability Haste",
+          "new_value": "Grants 5 (+[13% Melee | 10% Ranged] Bonus AD) Ability Haste",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "[NEW] Gluttonous Greaves",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Hubris",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base AD",
+          "old_value": 60,
+          "new_value": 55,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Passive AD per Stack",
+          "old_value": "+2",
+          "new_value": "+3",
+          "delta_value": 1.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus AD",
+          "old_value": "+15",
+          "new_value": "+12",
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "[REMOVED] Opportunity",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Staff of Flowing Water",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Unique Passive - Rapids",
+          "old_value": "Healing or Shielding other ally champions grants both you and them +45 Ability Power for 6s",
+          "new_value": "Healing or Shielding other ally champions grants both you and them +40 Ability Power and +15 Ability Haste for 6s",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Haste",
+          "old_value": 15,
+          "new_value": 10,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "[REWORKED] Statikk Shiv",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "[REMOVED] Trailblazer",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "[REWORKED] Voltaic Cyclosword",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cost",
+          "stat_name": "Cost",
+          "old_value": "3000g",
+          "new_value": "2900g",
+          "delta_value": -100.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Lethality",
+          "old_value": 18,
+          "new_value": 10,
+          "delta_value": -8.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "[NEW] Deathfire Touch",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "[REMOVED] Phase Rush",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "[NEW] Stormraider's Surge",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Arcane Comet",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "30 - 130 (based on level) + 10% bonus AD + 5% AP",
+          "new_value": "15 - 100 (based on level) + 10% bonus AD + 5% AP",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hail Of Blades",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": "[160% Melee || 80% Ranged] for 3 attacks, increased by +1 attack if you cast an ability that resets your auto attack",
+          "new_value": "[120% Melee || 60% Ranged] for 3 attacks, increased by +1 attack if you cast an ability that resets your auto attack up to +2 attacks",
+          "delta_value": -40.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SR Ranked Season 2",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Arena",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Events",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Game Pacing",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Augment Selection Duration",
+          "old_value": "37 seconds",
+          "new_value": "42 seconds",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Item Choice Round Duration",
+          "old_value": "42 seconds",
+          "new_value": "47 seconds",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "New Fame Track",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Guests of Honor",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Voting Round Changes",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Anvils",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cost",
+          "stat_name": "Cost",
+          "old_value": "2000 gold",
+          "new_value": "2250 gold",
+          "delta_value": 250.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maps",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "General Changes",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Energized Stacking",
+          "old_value": "200%",
+          "new_value": "150%",
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Misc Changes",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}

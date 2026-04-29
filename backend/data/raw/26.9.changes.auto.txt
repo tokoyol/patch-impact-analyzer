@@ -1,0 +1,364 @@
+[champion] Ambessa
+  Ambessa has carried the Medarda legacy a bit too well. Her brutality and fantasy has resonated with her mains, but we believe her ult has felt slightly fast to the point that players hit by it often don't have clarity on what happened. We're extending her cast time to open up clearer counterplay, and will be keeping a watchful eye on opportunities for follow-up work.
+  R - Public Execution
+  Cast Time : 0.55 ⇒ 0.70
+
+[champion] Briar
+  Briar has one of the steepest mastery curves in League. However, as time has gone on, more and more players have ended up at the high end of that curve and have been finding a lot of success. So we're looking to nerf a bit of her survivability, but keep her ability to kill a target.
+  Base Stats
+  Health Growth : 100 ⇒ 95
+
+[champion] Ezreal
+  We want to bring back some playstyles that have been lost to the sands of time. First up on that list is AP Ezreal. Bring out your global snipes—there's a lot of good mages out there but none of them are this skillful!
+  Q - Mystic Shot
+  AP Ratio : 15% AP ⇒ 40% AP
+  W - Essence Flux
+  AP Ratio : 70 - 90% ⇒ 90%
+  R - Trueshot Barrage
+  AP Ratio : 90% ⇒ 110%
+  Damage To Minions / Non-Epic Monsters : 175 / 275 / 375 (+50% bonus AD) (+45% AP) ⇒ 150 / 225 / 300 (+100% bonus AD) (+110% AP)
+
+[champion] Gragas
+  Gragas top is most impacted by the removal of Phase Rush, and only time will tell whether Grasp or Comet comes out on top. As we wait to see how his laning shakes out, this change should let Gragas players better frontline for their teams, and have a bigger impact in the late-game where they struggle most.
+  W - Drunken Rage
+  Damage Reduction : 10 / 12 / 14 / 16 / 18% (+ 4% per 100 AP) ⇒ 10 / 14 / 18 / 22 / 26 (+ 4% per 100 AP)
+
+[champion] Kennen
+  Our second lost playstyle is AD Kennen. In this case, we're adding critical strike synergy to Kennen's W and E. While a more attack speed focused on-hit hybrid build may stand out as a more intuitive choice for an auto-attack focused Kennen, we actually think it would spill over too hard into his standard AP builds and want to avoid adjustments to his typical playstyle just to enable this one.
+  W - Electrical Surge
+  [NEW] Passive : When ready, now applies the passive effect to the entire attack as an On-Hit, rather than just the first On-Hit trigger
+  [NEW] Passive Damage : Can now Critically Strike for 140% (+40% of Bonus Critical Strike Damage)
+  E - Lightning Rush
+  [NEW] Attack Speed Buff : Critical Strikes now extend the duration of Lightning Rush's Attack Speed buff by 1 second, up to the initial duration of 4s. This can happen any number of times.
+
+[champion] Shyvana
+  With Shyvana having been out for a few patches, we've taken stock of where she's landed and identified two areas to address: broadening bruiser item viability and sharpening the distinction between AD and AP builds. On the bruiser side, we've reduced the emphasis on pure dps items like Kraken Slayer. Adjustments to her base stats, Q and W create more room for Sheen, ability haste, and health to meaningfully contribute to her kit. For build differentiation, AD Shyvana looks to engage in more sustained combat through auto attacks followed by big Q hits, using her W for sustain and sticking power and E for supplementary chase power. AP Shyvana, by contrast, centers damage around R and E, with W existing as a way to weave in and out of combat.
+  Base Stats
+  Attack Speed : 0.625 ⇒ 0.638
+  Attack Speed Ratio : 0.69 ⇒ 0.638
+  Attack Damage Growth : 3 ⇒ 4
+  Q - Emberstrike
+  Passive : 1% (+ 1.1% per 100 bonus AD) (+ 1.1% per 100 AP) of target's maximum health ⇒ 1% (+ 1.1% per 100 bonus AD)
+  Hit Reduction : 1 second ⇒ 0.5 seconds
+  Area Physical Damage : 10 / 15 / 20 / 25 / 30 (+ 110% AD) (+ 25% AP) ⇒ 10 / 15 / 20 / 25 / 30 (+ 110% AD) (+ 30% AP)
+  Cooldown ticks in the background if you do not finish the sequence. Cooldown starts ticking at the last activated input in that sequence.
+  W - Inferno Aegis
+  Cooldown : 14 / 13.5 / 13 / 12.5 / 12 ⇒ 13 / 12 / 11 / 10 / 9
+  Shield : 60 / 80 / 100 / 120 / 140 (+ 5% max health) ⇒ 75 / 95 / 115 / 135 / 155 (+12% bonus health)
+  Damage : 80 / 100 / 120 / 140 / 160 (+ 40% bonus AD) (+ 20% AP) ⇒ 80 / 100 / 120 / 140 / 160 (+ 65% AP)
+  Dragon Form Heal : 75 – 214.71 (based on level) (+ 10% bonus AD) (+ 5% AP), increased by 0% – 100% (based on her missing health) for a maximum heal of 150 – 429.41 (based on level) (+ 20% bonus AD) (+ 10% AP) ⇒ 60 - 100 + 4-8% missing health (based on level)
+  W move speed separate from shield
+  E - Molten Burst
+  Cooldown : 12 / 11.5 / 11 / 10.5 / 10 ⇒ 12 / 11 / 10 / 9 / 8
+  Magic Damage : 80 / 110 / 140 / 170 / 200 (+ 35% bonus AD) (+ 70% AP) ⇒ 50 / 65 / 80 / 95 / 110 (+ 60 / 65 / 70 / 75 / 80% AP) + 5% Target Max Health
+  Subsequent Explosion Damage Against Same Target : 50% ⇒ 40%
+  Slow : 20 / 25 / 30 / 35 / 40% ⇒ 30%
+
+[champion] Tahm Kench
+  Last patch's adjustment last patch ended up a very slight nerf (less than .5%) for both top and support. So we're making some support-focused improvements to compensate.
+  E - Thick Skin
+  Grey Health to HP conversion : 45 - 100% (Level 1 - 18) ⇒ 60 - 100% (Level 1 - 18)
+  R - Devour
+  Move Speed On Ally Devour : 40% for 3 seconds ⇒ 60% for 3 seconds
+
+[champion] Taliyah
+  Taliyah is in the same spot as Gragas (RIP Phase Rush), except she was also taken down a notch from the pro mid meta in her last nerf. We don't expect her to be able to utilize the changes as well as a lot of her competition, so we're walking back our last hit to her, while also making sure she doesn't approach sub-2:30 clears.
+  Q - Threaded Volley
+  Base Damage : 50 / 67.5 / 85 / 102.5 / 120 ⇒ 55 / 72.5 / 90 / 107.5 / 125
+  Bonus Monster Damage : 23 / 28 / 33 / 38 / 43 ⇒ 20 / 25 / 30 / 35 / 40
+
+[champion] Teemo
+  Our third lost playstyle—On-hit-focused Teemo builds have slowly fallen out of vogue as he's been tuned around Malignance and Liandries. We are adding bonus AD ratios to Teemo's E to open up itemization options for auto-attack builds featuring hybrid items like rageblade and the reworked Statikk Shiv.
+  E - Toxic Shot
+  [NEW] Initial Damage Bonus AD Ratio : 10% Bonus AD
+  [NEW] DoT Damage Bonus AD Ratio : 30% Bonus AD over 4 seconds
+
+[champion] Udyr
+  Currently, we feel that Udyr's AD Q builds are extremely one note—which makes sense when you look at their scaling. We want to broaden his AD Q bruiser builds by shifting some of his AD ratios out of his Q and into W and E so the stance swapper has more than one stance.
+  Q - Wildling Claw
+  Bonus Damage on First 2 Attacks : 3 / 4 / 5 / 6 / 7 / 8% (+4% per 100 bonus AD) of the target's Max Health ⇒ 3 / 4 / 5 / 6 / 7 / 8% (+3.5% per 100 bonus AD) of the target's Max Health
+  Bonus Damage On-Hit for 4 seconds : 5 / 13 / 21 / 29 / 37 / 45 (+25% bonus AD) ⇒ 6 / 12 / 18 / 24 / 30 / 36 (+20% bonus AD) (+1 - 2% bonus HP)
+  Awakened Bonus Damage on First 2 Attacks : An additional 2 - 4% (based on level) (+3% per 100 bonus AD) of the target's Max Health ⇒ An additional 2 - 4% (based on level) (+1.5% per 100 bonus AD) (+1% per 1000 bonus HP of the target's Max Health)
+  Awakened Chain Lightning Damage Per Bounce : 1.5 - 3% (based on level) (+.8% per 100 AP) ⇒ 1.5 - 3% (based on level) (+.6% per 100 AP)
+  W - Iron Mantle
+  [NEW] Shield AD Ratio : 50% bonus AD
+  [NEW] Awakened Shield AD Ratio : 100% bonus AD
+  [NEW] Awakened Heal AD Ratio : 50% bonus AD
+  E - Blazing Stampede
+  [NEW] Move Speed AD Ratio : 5% move speed per 100 bonus AD
+  [NEW] Awakened Move Speed AD Ratio : 10% move speed per 100 bonus AD
+
+[champion] Warwick
+  Our favorite wolf-boy Warwick has been struggling to find his place over game time. We are looking to soften the blow of his transition into the late game by bringing up some of his scaling.
+  P - Eternal Hunger
+  On-hit Damage : 6 / 16 / 26 / 36 / 46 ⇒ 6 / 18.25 / 30.5 / 42.75 / 55
+
+[champion] Xin Zhao
+  Our fourth lost playstyle is centered around Xin Zhao—particularly attack speed and AP Xin Zhao. Over the years Xin has moved off of auto attack builds solidly into bruiser AD-caster builds buying items like Sundered Sky or Black Cleaver. We think more attack speed-centric Xin Zhao builds offered an enjoyable melee fighter experience, and we want to bring it back. Whether it's full AP builds revolving around drain tanking, heavy attack speed on-hit carry builds, or just some minor pivots into Stridebreaker, Titanic Hydra, and Triforce, we want to see a bit more build options.
+  P - Determination
+  Healing : 3 / 4 / 5% Max HP (+65% AP) (levels 1 / 6 / 11) ⇒ 3 / 4 / 5% Max HP (+50 / 65 / 90% AP) (levels 1 / 6 / 11)
+  W - Wind Becomes Lightning
+  Slow On Thrust : 50% for 1.5 seconds ⇒ 50% for 1.5 (+.5 per 100 AP) seconds
+  E - Audacious Charge
+  Magic Damage : 50 / 75 / 100 / 125 / 150 (+60% AP) ⇒ 50 / 75 / 100 / 125 / 150 (+120% AP)
+  Attack Speed Buff : 40 / 50 / 60 / 70 / 80% for 5 seconds ⇒ 38 / 46 / 54 / 62 / 70% (+1% per 5% permanent AS) (+10% per 100 AP) for 5 seconds
+
+[champion] Zeri
+  Zeri's changes have pushed her over time to become more of a bursty assassin than the fantasy that initially called to many of her players. By moving power from her burst and late-game DPS towards her mobility and early laning, these changes should allow Zeri to shine once again as the zappy, speedy legend she is (while still doing ADC damage!)
+  P - Living Battery
+  Right Click Range : 500 ⇒ 550
+  Execute threshold : 60 / 82.5 / 105 / 127.5 / 150 (+ 18% AP) ⇒ 70 / 92.5 / 115 / 137.5 / 160 (+ 20% AP)
+  Q - Burst Fire
+  Damage : 15 / 17 / 19 / 21 / 23 (+ 104 / 108 / 112 / 116 / 120% AD) ⇒ 21 / 24 / 27 / 30 / 33 (+ 102 / 104 / 106 / 108 / 110% AD)
+  Excess AS to AD conversion : 70% ⇒ 50%
+  Now forced quick cast
+  W - Ultrashock Laser
+  Wall Crit Multiplier : 175% ⇒ 150%
+  AP Ratio : 25% ⇒ 50%
+  E - Spark Surge
+  Bonus Magic Damage : 17 / 19 / 21 / 23 / 25 (+ 10% bonus AD) (+ 20% AP) ⇒ 22 / 24 / 26 / 28 / 30 (+ 20% AP)
+  Cooldown : 22 / 21 / 20 / 19 / 18 ⇒ 24 / 22.5 / 21 / 19.5 / 18
+  Cooldown Refresh : Applies on attacks and abilities vs champions ⇒ Applies on attacks vs everything
+  R - Lightning Crash
+  Burst AD ratio : 100% ⇒ 60%
+  MS per stack : 1% ⇒ 1.5%
+  Stack duration : 1.5 ⇒ 2.5
+
+[champion] Zoe
+  Looking to move some of Zoe's power out laning phase stat checking, and into more skillful outplay around her Bubble.
+  W - Spell Thief
+  Damage Per Bolt : 20 / 30 / 40 / 50 / 60 (+ 15% AP) ⇒ 15 / 25 / 35 / 45 / 55 (+ 10% AP)
+  Total Damage : 60 / 90 / 120 / 150 / 180 (+ 45% AP) ⇒ 45 / 75 / 105 / 135 / 165 (+ 30% AP)
+  E - Sleepy Trouble Bubble
+  Cooldown : 16 / 15 / 14 / 13 / 12 ⇒ 18 / 17 / 16 / 15 / 14
+  Refunds 16 / 19.5 / 23 / 26.5 / 30% of cooldown when hitting an enemy champion
+
+[item] Axiom Arc
+  Last year, we adjusted Axiom Arc to have a higher base refund on its ultimate effect with less scaling. We think this was a mistake, as offering an item early in the game that reduces ultimate cooldowns to this degree on high burst lethality champions can lead to very narrow windows of opportunity for opponents to act.
+  Flux : On takedown, refund 15% (+.15% per lethality) of your ultimate's total cooldown ⇒ 10% (+.25% per lethality)
+
+[item] [NEW] Doran's Bow
+  We're looking to give more starting item options to auto attack-focused champions. Doran's Bow offers a high risk, high reward fantasy that will reward those who are able to sneak in extra autos and come out on top even without the additional health.
+  Attack Damage : 6
+  Attack Speed : 12%
+  Omnivamp : 1.5%
+
+[item] [NEW] Doran's Helm
+  We wanted to give more starting item options to champions who want to stack resistances. When it comes to the fantasy of being unkillable, current items assume a losing position. Though champions who want resistances tend to start on the back foot, we want to reward players who take advantage of the opportunity to come out even or ahead in laning phase with an item that pays off in valuable stats throughout the rest of the game.
+  Health : 100
+  Armor : 10
+  Magic Resist : 10
+  Helping Hand : 5 on-hit vs minions
+
+[item] Dusk And Dawn
+  One of the standout items for the season so far, we continue to feel it overlaps with Lichbane a bit too much. We want to encourage Dusk and Dawn users to stick around for multiple triggers, and empower them to do just that.
+  [NEW] Spellblade : Now also heals the user for (10% AP) (+3% Bonus HP)
+  Health : 350 ⇒ 300
+  Ability Power : 70 ⇒ 60
+  Attack Speed : 25% ⇒ 20%
+
+[item] Endless Hunger
+  Melee AD Fighters face major trade offs when considering this item against building other more durability focused items. We do want them to consider Endless Hunger however, for those pop off games when they get to play greedy, so we're giving it a minor buff for melee champs.
+  Unique Passive - Famine : Grants 5 (+10% Bonus AD) Ability Haste ⇒ Grants 5 (+[13% Melee | 10% Ranged] Bonus AD) Ability Haste
+
+[item] [NEW] Gluttonous Greaves
+  In addition to new starting items, we're adding new boots to the game that provide omnivamp. We've felt that many fighters and casters are limited in their boot selection, with only Ionian Boots as a real offensive option, and when they do pick something else, it's purely defensive, which isn't exactly exciting. These boots should fit a nice middle ground of aggressive and defensive, offering sustain through combat.
+  Build Path : Boots (300g) + 650g
+  Move Speed : 45
+  Omnivamp : 4%
+  Unique Passive - Slay : On champion takedown, gain 1% Omnivamp permanently, stacking up to 6 times
+  Tier 3 Immortal Path - Bonus Unique Passive - Now and Forever : While above half health, deal 5% increased damage. While below half health, receive +15% healing, shielding, and regeneration.
+
+[item] Hubris
+  Hubris cost buffs put it in line with a lot of other 1st slot lethality items, but in its current state feels like it's crowding out other options by providing both scaling and immediate power. These changes should differentiate Hubris more from immediate powerspikes like Youmuu's, while making it even stronger than before if you get rolling.
+  Base AD : 60 ⇒ 55
+  Passive AD per Stack : +2 ⇒ +3
+  Bonus AD : +15 ⇒ +12
+
+[item] [REMOVED] Opportunity
+  We feel that Opportunity has always overlapped a bit too much with Youmuu's, even after we tried to push them apart a year and half ago, and in its current iteration sits in between Youmuus for mobility and Voltaic for upfront trade power.
+
+[item] Staff of Flowing Water
+  In the past, Staff's unique effect granted ability haste, and then we changed that to move speed, and then we removed the move speed. We are re-adding the ability haste, as we believe only granting ability power has made the item too narrow and granting move speed made it too generic.
+  Unique Passive - Rapids : Healing or Shielding other ally champions grants both you and them +45 Ability Power for 6s ⇒ Healing or Shielding other ally champions grants both you and them +40 Ability Power and +15 Ability Haste for 6s
+  Ability Haste : 15 ⇒ 10
+
+[item] [REWORKED] Statikk Shiv
+  We've been unhappy with Shiv sitting as a pure waveclear first item purchase for a while now. With so much power in deleting the wave, it removes a lot of the space for back and forth lane trading. So instead, we're taking this opportunity to move it into a scaling purchase for on-hit builds, a build path that has been missing some itemization since we opened up the 7th item slot for bot laners. This new version of Shiv allows on-hit builds to apply their effects to multiple enemies at once, creating cool combos and helping them scale into teamfighting.
+  Build Path : Scout's Slingshot (600g) + Pickaxe (875g) + Aether Wisp (800g) + 625g
+  Attack Damage : 40
+  Ability Power : 45
+  Attack Speed : 30%
+  Move Speed : 4%
+  Unique Passive - Electrospark : Your Energized trigger fires a chain of lightning, dealing 60 (increased to 90 for minions and monsters) bonus magic damage to up to (4 - 8, scaling with level) targets. Applies on-hit effects to secondary bounce targets.
+  Unique Passive - Electroshock : Basic attacks grant an additional +9 Energize stacks
+
+[item] [REMOVED] Trailblazer
+  Similar to the reason we removed Opportunity, Trailblazer is sitting between two other tanky mobility options (Bandlepipes and Deadman's Plate). In this case, we feel not only is its output overlapping with similar effects in the space, it also had the highest complexity unique effect—asking allies to pay attention to a wispy trail which simply seemed over in terms of visual noise.
+
+[item] [REWORKED] Voltaic Cyclosword
+  Voltaic Cyclosword brings some cool Energized options to AD casters, but we think we can make it even broader by allowing it to open up the strict auto-attack gate that stops many melees from being good with it. We also don't love the slow effect, as it tended to trivialize a lot of the combat once players did manage to get into melee. With Opportunity removed, Voltaic should also be able to stand as the premier "upfront burst" item for AD casters.
+  Unique Passive - Galvanize : Damaging enemy champions with abilities will trigger Energized if it is ready
+  Unique Passive - Firmament : Your Energized trigger grants you [15 Melee | 12 Ranged] Lethality for 4s and deals bonus physical damage equal to [9% Melee | 7% Ranged] of the target's current health. This bonus damage is capped to 200 against non-champions.
+  Cost : 3000g ⇒ 2900g
+  Lethality : 18 ⇒ 10
+
+[system] [NEW] Deathfire Touch
+  Damage over time and sustained damage casters don't have a keystone made specifically for them. This gap has previously been partially covered by other keystones like Comet and Aery, but we're re-adding Deathfire Touch from the old keystone mastery system to ensure that these champions are fully supported by the runes system, and making adjustments to other keystones to compensate.
+  Sorcery Tree Keystone : Damaging a champion with an ability burns them for (4s singletarget / 2s AoE / 1s DoT). The burn deals 4-12 (level scaling) + 8% bonus AD + 3% AP adaptive damage per second. After the burn has been on a target for 3s, the damage of the burn increases by 100%.
+
+[system] [REMOVED] Phase Rush
+  Phase Rush has historically been a problematic rune for enabling some champions to subvert intended early lane gameplay. But we know that we need a mobility-based rune, so fear not...
+
+[system] [NEW] Stormraider's Surge
+  Since Stormraider's Surge asks the user to commit to dealing a lot of damage and generally ends up having its input scale well over game time, it is able to support much of the same pattern as Phase Rush in a healthier and more exciting way for the intended users.
+  [NEW] Sorcery Tree Keystone : Dealing 25% of a champion's maximum health within 3s grants a movespeed and slow resistance for 3s. 20-10s cooldown, scales based on level.
+  [NEW] Speed : 40%; 75% for ranged champs
+  [NEW] Slow Resist : 50%
+
+[system] Arcane Comet
+  Previously, Comet was given a cooldown refund mechanic for damage over time and sustained damage casters. Now that Deathfire Touch exists, Comet no longer needs it, and can now better serve its original intended audience of control mages and artillery mages with a damage-per-distance mechanic that should be exciting for those subclasses to play with.
+  [REMOVED] Cooldown Refund : Removed
+  [NEW] Damage : Now deals up to 100% increased damage based on distance from the target, max damage bonus at 750 range away
+  Damage : 30 - 130 (based on level) + 10% bonus AD + 5% AP ⇒ 15 - 100 (based on level) + 10% bonus AD + 5% AP
+
+[system] Hail Of Blades
+  Hail of Blades has become an extremely niche keystone that gives an eye popping amount of attack speed and basically nothing else. In other words, these blades are too sharp! We're shifting some of the attack speed power budget into a new bonus damage effect so we can tune it more comfortably for a broader variety of champions.
+  Attack Speed : [160% Melee || 80% Ranged] for 3 attacks, increased by +1 attack if you cast an ability that resets your auto attack ⇒ [120% Melee || 60% Ranged] for 3 attacks, increased by +1 attack if you cast an ability that resets your auto attack up to +2 attacks
+  New : Attacks empowered by Hail of Blades deal 4 - 20 (+8% bonus AD) (+6% AP) bonus true damage
+  Bugfixes : Fixed various Attack Reset abilities not properly granting bonus attacks (Bel'Veth Q, Kai'Sa R, K'Sante Q3, Gwen E, Quinn E, Rell Remount W, Riven Q)
+
+[system] SR Ranked Season 2
+  SR Ranked Season 2 will start at 12:00:00 noon, April 29, local server time. For Apex (Master, Grandmaster, Challenger) players in NA, EUW, EUN, LAN, BR, TR, their rank status will be reset to Master, 0 LP. For all other players, nothing will change. If you want to read more about why we're resetting Apex in some regions, check out the dev blog to learn more . For all regions and all players, Victorious Ranked Mission (15 ranked game won) will be reset with Season 2 start. End of Season 1 Ranked rewards will be distributed shortly after 26.09 is live, shard transfer service will be temporarily disabled until rewards are fully granted.
+
+[system] Arena
+  Welcome to *drum roll* *drum roll* *drum roll* THE ARENA!!!! Arena is receiving the major update we promised last year and we're excited to share it with all of you. Our goal with this release was to really deliver on the build crafting, adaptation, experimentation, and team focused, tactical combat that is the heart of Arena. We've amplified all of these aspects and are excited to see how you LEVEL UP your Arena game and leave the crowd speechless. We've listened to the community feedback about different ways to play, from the exciting Bravery Queue and the brand new 3x6 Arena, and the desire to push your augments to their limits! We can't wait to welcome you, and one or two friends, back into *drum roll* THE ARENA!!!! For more details on these changes check out our full dev blog here .
+
+[system] Events
+  Release (Patch 26.9): To start things off we won't be having an event to give players a chance to learn all of the new guests of honor, augments, and systems we're adding in Season 2.
+  3x6 (Patch 26.10): Exactly what it sounds like, three players on each team with a total of six teams. In a game with 170+ champions built with Summoner's Rift in mind, there are quite a few that have fallen by the wayside when forced into 2v2 gladiatorial combat. Our goal with introducing 3x6 is to bring even more champion diversity into the Arena by allowing for a wider variety of team comps.
+  Bravery (Patch 26.13): When you load in to champ select you'll notice a significantly smaller number of options. You'll have the good ‘ol random champion button which we hope you'll pick, but if true random isn't your cup of tea we've still got a few crowd favorites for you to pick from. Bravery is primarily to give many players a version of Arena they've been asking for, but we also wanted to find a way to support players that want to overcome any obstacles the Arena throws at them with their adaptability and ability to flex into many different champions.
+  Swift Arena (Patch 26.14): With this event we'll be going back to our roots of two teams of four for those looking to get the full Arena experience without the full Arena time commitment. Additionally, for those of you able to remember your opponents playstyles and weaknesses this should give you the edge as you'll be fighting the same teams more consistently.
+
+[system] Game Pacing
+  Augment Selection Duration: 37 seconds ⇒ 42 seconds
+  Item Choice Round Duration: 42 seconds ⇒ 47 seconds
+  Buy Round Structure
+  Round
+  Offering
+  Round 1
+  Augment, 500 gold
+  Round 2
+  Guest of Honor 1 Vote, Prismatic Item
+  Round 3
+  Augment
+  Round 4
+  2500 Gold
+  Round 5
+  Round 6
+  Round 7
+  Round 8
+  Guest of Honor 2 Vote, Crafting Round
+  Round 9
+  Round 10
+  Round 11
+  Round 12
+  Round 13
+  Round 14
+  Round 15
+  Round 16+
+  Crafting Round
+  A Crafting Round will occur on Round 8 and you'll be able to choose one of the following options:
+  Gain an 5th augment slot, in 5 rounds gain a silver augment.
+  Remove 1 of your augments to give 2 levels to your remaining augments, randomly selected. These levels can both go to the same augment or to different ones.
+  Gain a Prismatic Stat Anvil.
+
+[system] New Fame Track
+  Fame Track Level
+  Reward
+  Level 1
+  Wild Fire (Prismatic)
+  Level 2
+  Transmute: Silver (Prismatic)
+  Level 3
+  Replace Augment, Match up Intro Card
+  Level 4
+  Demonic Clasp (Gold)
+  Level 5
+  Rice and Chicken (Gold), Rice and Fish (Gold),
+  Rice and Pork (Gold)
+  Level 6
+  Mercy (Gold)
+  Level 7
+  Magical Girl (Prismatic)
+  Level 8
+  Match up Intro Card
+  Level 9
+  Silver Spoon (Silver)
+  Level 10
+  Scavenger (Gold)
+  Level 11
+  Spellcraft (Prismatic), Chroma Flux (Prismatic)
+  Level 12
+  Target Dummy, Match up Intro Card
+  The amount of Fame needed to unlock each tier has been decreased.
+
+[system] Guests of Honor
+  New Guests of Honor
+  Atakhan: Absolute Carnage
+  Annie: Wall of Fire
+  Evelynn: Just a Fling
+  Fiddlesticks: A Harmless Scarecrow
+  Garen: Perseverance
+  Hwei: Blank Canvas
+  Kayle: Divine Ascent
+  Kindred: Death and Rebirth
+  Jarvan IV: Heavy is the Crown
+  Lux: Light of Demacia
+  Morgana: Tormented Shadow
+  Nocturne: Darkness
+  Poppy: Rightful Wielder
+  Shaco: Absolute Chaos
+  Tahm Kench: Dark Bargain
+  Taric: Dauntless Vanguard
+  Reworked Guests of Honor
+  Swain: Demonic Ascension: Now, when half the lobby is eliminated the remaining teams gain a prismatic stat anvil.
+  Katarina: Dance of Voracity: Augment tier ups are offered alongside new augments.
+
+[system] Voting Round Changes
+  Guest Of Honor descriptions now allow you to press Shift to see the long description when hovering the Guest of Honor's icon.
+  No longer waits for all players to vote, and instead waits for all players that have moved to vote, so if you wish to abstain just stand still.
+  You can no longer move early by clicking on the Guest of Honor's icon before players are allowed to move.
+  Players can now move their camera while players are voting.
+  Moved the camera slightly closer.
+  When the winner is selected all other players will turn to look at them.
+  There is a chance for blastcones to spawn around the vote arena.
+  There is a chance for hats to spawn around the vote arena, picking them up will grant you the hat.
+
+[system] Anvils
+  Stat Anvils
+  Silver Stat Anvils: Now have a set value rather than rolling from a range of values.
+  Care Package (Prismatic Stat Anvil): Gain 500 gold per round lost.
+  Legendary Item Anvils
+  Cost: 2000 gold ⇒ 2250 gold
+
+[item] Maps
+  Petricite Grove (New)
+  A new map from the outskirts of Demacia. Scattered throughout are some unexploded mining bombs used to help harvest the tough Petricite.
+  Hitting these mining bombs causes them to roll before exploding, damaging enemies and plants.
+  Ancestral Woods (Adjusted)
+  Now has 2 Power Flowers on the bottom left and top right of the map.
+  The center now has the Bulwark Blossom, a durable bit of flora that grants its last hitter a massive shield, healing, and adaptive force before regrowing over 10 seconds, this bonus is increased if you are outnumbered.
+  Koipond (Adjusted)
+  Koipond's lily pad trigger radius is reduced slightly (terrain creation unchanged).
+
+[item] General Changes
+  Energized Stacking: 200% ⇒ 150%
+  Combobreaker has been updated to match ARAM: Mayhem. You will now gain ramping Tenacity while you're immobilized and if you have been unable to act for 4 of the last 7 seconds become unstoppable for 7 seconds.
+  Attack Speed is now capped at 4, but certain augments allow you to break past this cap.
+  The reroll system has been updated to match ARAM: Mayhem. Rerolls are no longer a currency and each slot now has its own reroll that refreshes each time you open an anvil/augment.
+  The extra reroll granted by selecting Bravery has been updated. Now every anvil/augment offering card will have the chance to have up to 1 bonus reroll.
+
+[item] Misc Changes
+  Hats
+  Hats are no longer lost on death and are instead lost on round loss.
