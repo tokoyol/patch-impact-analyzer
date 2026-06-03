@@ -1,0 +1,606 @@
+{
+  "version": "26.11",
+  "release_date": "2026-05-27",
+  "raw_notes": "It's tank time! In this patch, we've got a bit of a shake-up to the support roster. After seeing enchanters dominating for much of the year, and more recently mage supports pumping out oodles of damage with the recently re-added Deathfire Touch. We've also got some systemic adjustments to rebalance these archetypes and give melee supports some love. Additionally, we have some adjustments for top laners, with a Heartsteel buff and a nerf to Hexplate for ranged users to make them pay a larger cost for getting a bunch of health. For Season 2 followups, Xin Zhao is going to heal a little bit less, and Smolder is getting some base damage nerfs that make building like a bruiser a little bit weaker. Outside of that, we have some changes to some low-traffic client code, a slew of bugfixes, Arena updates, ARAM and ARAM: Mayhem bugfixes and adjustments, and more! Plus, we've got Eternal Aspects skins for Leona and Diana. And, finally, we hope you're hungry for some fine Italian dining. We've got mouthwatering skins for Sion, Illaoi, Irelia, and Vel'koz on today's menu. Mangia bene, gamers! Looking for more information on all things League of Legends? Check out our community-run wiki here ! Wrong patch notes? You can find the TFT patch notes here ! Pizza Chef Sion, Pasta Maker Illaoi, Breadsticks Irelia, Spaghetti alla Vel'Koz, Eternal Aspect Leona, Eternal Aspect Diana, and Eclipse Eternal Aspect Diana will be available May 28, 2026. Happy Pride everyone! We have two new emotes that you can claim for 1 Blue Essence each immediately when the patch goes live. We also have a mission that will reward you with some Battle Pass experience for playing 3 games with a premade group. And several of the previous years' emotes will be returning in for 1 Blue Essence each. Returning icons will activate trails from Patch 26.11 through Patch 26.13. If you don't have the icons yet, grab em in the store for\u2014you guessed it\u20141 Blue Essence each! To learn more about the event and how we're celebrating in both League and TFT check out the article we released. We\u2019ve made some changes to simplify navigation in the Ranked area of the client by removing the low-use \u201cMy Leagues\u201d feature that displays where you are relative to random players in the same tier and division. You can still see how you\u2019re doing compared to your friends, though. So don\u2019t worry if you like to compete with one another. You\u2019ll still be able to see Master+ ladders, though, so if you\u2019re someone with dreams of Challenger, don\u2019t worry. Keep grinding and you can get your name up there (...at least that\u2019s what we keep telling ourselves). Buffing the Role Quest reward as a minor follow up on the change in 26.9. We felt this reward landed a bit soft, but we think it does good things for the shape of the game by allowing mid laners their own special form of scaling. This patch, we are taking a holistic pass on the enchanter-heavy support meta that has stabilized and stagnated over the course of the year. We have a set of buffs and nerfs designed to promote tanks into the support meta, as well as some minor and major reworks to certain support items and their functionality. First off, we have a straight buff to Grubs. In line with 26.9's changes to role quests to open up some amount of roaming and laning flexibility back into the laning phase, we are also buffing Grubs as a destination to roam to for supports. Summon Aery's early game defensive output is being tapped down a bit so lane trades can stick onto enchanter duos a bit better. We're buffing Aftershock's early game output a bit so aggressive users can better trade with their opponents. And finally, we are buffing Guardian's cooldown and adjusting how it scales to help tankier users who need it to survive the laning phase. As a pretty \"behind the scenes\" unique that most of us just expect to work, Dream Maker is getting a mix of adjustments to help it perform in a more generally functional way that should pan out to be a nerf in most situations, but will definitely be a buff in others. Blue Bubble Damage Reduction is being adjusted from only affecting the literal first instance of damage (i.e. the first tick of a DoT, or the first instance of an on-hit damage from an incoming basic attack) to affecting the first cast source (i.e. the entire DoT, until it runs out of flat damage reduction.) Purple Bubble Damage is changing from mostly an on-hit effect to an on-hit or on-ability damage cast source effect with AoE penalties. (i.e. If Ezreal Ult triggers the Purple Bubble, it will apply to that entire Ezreal Ult but with reduced AoE efficacy. See Nami E for a similar example.) Moonstone will no longer double dip in both heal / shield power and Grievous Wounds / Shield Reaver. This is mostly a nerf, but will occasionally be a net positive when opponents have Grievous Wounds / Shield Reaver. As a mathy example, this means that if you have 50% Heal / Shield Power, and heal one ally for 100 * 150% from Heal / Shield = 150, on 26.10 it would then bounce 150 * 30% * 150% = 67.5 healing to another ally, whereas now it will only bounce 150 * 30% = 45 healing. An item that was completely bound to Nami because of outsized synergy with her E, Mandate is getting reworked to better fit into a niche for utility casters who want to help their team out with more crowd control rather than healing/shielding or personal damage. We look forward to seeing you figure out new optimal users! A straightforward nerf for enchanters. And a straightforwards buff for tanks. For Knight's Vow, we're pushing the unique effect rather than generically buffing its stats or gold cost. Zeke's is getting a QoL improvement for any users who might be casting their ultimate from long range\u2014such as Leona and Nautilus. Brand has been toeing the line in bot for a while now, and this patch has well and truly crossed over, so we're targeting that lane with a nerf to his base armor. Diana's feeling a bit underwhelming in the jungle after her previous adjustments due to the Dusk and Dawn changes. So we're giving her a little more moon-power in the jungle to return her to her former glory. Now that the dust has settled from 26.9's Dusk and Dawn reshape, we've uncovered that Ekko has room for a compensation buff as he is no longer completely bound to just buying that item for his power. With the ranged minion aggro pull removed last patch, Heimerdinger mains ended up with some degraded functionality around how turret ranges interact with minion ranges\u2014in the sense that ranged minions outrange Heimer's turrets and he had no way to pull them into their range. This makes for a pretty miserable experience where you just watch as your turrets tank minion autos without attacking back. Additionally, it was brought to our attention that his Evolution Turrets sometimes fail to follow up on his Storm Grenade when they lose vision of the target too quickly due to minor timing fluctuations around vision and turret logic, so we are increasing the vision duration slightly to resolve that. Our Void Walker has been limping around the Rift more than blinking. Stackable tear items have provided an additional cool late-game fantasy option besides pure AP, but his early game has been tougher than usual (in part due to our mid quest adjustment). These changes should help his laning, both in farming and trading. Quinngle (or Qungle [Kwun-gle]?) has been pretty popular and fun, even in a weak state. We know a lot of you will pick up more tricks and mastery over time, so for now we're just making sure her clear speed is more competitive without changing burst or dueling. This should help our trusty ranger more regularly undertake dangerous missions deep in enemy territory, whether she's looking for camps or champs. The baby dragon has been absolutely blasting his opponents since getting his hands on Deathfire Touch. We've had to do an unfortunate number of micropatch nerfs back to back, and we are hopeful this will be the last one we need to do. Included in these changes are a continuation of the latest nerf's push towards bringing him back into primarily critical strike builds rather than just Essence Reaver into bruiser, which we think can sit stronger since at the end of the day, a squishier Smolder has more weaknesses to play around, like being burst by enemy spell rotations. We'd love (fear) a world where Teemo could be equally happy building AP, on-hit, and AD for his new ratios, but as it stands, Shiv is ahead of the pack. By hitting his Toxic Shot AD ratio, we're confident Teemo with Shiv can land in a good spot without forcing those of you who like other builds (e.g. Nashor's, Liandry, Malignance) to rely on it. Additionally, hits to his scaling durability should preserve his lane bully identity, while increasing your chance of getting the jump on him! While AP Xin builds are not OP per se, the sheer amount of healing has been eye popping in an extremely expectation breaking way. Tamping that down with some compensation in the form of sustained damage. We like a world where Hexplate is satisfying across a spread of archetypes, and serves as a springboard to dive into interesting itemization tradeoffs. However, right now the item makes League less approachable for top laners by letting Vayne and Varus maintain a large proportion of their damage while being a good bit harder to kill. This change should better align expectations opponents have around ranged users building Hexplate, while still presenting as a worthy Experimental choice. Heartsteel has slowly fallen out of favor. With Mundo meta out of the way though, we're going to revert a nerf from a year ago since we feel the item occupies a really cool (and important) aspect of greedy tank itemization. Shiv has picked up a neat spread of users\u2014we think it could use more love when it comes to some characters that are more reliant on AD, like Kalista or Kai'Sa. We'll keep monitoring satisfaction around the new shape of Statikk as Season 2 progresses (should lightning strike twice?) We are also making an adjustment to Deathfire Touch so that it now only deals magic damage to resolve an extreme synergy with Black Cleaver. Hey Mayhemers! This patch we have a handful of champion changes and some general bugfixes, but nothing big. See you on the Bridge(s)! Gwen Vayne Xayah Kalista Fizz Tristana Twitch Smolder Varus Samira Fiddlesticks Only a small adjustment to Qiyana this patch! Go off, queen! Qiyana Three-person Arena seems to be going strong with plenty of people jumping into the chaos. In this patch we've got three new Guests of Honor. Will you hunt demons alongside Yone, or embrace their darkness? Or perhaps you know exactly which one of Vayne's tools is the perfect counter to your opponents? We're focusing our work around the changes to 3s with plenty of augment adjustments to adapt to the extra combatants in each fight. Enchanters have shot up in dominance while ADCs have been looking a tad weak so we're looking to bring them both in with the rest of the classes. Kinkou Jitte has been a bit of a terror and we're reverting it to its previous, one proc at a time, version that focuses on mobility. Hexbolt Companion's rework has also been an exciting autocast enabler, and we're looking to shift it towards the marksmen audience since Lighting Rod already does a great job of enabling autocasts for melee champions. We'll be continuing to monitor all of your thoughts and feedback. It has been extremely helpful in making a great mode that you all clearly enjoy. If the king's crown was offered to another, would you swipe it? Laser Eyes Contract Killer Bounce of the Poro King Dashing Deft Despoil Curse Augments Donation Get Excited! Kill Secured Quest: Icathia's Fall Lightning Strikes Shrink Engine Sonic Boom Upgrade Hubris Clothesline Crack Open That Egg Big Dragon Energy Magic Missile Magical Girl Nesting Doll Phenomenal Evil Protein Shake Zealot Kalista Warwick Karthus Master Yi Soraka Swain Combo Breaker Bulwark Blossom Diamond-Tipped Spear Hexbolt Companion Hexoptics C44 Immortal Shieldbow Infinity Edge Statik Shiv Kinkou Jitte Reverted to its previous version where only one mark is active at a time Kraken Slayer Locket of the Iron Solari Now has reduced effectiveness for 20 seconds after being healed Mikael's Blessing Redemption Now has reduced effectiveness for 8 seconds after being healed Stormrazor Terminus Wit's End Wordless Promise Dawncore Kayle: Divine Ascent NEW Nilah: Joyful Delight NEW Vayne: Tools of the Hunt NEW Yone: Inner Demon The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Mid Role Quest",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus AD and AP",
+          "old_value": "6%",
+          "new_value": "8%",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Summon Aery",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Shielding",
+          "old_value": "30 - 100 (Levels 1 - 18) (+10% bonus AD) (+5% AP)",
+          "new_value": "20 - 100 (Levels 1 - 18) (+10% bonus AD) (+5% AP)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aftershock",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor and MR",
+          "old_value": "35 (+80% bonus)",
+          "new_value": "45 (+75% bonus)",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guardian",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "90 - 40 (Level 1 - 18)",
+          "new_value": "75 - 40 (Level 1 - 18)",
+          "delta_value": -15.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Shield",
+          "old_value": "45 - 180 (+25% AP) (+5% bonus HP)",
+          "new_value": "40 - 150 (+20% AP) (+6% bonus HP)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dream Maker",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Blue Bubble Damage Reduction",
+          "old_value": "75 - 255 (Level 1 - 18)",
+          "new_value": "50 - 194 (Level 1 - 18)",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Blue Bubble Damage Reduction",
+          "old_value": "Damage reduction affects the next non-0 instance of damage, regardless of how large it is",
+          "new_value": "Damage reduction affects the next non-0 damage cast source (temporal carry-over)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Purple Bubble Damage",
+          "old_value": "50 - 170 (Level 1 - 18)",
+          "new_value": "40 - 160 (Level 1 - 18)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Purple Bubble Damage",
+          "old_value": "Damage triggers on hit, or on certain abilities / items",
+          "new_value": "Damage triggers on next damaging attack or ability, reduced for AoE effects (i.e. Nami E)",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moonstone Renewer",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Imperial Mandate",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build Path",
+          "old_value": "Fiendish Codex (850g) + Bandleglass Mirror (900g) + 500g = 2250g",
+          "new_value": "Blasting Wand (850g) + Bandleglass Mirror (900g) + 650g = 2400g",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Power",
+          "old_value": 60,
+          "new_value": 65,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Haste",
+          "old_value": 20,
+          "new_value": 15,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Regen",
+          "old_value": "125%",
+          "new_value": "150%",
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": [
+            "mana",
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Echoes of Helia",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage Stored",
+          "old_value": "35%",
+          "new_value": "30%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Locket of the Iron Solari",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor and Magic Resist",
+          "old_value": 25,
+          "new_value": 30,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight\u2019s Vow",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage Redirection",
+          "old_value": "12%",
+          "new_value": "14%",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Heal",
+          "old_value": "10%",
+          "new_value": "12%",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zeke\u2019s Convergence",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Frostfire Tempest",
+          "old_value": "Triggers on Ult cast",
+          "new_value": "Readies on Ult cast for the next 5 seconds, triggering the moment an enemy champion gets within the range or after 5 seconds",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Brand",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base Armor",
+          "old_value": 27,
+          "new_value": 24,
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diana",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage",
+          "old_value": "230%",
+          "new_value": "270%",
+          "delta_value": 40.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus Health",
+          "old_value": "9%",
+          "new_value": "11%",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ekko",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Per-Enemy Cooldown",
+          "old_value": "5 seconds",
+          "new_value": "4 seconds",
+          "delta_value": -1.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Heimerdinger",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Turret Attack Range",
+          "old_value": 530,
+          "new_value": 550,
+          "delta_value": 20.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Turret Vision Range",
+          "old_value": 585,
+          "new_value": 650,
+          "delta_value": 65.0,
+          "direction": "buff",
+          "tags": [
+            "utility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Vision of target location",
+          "old_value": "1 second",
+          "new_value": "1.25 seconds",
+          "delta_value": 0.25,
+          "direction": "buff",
+          "tags": [
+            "utility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kassadin",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "10 / 9.5 / 9 / 8.5 / 8",
+          "new_value": "9 / 8.5 / 8 / 7.5 / 7",
+          "delta_value": -1.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Base Magic Damage",
+          "old_value": "20 (+10% AP)",
+          "new_value": "25 (+10% AP)",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quinn",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage",
+          "old_value": 50,
+          "new_value": 75,
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage",
+          "old_value": "150%",
+          "new_value": "200%",
+          "delta_value": 50.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smolder",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Teemo",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": "4.95 per level",
+          "new_value": "4.5 per level",
+          "delta_value": -0.4500000000000002,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "On-hit/Poison per tick scaling",
+          "old_value": "(+10% bonus AD/+20% bonus AD)",
+          "new_value": "(+5% bonus AD/+10% bonus AD)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Xin Zhao",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Bonus Damage",
+          "old_value": "15 / 30 / 45 / 60% Bonus AD (Levels 1 / 6 / 11 / 16)",
+          "new_value": "15 / 30 / 45 / 60% Bonus AD (+5 / 10 / 15 / 20% AP) (Levels 1 / 6 / 11 / 16)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Heal Amount",
+          "old_value": "3 / 4 / 5% Max HP (+50 / 65 / 90% AP) (Levels 1 / 6 / 11)",
+          "new_value": "3 / 4 / 5% Max HP (+45 / 55 / 80% AP) (Levels 1 / 6 / 11)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Experimental Hexplate",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Overdrive",
+          "old_value": "On ulting, 50% bonus AS and 20% bonus MS for 8 seconds",
+          "new_value": "Ranged: 35% bonus AS and 14% bonus MS for 8 seconds (unchanged for melee)",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Heartsteel",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage To Permanent Health Conversion Rate",
+          "old_value": "8%",
+          "new_value": "10%",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Statikk Shiv",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 40,
+          "new_value": 45,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deathfire Touch",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "Adaptive based on the user's AD vs AP",
+          "new_value": "Magic Damage",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arena",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Guest of Honors",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Gold Gain",
+          "old_value": 1000,
+          "new_value": 1500,
+          "delta_value": 500.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Final Reward (round 10) random augment level",
+          "old_value": 1,
+          "new_value": 2,
+          "delta_value": 1.0,
+          "direction": "buff",
+          "tags": [
+            "utility"
+          ]
+        }
+      ]
+    }
+  ]
+}
