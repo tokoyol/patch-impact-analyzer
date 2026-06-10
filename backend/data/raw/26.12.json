@@ -1,0 +1,532 @@
+{
+  "version": "26.12",
+  "release_date": "2026-06-09",
+  "raw_notes": "We've got some more changes to follow up the recent Season 2 & support meta with a nerf to AP Xin Zhao and buff to Yuumi, as well as preparation with an eye towards MSI on the patch after this one through creating opportunities for some diversity in champion picks in the tournament. While some of these changes are specifically pro-oriented (sorry, Varus), most of them should be pretty applicable across all levels of play, like Lee Sin and Nocturne being less menacing in the jungle. We'll be continuing this approach for one more patch before going back to business as usual. Looking for more information on all things League of Legends? Check out our community-run wiki here ! Wrong patch notes? You can find the TFT patch notes here ! Prestige Sinful Shores LeBlanc, Sinful Shores Brand, and Sinful Shores Hwei will be available June 10, 2026. We are happy to open up Normal Draft availability for ME, OC and SG from windowed time to 24/7, as we've seen meaningful queue time improvement across regions since late 2025. Apex duo restriction was turned on with S2 start in some regions where the Apex players also got a reset. We are actively monitoring the health of those top tier matches to build confidence and understand what match quality improvements we need to make to re-enable duo for Apex players in those regions, but don't currently feel comfortable in flipping the switch without making some improvements. We will let you know when we're in a state to re-enable. We are introducing Honor and active penalty information to your social panel so you can easily track your standing, view your progress towards redemption, and see how your behavior impacts your games. The panel will display current Honor, restrictions, and actions you must take to restore standing, serving as a constant reminder of the positive community we are building together. We're looking to give Aatrox some love as he's been sitting on the sidelines for some time now, even though signs point to the Darkin being a solid pick in the current meta. We're putting more power into his Q sweet spot to reward him for his core skill check and make him a real threat against lumbering tanks and squishies alike. Gwen has been cut out of the meta for quite some time across all skill brackets. She lost some power with 26.09's minor rework to Dusk and Dawn, so we're giving her some of that power back in the early game. She'll remain a scaling pick, but a weaker first item spike has cost her early game a bit too much. These changes should help Gwen players live that snip and skip fantasy at all stages! Hwei's 26.08 changes to how his ability slows stack and interact with other sources of slows had a larger negative impact than expected. While we had put in a compensation buff along with that change, it's clear after a few patches that he has ended up worse off from the change, so we are giving him some power spread between his Q and E to keep all his abilities feeling relevant. Our favorite Grandmaster at Angling has been patiently waiting for his time to strike. Jax is meant to be a high-damage threat who ramps up in fights, but currently he's been a (fish)bait pick against durable opponents. These changes should help with that, without pushing him over the (fishing) line. The recent changes taking away some of Lee Sin's kit restrictions have been cool for Lee players, but he's clearly just too powerful now. With more outplay potential, we are nerfing his raw damage to balance him out. Nocturne has been in quite a strong spot for a while, especially in the higher echelons of play. We like how distinct he feels to play with his relatively low ultimate cooldown, but that means we are going to pull power out of his 1v1 and farming since he has such strong tools to quickly create unequal fights. Often called League's \"perfect champ,\" Orianna in recent years has been doing it all and more: dominating lane, protecting allies, and outputting extremely reliable damage in teamfights. As the highest pro priority in recent patches, we feel like too much of her power is in early lane dominance. She should still show up - just more situationally and for 3k elo shockwaves rather than early game bullying. Ryze's early game trading has only gotten stronger with Deathfire Touch. For a champion known as a scaling combo mage, we feel his laning has gotten too unassailable. So like Orianna, we're tuning down his early game a bit to keep his power budget in the late game as he's intended to be. Sylas is one of the champions who has come out worse for wear since the start of Season 2. We think he is still a powerful early lane bully, but he's lost enough power that his scaling is critically low to the point he's completely one note, so we are helping him out there. Pass the ball, Ori! Syndra has had some of her more reliable damage stripped away recently in W and R, so we want to give her the tools to start pushing for that scaling fantasy with Dark Sphere, her highest variance bread and butter ability. We're hoping this mix of exciting and functional buffs gets players across skill brackets interested in her untapped power. it's been two years since we've seen marksmen run over the mid meta, and while we absolutely don't want to go back to that world, we do feel like some marksmen in mid make for an interesting flavor of game. Tristana makes for a good candidate as she's been absent since we added mana costs to her Q in a couple seasons back. We'll be pulling back on some of those nerfs here and improving her level scaling generally. Varus has steadily become the highest priority ADC & top laner over the course of the year among the top tiers of gameplay. While the changes to Experimental Hexplate should help alleviate his dominance in top lane, in bot lane, we're looking to further disincentivize oppressive early game focused lethality builds, while being relatively less impactful to the most common on-hit builds and helping them scale a bit better. AP Xin Zhao continues being far too strong in mid lane. We are following up last patch's adjustment with a straight nerf this time to his ability to sustain both his health and mana in lane. As the only champion in the game with built in Heal/Shield power, Yuumi was hit hardest by the Moonstone Renewer mechanics changes in 26.09. We are giving her AP ratios a compensation buff to help keep enchanter items optimal for her. You get teleport, you get teleport, everyone gets teleport! In a post-rolequest world, we're still monitoring how top laners that don't want to use combat summoners can have their gameplay fantasies furthered by Enhanced Teleport. The current state of top lane TP Shields is not incentivizing the kind of action or tradeoffs we like, and it's pretty clear that expectations are being broken by a 30 second shield, so we're making an adjustment here that we hope encourages more immediate crossmap action. Hello ARAMers, we're bringing even more chaos to the Bridge this patch. We've detailed these changes in a recent dev blog, which you can check out here for all the details, but TL;DR: we've added Ability Augments, Quest Augments, and removed Augment Traits. Let's dive in! Ability Augments are Augments that directly upgrade one of your champion's abilities. You'll only ever receive Ability Augments that are usable for your champion. Quest Augments are Augments that grow stronger as you complete specific objectives during the game. And yes, an Augment can be both a Quest Augment and an Ability Augment! Want your Blitzcrank Q to fire three hooks after powering it up? Good luck escaping that! We're removing the Trait System for this season. Earlier this year, we explored how Traits affected player choice and build variety. While some Trait effects, like High Roller and Archmage were very popular, the system also reduced variety in Augment decisions. To preserve the fun parts, we've converted some Trait bonuses into standalone Augments so you can still enjoy their fantasies without being locked into a full Trait. This time around, we're giving extra attention to fighters and tanks. We've added more combat-focused Prismatic Augments to help them survive longer and move through fights more aggressively. Having trouble surviving after getting a kill? HellBent lets you revive if you stack it high enough. Looking for a Bel'Veth-style reset fantasy? Rite of Ascension refreshes your cooldowns and heals you on takedowns. We've also removed some older Augments that no longer delivered on their gameplay fantasy. Our goal is to rotate the pool to focus more on champion abilities, and make sure every Augment feels exciting to select. Overall, our goal with each update is to keep Mayhem feeling fresh, experimental, and full of new discoveries. We wish you the utmost Mayhem and see you on the bridge! Silver Augments Gold Augments Prismatic Augments Blade Waltz Will now attempt to re-target the initial target for the final attack so player will be able to land near the initial target Draw Your Sword Spin Me Right Round Arena 3x6 has been going strong and we've seen how much you all are loving it! We feel like the game is generally in a good state, and want to focus on buffing some under performers, particularly AD assassins who have always struggled to find success in Arena. Among other changes, we're making some adjustments to help in \"last player standing\" situations, tweaking some Guests of Honor, and making some changes to petricite bombs. Akali Brand Karthus Lillia Nocturne Pyke Quinn Talon Banshee's Veil Decapitator Guardian Angel, Zhonya's Hourglass, Wooglet's Witchcap These no longer share a lockout, allowing you to buy Guardian Angel with a Stasis item. Eclipse Edge of Night Iceborn Gauntlet Imperial Mandate Kaenic Rookern Maw of Malmortius Seraph's Embrace Opportunity Profane Hydra Youmus's Ghostblade Prowler's Claw Serylda's Grudge Spectral Cutlass Sterak's Gage Trinity Force Voltaic Cyclosword Zeke's Convergence Clown College Dual Wield Ethereal Weapon Now You See Me Scopiest Weapons Self Destruct Stackosaurus Rex Now works on permanent Augments and item effects, including: Upgrade Collector Petricite Grove Revives Vote Phase Vayne Kindred Evelynn Yone Swain Nilah The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Aatrox",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Sweet Spot Bonus Damage",
+          "old_value": 70,
+          "new_value": 75,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gwen",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Base Damage Per Snip",
+          "old_value": "10/13.5/17/20.5/24",
+          "new_value": "10/14/18/22/26",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus Attack Speed",
+          "old_value": "20/35/50/65/80%",
+          "new_value": "30/42.5/55/67.5/80%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hwei",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "QQ Damage",
+          "old_value": "50 / 80 / 110 / 140 / 170 (+70% AP) (+3 / 4 / 5 / 6 / 7% Target Max HP)",
+          "new_value": "50 / 80 / 110 / 140 / 170 (+80% AP) (+3 / 4 / 5 / 6 / 7% Target Max HP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "QW Damage",
+          "old_value": "60 / 85 / 110 / 135 / 160 (+25% AP), increased to up to 120 / 201.875 / 302.5 / 421.875 / 560 (+50 / 59.375 / 68.75 / 78.125 / 87.5% AP)",
+          "new_value": "60 / 85 / 110 / 135 / 160 (+30% AP), increased to up to 120 / 201.875 / 302.5 / 421.875 / 560 (+60 / 71.25 / 82.5 / 93.75 / 105% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "QE Slow",
+          "old_value": "30%",
+          "new_value": "35%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "13 / 12.5 / 12 / 11.5 / 11s",
+          "new_value": "12 / 11.5 / 11 / 10.5 / 10s",
+          "delta_value": -1.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jax",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": 65,
+          "new_value": 50,
+          "delta_value": -15.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Target Max Health Damage",
+          "old_value": "3.5% minimum damage / 7% maximum damage",
+          "new_value": "4% minimum damage / 8% maximum damage",
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lee Sin",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "AD Growth",
+          "old_value": 3.7,
+          "new_value": 3.4,
+          "delta_value": -0.30000000000000027,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Q1 - Sonic Wave",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "65 / 95 / 125 / 155 / 185 (+95% bonus AD)",
+          "new_value": "60 / 90 / 120 / 150 / 180 (+90% bonus AD)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Q2 - Resonating Strike",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "65 / 95 / 125 / 155 / 185 (+95% bonus AD)",
+          "new_value": "60 / 90 / 120 / 150 / 180 (+90% bonus AD)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nocturne",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "65 / 110 / 155 / 200 / 245",
+          "new_value": "65 / 105 / 145 / 185 / 225",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orianna",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base Health",
+          "old_value": 585,
+          "new_value": 565,
+          "delta_value": -20.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage Increase Per Stack",
+          "old_value": "20%",
+          "new_value": "15%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "250/400/550 (+95% AP)",
+          "new_value": "225/350/475 (+110% AP)",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ryze",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base Health",
+          "old_value": 645,
+          "new_value": 620,
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Base AD",
+          "old_value": 58,
+          "new_value": 55,
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Sylas",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Initial Damage",
+          "old_value": "40 / 60 / 80 / 100 / 120 (+40% AP)",
+          "new_value": "40 / 65 / 90 / 115 / 140 (+45% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Heal Amount",
+          "old_value": "20 / 40 / 60 / 80 / 100 (+20% AP) (+5% Sylas' Bonus HP), increased by up to 100% based on Sylas' missing health",
+          "new_value": "20 / 40 / 60 / 80 / 100 (+30% AP) (+5% Sylas' Bonus HP), increased by up to 100% based on Sylas' missing health",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Syndra",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base Health",
+          "old_value": 563,
+          "new_value": 583,
+          "delta_value": 20.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "80-220 (+65% AP)",
+          "new_value": "90-230 (+70% AP)",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tristana",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "AD Growth",
+          "old_value": 2.9,
+          "new_value": 3.4,
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana",
+          "old_value": "30 / 35 / 40 / 45 / 50",
+          "new_value": "15 / 20 / 25 / 30 / 35",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Varus",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "On Non-Champ Kill AD and AP",
+          "old_value": "10% of his Total AS",
+          "new_value": "11% of his Total AS",
+          "delta_value": 1.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "On Champ Kill AD and AP",
+          "old_value": "25% of his Total AS",
+          "new_value": "33% of his Total AS",
+          "delta_value": 8.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "On Non-Champ Kill AS",
+          "old_value": "+50% AS",
+          "new_value": "+30% AS",
+          "delta_value": -20.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "53.33 / 100 / 146.67 / 193.33 / 240 (+100% bonus AD) to 80 / 150 / 220 / 290 / 360 (+150% bonus AD)",
+          "new_value": "53.33 / 100 / 146.67 / 193.33 / 240 (+80% bonus AD) to 80 / 150 / 220 / 290 / 360 (+120% bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "On-Hit Damage",
+          "old_value": "8 / 17 / 26 / 35 / 44 (+15% bonus AD) (+25% AP)",
+          "new_value": "4 / 13 / 22 / 31 / 40 (+15% bonus AD) (+25% AP)",
+          "delta_value": -4.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xin Zhao",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Healing",
+          "old_value": "3 / 4 / 5% Max HP (+45 / 55 / 80% AP)",
+          "new_value": "2 / 3.5 / 5% Max HP (+40 / 50 / 70% AP)",
+          "delta_value": -1.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": "60 / 55 / 50 / 45 / 40",
+          "new_value": 60,
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": 50,
+          "new_value": 60,
+          "delta_value": 10.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yuumi",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Heal Amount",
+          "old_value": "20 - 110 (+25% AP) (Levels 1 - 18)",
+          "new_value": "20 - 110 (+30% AP) (Levels 1 - 18)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Shield Amount",
+          "old_value": "65 / 90 / 115 / 140 / 165 (+30% AP)",
+          "new_value": "65 / 90 / 115 / 140 / 165 (+40% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Teleport",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Max Health Shield",
+          "old_value": "30% for 30 seconds",
+          "new_value": "35% for 10 seconds",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arena",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Guests of Honor",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Wolf",
+          "old_value": "Bonus HP 10%",
+          "new_value": "15%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    }
+  ]
+}
