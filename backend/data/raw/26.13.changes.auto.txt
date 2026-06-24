@@ -1,0 +1,150 @@
+[champion] Aphelios
+  Since his nerfs earlier this year, Aphelios has fallen in priority and win rate. With some power budget freed up, we're pulling back on some of those earlier nerfs to highlight each gun's unique strengths.
+  Calibrum
+  Passive Mark Damage : 15 (10% bonus AD) ⇒ 15 (15% bonus AD)
+  Severum
+  Q - Onslaught Damage : 19 / 24.25 / 29.5 / 34.75 / 40% Total AD Dmg per attack ⇒ 20 / 25.25 / 30.5 / 35.75 / 41% Total AD Dmg per attack
+  Infernum
+  Q - Duskwave Damage : 20 - 110 (Level 1 - 18) (10 - 16% bonus AD) ⇒ 20 - 110 (Level 1 - 18) (15 - 21% bonus AD)
+  Crescendum
+  Q - Sentry Damage : 35 - 125 (Level 1 - 18) (30 - 48% bonus AD) ⇒ 35 - 125 (Level 1 - 18) (34 - 52% bonus AD)
+
+[champion] Bard
+  Bard has been a tanky roaming meta staple for much of the season, so we're trimming his damage so tank Bard doesn't get to hit nearly as hard without investing in AP.
+  Passive - Traveler's Call
+  Damage Per Meep : 35 (+10 per 5 Chimes) (+40% AP) ⇒ 30 (+6 per 5 Chimes) (+40% AP)
+
+[champion] Brand
+  Brand continues to dominate bot lane for most players, so we're nerfing his early passive detonation damage while offsetting some of that hit for more skilled players and supports through mana tuning.
+  Base Stats
+  Base Mana Regeneration : 9 ⇒ 11
+  Passive - Blaze
+  Passive
+  Detonation Damage : 8 - 12% (Levels 1 - 17) (+2% per 100 AP) ⇒ 6 - 12% (Levels 1 - 18, scaling above 18) (+2% per 100 AP)
+  E - Conflagration
+  Mana Cost : 70 / 75 / 80 / 85 / 90 ⇒ 90
+
+[champion] Cassiopeia
+  Cassiopeia has risen to the top of pro play presence, even before our 26.12 nerfs to her major competition. We would like to preserve some of her unique strengths, like her rewarding laning and slippery speed, but she should have a less gigantic health bar for when opponents actually lock her down!
+  Base Stats
+  Health per level : 104 ⇒ 98
+
+[champion] Draven
+  As the marksman meta has evolved around crit, on-hit, and caster builds, Draven has fallen behind. We're buffing his heavy-AD pattern instead of trying to redirect his itemization.
+  E - Stand Aside
+  Cooldown : 18 / 17 / 16 / 15 / 14s ⇒ 16 / 15 / 14 / 13 / 12s
+  R - Whirling Death
+  Damage Reduction on Enemy Hit : -8% multiplicatively, down to 40% (at 11 hits) ⇒ -5%, down to a minimum of 50% (at 14 hits)
+
+[champion] Kai'Sa
+  Kai'Sa has struggled to get through lane and find her big Killer Instinct moments, so we're buffing her fallback W pattern early and her later-game backline dive threat.
+  W - Void Seeker
+  Cooldown : 22 / 20 / 18 / 16 / 14 ⇒ 20 / 18.5 / 17 / 15.5 / 14
+  R - Killer Instinct
+  Shield : 70 / 90 / 110 (+90 / 135 / 180% AD) (+120% AP) ⇒ 100 / 150 / 200 (+90 / 135 / 180% AD) (+120% AP)
+
+[champion] K'Sante
+  K'Sante has been a major beneficiary with Doran's Helm entering the mix in Season 2, so we're lightly tapping down his early reliability while still rewarding successful all-ins.
+  E - Footwork
+  Shield : (80 / 120 / 160 / 200 / 240) (+15% bonus health) ⇒ (70 / 112.5 / 155 / 197.5 / 240) (+13.5% bonus health)
+
+[champion] LeBlanc
+  We want to better reward LeBlanc players for landing some of her less guaranteed damage, rather than giving her more gank or lane support—both of which she does really well already.
+  R - Mimic
+  RQ1 / RE1 Damage : 70 / 140 / 210 ⇒ 70 / 150 / 230
+  Mark / Root Damage : 140 / 280 / 420 ⇒ 140 / 300 / 460
+  RW Damage : 150 / 300 / 450 ⇒ 150 / 315 / 480
+
+[champion] Olaf
+  Olaf used to be a staple in the jungle but has been out of favor for a while now, despite our earlier attempts this season to help him out. We are looking to give him a bit more power to entice him back into the wilderness.
+  Q - Undertow
+  Monster Bonus Physical Damage : 20 / 35 / 50 / 65 / 80 ⇒ 20 / 45 / 70 / 95 / 120
+
+[champion] Poppy
+  Jungle class diversity has been dominated almost exclusively by fighters for a while now, and we think Poppy is a good pick for a tankier counter option into many of the fighter junglers at the top of the meta. This buff is aimed at her jungle clear and gank windows while minimizing top and support impact.
+  Q - Hammer Shock
+  Monster Damage Cap : 50 / 80 / 110 / 140 / 170 ⇒ 75 / 105 / 135 / 165 / 195
+
+[champion] Qiyana
+  Another class that's underrepresented in the jungle is assassins. We feel Qiyana is a great choice for a buff as she's recently been on the lower end of balanced in the jungle, so we're giving her a jungle-focused buff to help bring her back without meaningfully juicing mid lane.
+  Q - Edge of Ixtal
+  Monster Damage : 155% ⇒ 175%
+
+[champion] Rek'Sai
+  Rek'Sai's combination of dueling power and mobility has made her too successful at high ranks, so we're shaving down her early-to-mid burst windows while preserving her unique map movement and longer fight pattern.
+  E - Furious Bite / Tunnel
+  Physical Damage : 80 / 108 / 136 / 164 / 192 (64% bonus AD) ⇒ 70 / 95 / 120 / 145 / 170 (60% bonus AD)
+  Bonus True Damage : 125% ⇒ 120%
+
+[champion] Rumble
+  Rumble has been an extremely reliable blind-pick top laner for a long time, so we're lowering some of his early staying power and base damage while keeping his scaling pattern intact.
+  Q - Flamespitter
+  Damage : 60 / 85 / 110 / 135 / 160 (100% AP) ⇒ 50 / 75 / 100 / 125 / 150 (105% AP)
+
+[champion] Senna
+  Senna players have moved over to a much stronger Bot lane farming pattern, so we're softening her farming and Shiv synergy while also tuning her DPS around having access to more souls. The Doran's Helm nerf should do the rest of the work necessary to get her to the right power level between roles.
+  Passive - Absolution
+  Soul Drop Chance (Senna Kill) : 10% ⇒ 5%
+  Soul Drop Chance (Ally Kill) : 28% ⇒ 32%
+  Crit Damage : -10% (180% / 27% with IE) ⇒ -15% (170% / 25.5% with IE)
+  Q - Piercing Darkness
+  Cooldown Refund : On Hit ⇒ On Attack
+
+[champion] Sion
+  Sion has been resilient in both solo queue and pro play for a long time, so we're weakening some of his reliable early lane power and resource access without decimating his core tank fantasy.
+  Q - Decimating Smash
+  Min Damage : 40 / 60 / 80 / 100 / 120 ⇒ 30 / 45 / 60 / 75 / 90
+  W - Soul Furnace
+  Mana : 65 / 70 / 75 / 80 / 85 ⇒ 75 / 80 / 85 / 90 / 95
+
+[champion] Vex
+  We feel Vex has had less of an impact in her games than we think she should, so we're giving her a quality of life buff that should make her reset pattern feel smoother so she can have more pop off giga plays.
+  E - Looming Darkness
+  Cooldown : 13s ⇒ 12s
+  R - Shadow Surge
+  Reset Time Window : 6s ⇒ 8s
+
+[champion] Zaahen
+  Zaahen is already seeing more play across audiences, so we're giving him more room to fish for his early trade patterns and engage in mid game skirmishes without raising his scaling ceiling.
+  W - Dreaded Return
+  Cooldown : 16 / 15 / 14 / 13 / 12 ⇒ 14 / 13.5 / 13 / 12.5 / 12
+
+[item] Doran's Helm
+  We overshot a bit with the 26.11 Doran's Helm buff, so we're tapping it back down while keeping the base health high and targeting the users it's overperforming on.
+  Armor and Magic Resistance : 10 ⇒ 8
+  Health : 140 ⇒ 150
+
+[item] Imperial Mandate
+  Imperial Mandate has landed softly, and the build path has been too awkward for many of its likely users, especially supports. We're smoothing out the path and shifting some of its power accordingly.
+  Build Path : Blasting Wand (850g) + Bandleglass Mirror (900g) + 650g ⇒ Amp Tome (400g) + Bandleglass Mirror (900g) + Amp Tome (400g) + 700g
+  Ability Power : 65 ⇒ 60
+  Unique - Control : 15 AH For Immobilizing Abilities ⇒ 20 AH For Immobilizing Abilities
+  Unique - Command : 6% Vulnerable ⇒ 7% Vulnerable
+
+[item] Last Hit Indicators
+  We're going to be enabling Last Hit Indicators for Normal Draft games. This feature has been live in Swiftplay & Co-op vs. AI for a while, and we've seen it result in new players being more successful at last-hitting than before. These players are now graduating into Normals and are interested in continuing to use them. We think it's better to focus on skill expression in other parts of the game—rather than understanding exactly when you can last-hit a minion—and are also pretty confident that these don't degrade skill expression in lane. You still need to be mindful of positioning, harassing your opponent, considering where both junglers are, understanding power spikes, and more. We've seen that experienced players are disabling it, as they find it more distracting than helpful, but we believe it should be available for those who want it. Let us know what you think! We've seen a lot of conversation around Last Hit Indicators coming to Ranked, and we've decided to enable them in non-Ranked SR queues only for continued testing. We want to get more data and feedback to decide if we should make them an option for Ranked before making that call. So we'll keep them enabled, but off by default, for Swiftplay, Co-op vs AI, and Normal Draft, to collect data and iterate. We'll keep you updated about performance and progress in Dev Updates before making any future calls.
+
+[item] Guests of Honor
+  Kindred
+  Lamb Revives: 2 ⇒ 1
+  Locke
+  New Guest of Honor.
+  During each Augment offering, one Augment is offered at a higher tier but is Fractured.
+  Fractured augments break into a Stat Anvil after 2 losses.
+  Winning 3 rounds with a Fractured augment removes the Fractured keyword.
+  Lux
+  Out of Combat Timer: 5 ⇒ 3
+  Shield per level value: 20 ⇒ 25
+  Shield per round loss: 75 ⇒ 100
+  Nocturne
+  Now grants wall walking while inside the darkness zones.
+  Number of zones: 1 - 3 ⇒ 3
+
+[system] Reporting Direct Messages
+  Player DMs have long been a gap in our reporting coverage, which has allowed bad actors to use direct messages as a place for chat toxicity with impunity. We are closing that loophole in this patch by adding a report menu directly into your chat interface. You can report and/or block a player at the same time by selecting the report button on the chat header, right-clicking the chat dialogue to summon the context menu, or from the block menu. Blocking a player means that DMs can no longer be exchanged. However, message history will persist during the same session after blocking or being blocked, so that players can no longer abuse the block function as a way to avoid being reported. Once reported, we'll be able to view both sides of the conversation and take action where appropriate. All reported direct message data is handled securely and used strictly for moderation purposes. While we hope you don't have to use this feature often, this tool ensures accountability extends to all player communications in League.
+
+[system] Ranked 5s
+  Ranked 5s are back! Time to call the squad (or find some friends if you're like us.) On June 26, Ranked 5s will be live at 8 pm! Tournament Draft, double the stakes, no restrictions on who can play with each other, and unique rewards. To learn more about Ranked 5s, check out the dev blog .
+
+[system] Discord Integration
+  As a reminder, in Discord supported regions, you can now connect your Riot and Discord accounts to jump into game with your Discord friends faster. Linking your accounts lets you invite Discord friends straight into your party, copy a lobby link to share with your server, or see which of your friends are playing so you can get into a lobby with them. You can connect your Riot and Discord accounts in the League client, through Discord, from your account page, or you can check out this link to do it and learn more about it.
