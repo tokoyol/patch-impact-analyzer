@@ -1,0 +1,103 @@
+[champion] Azir
+  Azir is feeling more headless chicken than valiant falcon right now. But rather than straight numerical buffs, we're preening his feathers of impactful bugs and changing some rune interactions that should make him start squawking about Shurima more often.
+  W - Arise!
+  On-Hit? More Like On-Destroy : Scorch, Liandry's Torment, Blackfire Torch, and Hextech Alternator now deal 100% of their damage on-hit instead of 50%
+  Double-tap : Conqueror will now apply 2 stacks on-hit instead of 1
+  Laser Focus : Press the Attack now applies to the primary target hit
+  R - Emperor's Divide
+  Be Gone, Peasant! : Now knocks back jungle monsters
+
+[champion] Corki
+  Everyone's favorite incoherent aviator is having trouble taking off in bot lane. So, we want to give a little more firepower to Corki's sorties later in the game, and really enhance his spell-weaving missile firing fantasy!
+  Base Stats
+  Attack Damage Growth : 2 ⇒ 2.5
+  R - Missile Barrage
+  Remaining Recharge Time Reduction from Autos : 2 - 4 seconds (based on critical strike chance) ⇒ 2 - 6 seconds
+
+[champion] Garen
+  Garen is dishing out too much justice across all skill brackets right now. So, we're going to tap down the Demacian Justice just a tad to make him a little less oppressive, while still rewarding well-timed target selection and inspiring fear in the hearts of those who shirk justice.
+  R - Demacian Justice
+  True Damage : 150 / 250 / 350 (+ 25 / 30 / 35% of target's missing health) ⇒ 125 / 200 / 275 (+ 25 / 30 / 35% of target's missing health)
+
+[champion] Jayce
+  Jayce quickly climbed the ranks after our 26.03 adjustments and has stayed at the top of the pack. Additionally, he has become a fairly comfortable blind pick champ due to his Rune flexibility, and is the most picked top laner in higher ranks. Right now he's building like an assassin, but playing like a fighter, which we prefer to the tank Jayce era. These changes should tap down on his speediness and high durability while preserving what makes him fun.
+  Passive - Hextech Capacitor
+  Bonus Move Speed : 40 ⇒ 30
+  R - Mercury Hammer
+  Bonus Armor and Magic Resistance : 5 / 15 / 25 / 35 (+7.5% bonus Attack Damage) ⇒ 5 / 12 / 19 / 26 (+7.5% bonus Attack Damage)
+
+[champion] Locke
+  Locke's release has gone relatively smoothly, and we are now tuning him down a bit as players have had time to pick him up. We want to open up more counterplay by reducing how long he can pressure with his Q. And we're bumping down the healing on his W because he's not an enchanter, after all.
+  Q - Ritual Nails
+  Nail Recast Hold Time : 5 seconds ⇒ 4 seconds
+  Nail Damage : 50 / 60 / 70 / 80 / 90 ⇒ 50 / 58 / 66 / 74 / 82
+  Mark Base Bonus Damage : 20 / 30 / 40 / 50 / 60 ⇒ 18 / 26 / 34 / 42 / 50
+  W - Soul Ignition
+  Damage Taken Grey Health Cap : 40 / 80 / 120 / 160 / 200 ⇒ 40 / 70 / 100 / 130 / 160
+
+[champion] Mordekaiser
+  Morde has lost a fair amount of power ever since the Riftmaker bugfix in 26.10 and could use some love, so we're rewarding him more for when he gets you in his Grasp and enhancing the Lord of Death's 1:1 fantasy.
+  E - Death's Grasp
+  Damage : 60 / 75 / 90 / 105 / 120 (+40% Ability Power) ⇒ 60 / 80 / 100 / 120 / 140 (+45% Ability Power)
+  R - Realm of Death
+  Stat Steal : 10% ⇒ 13%
+
+[champion] Nami
+  Nami has been feeling a bit like a fish out of water since the Mandate changes, especially when combined with her nerf in 26.7. We've targeted her E which has been feeling a bit underwhelming with her new builds, which should shift the tides a bit in her favor to help her make a bigger splash!
+  E - Tidecaller's Blessing
+  Damage per Hit : 20 / 30 / 40 / 50 / 60 ⇒ 20 / 35 / 50 / 65 / 80
+
+[champion] Senna
+  Even after her nerfs last patch, Senna is still tearing through the darkness and the light. We're focusing on bringing down her passive and scaling power as she collects souls and takes names, which should impact her in support less, and more in bot where Shiv is rushed for AP ratios.
+  Passive - Absolution
+  Critical Strike Damage Modifier : 85% ⇒ 80%
+  Q - Piercing Darkness
+  Ability Power Slow Ratio : 10% per 100 Ability Power ⇒ 7% per 100 Ability Power
+  Ability Power Healing Ratio : 50% Ability Power ⇒ 35% Ability Power
+
+[champion] Seraphine
+  Seraphine's vocal lessons have paid off and she's hitting those High Notes more consistently. So much so that she's become one of the bot lane headliners. So, we're lowering her volume a little so she doesn't burst everyone's ear drums. We don't have any more immediate plans to adjust her Q hitbox, so are going to tune her around this current state going forward.
+  Q - High Note
+  Ability Power Ratio : 50% Ability Power ⇒ 40% Ability Power
+
+[champion] Yunara
+  Yunara's spirit is waning a little. So we're giving her a little more scaling power to help find more balance later in the game.
+  Base Stats
+  Attack Damage Growth : 2.5 ⇒ 3
+
+[item] Immortal Path
+  Immortal Path has really been living up to its name lately on a couple of mid picks who can use the item, with a higher winrate than expected even for its niche pick rate. These changes should leave it worth building but more reasonable in output.
+  Damage Increase While Above 50% Maximum Health : 5% ⇒ 4%
+  Healing, Shielding, and Regeneration Increase While Below 50% Maximum Health : 15% ⇒ 12%
+
+[item] Protoplasm Harness
+  Protoplasm is overperforming across the board and is leading to particularly potent spikes on champions that buy it early. We still want to make sure it's still an exciting option for tank champs, so we're focusing on decreasing its early single item spike power.
+  Cost : 2500 ⇒ 2600
+  Bonus Health : 200 - 300 ⇒ 100 - 300
+  Healing : 200 - 400 ⇒ 100 - 400
+
+[item] Hextech Rocketbelt
+  Rocketbelt's popularity on usually immobile mages, rather than AP bruisers, is giving us flashbacks of the Galeforce days. We're adjusting its stat incentives to make it slightly less appealing when compared to other damage-focused options but also keep it feeling good on its traditional core users that rely on the item for engage. There's also a Ruby Crystal in its build path that didn't exist in days where the item built out of Kindlegem and was a little more clunky.
+  Build Path : Hextech Alternator + Fiendish Codex + Amplifying Tome + 300 ⇒ Hextech Alternator + Kindlegem + Ruby Crystal + 350
+  Active Cooldown : 40 seconds ⇒ 50 seconds
+  Ability Power : 70 ⇒ 60
+  Health : 300 ⇒ 350
+
+[system] Blue Buff
+  In a world where the impact of mana in the jungle has been degraded over time, we want Blue to have more reasons to be prioritized.
+  Ability Haste : 10 ⇒ 10 / 15 / 20 (levels 1 / 6 / 11)
+
+[system] SR Ranked Season 2 End
+  Ranked Season 2 will end local server time at midnight 23:59 on July 28, which is the last day of patch 26.14. Several hours later, we'll roll over into patch 26.15, which marks the start of Season 3 at 12:00pm noon, July 29, local server time. Similar to previous mid-year season transitions, Ranked Solo and Flex queues will be disabled during the down time. Shard transfer services will also be disabled to make sure rewards are properly calculated. We don't expect any disruptions to your LP / Ranked progression, but the Victorious Ranked mission for 15 ranked games won will be refreshed when the new season starts.
+
+[system] Parental Controls
+  Riot is rolling out optional Parent Permissions to give parents more visibility and control over their child's social interactions in game. Parents can access parental controls by connecting a parent's email address via account control page , where they can limit text and voice chat, block friend requests, and view the social panel friends list. These controls are meant to provide parents with the tools to protect their child's safety. Read more about parental permissions and account setup here .
+
+[system] Summoner's Rift Clash - MSI Cup
+  Pro games got you yearning for your very own competition? Well, look no further! The MSI Cup will be taking place on Summoner's Rift this patch! So grab your pals and get ready to throw down!
+  Registration Begins: July 13 @ 11:00AM (Local Time)
+  Tournament Dates: July 18 and 19 (~ 4 - 7 PM Local Time, varies by region)
+  If you have any questions or you're just looking for the full 2026 Clash schedule, make sure to check out our Clash FAQ support page .
+
+[system] T1 2025 Worlds Winners
+  In honor of League's first three-peat world champions, the T1 Worlds Winner skins will follow a slightly different release approach. The Signature Bundles will include the skin, signature icon and border, ward skin, and Elite chroma. As a special bonus, each bundle will also include an exclusive emote inspired by the pros and the skin they helped design. The Worlds Winner Megabundle will include all Signature Bundles, and three megabundle exclusive items: Golden Team Icon, T1 2025 Worlds Winner Lobby Banner, and the "Three-peat, 1 Dynasty" Title. All bundles will be available for purchase for two patches, going away at the start of Patch 26.16. All skins will also be individually purchasable with RP. T1 Ambessa, Xin Zhao, Galio, Yunara, and Seraphine will cost 1350 RP. The MVP skin this year, MVP T1 Miss Fortune, will also be individually purchasable for 1820 RP. Individual skins will be available in the Shop until the start of patch 26.23. Once MVP T1 Miss Fortune leaves the Shop, she will be entered into the Mythic Shop pool in the first patch of 2027. She will have a chance to appear in the rotating or featured section, and she will be priced at 200 Mythic Essence. Acquiring MVP T1 Miss Fortune from the Mythic Shop will not include her Signature Icon or Border. The other Epic skins will leave the store and enter the Loot pool starting with the first patch of 2027. In addition to the Elite chromas, there will also be 5 standard chromas available for purchase. The Ruby chroma will be a chroma bundle exclusive, and the others will be available for individual purchase. Last, but certainly not least, swing by the Mythic Shop to snag the "Together as 1" Nexus Finisher for 250 Mythic Essence. It will be in the Featured section for two patches, leaving at the start of Patch 26.16. Riot will share a portion of proceeds with LoL esports teams.

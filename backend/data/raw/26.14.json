@@ -1,0 +1,421 @@
+{
+  "version": "26.14",
+  "release_date": "2026-07-14",
+  "raw_notes": "Hail the victorious three-peat champions, and welcome to Patch 26.14! This patch we have an array of changes to champs like locking down Locke, helping our favorite fish who's flopping a little in support, and hitting mute on the songstress in bot lane. Blue buff is getting a little bit of love, and we have some adjustments to a few items. Outside of Summoner's Rift, we've got some Mayhem and Arena adjustments for modes enjoyers, and Summoner's Rift Clash will be taking place this patch! So time to hit up the squad, give yourselves a punny name, and suddenly forget how to do even the most basic tasks in-game, if you're anything like my friend group. Looking for more information on all things League of Legends? Check out our community-run wiki here ! Wrong patch notes? You can find the TFT patch notes here ! T1 Galio, T1 Xin Zhao, T1 Seraphine, T1 Ambessa, T1 Yunara, MVP T1 Miss Fortune, and Victorious Rengar will be available July 15, 2026. Azir is feeling more headless chicken than valiant falcon right now. But rather than straight numerical buffs, we're preening his feathers of impactful bugs and changing some rune interactions that should make him start squawking about Shurima more often. Everyone's favorite incoherent aviator is having trouble taking off in bot lane. So, we want to give a little more firepower to Corki's sorties later in the game, and really enhance his spell-weaving missile firing fantasy! Garen is dishing out too much justice across all skill brackets right now. So, we're going to tap down the Demacian Justice just a tad to make him a little less oppressive, while still rewarding well-timed target selection and inspiring fear in the hearts of those who shirk justice. Jayce quickly climbed the ranks after our 26.03 adjustments and has stayed at the top of the pack. Additionally, he has become a fairly comfortable blind pick champ due to his Rune flexibility, and is the most picked top laner in higher ranks. Right now he's building like an assassin, but playing like a fighter, which we prefer to the tank Jayce era. These changes should tap down on his speediness and high durability while preserving what makes him fun. Locke's release has gone relatively smoothly, and we are now tuning him down a bit as players have had time to pick him up. We want to open up more counterplay by reducing how long he can pressure with his Q. And we're bumping down the healing on his W because he's not an enchanter, after all. Morde has lost a fair amount of power ever since the Riftmaker bugfix in 26.10 and could use some love, so we're rewarding him more for when he gets you in his Grasp and enhancing the Lord of Death's 1:1 fantasy. Nami has been feeling a bit like a fish out of water since the Mandate changes, especially when combined with her nerf in 26.7. We've targeted her E which has been feeling a bit underwhelming with her new builds, which should shift the tides a bit in her favor to help her make a bigger splash! Even after her nerfs last patch, Senna is still tearing through the darkness and the light. We're focusing on bringing down her passive and scaling power as she collects souls and takes names, which should impact her in support less, and more in bot where Shiv is rushed for AP ratios. Seraphine's vocal lessons have paid off and she's hitting those High Notes more consistently. So much so that she's become one of the bot lane headliners. So, we're lowering her volume a little so she doesn't burst everyone's ear drums. We don't have any more immediate plans to adjust her Q hitbox, so are going to tune her around this current state going forward. Yunara's spirit is waning a little. So we're giving her a little more scaling power to help find more balance later in the game. Immortal Path has really been living up to its name lately on a couple of mid picks who can use the item, with a higher winrate than expected even for its niche pick rate. These changes should leave it worth building but more reasonable in output. Protoplasm is overperforming across the board and is leading to particularly potent spikes on champions that buy it early. We still want to make sure it's still an exciting option for tank champs, so we're focusing on decreasing its early single item spike power. Rocketbelt's popularity on usually immobile mages, rather than AP bruisers, is giving us flashbacks of the Galeforce days. We're adjusting its stat incentives to make it slightly less appealing when compared to other damage-focused options but also keep it feeling good on its traditional core users that rely on the item for engage. There's also a Ruby Crystal in its build path that didn't exist in days where the item built out of Kindlegem and was a little more clunky. In a world where the impact of mana in the jungle has been degraded over time, we want Blue to have more reasons to be prioritized. Ranked Season 2 will end local server time at midnight 23:59 on July 28, which is the last day of patch 26.14. Several hours later, we'll roll over into patch 26.15, which marks the start of Season 3 at 12:00pm noon, July 29, local server time. Similar to previous mid-year season transitions, Ranked Solo and Flex queues will be disabled during the down time. Shard transfer services will also be disabled to make sure rewards are properly calculated. We don't expect any disruptions to your LP / Ranked progression, but the Victorious Ranked mission for 15 ranked games won will be refreshed when the new season starts. Hey Mayhemers! We're bringing down some of the high frustration Augments this patch as well as buffing up a number of the struggling ones. Dropkick in particular was getting to the point where it was taking over the game too reliably. We want it to be able to high roll and feel insane, but it was doing that far more often than other comparable Augments. Also, we're adjusting the Augment RNG system a bit this patch, as we've seen that recently it's been offering the same kinds of Augments too often and makes games feel more samey / low variety. We'll be tuning this over the next few patches to get it just right so let us know what you think! Dimension Shift Poro Stampede Squishy Slappy Grab Overkill Dropkick Tooth Fairy Infernal Conduit Stackosaurus Rex Welcome back, Arena enjoyers! Our focus this time is on buffing underperformers across the board. We're touching up a few Augments, including adding new functionality for the Jeweled Gauntlet and Vulnerability crit interaction. On the champion side, we're tuning a broad group of outliers, including Locke, who has been struggling since being added to the roster. Rounding things out, we've added the burn tag to a few Augments and made some tweaks to attack speed items. Ambessa Gragas Heimerdinger Illaoi Kled Locke Quinn Rakan Samira Skarner Swain Yorick Zoe Phantom Dancer Kraken Slayer Navori Flickerblade Rapid Firecannon Divine Intervention Jeweled Gauntlet and Vulnerability Twin Fire Upgrade: Collector Riot is rolling out optional Parent Permissions to give parents more visibility and control over their child's social interactions in game. Parents can access parental controls by connecting a parent's email address via account control page , where they can limit text and voice chat, block friend requests, and view the social panel friends list. These controls are meant to provide parents with the tools to protect their child's safety. Read more about parental permissions and account setup here . Pro games got you yearning for your very own competition? Well, look no further! The MSI Cup will be taking place on Summoner's Rift this patch! So grab your pals and get ready to throw down! If you have any questions or you're just looking for the full 2026 Clash schedule, make sure to check out our Clash FAQ support page . In honor of League's first three-peat world champions, the T1 Worlds Winner skins will follow a slightly different release approach. The Signature Bundles will include the skin, signature icon and border, ward skin, and Elite chroma. As a special bonus, each bundle will also include an exclusive emote inspired by the pros and the skin they helped design. The Worlds Winner Megabundle will include all Signature Bundles, and three megabundle exclusive items: Golden Team Icon, T1 2025 Worlds Winner Lobby Banner, and the \"Three-peat, 1 Dynasty\" Title. All bundles will be available for purchase for two patches, going away at the start of Patch 26.16. All skins will also be individually purchasable with RP. T1 Ambessa, Xin Zhao, Galio, Yunara, and Seraphine will cost 1350 RP. The MVP skin this year, MVP T1 Miss Fortune, will also be individually purchasable for 1820 RP. Individual skins will be available in the Shop until the start of patch 26.23. Once MVP T1 Miss Fortune leaves the Shop, she will be entered into the Mythic Shop pool in the first patch of 2027. She will have a chance to appear in the rotating or featured section, and she will be priced at 200 Mythic Essence. Acquiring MVP T1 Miss Fortune from the Mythic Shop will not include her Signature Icon or Border. The other Epic skins will leave the store and enter the Loot pool starting with the first patch of 2027. In addition to the Elite chromas, there will also be 5 standard chromas available for purchase. The Ruby chroma will be a chroma bundle exclusive, and the others will be available for individual purchase. Last, but certainly not least, swing by the Mythic Shop to snag the \"Together as 1\" Nexus Finisher for 250 Mythic Essence. It will be in the Featured section for two patches, leaving at the start of Patch 26.16. Riot will share a portion of proceeds with LoL esports teams. Over the years, the buff bar has accumulated a lot of low-signal information that can make it harder to quickly identify effects that actually matter in gameplay. So, we're cleaning up the system, map and item-related buffs and debuffs to better surface the information players need most at the moment. What's changing: If there's a major piece of information you feel is now missing or harder to track because of these changes, we want to hear from you. The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Azir",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Corki",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 2,
+          "new_value": 2.5,
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Remaining Recharge Time Reduction from Autos",
+          "old_value": "2 - 4 seconds (based on critical strike chance)",
+          "new_value": "2 - 6 seconds",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Garen",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "True Damage",
+          "old_value": "150 / 250 / 350 (+ 25 / 30 / 35% of target's missing health)",
+          "new_value": "125 / 200 / 275 (+ 25 / 30 / 35% of target's missing health)",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jayce",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Bonus Move Speed",
+          "old_value": 40,
+          "new_value": 30,
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus Armor and Magic Resistance",
+          "old_value": "5 / 15 / 25 / 35 (+7.5% bonus Attack Damage)",
+          "new_value": "5 / 12 / 19 / 26 (+7.5% bonus Attack Damage)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Locke",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Nail Recast Hold Time",
+          "old_value": "5 seconds",
+          "new_value": "4 seconds",
+          "delta_value": -1.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Nail Damage",
+          "old_value": "50 / 60 / 70 / 80 / 90",
+          "new_value": "50 / 58 / 66 / 74 / 82",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Mark Base Bonus Damage",
+          "old_value": "20 / 30 / 40 / 50 / 60",
+          "new_value": "18 / 26 / 34 / 42 / 50",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage Taken Grey Health Cap",
+          "old_value": "40 / 80 / 120 / 160 / 200",
+          "new_value": "40 / 70 / 100 / 130 / 160",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mordekaiser",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "60 / 75 / 90 / 105 / 120 (+40% Ability Power)",
+          "new_value": "60 / 80 / 100 / 120 / 140 (+45% Ability Power)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Stat Steal",
+          "old_value": "10%",
+          "new_value": "13%",
+          "delta_value": 3.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Nami",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage per Hit",
+          "old_value": "20 / 30 / 40 / 50 / 60",
+          "new_value": "20 / 35 / 50 / 65 / 80",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Senna",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Critical Strike Damage Modifier",
+          "old_value": "85%",
+          "new_value": "80%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Ability Power Slow Ratio",
+          "old_value": "10% per 100 Ability Power",
+          "new_value": "7% per 100 Ability Power",
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Ability Power Healing Ratio",
+          "old_value": "50% Ability Power",
+          "new_value": "35% Ability Power",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seraphine",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Ability Power Ratio",
+          "old_value": "50% Ability Power",
+          "new_value": "40% Ability Power",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Yunara",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 2.5,
+          "new_value": 3,
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Immortal Path",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage Increase While Above 50% Maximum Health",
+          "old_value": "5%",
+          "new_value": "4%",
+          "delta_value": -1.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Healing, Shielding, and Regeneration Increase While Below 50% Maximum Health",
+          "old_value": "15%",
+          "new_value": "12%",
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Protoplasm Harness",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cost",
+          "stat_name": "Cost",
+          "old_value": 2500,
+          "new_value": 2600,
+          "delta_value": 100.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus Health",
+          "old_value": "200 - 300",
+          "new_value": "100 - 300",
+          "delta_value": -100.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Healing",
+          "old_value": "200 - 400",
+          "new_value": "100 - 400",
+          "delta_value": -100.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hextech Rocketbelt",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Build Path",
+          "old_value": "Hextech Alternator + Fiendish Codex + Amplifying Tome + 300",
+          "new_value": "Hextech Alternator + Kindlegem + Ruby Crystal + 350",
+          "delta_value": 50.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Active Cooldown",
+          "old_value": "40 seconds",
+          "new_value": "50 seconds",
+          "delta_value": 10.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Power",
+          "old_value": 70,
+          "new_value": 60,
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": 300,
+          "new_value": 350,
+          "delta_value": 50.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blue Buff",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Haste",
+          "old_value": 10,
+          "new_value": "10 / 15 / 20 (levels 1 / 6 / 11)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "SR Ranked Season 2 End",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Parental Controls",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Summoner's Rift Clash - MSI Cup",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "T1 2025 Worlds Winners",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}
