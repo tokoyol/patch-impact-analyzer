@@ -1,0 +1,134 @@
+[champion] Alistar
+  Ever since the loss of Mobility Boots / Symbiotic Soles, Alistar has felt constrained in his gameplay, to the point he's failing to compete in the current meta even though it favors roaming supports - a space we expect him to excel in.
+  Base Stats
+  Move Speed : 330 ⇒ 335
+
+[champion] Bel'Veth
+  This patch, we're launching a set of Bel'Veth changes that are aimed at making her gameplay pattern a bit less focused around her early game, in order to allow her to fulfill her fantasy as a late game scaling champion. The major changes here are making her Q at early levels function more like a regular dueling ability in order to reduce just how heavily she can put certain champions behind with early invades. Historically, this Q tuning has caused us to repeatedly balance around her very early strength at a loss to many of her other more core functions. While we acknowledge that there's a subset of Bel'Veth players who love this capability, broadly, we think it's paying too many tradeoffs for the rest of her audience. We are looking to move some of her early game power to her mid and late game by leaning more on her evolution fantasy and her stacking mechanic. We believe that high moments like having form until death when you have gotten enough stacks feels like a transformative yet exciting moment that lines up a bit more with her kit expectations.
+  Base Stats
+  Attack Speed : 0.85 ⇒ 0.67
+  Attack Speed Ratio : 0.85 ⇒ 0.67
+  Attack Damage : 60 ⇒ 55
+  Basic Attack Damage Modifier : 75% ⇒ 100%
+  Attack Cast Time : 0.25 ⇒ 0.22
+  Total Attack Animation : Adjusted to feel better at lower Attack Speeds
+  Armor : 32 ⇒ 28
+  Armor Growth : 4.7 ⇒ 5
+  Health : 610 ⇒ 580
+  Health Growth : 105 ⇒ 110
+  Model Size : 100% ⇒ 95%
+  Passive - Death In Lavender
+  Attack Speed After Spell Cast : 20% minimum / 40% maximum for 2 attacks ⇒ 20% for 3 seconds
+  Attack Speed per Stack : 0.28% minimum / 1.1% maximum ⇒ 0.1% minimum / 2% maximum
+  Q - Void Surge
+  Speed : 800 / 850 / 900 / 950 / 1000 ⇒ 850
+  Time Between Casts : 1 ⇒ 4 / 3.25 / 2.5 / 1.75 / 1
+  Monster Damage Modifier : 55 / 65 / 75 / 85 / 95 ⇒ 70
+  Minion Damage Modifier : 60 / 70 / 80 / 90 / 100% ⇒ Removed
+  Damage : 0 / 5 / 10 / 15 / 20 (+100% Attack Damage) ⇒ 12 / 14 / 16 / 18 / 20 (+105% Attack Damage)
+  Attack Speed to Ability Haste Conversion : 0.25 ⇒ 0.2
+  W - Above And Below
+  Damage : 70 / 110 / 150 / 190 / 230 (+100% Bonus Attack Damage) (+125% Ability Power) ⇒ 80 / 140 / 200 / 260 / 320 (+150% Ability Power)
+  Slow Duration : 1.25 / 1.5 / 1.75 / 2 / 2.25 seconds at 50% slow ⇒ 2 seconds at 30% slow
+  Knockup Duration : 0.75 seconds ⇒ 0.6 / 0.7 / 0.8 / 0.9 / 1 second
+  E - Royal Maelstrom
+  Damage per Strike : 6 / 7 / 8 / 9 / 10 (+8% Attack Damage) (+8% On-Hit effects), increased up to 300% based on missing Health ⇒ 10 / 12 / 14 / 16 / 18 (+12% Attack Damage) (+12% On-Hit effects), increased up to 100% based on missing Health
+  Number of Strikes : 6 + 1 per 33% bonus Attack Speed ⇒ 6 + 1 per 40% bonus Attack Speed
+  Damage Reduction : 35 / 40 / 45 / 50 / 55% ⇒ 20 / 30 / 40 / 50 / 60%
+  Lifesteal : 20% ⇒ 20 / 25 / 30 / 35 / 40%
+  Lifesteal Scaling : 100% ⇒ Removed
+  Cooldown : 20 / 19 / 18 / 17 / 16 ⇒ 24 / 21 / 18 / 15 / 12
+  Monster Damage Modifier : 150% ⇒ 200%
+  R - Endless Banquet
+  Passive On-Hit Application : Every other attack ⇒ Every attack
+  Passive True Damage : 6 / 10 / 14 (+12% Bonus Attack Damage) ⇒ 2 / 4 / 6 (+3% Bonus Attack Damage)
+  Target Swapping : Passive removed when swapping targets ⇒ Passive no longer removed when swapping targets
+  Maximum Epic Monster Stacks : 10 ⇒ 8
+  Passive Application Requirement : E and Q required Bel’Veth to have attacked the target first ⇒ E and Q no longer require Bel’Veth to have attacked the target first
+  Explosion Damage : 150 / 200 / 250 (+100% Ability Power) (+25% missing Health) ⇒ 150 / 200 / 250 (+150% Ability Power) (+20% missing Health)
+  Heal per Bonus Health : 100 / 150 / 200 (+120% Bonus Attack Damage) (+90% Ability Power) ⇒ 100 / 250 / 400 (+150% Bonus Attack Damage) (+150% Ability Power)
+  Basic Attack Range Bonus : 75 ⇒ 25 / 75 / 125
+  Total Attack Speed : 10 / 15 / 20% ⇒ 5 / 15 / 25%
+  Size : 10% ⇒ 10 / 15 / 20%
+  Unempowered Buff Duration : 60 ⇒ 45 / 90 / infinite at 0 / 40 / 80 stacks
+  Empowered Buff Duration : 180 ⇒ 45 / 90 / infinite at 0 / 40 / 80 stacks
+  Post-Cast Lockout : 0.5 seconds ⇒ 0.25 seconds
+  Out of Combat Move Speed : Removed
+
+[champion] Kai'Sa
+  Despite the recent buff, Kai’sa remains weaker than expected, especially late game for a marksman who is supposed to hyperscale to make up for her short range. We’re tapping up her scaling to help her output as she nears her final form.
+  Passive - Second Skin
+  Caustic Wounds : 4 - 24 (Champion Level) (+12% Ability Power), +1 - 6 (Champion Level) (+3% Ability Power) per prior stack ⇒ 4 - 30 (Champion Level) (+12% Ability Power), +1 - 8 (Champion Level) (+3% Ability Power) per prior stack
+
+[champion] Locke
+  Locke continues to climb the mastery curve, so we’re continuing nerfs to keep him in line. Particularly, we observe his early game to be clearly over, even for a snowball reliant assassin, and we also want to avoid W 2nd max as optimal as it gives him too much safety for the risks he should need to take.
+  Base Stats
+  Health : 655 ⇒ 620
+  Q - Ritual Nails
+  Base Damage - Nail : 50 / 58 / 66 / 74 / 82 (+20% Ability Power) ⇒ 40 / 48 / 56 / 64 / 72 (+20% Ability Power)
+  Three Nails Damage : 150 / 174 / 198 / 222 / 246 (+60% Ability Power) ⇒ 120 / 144 / 168 / 192 / 216 (+60% Ability Power)
+  W - Soul Ignition
+  Move Speed : 40 / 45 / 50 / 55 / 60% (+2% per 100 Ability Power) ⇒ 40% (+2% per 100 Ability Power)
+  Grey Health Base Value : 40 / 70 / 100 / 130 / 160 (+120% Ability Power) ⇒ 40 / 60 / 80 / 100 / 120 (+100% Ability Power)
+
+[champion] Maokai
+  Maokai has gradually faded out of both top and jungle play since our last major work on him. We think that ultimately his top laning experience is not the greatest for all parties involved, so for now we are mainly focused on buffing his jungle back up, where we think he has a fairly unique output as a zone controlling tank.
+  Q - Bramble Smash
+  Monster Damage Modifier : 140 / 150 / 160 / 170 / 180 ⇒ 150 / 160 / 170 / 180 / 190
+  Ability Power Ratio : 40% ⇒ 50%
+
+[champion] Mordekaiser
+  We overshot last patch with the R buffs, and after re-assessing what he looks like with a meaningfully stronger ult, decided to instead revert the R buff entirely in favor of improving his ability to catch and keep opponents in his range. Accounting for the bugfix for his R, we believe these two adjustments to his E will be a net positive from 26.13 and will keep an eye on his performance.
+  E - Death's Grasp
+  Cooldown : 18 / 16 / 14 / 12 / 10 ⇒ 16 / 14 / 12 / 10 / 8
+  R - Realm of Death
+  Stolen Stats : 13% ⇒ 10%
+  Bugfix : Fixed a bug where ulting a target with health above their post-reduction max HP would lead to increased damage (up to double).
+
+[champion] Naafiri
+  Naafiri remains a hot topic in the meta, both for solo queue and pro play. While we are quite happy with how many people have taken her up since her rework, she’s still on the strong end, especially when she really gets the ball rolling with back-to-back-to-back ultimates.
+  R - The Call of the Pack
+  Damage : 150 / 225 / 300 (+120% Attack Damage) ⇒ 125 / 200 / 275 (+100% Bonus Attack Damage)
+  Damage per Packmate : 15 / 22.5 / 30 (+12% Attack Damage) ⇒ 12.5 / 20 / 27.5 (+10% Bonus Attack Damage)
+
+[champion] Riven
+  Endless Hunger's addition to the game has given Riven an extremely potent new tool that fits her play pattern almost perfectly. While we feel we've gotten it into a fairly good spot among most users, Riven is notably overperforming. Targeting her R’s AD scaling (heavy synergy with Endless Hunger haste, mid quest scaling) will impact all her spells and how unstoppable her snowballing can feel, while still leaving a lot of room for her high moments.
+  R - Blade of the Exile
+  Bonus Attack Damage Ratio : 25% ⇒ 20%
+  R - Wind Slash
+  Bonus Attack Damage Ratio : 60% minimum / 180% maximum ⇒ 55% minimum / 165% maximum
+
+[champion] Sylas
+  After his buff in 26.12, it was clear that we moderately overshot our target. We’re pulling back the chains a tad to prevent him from bullying too hard.
+  Q - Chain Lash
+  First Lash Damage : 40 / 65 / 90 / 115 / 140 (+45% Ability Power) ⇒ 40 / 60 / 80 / 100 / 120 (+40% Ability Power)
+
+[champion] Volibear
+  Since our direct and systemic adjustments, the bear has been hibernating from dusk till dawn for a couple patches… we’re giving him more chances to gap close, especially for laners, without raising his already thrilling ceiling of spell chaining.
+  Q - Thundering Smash
+  Cooldown : 14 / 13 / 12 / 11 / 10 ⇒ 12 / 11.5 / 11 / 10.5 / 10
+
+[champion] Zac
+  We believe that Zac brings unique gameplay and class diversity to the jungle. That said, his presence in the jungle has fallen quite a bit over the more recent patches. We believe giving him a bit more opportunity to execute on his distinct gank angles as well as a bit of durability in a team fight can help lift up our favorite secret weapon.
+  Base Stats
+  Armor Growth : 4.7 ⇒ 5.2
+  E - Elastic Slingshot
+  Cooldown : 22 / 19 / 16 / 13 / 10 ⇒ 21 / 18 / 15 / 12 / 9
+
+[item] Bastionbreaker
+  The item has been near bottom pickrate since release, and the distance between it and the next least popular Lethality item is quite far. We’re making it both more accessible and slightly stronger on its less noticeable effect, because we find that lethality users putting more of their gold into utility and progressing the team game is healthy in the long term.
+  Cost : 3200g ⇒ 3000g
+  Shaped Charge Damage : (30 + 150% lethality) true damage ⇒ (50 + 150% lethality) true damage
+
+[item] Terminus
+  Terminus is meant to be one of the premium capstone items for scaling On-Hit builds, but has been more of a mid game spike item than a true late game scaling option, leaving the on-hit space a bit sparse for options later on.
+  Unique - Shadow : 30 Magic Damage On-Hit ⇒ 30 (+10% bonus Attack Damage) (+10% Ability Power)
+
+[item] Yun Tal Wildarrows
+  Yun Tal Wildarrows has fallen significantly over this year from its spot as the go-to scaling crit item. We believe the game continues to benefit from its function as a scaling option, so we are buffing it up to compete with the broader array of early crit items currently on offer.
+  Cost : 850g ⇒ 750g
+  Attack Speed : 40% ⇒ 45%
+
+[system] Jack of All Trades
+  Different statlines are much more accessible with items like Endless Hunger/Gluttonous Greaves/DHelm, and even though we love players shooting for creative builds to utilize JOAT, it definitely has room to be weaker both early and late while still giving a ton of bang for your buck.
+  Adaptive Force at 5 / 10 stat breakpoints : 10 / 25 ⇒ 8 / 20

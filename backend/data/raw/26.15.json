@@ -1,0 +1,822 @@
+{
+  "version": "26.15",
+  "release_date": "2026-07-28",
+  "raw_notes": "Welcome to patch 26.15 and Season 3, where Bel\u2019Veth, the Empress of the Void has some changes she\u2019d like to introduce to you, starting with her patchwork update that leans into her evolution fantasy (permanent ult form, anyone?). After that, we\u2019ve got some nerfs to some recent and longer overperforming champions in Locke, Naafiri, Riven, Sylas, and Morde, and then a handful of buffs to some large tanky champions (and Kai\u2019Sa I guess), along with some item and rune adjustments. On the ranked front with the new Season, you can only cash in Aegis of Valor in games you win to remove mixed incentives, and we\u2019re bringing back duoing to Master tier! Continue on for ARAM: Mayhem and Arena changes! Looking for more information on all things League of Legends? Check out our community-run wiki here ! Wrong patch notes? You can find the TFT patch notes here ! Prestige Magma Chamber Jax and Prestige Magma Chamber Veigar will be available July 29, 2026. Our newest (oldest) game mode is coming to a server near you! Relive the glory days with League Classic. Marvel at what passed for modern graphical fidelity in the 2010s, outplay your opponents with point and click stuns and using old new items like Heart of Gold...! Classic features 60 champions using classic versions of their gameplay across League\u2019s early history and is an experience that emphasizes strategy over mechanics and stronger consequences, both positive and negative, for your actions. If you want to learn more about League Classic, check out our dev blog here . We\u2019ll see you on the Rift, but be careful, the monsters fight back (use your health potions please)! Ranked Season 3 will start at 12pm on July 29 local server time. Victorious Ranked Mission (15 Ranked Games won) will be refreshed with season start, and end of S2 rewards will be distributed shortly after S3 start. Shard transfer service will be temporarily off until S2 rewards are granted. Aegis of Valor has helped make autofill games feel worth playing out, but its loss protection and Mastery requirement created a secondary objective: play for the grade, not necessarily for the win. That\u2019s the opposite of what a Ranked incentive should ask of you. We want every Ranked teammate to share the same goal, which is trying their very best to win the game. When we brought duo queue back to Apex, our goal was to let more high-ranked players play together without compromising the quality of the ladder. The results were mixed. In Master, duos were generally manageable, but we still saw enough impact on match quality to warrant tighter limits. In GM and Challenger, smaller player pools and extremes of skill give duos an outsized impact on game outcomes, one we can\u2019t consistently offset without creating excessive skill gaps or less competitive lobbies. As our matchmaking systems improve, we\u2019ll keep looking for ways to bring duo queue back to GM and Challenger, but only once we can do so without compromising the fairness and competitive integrity they\u2019re meant to represent. Ever since the loss of Mobility Boots / Symbiotic Soles, Alistar has felt constrained in his gameplay, to the point he's failing to compete in the current meta even though it favors roaming supports - a space we expect him to excel in. This patch, we're launching a set of Bel'Veth changes that are aimed at making her gameplay pattern a bit less focused around her early game, in order to allow her to fulfill her fantasy as a late game scaling champion. The major changes here are making her Q at early levels function more like a regular dueling ability in order to reduce just how heavily she can put certain champions behind with early invades. Historically, this Q tuning has caused us to repeatedly balance around her very early strength at a loss to many of her other more core functions. While we acknowledge that there's a subset of Bel'Veth players who love this capability, broadly, we think it's paying too many tradeoffs for the rest of her audience. We are looking to move some of her early game power to her mid and late game by leaning more on her evolution fantasy and her stacking mechanic. We believe that high moments like having form until death when you have gotten enough stacks feels like a transformative yet exciting moment that lines up a bit more with her kit expectations. Despite the recent buff, Kai\u2019sa remains weaker than expected, especially late game for a marksman who is supposed to hyperscale to make up for her short range. We\u2019re tapping up her scaling to help her output as she nears her final form. Locke continues to climb the mastery curve, so we\u2019re continuing nerfs to keep him in line. Particularly, we observe his early game to be clearly over, even for a snowball reliant assassin, and we also want to avoid W 2nd max as optimal as it gives him too much safety for the risks he should need to take. Maokai has gradually faded out of both top and jungle play since our last major work on him. We think that ultimately his top laning experience is not the greatest for all parties involved, so for now we are mainly focused on buffing his jungle back up, where we think he has a fairly unique output as a zone controlling tank. We overshot last patch with the R buffs, and after re-assessing what he looks like with a meaningfully stronger ult, decided to instead revert the R buff entirely in favor of improving his ability to catch and keep opponents in his range. Accounting for the bugfix for his R, we believe these two adjustments to his E will be a net positive from 26.13 and will keep an eye on his performance. Naafiri remains a hot topic in the meta, both for solo queue and pro play. While we are quite happy with how many people have taken her up since her rework, she\u2019s still on the strong end, especially when she really gets the ball rolling with back-to-back-to-back ultimates. Endless Hunger's addition to the game has given Riven an extremely potent new tool that fits her play pattern almost perfectly. While we feel we've gotten it into a fairly good spot among most users, Riven is notably overperforming. Targeting her R\u2019s AD scaling (heavy synergy with Endless Hunger haste, mid quest scaling) will impact all her spells and how unstoppable her snowballing can feel, while still leaving a lot of room for her high moments. After his buff in 26.12, it was clear that we moderately overshot our target. We\u2019re pulling back the chains a tad to prevent him from bullying too hard. Since our direct and systemic adjustments, the bear has been hibernating from dusk till dawn for a couple patches\u2026 we\u2019re giving him more chances to gap close, especially for laners, without raising his already thrilling ceiling of spell chaining. We believe that Zac brings unique gameplay and class diversity to the jungle. That said, his presence in the jungle has fallen quite a bit over the more recent patches. We believe giving him a bit more opportunity to execute on his distinct gank angles as well as a bit of durability in a team fight can help lift up our favorite secret weapon. The item has been near bottom pickrate since release, and the distance between it and the next least popular Lethality item is quite far. We\u2019re making it both more accessible and slightly stronger on its less noticeable effect, because we find that lethality users putting more of their gold into utility and progressing the team game is healthy in the long term. Terminus is meant to be one of the premium capstone items for scaling On-Hit builds, but has been more of a mid game spike item than a true late game scaling option, leaving the on-hit space a bit sparse for options later on. Yun Tal Wildarrows has fallen significantly over this year from its spot as the go-to scaling crit item. We believe the game continues to benefit from its function as a scaling option, so we are buffing it up to compete with the broader array of early crit items currently on offer. Different statlines are much more accessible with items like Endless Hunger/Gluttonous Greaves/DHelm, and even though we love players shooting for creative builds to utilize JOAT, it definitely has room to be weaker both early and late while still giving a ton of bang for your buck. Hello Mayhemers! In this patch, we're making a systematic update to champion balance modifiers. For a long time, champion damage modifiers only affected spells and attack damage by champions. This led to some extreme cases where champions could overperform because their item and Augment damage wasn't affected. With this update, damage dealt modifiers now apply to spell, attack, item, and Augment damage. Our goal is for these modifiers to better reflect a champion's overall performance while allowing underperforming champions to benefit more consistently from the rest of the game's systems. As a result, we're able to remove many existing champion specific modifiers. Over time, we hope to continue reducing the number of individual champion mods and make future balance changes more targeted and easier to maintain. For Augments, we're continuing to buff underperforming options to make their payoffs more satisfying in combat. On the other hand, Critical Missile has proven to be a bit too reliable on critical strike ADCs, so we're tuning it down to make it less frustrating to play against. Thanks for playing, and we'll see you on the Bridge! Ahri Akshan Alistar Ambessa Annie Ashe Corki Ekko Hwei Jhin Kai'Sa Kindred Kog'Maw Lucian Malzahar Miss Fortune Mordekaiser Morgana Nasus Qiyana Ryze Senna Singed Smolder Soraka Teemo Trundle Xin Zhao Zilean Ziggs Warding Weapon Squishy Slappy Grab Titan's Resolve Hellbent Earthwake Endless Decimation Chain Reaction Critical Missile Drop Bear Pat on the Back Mercy's Strike We\u2019re listening to all your feedback and reducing the level cap on certain augments that felt a bit overbearing at 3 levels. Along with a number of champion balance adjustments, we\u2019re also increasing the amount of Adaptive Force gained from crit chance over 100%. Akali Bard Elise Kai'Sa Locke Nocturne Samira Seraphine Tahm Kench Thresh Twisted Fate Warwick Zac Lich Bane Demonic Clasp Critical Rhythm HiveMind Laser Eyes Ok Boomerang Ominous Pact Spellwake Earthwake Tap Dancer Trueshot Prodigy Slow and Steady Critical Strike to Adaptive Force Conversion The following skins will be released in this patch: Divine God-King Darius and Fallen God-King Garen are returning to The Sanctum until Patch 26.19. The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Alistar",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Move Speed",
+          "old_value": 330,
+          "new_value": 335,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bel'Veth",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": 0.85,
+          "new_value": 0.67,
+          "delta_value": -0.17999999999999994,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Ratio",
+          "old_value": 0.85,
+          "new_value": 0.67,
+          "delta_value": -0.17999999999999994,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 60,
+          "new_value": 55,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Basic Attack Damage Modifier",
+          "old_value": "75%",
+          "new_value": "100%",
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Attack Cast Time",
+          "old_value": 0.25,
+          "new_value": 0.22,
+          "delta_value": -0.03,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor",
+          "old_value": 32,
+          "new_value": 28,
+          "delta_value": -4.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": 4.7,
+          "new_value": 5,
+          "delta_value": 0.2999999999999998,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": 610,
+          "new_value": 580,
+          "delta_value": -30.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Health Growth",
+          "old_value": 105,
+          "new_value": 110,
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Model Size",
+          "old_value": "100%",
+          "new_value": "95%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed After Spell Cast",
+          "old_value": "20% minimum / 40% maximum for 2 attacks",
+          "new_value": "20% for 3 seconds",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed per Stack",
+          "old_value": "0.28% minimum / 1.1% maximum",
+          "new_value": "0.1% minimum / 2% maximum",
+          "delta_value": -0.18000000000000002,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Speed",
+          "old_value": "800 / 850 / 900 / 950 / 1000",
+          "new_value": 850,
+          "delta_value": 50.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Time Between Casts",
+          "old_value": 1,
+          "new_value": "4 / 3.25 / 2.5 / 1.75 / 1",
+          "delta_value": 3.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage Modifier",
+          "old_value": "55 / 65 / 75 / 85 / 95",
+          "new_value": 70,
+          "delta_value": 15.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Minion Damage Modifier",
+          "old_value": "60 / 70 / 80 / 90 / 100%",
+          "new_value": "Removed",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "waveclear"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "0 / 5 / 10 / 15 / 20 (+100% Attack Damage)",
+          "new_value": "12 / 14 / 16 / 18 / 20 (+105% Attack Damage)",
+          "delta_value": 12.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed to Ability Haste Conversion",
+          "old_value": 0.25,
+          "new_value": 0.2,
+          "delta_value": -0.04999999999999999,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "70 / 110 / 150 / 190 / 230 (+100% Bonus Attack Damage) (+125% Ability Power)",
+          "new_value": "80 / 140 / 200 / 260 / 320 (+150% Ability Power)",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Slow Duration",
+          "old_value": "1.25 / 1.5 / 1.75 / 2 / 2.25 seconds at 50% slow",
+          "new_value": "2 seconds at 30% slow",
+          "delta_value": 0.75,
+          "direction": "buff",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Knockup Duration",
+          "old_value": "0.75 seconds",
+          "new_value": "0.6 / 0.7 / 0.8 / 0.9 / 1 second",
+          "delta_value": -0.15000000000000002,
+          "direction": "nerf",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage per Strike",
+          "old_value": "6 / 7 / 8 / 9 / 10 (+8% Attack Damage) (+8% On-Hit effects), increased up to 300% based on missing Health",
+          "new_value": "10 / 12 / 14 / 16 / 18 (+12% Attack Damage) (+12% On-Hit effects), increased up to 100% based on missing Health",
+          "delta_value": 4.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Number of Strikes",
+          "old_value": "6 + 1 per 33% bonus Attack Speed",
+          "new_value": "6 + 1 per 40% bonus Attack Speed",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage Reduction",
+          "old_value": "35 / 40 / 45 / 50 / 55%",
+          "new_value": "20 / 30 / 40 / 50 / 60%",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Lifesteal",
+          "old_value": "20%",
+          "new_value": "20 / 25 / 30 / 35 / 40%",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Lifesteal Scaling",
+          "old_value": "100%",
+          "new_value": "Removed",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": [
+            "sustain"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "20 / 19 / 18 / 17 / 16",
+          "new_value": "24 / 21 / 18 / 15 / 12",
+          "delta_value": 4.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage Modifier",
+          "old_value": "150%",
+          "new_value": "200%",
+          "delta_value": 50.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Passive On-Hit Application",
+          "old_value": "Every other attack",
+          "new_value": "Every attack",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Passive True Damage",
+          "old_value": "6 / 10 / 14 (+12% Bonus Attack Damage)",
+          "new_value": "2 / 4 / 6 (+3% Bonus Attack Damage)",
+          "delta_value": -4.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Target Swapping",
+          "old_value": "Passive removed when swapping targets",
+          "new_value": "Passive no longer removed when swapping targets",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Maximum Epic Monster Stacks",
+          "old_value": 10,
+          "new_value": 8,
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "jungle"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Passive Application Requirement",
+          "old_value": "E and Q required Bel\u2019Veth to have attacked the target first",
+          "new_value": "E and Q no longer require Bel\u2019Veth to have attacked the target first",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Explosion Damage",
+          "old_value": "150 / 200 / 250 (+100% Ability Power) (+25% missing Health)",
+          "new_value": "150 / 200 / 250 (+150% Ability Power) (+20% missing Health)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Heal per Bonus Health",
+          "old_value": "100 / 150 / 200 (+120% Bonus Attack Damage) (+90% Ability Power)",
+          "new_value": "100 / 250 / 400 (+150% Bonus Attack Damage) (+150% Ability Power)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst",
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Basic Attack Range Bonus",
+          "old_value": 75,
+          "new_value": "25 / 75 / 125",
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Total Attack Speed",
+          "old_value": "10 / 15 / 20%",
+          "new_value": "5 / 15 / 25%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Size",
+          "old_value": "10%",
+          "new_value": "10 / 15 / 20%",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Unempowered Buff Duration",
+          "old_value": 60,
+          "new_value": "45 / 90 / infinite at 0 / 40 / 80 stacks",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Empowered Buff Duration",
+          "old_value": 180,
+          "new_value": "45 / 90 / infinite at 0 / 40 / 80 stacks",
+          "delta_value": -135.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Post-Cast Lockout",
+          "old_value": "0.5 seconds",
+          "new_value": "0.25 seconds",
+          "delta_value": -0.25,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Kai'Sa",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Caustic Wounds",
+          "old_value": "4 - 24 (Champion Level) (+12% Ability Power), +1 - 6 (Champion Level) (+3% Ability Power) per prior stack",
+          "new_value": "4 - 30 (Champion Level) (+12% Ability Power), +1 - 8 (Champion Level) (+3% Ability Power) per prior stack",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Locke",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": 655,
+          "new_value": 620,
+          "delta_value": -35.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Base Damage - Nail",
+          "old_value": "50 / 58 / 66 / 74 / 82 (+20% Ability Power)",
+          "new_value": "40 / 48 / 56 / 64 / 72 (+20% Ability Power)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Three Nails Damage",
+          "old_value": "150 / 174 / 198 / 222 / 246 (+60% Ability Power)",
+          "new_value": "120 / 144 / 168 / 192 / 216 (+60% Ability Power)",
+          "delta_value": -30.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Move Speed",
+          "old_value": "40 / 45 / 50 / 55 / 60% (+2% per 100 Ability Power)",
+          "new_value": "40% (+2% per 100 Ability Power)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Grey Health Base Value",
+          "old_value": "40 / 70 / 100 / 130 / 160 (+120% Ability Power)",
+          "new_value": "40 / 60 / 80 / 100 / 120 (+100% Ability Power)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maokai",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage Modifier",
+          "old_value": "140 / 150 / 160 / 170 / 180",
+          "new_value": "150 / 160 / 170 / 180 / 190",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Ability Power Ratio",
+          "old_value": "40%",
+          "new_value": "50%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Mordekaiser",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "18 / 16 / 14 / 12 / 10",
+          "new_value": "16 / 14 / 12 / 10 / 8",
+          "delta_value": -2.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Stolen Stats",
+          "old_value": "13%",
+          "new_value": "10%",
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Naafiri",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "150 / 225 / 300 (+120% Attack Damage)",
+          "new_value": "125 / 200 / 275 (+100% Bonus Attack Damage)",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage per Packmate",
+          "old_value": "15 / 22.5 / 30 (+12% Attack Damage)",
+          "new_value": "12.5 / 20 / 27.5 (+10% Bonus Attack Damage)",
+          "delta_value": -2.5,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Riven",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Bonus Attack Damage Ratio",
+          "old_value": "25%",
+          "new_value": "20%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Bonus Attack Damage Ratio",
+          "old_value": "60% minimum / 180% maximum",
+          "new_value": "55% minimum / 165% maximum",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sylas",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "First Lash Damage",
+          "old_value": "40 / 65 / 90 / 115 / 140 (+45% Ability Power)",
+          "new_value": "40 / 60 / 80 / 100 / 120 (+40% Ability Power)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Volibear",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "14 / 13 / 12 / 11 / 10",
+          "new_value": "12 / 11.5 / 11 / 10.5 / 10",
+          "delta_value": -2.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zac",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": 4.7,
+          "new_value": 5.2,
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "22 / 19 / 16 / 13 / 10",
+          "new_value": "21 / 18 / 15 / 12 / 9",
+          "delta_value": -1.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bastionbreaker",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cost",
+          "stat_name": "Cost",
+          "old_value": "3200g",
+          "new_value": "3000g",
+          "delta_value": -200.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Shaped Charge Damage",
+          "old_value": "(30 + 150% lethality) true damage",
+          "new_value": "(50 + 150% lethality) true damage",
+          "delta_value": 20.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Terminus",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Unique - Shadow",
+          "old_value": "30 Magic Damage On-Hit",
+          "new_value": "30 (+10% bonus Attack Damage) (+10% Ability Power)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yun Tal Wildarrows",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cost",
+          "stat_name": "Cost",
+          "old_value": "850g",
+          "new_value": "750g",
+          "delta_value": -100.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": "40%",
+          "new_value": "45%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jack of All Trades",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Adaptive Force at 5 / 10 stat breakpoints",
+          "old_value": "10 / 25",
+          "new_value": "8 / 20",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}
