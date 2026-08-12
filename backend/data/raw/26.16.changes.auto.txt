@@ -1,0 +1,408 @@
+[champion] Azir
+  We are continuing to monitor Azir, especially as players continue to pick up Press The Attack as his optimal keystone. For now however, we are going to give him a moderate buff to his laning to help him out.
+  Q - Conquering Sands
+  Damage : 60 / 80 / 100 / 120 / 140 (+35 / 40 / 45 / 50 / 55% AP) ⇒ 75 / 95 / 115 / 135 / 155 (+35 / 40 / 45 / 50 / 55% AP)
+
+[champion] Bel'Veth
+  Bel'Veth has come out with the scaling curve of Kayle and Aurelion Sol. Her power is rapidly growing across all skill brackets and given her early game is already quite weak, we've opted to make her late game a bit less sharp.
+  Base Stats
+  Health Growth : 110 ⇒ 105
+  R - Endless Banquet
+  True Form Total Attack Speed : 5 / 15 / 25% ⇒ 6 / 13 / 20%
+  NEW True Form Remora Indicator : Resource bar now turns purple when True Form can spawn Remora
+  Passive - Death in Lavender
+  Attack Speed Per Stack : 0.2%-2% ⇒ 0.2%-1.5%
+  Bonus Health : 250-450 ⇒ 100-400
+
+[champion] Camille
+  With roaming supports all the rage, Camille has been queen. We are simultaneously looking to nerf her support roaming power while keeping or (hopefully) actually buffing her top lane. This means trading the raw all in power behind her passive shield early game in favor of significantly lowered cooldowns for better repeatable trading.
+  Base Stats
+  Mana : 339 ⇒ 375
+  Passive - Adaptive Defenses
+  Shield : 20% Maximum Health ⇒ 10 / 15 / 20 / 25% Maximum Health (levels 1 / 7 / 13 / 19)
+  Cooldown : 18 / 14 / 10 / 6s (levels 1 / 7 / 13 / 19) ⇒ 14 / 11 / 8s (levels 1 / 7 / 13)
+  W - Tactical Sweep
+  Cooldown : 15 / 14 / 13 / 12 / 11s ⇒ 12 / 11.5 / 11 / 10.5 / 10s
+  Outer Cone Bonus Damage : 6 / 6.5 / 7 / 7.5 / 8% (+2.5% per 100 bonus Attack Damage) Target Maximum Health ⇒ 7 / 7.5 / 8 / 8.5 / 9% (+2.5% per 100 bonus Attack Damage) Target Maximum Health
+
+[champion] Gwen
+  Gwen has remained slightly weak since her nerfs earlier this year. We are buffing her passive sustain back up towards where it has previously been, which should help her be a powerful threat in some of her stronger matchups without making her feel uncounterable.
+  Passive - A Thousand Cuts
+  Healing On Champions : 50% post-mitigation, capped to 10-25 (based on level) (+6.5% AP) ⇒ 67% post-mitigation, capped to 12-40 (based on level) (+7% AP)
+
+[champion] Kennen
+  With the reshape to Hextech Rocketbelt to prevent it from becoming the ubiquitous mage legendary, Kennen came out behind the pack. We are buffing him to compensate, making sure he is rewarded well when he does find the right flanks for those huge team-deleting ults.
+  R - Slicing Maelstrom
+  Bonus Resistances : 20 / 40 / 60 ⇒ 25 / 50 / 75
+  Damage : 40 / 75 / 110 (+22.5% AP) ⇒ 40 / 80 / 120 (+25% AP)
+  Maximum Damage : 300 / 562.5 / 825 (+168.75% AP) ⇒ 300 / 600 / 900 (+187.5% AP)
+
+[champion] Nasus
+  Nasus has been a distinct jungle pick that we think is pretty exciting to see; however his top lane has lagged very far behind. We are adjusting his Q stack generation to bring these two roles closer to each other in raw power.
+  Q - Siphoning Strike
+  Stacks : 3, increased to 12 on champions / large minions / monsters ⇒ 4, increased to 10 on champions / large minions / monsters
+  Nasus is performing better than he ought to, even for a champion with a shallow learning curve and a playstyle that hasn't changed much over the years. We still want his infinitely-stacking late game bonking to be his biggest strength, which means pulling out power elsewhere. We're reverting a few buffs from the Skarner launch patch in 2011, making his early game weaker and making him think more carefully about using Wither.
+  Passive - Soul Eater
+  Life Steal : 14 / 17 / 20% ⇒ 10 / 15 / 20%
+  W - Wither
+  Mana Cost : 80 ⇒ 100
+
+[champion] Poppy
+  Poppy is meant to be a tank whose gameplay has leaned too far into early game snowball fighter, to the point she's choosing Hail of Blades and Sundered Sky over more tank runes and items. We're looking to shift power out of her early game AD fighter pattern and enable her tank pattern by significantly increasing her scaling with durability and giving her enough mana growth that sustained combat doesn't immediately run her out of resources.
+  Base Stats
+  Attack Damage : 60 ⇒ 56
+  Health Regeneration : 8 ⇒ 9
+  Mana : 280 + 40/level ⇒ 300 + 45/level
+  Q - Hammer Shock
+  Damage : 30 / 55 / 80 / 105 / 130 (+100% bonus Attack Damage) (+9% Target Maximum Health), twice ⇒ 30 / 55 / 80 / 105 / 130 (+75% bonus Attack Damage) (+7 / 7.5 / 8 / 8.5 / 9% Target Maximum Health), twice
+  Target Maximum Health Monster Cap : 75 / 105 / 135 / 165 / 195 ⇒ 85 / 120 / 155 / 190 / 225
+  Slow Amount : 20 / 25 / 30 / 35 / 40% ⇒ 20 / 23 / 26 / 29 / 32% (+8% per 1000 bonus Health)
+  W - Steadfast Presence
+  Total Armor and Magic Resistance : 12%, doubled below 40% Maximum Health ⇒ 16%, doubled below 40% Maximum Health
+  Target Maximum Health Ratio : 8% ⇒ 9%
+  Increased Resistances : 8%-16% ⇒ 12%-24%
+  Cooldown : 26-16 ⇒ 20-12
+
+[item] Berserker's Greaves
+  Berserker's Greaves have been sitting at a particularly low state of power for a while now, and with the state of AD champions in both bot and mid, we feel this is the right time to buff them.
+  Attack Speed : 25% ⇒ 30%
+  T3 Attack Speed : 40% ⇒ 45%
+
+[item] Black Cleaver
+  Black Cleaver has become a Smolder / Senna item more than a core AD fighter item. We are re-adding the Melee / Ranged split on the move speed effect to buy space to buff it for AD fighters without pushing it over the top for its ranged user base.
+  Attack Damage : 40 ⇒ 45
+  Fervor Move Speed : 20 for 2s ⇒ [20 Melee || 10 Ranged] for 2s
+
+[item] Eclipse
+  Eclipse has similarly fallen behind as an option for AD champions as a high ticket early AD item that isn't in the Lethality space. We feel it has clear space for a buff.
+  Damage : [6% Melee || 4% Ranged] Target Maximum Health ⇒ [8% Melee || 5% Ranged] Target Maximum Health
+  Shield : [160 + 40% bonus Attack Damage Melee || 80 + 20% bonus Attack Damage Ranged] ⇒ [150 + 40% bonus Attack Damage Melee || 75 + 20% bonus Attack Damage Ranged]
+
+[item] Runaan's Hurricane
+  Runaan's Hurricane has lost all of its core users over the course of the year as ADCs have moved to a wider variety of AS Crit itemization. We are buffing its unique effect and movespeed to help players capitalize on the positioning requirements of that unique effect.
+  Move Speed : 4% ⇒ 5%
+  Wind's Fury Bolt Damage : 55% Attack Damage ⇒ 65% Attack Damage
+
+[item] Sterak's Gage
+  Sterak's Gage has also lost its position as the premium juggernaut / diver teamfight item, with Guardian Angel taking its place. We think Sterak's is a much healthier fit for these champions to take.
+  Bonus Attack Damage : 45% of Base Attack Damage ⇒ 50% of Base Attack Damage
+
+[item] Sundered Sky
+  Sundered Sky, on the other hand, has been the meta dominant AD fighter item for the last year. While we do find it exciting to see when players manage to chain its triggers through a teamfight and barely survive risky engages, we think it's a bit too performant when optimized to the point where it's healing for more than even lifesteal based items.
+  Recipe : Tunneler (1150g) + Caulfield's (1050g) + Ruby Crystal (400g) + 500g ⇒ Tunneler (1150g) + Caulfield's (1050g) + 900g
+  Healing : [100% Melee || 50% Ranged] Base Attack Damage + 6% Missing Health ⇒ [90% Melee || 45% Ranged] Base Attack Damage + 4% Missing Health
+  Health : 400 ⇒ 450
+
+[item] Sunfire Cape
+  Sunfire Cape has remained a powerful item in League, both in purchase and winrate, but players have repeatedly called out dissatisfaction with the item because of how directly it's compared against Hollow Radiance. We are upping its cost to match Hollow Radiance and shifting its power towards PvP damage to give the item more comparable advantages.
+  Damage : 20 (+1% bonus Health) ⇒ 20 (+1.5% bonus Health)
+  Minion / Monster Modifier : 160% Minion, 200% Monster ⇒ 150% Minion, 180% Monster
+  Recipe : 600g ⇒ 700g
+
+[item] Chainlaced Crushers
+  We continue to feel that defensive boot optimizations in mid lane stifle action. Since we are looking to shift mage power back from bot lane to mid lane this patch, we are also taking the time to nerf down mid lane counter itemization against mages.
+  Magic Resistance : 30 ⇒ 25
+
+[item] Spellslinger's Shoes
+  Along with Chainlaced Crushers' change, we are buffing Spellslinger's Shoes to further affect mid vs bot mage balance.
+  Magic Penetration : 18 + 8% ⇒ 20 + 8%
+
+[item] Tiamat
+  Tiamat has ended up in a state where even if you are buying a Hydra item, it's optimal NOT to purchase it until you have all the other components. That's pretty lame, yo.
+  Attack Damage : 20 ⇒ 25
+
+[system] Fleet Footwork
+  Fleet Footwork has been a relatively weaker and underutilized Precision keystone, and we feel like it has room to be a decent option for sustaining against harass past early laning and onwards.
+  Healing : 10-130 ( +[10% bonus AD Melee || 6% bonus AD Ranged]) ( +[5% AP Melee || 3% AP Ranged]) ⇒ 15-160 ( +[10% bonus AD Melee || 6% bonus AD Ranged]) ( +[5% AP Melee || 3% AP Ranged])
+
+[system] Hail of Blades
+  Hail of Blades is currently contributing significantly to the extreme early game roaming meta with its super front loaded power skew. We are pushing its power back towards scaling to help soften this impact.
+  Attack Speed : 120% Melee || 60% Ranged ⇒ 90% Melee || 60% Ranged
+  Bonus True Damage : 4-20 (+8% bonus AD) (+6% AP) ⇒ 2-20 (+12% bonus AD) (+10% AP)
+
+[system] ADC MAGIC RESISTANCE
+  Finally, next to the changes to boot rewards in midlane, we are also adjusting MR for all ADC champions to help them out against mages early game. We also hope this will help a few of them in mid lane, where we believe a healthier pool of AD champions (including potentially Akshan and Tristana) will also help create a more diverse jungle meta beyond AD fighters.
+  Affected Champions : Akshan, Aphelios, Ashe, Caitlyn, Corki, Draven, Ezreal, Graves, Jhin, Jinx, Kai'Sa, Kalista, Kindred, Kog'Maw, Lucian, Miss Fortune, Quinn, Samira, Senna, Sivir, Smolder, Twitch, Varus, Vayne, Xayah, Yunara, Zeri
+  Magic Resistance : 30 + 1.3/level ⇒ 33 + 1.1/level
+  Tristana Magic Resistance : 28 + 1.3/level ⇒ 33 + 1.1/level
+
+[system] SUPPORT ROLE QUEST
+  Finally, we are adjusting Support Role Quest progress to penalize heavy early game roaming by increasing the penalty while outside of bot lane, and removing the bonus progress gained from champion combat over minion last hitting.
+  Stack Consumption On Champion / Turret Damage : 22 Melee || 20 Ranged and 24 Melee || 22 Ranged ⇒ 18 and 21
+  Stack Consumption On Creep Score : 15 and 20 ⇒ 18 and 21
+  Minion Creep Score Experience / Gold Penalty : -25% outside of bot lane until level 3 ⇒ -33% outside of bot lane until level 5
+
+[system] Classic
+  Welcome to our first patch update for League Classic! We're delivering brand new old champions, brand new old runes, and a suite of balance changes aimed at the game's biggest outliers. Are you excited to be a flippin' Ninja?
+
+[champion] NEW Akali
+  Akali is flying in with invisibility, targeted dashes, invisibility, and tons of damage. Better buy a Pink Ward!
+  Passive - Twin Disciplines
+  After gaining 20 Ability Power, gain a percent of your total Attack Damage as bonus damage on-hit.
+  After gaining 10 bonus Attack Damage, gain Spell Vamp.
+  Q - Mark of the Assassin
+  Throw a kama, damaging and marking your target. Attack the marked target to deal more damage and refund some energy.
+  W - Twilight Shroud
+  Throw down a smoke bomb, which gives Akali Invisibility and bonus resists while in the area. Enemies in the area are slowed.
+  E - Crescent Slash
+  Slice all nearby enemies, dealing damage.
+  Be careful, this can empty your energy reserves quickly.
+  R - Shadow Dance
+  Dash at an enemy, dealing damage upon arrival. This ability can hold a maximum of 3 dashes at a time, like ammo.
+
+[champion] NEW Kennen
+  Kennen makes his return in a somewhat familiar form, ready to dive-bomb into enemy teams with Slicing Maelstrom or play it cool as an AD auto-attacker.
+  Passive - Mark of the Storm
+  Kennen's abilities add stacking marks to their targets. Upon reaching 3 stacks, they're stunned and Kennen refunds some energy.
+  Q - Thundering Shuriken
+  Throw a shuriken in a straight line, damaging and marking the first enemy hit.
+  W - Electrical Surge
+  Passive: Every few attacks, Kennen's attack deals bonus damage and marks his target.
+  Active: Kennen damages and applies an additional mark to all nearby marked enemies.
+  E - Lightning Rush
+  Kennen becomes a ball of lightning, gaining bonus movement speed and resistances. Enemies he collides with while a ball of lightning are damaged and marked.
+  R - Slicing Maelstrom
+  A maelstrom follows Kennen for a few seconds, damaging and marking a random enemy champion several times per second.
+
+[champion] NEW Shen
+  Shen subscribes to the philosophy that one can hide in plain sight. He's still the same dashing, taunting ninja he's always been, but has the added benefit of providing healing for himself and his allies.
+  Passive - Ki Strike
+  Every few seconds, Shen's next attack deals bonus damage and restores some energy.
+  Further basic attacks ready his next empowered attack sooner.
+  Q - Vorpal Blade
+  Throw a blade, damaging and marking the targeted enemy. Any time Shen or his allies attack the marked enemy, they restore some health over time.
+  If the blade kills the target outright, Shen gets a partial heal.
+  W - Feint
+  Gain a shield. While it persists, attacks refresh Ki Strike faster.
+  E - Shadow Dash
+  Dash in a straight line, taunting and damaging all champions Shen collides with and restoring energy for each one.
+  R - Stand United
+  Target an allied champion anywhere on the map to grant them a shield. After a few seconds, if they're still alive, teleport to that ally.
+
+[champion] Alistar
+  Alistar's pretty decent in both solo lanes, whether played as AP burst or as a Headbutt-autoattacker. However, he's quite weak at support, so we're looking for some support-skewed buffs.
+  E - Triumphant Roar
+  Allied Heal Effectiveness : 50% ⇒ 75%
+
+[champion] Amumu
+  Amumu is performing worse than he ought to, so we're looking to return him back to normalcy. We're reverting some nerfs from 2012-2013, ensuring he has a strong strategic niche of helping AP teams destroy squishy targets
+  Passive - Cursed Touch
+  Magic Resistance Shred : 15 / 20 / 25 ⇒ 15 / 25 / 35 (levels 1 / 7 / 13)
+  Shred Duration : 3s ⇒ 4s
+  Q - Bandage Toss
+  Base Damage : 80 / 130 / 280 / 230 / 280 ⇒ 80 / 140 / 200 / 260 / 320
+
+[champion] Blitzcrank
+  Blitzcrank is the #1 support in the game right now, topping all three of win rate, pick rate, and ban rate. So yeah, it's time for some nerfs to pull him down. We're digging up the history books and reverting some of their “recent” buffs from 2011-2012. We're targeting early pressure and overall cooldowns, due to how impactful their abilities can be. If a hook attempt misses, their opponents should have plenty of time to punish.
+  Q - Rocket Grab
+  Base Damage : 80 / 135 / 190 / 245 / 300 ⇒ 60 / 120 / 180 / 240 / 300
+  Cooldown : 20 / 19 / 18 / 17 / 16 ⇒ 22 / 21 / 20 / 19 / 18
+  W - Overdrive
+  Cooldown : 15 ⇒ 20
+  R - Static Field
+  Active Damage : 250 / 375 / 500 ⇒ 200 / 300 / 400
+  Dr. Mundo
+  Dr. Mundo's faring even worse than his patients, and that's saying something! He's receiving a suite of buffs to both damage and durability to allow him to soak up as much punishment as possible while still dishing out the pain. These buffs manifest as reverts to nerfs from early 2012.
+  W - Burning Agony
+  Damage Per Second : 35 / 50 / 65 / 80 / 95 ⇒ 40 / 55 / 70 / 85 / 100
+  Tenacity : 10 / 15 / 20 / 25 / 30% ⇒ 15 / 20 / 25 / 30 / 35%
+  R - Sadism
+  Health Regained : 40 / 50 / 60% ⇒ 40 / 55 / 70%
+
+[champion] Garen
+  Garen's doing quite poorly at the moment, so we're here to buff him up to snuff. We want him to feel advantaged in early laning, so we're buffing his early regeneration to enable more aggressive trading and allowing him more frequent access to his rank 1 ultimate to let him convert those fights into kills.
+  Base Stats
+  Base Health Regeneration : 8.2 ⇒ 9.0
+  Passive - Perseverance
+  Maximum Health Per Second Regeneration : 0.4% ⇒ 0.5%
+  R - Demacian Justice
+  Cooldown : 160 / 120 / 80 ⇒ 140 / 110 / 80
+
+[champion] Heimerdinger
+  Heimerdinger is the single best-performing mid laner, and he's way up there in top lane, too. We expect him to do well for now, considering how rusty the average player is, and how strong his turrets are, but he's still outperforming our expectations. We want to make him more vulnerable early in his turret fortress and create a larger window without his pocket crowd control. For the rockets, they simply lack the early game counter-play required for a base damage this high.
+  Q - H-28G Evolution Turret
+  Base Attack Damage : 30 / 38 / 46 / 54 / 62 ⇒ 28 / 36 / 44 / 52 / 60
+  W - Hextech Micro-Rockets
+  Base Damage : 85 / 135 / 185 / 235 / 285 ⇒ 70 / 120 / 170 / 220 / 270
+  E - CH-1 Concussion Grenade
+  Cooldown : 13 / 12 / 11 / 10 / 9 ⇒ 14 / 13 / 12 / 11 / 10
+  H-28 G Evolution Turret
+  Q Base Damage : 4-12 ⇒ 7-23
+
+[champion] Janna
+  Janna is the second of our support nerfs this patch as she's performing a little better than she ought to, so we're dropping some small nerfs. We want her high impact ultimate to have high a impact mana cost and want to make sure that she isn't just using her strong safety tools to bully her enemies out of the lane.
+  Base Stats
+  Attack Damage : 51.95 + 2.95 ⇒ 49 + 3
+  R - Monsoon
+  Mana Cost : 100 / 150 / 200 ⇒ 200 / 275 / 350
+
+[champion] Jarvan IV
+  Jarvan is one of the game's strongest junglers and deserving of a nerf. Considering how good the reliably Flag and Drag combo is, we're leaving that intact. Instead, we're swinging for his late game to ensure he isn't the best at all points in time.
+  Base Stats
+  Armor Per Level : 3.6 ⇒ 3
+  W - Golden Aegis
+  Bonus Shield Per Nearby Champion : 20 / 30 / 40 / 50 / 60 ⇒ 20 / 25 / 30 / 35 / 40
+  E - Demacian Standard
+  Mana Cost : 55 ⇒ 55 / 60 / 65 / 70 / 75
+
+[champion] Katarina
+  Katarina is performing much better than she ought to, especially for a difficult champion whom no one has played for approximately a decade. We always want high-mastery champions to be worth mastering, but if rookies are winning this much without practice, something's wrong. Ultimately we're fixing our own bug here: She's supposed to be throwing 10 daggers over 2.5 seconds, not 12, so both the DPS and maximum damage of her ultimate is being reduced.
+  R - Death Lotus
+  Maximum Damage : 480 / 690 / 900 + 450% bonus Attack Damage + 300% Ability Power ⇒ 400 / 575 / 750 + 375% bonus Attack Damage + 250% Ability Power
+  Damage Per Dagger : Unchanged
+
+[champion] Lux
+  Lux is our single worst mid laner AND support right now, so she's due for some very real buffs. We're going back on a move speed and ult CD nerf from early in 2013, as well as an AP ratio nerf from 2011, with the hopes that Lux can keep up with all the mobility these “modern” (released after 2010) champions have.
+  Base Stats
+  Move Speed : 330 ⇒ 340
+  R - Final Spark
+  Cooldown : 80 / 65 / 50 ⇒ 80 / 60 / 40
+  Damage : 300 / 400 / 500 + 75% Ability Power ⇒ 300 / 400 / 500 + 85% Ability Power
+
+[champion] Miss Fortune
+  Miss Fortune is performing the worst of all conventional bot laners, so we're delivering some buffs. To start, we're improving both her sustained auto-attack damage and her spell casting ult playstyle, partially or fully reverting changes from patches 3.1 and 3.7.
+  W - Impure Shots
+  Bonus Damage Per Stack : 4 / 6 / 8 / 10 / 12 ⇒ 6 / 8 / 10 / 12 / 14
+  Maximum Stacks : 5 ⇒ 4
+  Maximum Bonus Damage : 20 / 30 / 40 / 50 / 60 ⇒ 24 / 32 / 40 / 48 / 56
+  R - Bullet Time
+  Damage Per Wave : 65 / 95 / 125 + 35% bonus Attack Damage ⇒ 65 / 95 / 125 + 40% bonus Attack Damage
+
+[champion] Skarner
+  Skarner has been one of the weakest junglers so we're here to buff him back up. We've got a small bugfix to his E's missile radius, which made it harder to hit than it should have been. Otherwise, we're reverting a few nerfs that Skarner received early in his release.
+  Passive - Energize
+  NEW Structure Interaction : Once again works on structures
+  Q - Crystal Slash
+  Slow : 20 / 25 / 30 / 35 / 40% ⇒ 25 / 30 / 35 / 40 / 45%
+  W - Crystalline Exoskeleton
+  Cooldown : 18 ⇒ 14
+  E - Fracture
+  Missile Width : 70 ⇒ 120
+
+[champion] Soraka
+  Soraka is one of our weakest supports at the moment, and while she performs better in solo lanes, she's not strong there either. As a result we're looking for some meaningful support-skewed buffs and it's fine if she gets a little stronger in top lane or mid lane. As support Soraka maxes her W first while solo lane Soraka does not, this should be a meaningful buff for where she's played most.
+  W - Astral Blessing
+  Armor Buff : 25 / 45 / 65 / 85 / 105 ⇒ 25 / 50 / 75 / 100 / 125
+  Armor Buff Duration : 3 seconds ⇒ 5 seconds
+  W - Astral Infusion
+  Cooldown : 6s-2s ⇒ 7s-3s
+
+[champion] Tryndamere
+  Tryndamere has wound up as the single most performant champion in the game, both in top lane and jungle, which means he's up for some substantial nerfs. We want to retain his late game big crit fantasy but he should take longer to get there and be more peelable when he does. As with many of our nerfs, these are reverts of buffs from back when Lux launched in 2010.
+  Q - Bloodlust
+  Cooldown : 12 / 11 / 10 / 9 / 8 ⇒ 14 / 12.5 / 11 / 9.5 / 8
+  Bonus Attack Damage Per Fury : 5 ⇒ 3
+  Maximum Bonus Attack Damage : 40 ⇒ 24
+  E - Spinning Slash
+  Cooldown : 8 ⇒ 9
+
+[champion] Twitch
+  Twitch is the strongest bot laner in the game right now. To start, our nerfs are going to be reverting his buffs from 1.0.0.144 and 1.0.0.146, both from 2012. Because his late game can be so potent, we're doubling down on his scaling archetype and making his laning phase even more difficult.
+  Base Stats
+  Attack Damage : 52 ⇒ 50
+  W - Venom Cask
+  Projectile Speed : 1400 ⇒ 1300
+  E - Expunge
+  Mana Cost : 50 / 60 / 70 / 80 / 90 ⇒ 70 / 75 / 80 / 85 / 90
+  R - Spray And Pray
+  Missile Speed : 5000 ⇒ 4000
+
+[champion] Veigar
+  Veigar is one of the very worst mid laners in the game, so it's time for some buffs. Due to how core Q-spamming on every minion is to his playstyle, we want to make sure it feels supported, while still requiring him to buy some mana items to keep up.
+  Q - Baleful Strike
+  Mana Cost : 60 / 65 / 70 / 75 / 80 ⇒ 50 / 55 / 60 / 65 / 70
+  Damage : 80 / 125 / 170 / 215 / 260 + 60% Ability Power ⇒ 80 / 125 / 170 / 215 / 260 + 65% Ability Power
+
+[champion] Warwick
+  Warwick is the best-performing jungler in the game right now, and while his resilience in the face of a dangerous jungle is likely a contributor, he's performing above our expectations for such a straightforward jungler. We're reverting an attack speed buff from early 2012, as he has access to much better on-hit itemization than he used to.
+  Base Stats
+  Attack Speed : .679 ⇒ .644
+  Q - Jaws of the Beast
+  Cooldown : 8s-6s ⇒ 7s-5s
+  E - Primal Howl
+  Cooldown : 15s-11s ⇒ 13s-9s
+
+[champion] Aurelion Sol
+  Q - Breath of Light
+  Burst Damage Health Ratio : 4% ⇒ 3.1% Stardust%
+  E - Singularity
+  Cooldown : 8 ⇒ 12
+
+[champion] Gnar
+  Passive - Rage Gene
+  Tired Duration : 5s ⇒ 0s
+  W - Hyper
+  Mini Percent Health Damage : 6%-14% ⇒ 10%-18%
+  E - Hop / Crunch
+  Health Ratio : 6% ⇒ 8%
+  Mini Attack Speed : 40%-60% ⇒ 50%-70%
+  R - GNAR!
+  Cooldown : 90-30 ⇒ 70-30
+
+[champion] LeBlanc
+  Passive - Mirror Image
+  Cooldown : 10s ⇒ 5s
+  Q - Sigil of Malice
+  Refund : 60% ⇒ 100%
+  Base Damage : 85-185 ⇒ 105-205
+  NEW Damage Per Level Scaling : Now scales past level 18
+  E - Ethereal Chains
+  Cooldown : 14s-11s ⇒ 12s-9s
+
+[champion] Mordekaiser
+  R - Realm of Death
+  Stat Steal : 8% ⇒ 10%
+
+[champion] Ornn
+  W - Bellows Breath
+  Cooldown : 10s ⇒ 11s-8.5s
+
+[champion] Rek'Sai
+  Passive - Fury of the Xer'Sai
+  Healing : 9%-20% ⇒ 10%-45%
+  Q - Prey Seeker
+  Cooldown : 10s ⇒ 7.5s
+  W - Burrow
+  Move Speed : 15-35 ⇒ 20-60
+  E - Tunnel
+  Tunnel Cooldown : 18s-14s ⇒ 9s-5s
+  Tunnel Reuse Cooldown : 6s-2s ⇒ 4s-0s
+
+[champion] Samira
+  R - Inferno Trigger
+  Base Damage : 15-45 ⇒ 20-60
+
+[champion] Shaco
+  Q - Deceive
+  Bonus Attack Damage Ratio : 60% ⇒ 85%
+  E - Two-Shiv Poison
+  Bonus Attack Damage Ratio : 80% ⇒ 100%
+
+[champion] Sona
+  Passive - Power Chord
+  Stacks Per Round : 11.5 ⇒ 10
+  W - Aria of Perseverance
+  Cooldown : 10s ⇒ 13s
+
+[champion] Swain
+  R - Demonic Ascension
+  Heal Health Ratio : 1.5% ⇒ 1%
+
+[champion] Varus
+  W - Blighted Quiver
+  Cooldown : 40s ⇒ 20s
+  E - Hail of Arrows
+  Cooldown : 18s-10s ⇒ 16s-8s
+
+[champion] Volibear
+  Q - Thundering Smash
+  Bonus Attack Damage Ratio : 60% ⇒ 100%
+  W - Frenzied Maul
+  Damage Health Ratio : 5% ⇒ 6%
+  Base Heal : 10-70 ⇒ 20-80
+  Heal Health Ratio : 6%-14% ⇒ 8%-20%
+  E - Sky Splitter
+  Shield Health Ratio : 11% ⇒ 14%
+  Shield Ability Power Ratio : 65% ⇒ 75%
+  Base Damage : 60-160 ⇒ 80-200
+  Percent Damage : 9%-13% ⇒ 11%-15%
