@@ -1,0 +1,487 @@
+{
+  "version": "26.17",
+  "release_date": "2026-08-25",
+  "raw_notes": "In 26.17 we\u2019ve got a small amount of relief for top lane with Nasus and Vayne nerfs, and some followup on last patch to a handful of champions and items. We\u2019re buffing a variety of melee AD carries, like Irelia, Qiyana, Yasuo, and Yone, who\u2019ve been forced to snowball-or-lose for a while instead of having a reliable endgame to scale towards. Xerath continues to overperform in the mid lane in particular, as do Nocturne and Graves in the jungle. Finally, Sundered Sky wasn\u2019t hit quite as hard as we were looking for, and we\u2019re also looking to give Stormrazor a place in some builds again. Looking for more information on all things League of Legends? Check out our community-run wiki here ! Wrong patch notes? You can find the TFT patch notes here ! Heartsong Seraphine, Ocean Song Soraka, and Ocean Song Jinx will be available August 26, 2026. Aurelion Sol has come out the loser of last patch's mage adjustments, so we are giving him a buff to help him out. In particular, we are buffing his W cooldown so he can use it a bit more freely rather than only when a reset is likely. This should also make it a bit more clear to players that W is typically the stronger second skill to max, rather than E. Cho's early game has lost pizzazz with Hail of Blades and Hextech Rocketbelt nerfs, so we are making it up with a bit of early damage when he does get those autos off. Graves has had a number of indirect buffs over the last few patches and this has put him in a pretty strong spot. We are looking to soften a bit of his ability to snowball the game with high AD builds. Irelia is one of League\u2019s highest stakes snowballing dependant skirmishers, but we feel like even when ahead she is failing to scale into a real carry threat Additionally, we are buffing some of her AP ratios to support wacky ARAM/Arena builds. We don\u2019t expect this to make AP Irelia suddenly good for SR. With the previous version of Statikk Shiv that drove nerfing her AS ratios no longer in the game, we\u2019re bringing these closer to a typical champion\u2019s baseline. Simultaneously, having some room for power, we are giving her some AP ratio buffs to make sure she's still interested primarily in AP assassination builds. Nasus top has been able to benefit from the shift in his stacking paradigm. We are happy to see our favorite dog get his fill of treats, but want to make sure that we keep his power within reasonable bounds, therefore we are going to be tapping down some of Nasus' top specific strengths, like persistently lifestealing off of minions. Nocturne has been sitting in a pretty strong state across skill levels for a while. We are excited about the opportunities that open up when Nocturne unlocks his ult, but want to add a bit more personal risk to him accessing that high moment. Qiyana's play has moved out of primarily mid to jungle. While we are happy to support her as a jungler, mid is where she\u2019s been underwhelming recently . Thresh has been quietly sitting at a high winrate and picking up playrate over the year. Sometimes you just wanna club your opponents to death, and while Trundle has been a resilient utility pick for his pillar and ult, we feel his personal clubbing power has actually been a bit limp. We believe Vayne may need larger scope work in the future to help out her bot lane, but for now are prioritizing constraining her top lane power. These changes should impact her up there more than in bot lane. Xerath has rested slightly high in power both mid and bot, and after last patch's adjustments to mages has come out on top in mid lane compared to others. Given his extremely high ban rate in certain regions, he's due a light nerf. While Yasuo has definitely been able to snowball and carry games, we believe that similar to Irelia, he is too reliant on snowballing rather than just being a proper scaling carry. We also want to encourage him to prioritize early crit strike builds over Blade of the Ruined King, so we are reducing his crit damage penalty which will simultaneously encourage this as well help him scale without significantly impacting his early game snowball. Similar to Yasuo, Yone has also been an excessively snowball reliant carry, though less so. Bros stay together. Stormrazor almost had its time in the sun earlier this year, but has ended up remaining second fiddle. Last patch\u2019s Sundered Sky nerf was a step in the right direction, but landed a bit under-target given all of the other moving pieces of that patch. Our second patch for League Classic contains tons of good stuff! We\u2019re giving everyone two additional Rune Pages, increasing Influence Points and Classic XP gains across the board, and reducing the cost of about one third of the runes. We\u2019re updating Summoner\u2019s Rift\u2019s lighting, textures, and decals to bring our visual fidelity closer to the Rift of old. We\u2019ve also got our first Council vote, so be sure to log in and make your voice heard. Remember that the more Classic you play, the more voting power you can earn! We\u2019ve also got about 20 balance changes, several dozen bugfixes, and have added Champion and Role swapping to Champion Select to improve your day-to-day Classic experience. Ahri Ahri is extremely safe, has good sustain, good wave clear, and the ability to all-in her opponents at a moment's notice. She\u2019s also overpowered. We want to trim some of her extraneous early safety and reduce how frequently she can pressure her opposition. Base Stats R - Spirit Rush Annie Annie is our second weakest mid laner behind Lux, so we\u2019re driving on some buffs. We\u2019re first reverting some damage nerfs from July 2011 and otherwise ensuring her offensive threat is up to snuff. Passive - Pyromania Q - Disintegrate W - Incinerate E - Molten Shield Bug Fix : Fixed a bug where Molten Shield could damage enemies for non-Attacks R - Summon: Tibbers ! Ashe As a supportive ADC, Ashe is performing below average. She\u2019s not massively underpowered, but weak enough to deserve a buff. To do that, we\u2019re reverting a 2010 Volley nerf, letting her succeed more while playing at long ranges, poking and suppressing her opponents from afar. W - Volley Blitzcrank Blitzcrank is due for much larger nerfs than they got last patch, so we\u2019re back to bring the highest agency support in the game down to size. We\u2019re continuing to revisit old patches to return older, weaker tuning. We\u2019re also fixing a few bugs and oversights to bring their power down further. Our one unique contribution is a rank 1 and 2 nerf to Static Field\u2019s active. Combined with the cooldown nerf, we hope that Blitzcrank players will occasionally choose to keep the R in its passive form, playing for a more sustained damage threat. Passive - Mana Barrier Q - Rocket Grab E - Power Fist R - Static Field Dr. Mundo Dr. Mundo\u2019s still in need of some extra healthcare even after last patch\u2019s buffs as one of the worst top laners and junglers in the game. We\u2019re back with further increases to his durability, in hopes of making him the biggest meat wall you\u2019ve ever seen. His health buffs come from reverts to nerfs in April of 2011. We\u2019re also handing him some extra early game attack speed, which is meant to disproportionately buff his jungling, where he currently performs worse than in top lane. Base Stats Evelynn Evelynn is one of the best-performing junglers in Classic and is gaining more win rate over time as players learn how to optimize her. As such, she\u2019s due for a nerf. We\u2019re pulling a mix of reverted buffs from her initial release and nerfs from 2013\u2019s future. We're making Dark Frenzy worse when just spammed to get across the map, reducing her mid-late jungle clear speed, and making her consider her mana costs more, just like other AP junglers. Passive - Shadow Walk Q - Hate Spike W - Dark Frenzy Ezreal As players have sanded off the rust, Ezreal has moved to the top of the pile as the most picked bot laner by far and too strong a performer considering his high degree of safety. As this dominance is driven by AD Ezreal, we\u2019re delivering some compensation changes to keep AP Ezreal afloat as well. Our nerfs are a tour of changes from back in June of 2010, picking up two Q nerfs and reverting an R nerf from 16 years ago. Q - Mystic Shot R - Trueshot Barrage Garen We were conservative with many of our changes last patch, which has left Garen still in a very weak position. We\u2019re back to deliver much stronger buffs with the goal of bringing him up to speed. We have two primary goals with our buffs. The first is to ensure that spin-to-win always feels rewarding, especially early game. The other is to ensure that he feels good about all his item purchases, whether scaling his damage or durability. Base Stats W - Courage E - Judgment Gragas Gragas is extremely safe, very bursty, and overall just overperforms in mid lane. Our nerfs are aimed at making him less safe as a laner and make him consider his openings more carefully without reducing his burst damage by much. Q - Barrel Roll W - Drunken Rage R - Explosive Cask Heimerdinger Heimerdinger is on the strong side, even after last patch\u2019s nerfs. He\u2019s got a meaningful bugfix this patch, so we wanted to call it out directly. W - Hextech Micro-Rockets R - UPGRADE!!! Jax Jax is receiving a few bug fixes this patch, and while he\u2019s pretty balanced, they\u2019re important enough changes to warrant being called out on their own. Q - Leap Strike R - Relentless Assault Kayle When we launched Kayle in League Classic, we chose one of her earliest kits, which included gaining bonus AD from AP and vice versa. This version of the kit never allowed her to remain permanently ranged with enough CDR, as that buff only came in with her next rework. Ultimately, we like this version of the kit but think she should be able to be permanently ranged if she builds for it, so we\u2019re buffing E\u2019s cooldown. You\u2019ll need at least 38% CDR at rank 5 to hit that breakpoint, so enjoy your build goals! E - Righteous Fury Lux Lux is still performing worse than she ought to so we\u2019re back with some more buffs. We\u2019re increasing Lucent Singularity\u2019s radius to its old wide self as another callback to the past. We\u2019re also bringing in some modern touches (or, farther back in the past depending on how you look at it), including some bug fixes. We\u2019re letting her use summoner spells and detonate her E during her R cast. Flashing will not change the hit location, but you can dodge an Ashe arrow if you need to. We\u2019re also giving her better defensive immediacy. It\u2019s important that League is responsive to your inputs, and \u201cShield me!\u201d is about as immediate a need as it gets. This is one modernization that we think is very important to give Lux even in this older version of the game. We\u2019re also starting our adventure into new territory here. One of Classic\u2019s biggest strengths is the wide-open space for build experimentation. We\u2019d like if Lux could be part of that space. For anyone playing a more conventional AP Lux playstyle, this attack speed should still help her to last hit minions or pop Illumination stacks between spells more quickly. Or\u2026 You could be adventurous and try AD Lux, or maybe AP on-hit Lux with a Malady and a Nashor\u2019s Tooth. You know you want to. Base Stats W - Prismatic Barrier E - Lucent Singularity R - Final Spark Miss Fortune Miss Fortune\u2019s buffs last patch didn\u2019t go nearly far enough, so we\u2019re back for more. Once again we\u2019re digging up changes of old, undoing almost every nerf she received since her launch and fixing several bugs that could cause her ultimate to not deliver on expectations. We\u2019re also delivering one novel change to make E\u2019s mana cost respect its rank, so it\u2019ll be cheaper at low investment and more expensive (and more powerful) when maxed. Base Stats Q - Double Up E - Make It Rain R - Bullet Time Sivir Sivir currently lacks a strong strategic niche or high point to her experience. Toggled Ricochet is meant to be an extremely potent output that Sivir players should feel great about, so we\u2019re reverting some nerfs to it from back in January 2011. Passive - Fleet of Foot W - Ricochet Tristana Tristana is clearly a peak performer in bot lane while mid lane AP Tristana in mid is doing just fine, so we\u2019re taking aim at AD-specific Tristana nerfs to her attack speed. Her mana growth compensation is meant to mostly compensate mid Tristana for the small amount of collateral damage she\u2019s receiving. Base Stats Q - Rapid Fire Tryndamere Tryndamere is still doing exceptionally well. After calibrating how impactful our changes would be in the first patch, we\u2019re back to put him where he belongs. Somehow, he has even more buffs from back in 2010 that we can revert, so we\u2019re back to make things tougher on him. We\u2019re also doing some unique changes, namely reducing his early resilience to losing lane. The primary nerf, however, is in reducing his top-end crit chance. For those with at least 3 crit items, Tryndamere will still be able to reach 100% crit chance at low health, but in the early and mid game, he won\u2019t crit as often. Base Stats Passive - Battle Fury R - Undying Rage Twitch Twitch\u2019s nerfs from last patch didn\u2019t do enough to dethrone him from the top spot. We\u2019re taking out a mix of damage and durability, ultimately trying to make sure that his damage output is readable when exiting out of stealth. Base Stats Innervating Locket When we remade Innervating Locket in Classic, we preemptively nerfed it, as it had been removed from the game for being unbalanceable. Well, it turns out, it\u2019s possible to make it too weak to be used. So we\u2019re here for some meaningful buffs aimed at making it shine for those who want it. We want to make sure it\u2019s an appealing support option, restoring many of the stats it used to have and buffing its unique effect. Innervating Lockets do stack across multiple players, by the way, so if all five of you buy one, you can put a lot of healing onto your most injured teammate. Wriggle\u2019s Lantern and Feral Flare When we built out the items in League Classic, we knew there\u2019d be some conflicts. We had items coexisting who never coexisted before, or were placed into a game that didn\u2019t quite fit. One of these conflicts was with jungle items: We have monster tuning from 2013 (plus the Wight), but have the 2014 item Feral Flare. When we launched, we simply took the 2013 version of Madred\u2019s Razors and Wriggle\u2019s Lantern, and simply updated Feral Flare to fit the same stat profile. We\u2019re changing that now. We\u2019re reshaping Wriggle\u2019s Lantern and Feral Flare to be Attack Speed items instead of Attack Damage ones but keeping all the other stats the same. This change helps them stand out against Spirit of the Elder Lizard, and preserves Hunter\u2019s Machete and Madred\u2019s Razors as they were. These new items do overlap with Madred\u2019s Bloodrazor a bit, but you\u2019re still welcome to buy them both. We\u2019ve heard your feedback loud and clear about how slow it feels to gain access to runes, games with stakes, and more. So in this patch we have large sweeping buffs to several systems that should have you building out extra rune pages and gaining SP in no time! Quintessence of Health Regeneration Champion Swapping You can now swap champions and roles during Champion Select! So now your first pick mid laner can grab Blitzcrank for you, you can grab AP Shaco for your bot laner, and you can successfully make your opponents rage quit instead of having to dodge.. The Inaugural Council Vote The Council goes live with this patch! Vote on the game\u2019s future inside the game client. You will be able to vote on multiple topics during the active voting period and we\u2019ll be back to share the results once voting closes. Ranked Loading Screen Borders A few of our artists got together and updated several aspects of Summoner\u2019s Rift to make it look more like the original. Hello Mayhemers, in this patch, we\u2019re continuing to focus on the fighter experience. We\u2019re introducing two more fighter Augments: Ultra Hydra and Upgrade Death\u2019s Dance! Three-by-Three-headed Hydra? (Just kidding.) We hope these new options give fighters even more ways to sustain themselves and make a big impact in the middle of a team fight. For Augment adjustments and nerfs, we\u2019re taking a look at some high-frustration ADC Augments that have been both powerful and visually noisy. We\u2019re tuning them down to give opponents more room to react and make team fights easier to read. Double Tap has been changed to Prismatic given its power level. We\u2019ve also made some adjustments to the Augment pool so champions get a selection of options that better fit their playstyles. Let us know how these changes feel, and see you on the Bridge! Critical Missile Double Tap Tripleshot Ultra Hydra Upgrade Death\u2019s Dance Upgrade Infinity Edge Upgrade Ravenous As Arena reaches a stable place, both with its players and balance we want to continue to hit outliers, we especially want to bring up those that feel like they haven\u2019t had a place in the mode or are a bit too powerful that they are gatekeeping others from finding a home in the mode. Going forward Arena will also be shifting back to an alternating patch schedule, with the plan being to aim for balance patches on odd numbered League of Legends patches. We feel that the mode is generally in a healthy place and we don\u2019t want to be making adjustments so frequently that players feel that their builds and discovery will be balanced out too quickly. Ambessa E - Lacerate R - Public Execution Garen Passive - Perseverance W - Courage Gragas Passive - Happy Hour K'Sante W - Path Maker E - Footwork Kled Passive - Skaarl, the Cowardly Lizard Remount Cooldown : 12s \u21d2 5s LeBlanc R - Mimic Renata Glasc R - Hostile Takeover Renekton W - Ruthless Predator Senna Q - Piercing Darkness Tahm Kench W - Abyssal Dive E - Thick Skin Teemo Q - Blinding Dart Vel'Koz R - Life Form Disintegration Ray Zaahen Q - The Darkin Glaive Zilean R - Chronoshift Ardent Censer Lord Dominik's Regards Mortal Reminder Redemption Serylda's Grudge Spectral Cutlass Staff of Flowing Water Sword of Blossoming Dawn Serve Beyond Death The minimum and recommended specs for macOS have been updated. Please refer to the Minimum and Recommended System Requirements Player Support article for full details. The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Aurelion Sol",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost Per Second",
+          "old_value": "35 / 40 / 45 / 50 / 55",
+          "new_value": "30 / 35 / 40 / 45 / 50",
+          "delta_value": -5.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "22 / 20.5 / 19 / 17.5 / 16s",
+          "new_value": "22 / 20 / 18 / 16 / 14s",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cho'Gath",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Base Damage (x3 attacks)",
+          "old_value": "20 / 40 / 60 / 80 / 100 (+30% AP) (+2.5% - 3.9% (+.5% Per Feast) Target Max HP)",
+          "new_value": "30 / 50 / 70 / 90 / 110 (+30% AP) (+2.5% - 3.9% (+.5% Per Feast) Target Max HP)",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graves",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Initial Damage",
+          "old_value": "50 / 75 / 100 / 125 / 150 (+65% bonus AD)",
+          "new_value": "50 / 75 / 100 / 125 / 150 (+55% bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Return Damage",
+          "old_value": "80 / 125 / 170 / 215 / 260 (+55 / 70 / 85 / 100 / 115% bonus AD)",
+          "new_value": "80 / 125 / 170 / 215 / 260 (+45 / 60 / 75 / 90 / 105% bonus AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Irelia",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "5 / 25 / 45 / 65 / 85 (+70% AD)",
+          "new_value": "5 / 25 / 45 / 65 / 85 (+80% AD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage Reduction Ability Power Ratio",
+          "old_value": "7% per 100 AP (Halved for Magic Damage) (reduced to 75% value for Magic Damage in Arena)",
+          "new_value": "8% per 100 AP (Halved for Magic Damage) (reduced to 75% value for Magic Damage in Arena)",
+          "delta_value": 1.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Ability Power Ratio",
+          "old_value": "70%",
+          "new_value": "100% (It is already 100% in Arena, so this is standardizing the value)",
+          "delta_value": 30.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "LeBlanc",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Ratio",
+          "old_value": 0.4,
+          "new_value": 0.625,
+          "delta_value": 0.22499999999999998,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Growth",
+          "old_value": "2.35%",
+          "new_value": "1.5%",
+          "delta_value": -0.8500000000000001,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "75 / 115 / 155 / 195 / 235 (+80% AP)",
+          "new_value": "75 / 115 / 155 / 195 / 235 (+90% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "150 / 315 / 480 (+80% AP)",
+          "new_value": "150 / 315 / 480 (+90% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nasus",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Life Steal",
+          "old_value": "12 / 18 / 24%",
+          "new_value": "10 / 15 / 20%",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Nocturne",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor",
+          "old_value": 38,
+          "new_value": 36,
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": 655,
+          "new_value": 640,
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Qiyana",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "70 / 100 / 130 / 160 / 190 (+85% bonus AD)",
+          "new_value": "80 / 110 / 140 / 170 / 200 (+90% bonus AD)",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Monster Damage Modifier",
+          "old_value": "175% against Monsters",
+          "new_value": "160% against Monsters",
+          "delta_value": -15.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thresh",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Active Damage",
+          "old_value": "75 / 120 / 165 / 210 / 255 (+70% AP)",
+          "new_value": "65 / 110 / 155 / 200 / 245 (+60% AP)",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trundle",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": "30 / 45 / 60 / 75 / 90%",
+          "new_value": "30 / 50 / 70 / 90 / 110%",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vayne",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": "550 + 103/Level",
+          "new_value": "580 + 98/Level",
+          "delta_value": 30.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Health Regeneration",
+          "old_value": "3.5 + .55/Level",
+          "new_value": "4 + .5/Level",
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed Ratio",
+          "old_value": ".658 + 3.3%/Level",
+          "new_value": ".67 + 2.8%/Level",
+          "delta_value": -591.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": 30,
+          "new_value": "46 / 42 / 38 / 34 / 30",
+          "delta_value": 16.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "True Damage",
+          "old_value": "6 / 7 / 8 / 9 / 10% Target Max HP",
+          "new_value": "4 / 5.5 / 7 / 8.5 / 10% Target Max HP",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "burst",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Minimum Damage",
+          "old_value": "50 / 65 / 80 / 95 / 110",
+          "new_value": "40 / 55 / 70 / 85 / 100",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xerath",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": 596,
+          "new_value": 575,
+          "delta_value": -21.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "75 / 115 / 155 / 195 / 235 (+90% AP)",
+          "new_value": "70 / 110 / 150 / 190 / 230 (+90% AP)",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yasuo",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Critical Strike Damage Reduction",
+          "old_value": "-10%",
+          "new_value": "-5%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yone",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Critical Strike Damage Reduction",
+          "old_value": "-10%",
+          "new_value": "-5%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stormrazor",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Attack Speed",
+          "old_value": "20%",
+          "new_value": "25%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundered Sky",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health",
+          "old_value": 450,
+          "new_value": 400,
+          "delta_value": -50.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": 45,
+          "new_value": 40,
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Classic",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Art",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}
