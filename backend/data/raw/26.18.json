@@ -1,0 +1,399 @@
+{
+  "version": "26.18",
+  "release_date": "2026-09-09",
+  "raw_notes": "The Beacon of Hope has officially been inducted into the Hall of Legends. Congratulations, Caps! This week's patch kicks off our event that honors the most decorated player in European League of Legends history. The Hall of Legends battle pass will take you on a journey through his storied career, and features new cosmetics plus brand new skins co-developed by Caps himself. We can't wait to celebrate such a humble, confident, and resilient competitor with you all. This patch also features changes to Summoner's Rift balance, with some targeted nerfs on overperforming pro supports like Nautilus and Bard, as well as some taps to Seraphine bot and Zeri. A round of buffs is in order for Viego, Zaahen, Master Yi, Ekko, and Kassadin. Finally, Cassiopeia has slithered her way into an adjustment to help reduce her pro skew. Classic will be having a big old Demacian reunion this week as Fiora, Galio, Poppy, Shyvana, and Xin Zhao join the fray in addition to a host of balance changes and the results of our first Council vote! For all you Mayhem heads out there, we're making sure that the Augment choices you receive make more sense for the champion you're playing, as we continue to improve the Augment pools. Looking for more information on all things League of Legends? Check out our community-run wiki here ! Wrong patch notes? You can find the TFT patch notes here ! Immortalized Legend Tristana, Risen Legend Orianna, and Risen Legend Tristana will be available September 10, 2026. LoL Esports inducts a pro player into the Hall of Legends to honor their achievements within the sport and game. Players are chosen by an independent voting panel of esports industry veterans and experts from every region who select players based on criteria including international berths, international and regional titles, role-specific stats, and overall contributions to the sport. We're honored to announce that Rasmus \"Caps\" Winther is the third inductee into the Hall of Legends! Known as a Beacon of Hope whose legacy reshaped what the West believed was possible on the global stage, Caps becomes the first Western League of Legends pro to earn the distinction. Widely regarded as the defining Western player of his generation, Caps built his legacy through a rare blend of elite skill, creativity, and authenticity. From his meteoric rise as a rookie to becoming the most decorated player in European League of Legends history, Caps has consistently proven he can stand toe-to-toe with the world's best while staying true to his own style. The in-game Hall of Legends event pass celebrates Caps' countless accomplishments and takes you on a journey through his career. You can earn and purchase commemorative cosmetic items and an exclusive skin themed after the Beacon of Hope himself in celebration of this moment. Also available are the Risen Legend, Immortalized Legend, and Signature Immortalized Legend Collections, featuring Tristana skins co-developed with Caps himself. Experience the fearless blend of creativity, adaptability, and unbridled enthusiasm that characterizes Caps' career in the Hall of Legends battle pass with 100 total levels of unlockable rewards, including commemorative skins, icons, and an exclusive callback honoring an iconic Caps champion. Reward highlights include: Bard has been a meta staple for much of the year. Earlier we toned his damage down to what we think are reasonable levels, so this time we are going to target his durability which has also stood out as high given his mobility and long range ultimate utility. Cassio has always scaled with skill, but this year has propelled her to new heights of pro play dominance despite being weaker for average players. These adjustments should tap down her laning power, especially in pro where defensive purchases are valued more than raw AP, while giving her back some scaling power. It will still be critical to use empowered E's, but raising her floor lets us be a bit more flexible with tuning. As one of our assassins that offer opponents a wider mix of gameplay options, Ekko has found a slightly weak steady state since Dusk & Dawn's update mid year. We believe he has some room for power, especially in mid where he scales slightly worse, without buffing his Hail of Blades pattern. Kassadin had a strong start to 2026 but hasn't regained his\u2026footing\u2026since our earlier nerfs. His Q should feel more punchy with his scaling, and we're aiming to provide more early agency through good Riftwalk usage without touching his late game fantasy. Yi drew the short end of the stick on the Rageblade bugfix from earlier this year due to his double strike interactions. While the actual impact for most Rageblade users was minor (and we are compensating Rageblade as well for that this patch), he was impacted harder than the other users. He's also just been unable to scale as well as a melee carry compared to his normal power level, so we are also giving him a buff up. Nautilus has been sitting near the top of the meta for the entire year, even before our work to bring other tank supports up in power, and we feel nerfing him will open up room for a more variety. That said, we know a lot of his value is in being able to lock down champions effectively, and that'll remain a core strength. Seraphine bot has been a source of frustration for opponents for some time, despite a minor nerf a few patches ago. We are nerfing her E's rank up to target this head on, as support Seraphine usually maxes it last (which basically means she never has it maxed as a support.) Our MSI changes were effective at pulling her to the forefront of pro play for the first time in years, but unfortunately she's too performant in specific solo queue settings. Our data shows that W damage is a meaningfully larger share of damage in the tiers where she's stronger than desired, so this should help tap her down while still preserving her core fantasies. Her passive is also now better breakpointed to increase reliance on Lost Chapter in early-mid levels, nerfing her higher winrate builds that make do with less mana investment. Viego's winrate has been on a downward trend recently, and his players have noticed and begun dropping him. He has a fair bit of room to bring up, both just generally and for the viability of his more bruisery alt build. We're using a QoL change here as an opportunity to give Zaahen some love! This might read as a nerf, but Zaahen's Q lined up with his passive in such a way that it meant he always left his resurrection (and GA, Zilean R) with Q on CD, so now he's always happier. His Q2 is also a clean double of his Q1 base damage now. Zeri has been slowly climbing in winrate with the recent Runaan's Hurricane and Yun Tal Wildarrows buffs. She now sits very high in winrate compared to her historical resting, which is worrying for a champ that is so skill intensive. As she has also begun showing up in pro, we expect she has a high chance of becoming meta dominant, so we are pulling some power out of her burst and waveclear. In light of the bugfix nerfing rageblade by a minor amount by pushing back when the first double hit triggers, we are compensating with a similarly minor QoL buff to help players get it stacked up and keep it stacked. Our third League Classic patch has our biggest content drop to date: Five brand new old champions! Do you want to remove as much gameplay as possible with Poppy's Diplomatic Immunity? Untargetably Blade Waltz the entire enemy team as Fiora? Deliver taunt explosions as Galio? Experience the fabled early Xin Zhao kit (he's been nerfed, don't worry)? Shyvana's also here. We've got a smaller balance patch than before, as we're in a much better state balance-wise. Some of our bugfixes had substantial winrate impact, so we're returning some power we took away in a few cases. Otherwise, we're just addressing the game's biggest outliers. NEW Fiora Welcome back Classic Fiora, who existed from 2012-2015. Fiora is a deadly duelist, poised to deal tons of damage to isolated targets while also excelling in short trades by Riposting their strikes back at them. You'll probably want a Ravenous Hydra to have access to wave clear. Some things never change. Passive - Duelist Q - Lunge W - Riposte E - Burst of Speed R - Blade Waltz NEW Galio Classic Galio existed from 2010-2017 and was one part mage, one part AP bruiser, one part tank, one part support. He still wants to build Magic Resist to scale his offense, but almost everything about him is different from the modern-day champion. Passive - Runic Skin Q - Resolute Smite W - Bulwark E - Righteous Gust R - Idol of Durand NEW Poppy Do you think League of Legends has too much gameplay? Do you want your opponents to literally have no counterplay to you? No damage, no CC, nothing? We have the Demacian for you. Initially available from 2010-2015, Classic Poppy is a single-target terror with the option to become completely immune to all enemies but one. Passive - Valiant Fighter Q - Devastating Blow W - Paragon of Demacia E - Heroic Charge R - Diplomatic Immunity NEW Shyvana We chose 2011-2013 for Classic Shyvana, so this is a true blast from the past. Our biggest pro tip for you is Frozen Mallet. If they're slowed, they can't run away. Passive - Fury of the Dragonborn Q - Twin Bite W - Burnout E - Flame Breath R - Dragon's Descent NEW Xin Zhao Classic Xin Zhao takes on his kit from 2012-2017. If you're looking for some straightforward right click until they're dead gameplay, look no further! Passive - Challenge Q - Three Talon Strike W - Battle Cry E - Audacious Charge R - Crescent Sweep Anivia Anivia is our single top performer in mid lane, so she's been slated for nerfs. We've got several changes this patch, all of which are re-tuning her numbers back to 2013 accuracy. Q - Flash Frost Gangplank Gangplank is performing worst of all conventional top laners and is deserving of a large buff. As with many of our changes on Classic, we're reverting old nerfs from 2011 and 2012. We're playing up his dreams of being a banker and sharing the wealth when it's time to go all in. Q - Parrrley E - Raise Morale Heimerdinger Heimerdinger's bugfix last patch ended up being a massive hit to his power, well above what we expected. So we're buffing him back up, partially reverting some of our previous nerfs. Because the double damage turret bugfix was significantly top lane skewed, we're looking to buff his performance in top lane most of all and fix a couple of minor mismatches that escaped his release. Base Stats Q - H-28G Evolution Turret W - Hextech Micro-Rockets E - CH-1 Concussion Grenade Kayle Kayle isn't performing too well in her most popular role of top lane, so we're here to lend her a wing. We've got a large change to her passive, which is a boost of functionally 17-32 ability power. All in all, this should result in a Kayle with more damage, more healing, more everything. Passive - Holy Fervor Malzahar Malzahar is one of our best-performing mid laners, primarily as an AP threat, and is due for a small nerf. We completed a pass of minor differences from his 2013 form and have some changes to Voidlings as a result, which should skew toward making AD Malzahar better without affecting AP Malzahar much. Continuing on the trend of AD Malzahar, we're raising his overall attack speed, so that he can use those potential AD items better. Meanwhile, on the AP nerf front, we have a meaningful bugfix to R, which will reduce its damage in several circumstances, plus an AP ratio nerf to bring him in line. Base Stats Passive - Summon Voidling Q - Call of the Void R - Nether Grasp Nasus Nasus is the top dog of top lane and it's by a lot. Thankfully, we've got some substantial bugfixes that should put his bark and his bite on more equal footing. First, we're fixing a bug where his Q stacks could crit, which means for all you Trinity Force enjoyers, that's a big hit to Q damage about 10% of the time. For Wither, there are two bugs worth noting and a single change for period-accuracy. The slow now updates every 1 second (affected by tenacity) instead of every 0.5 seconds, unaffected. So now Tenacity won't cut off the top-end of his slow. However, it was also bugged to use the per-second update every 0.5 seconds, meaning the maximum slow was much higher than it should have been. Fixing both bugs should net out to an appropriate nerf for the ability. Q - Siphoning Strike W - Wither Warwick Warwick is the top dog of the jungle and it's by a lot. With Feral Flare's build path turning back into attack speed, Warwick's doing even better than he ever has. Accordingly, we're pulling back even further on how much auto-attack power he gets, mostly from historic changes in his past. We're also pulling in part of a nerf from 4.21. He was a real terror back in the patch before then... Base Stats Passive - Eternal Thirst W - Hunter's Call R - Infinite Duress Thank you, Summoners, for casting your votes in the inaugural Council! We aggregated the results from across the world and you can read them below. The questions with actionable results will be released in an upcoming patch, specifically: How does game length feel? When is a game too long? Which of these items do you want us to revive in Classic? Each item that scores higher than 50% is added, including \"All 3.\" Should Classic add jungle timers? If options 1 and 2 receive more than 50% combined, the higher of those two options wins. Base gates were added at the start of Season 5 to give the defending team a way to protect its base without relying on more extreme comeback mechanics. Should we keep base gates in the game? How snowbally do games feel to you now? Do you feel that the ward trinkets improve Classic gameplay? We're adding 2 critters to the river, 1 at top and 1 at bottom. What should the critter pairings be (top first, bottom second)? We've made some changes around Classic Skin Chromas and their distribution. Instead of directly selling Classic Skin Chromas, we're unifying this product with their associated Base Skin. We're hoping this simplifies things and removes some edge cases (where players could effectively pay double if they purchased the Classic Chroma and then the Base Skin). For those players who have only purchased the Classic Chroma, we'll be granting the associated Base Skin for free! Baron Rammus will be going into the vault in 26.20. You can acquire him at a discounted price until then!\" Hello Mayhemers! In this patch, we're making more behind-the-scenes adjustments to Augment offerings. We've heard your feedback around some Augments showing up on champions that don't make sense on them, such as AP-focused Augments on Vayne. We're taking another pass at these cases and will continue improving the Augment pools to provide more relevant and exciting choices for each champion. For bugfixes, we've also addressed a few unintended interactions with Ultra Hydra and Ravenous Hydra that could be abused for some\u2026questionable results. Thanks for the feedback, and see you on the Bridge! Clown College Spin to Win Ultra Hydra The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Bard",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor",
+          "old_value": "34 + 5/Level",
+          "new_value": "32 + 4.7/Level",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cassiopeia",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Move Speed Bonus",
+          "old_value": "6% - 40% (based on level)",
+          "new_value": "5% - 36% (based on level)",
+          "delta_value": -1.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "75 / 110 / 145 / 180 / 215",
+          "new_value": "65 / 100 / 135 / 170 / 205",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Ability Power Ratio",
+          "old_value": "65%",
+          "new_value": "75%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": 40,
+          "new_value": 45,
+          "delta_value": 5.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Base Ability Power Ratio",
+          "old_value": "10%",
+          "new_value": "20%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Enhanced Ability Power Ratio",
+          "old_value": "55%",
+          "new_value": "45%",
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Total Ability Power Ratio",
+          "old_value": "65%",
+          "new_value": "65%",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "52 - 120",
+          "new_value": "50 - 120",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "150 / 250 / 350",
+          "new_value": "125 / 225 / 325",
+          "delta_value": -25.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Ability Power Ratio",
+          "old_value": "50%",
+          "new_value": "75%",
+          "delta_value": 25.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Ekko",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": "50 / 60 / 70 / 80 / 90",
+          "new_value": "40 / 50 / 60 / 70 / 80",
+          "delta_value": -10.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Return Damage Ability Power Ratio",
+          "old_value": "60%",
+          "new_value": "70%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kassadin",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Ability Power Ratio",
+          "old_value": "70% AP",
+          "new_value": "80% AP",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Base Damage",
+          "old_value": "70 / 90 / 110",
+          "new_value": "80 / 95 / 110",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Master Yi",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Armor Growth",
+          "old_value": "33 + 4.5/Level",
+          "new_value": "33 + 5/Level",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Move Speed",
+          "old_value": "35 / 45 / 55%",
+          "new_value": "40 / 50 / 60%",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nautilus",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": "61 + 3.3/Level",
+          "new_value": "58 + 3.3/Level",
+          "delta_value": -3.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "85 / 130 / 175 / 220 / 265 (+90% AP)",
+          "new_value": "85 / 125 / 165 / 205 / 245 (+90% AP)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Seraphine",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "11 / 10.5 / 10 / 9.5 / 9s",
+          "new_value": "11s",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Syndra",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Splinter Mana",
+          "old_value": "20 - 255",
+          "new_value": "20 - 199",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "12 / 11 / 10 / 9 / 8s",
+          "new_value": "13 / 12 / 11 / 10 / 9s",
+          "delta_value": 1.0,
+          "direction": "nerf",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Viego",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage Growth",
+          "old_value": 3.5,
+          "new_value": 4,
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Heal",
+          "old_value": "2% (+\u2026. )",
+          "new_value": "2% (+ 2.5% per 100 bonus AD) (+ 2% per 100 AP) (+ 5% per 100% bonus attack speed) (+ 2% per 500 bonus HP) of the target's maximum health",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "mobility",
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zaahen",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Q2 Damage",
+          "old_value": "25 / 50 / 75 / 100 / 125 (+20 / 25 / 30 / 35 / 40% bonus AD)",
+          "new_value": "30 / 60 / 90 / 120 / 150 (+20 / 25 / 30 / 35 / 40% bonus AD)",
+          "delta_value": 5.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Zeri",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "30 / 70 / 110 / 150 / 190 (+120% tAD)",
+          "new_value": "30 / 70 / 110 / 150 / 190 (+100% tAD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Wall Damage",
+          "old_value": "45 / 105 / 165 / 225 / 285 (+180% tAD)",
+          "new_value": "45 / 105 / 165 / 225 / 285 (+150% tAD)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guinsoo's Rageblade",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Seething Strike Stack Duration",
+          "old_value": "3s",
+          "new_value": "4s",
+          "delta_value": 1.0,
+          "direction": "buff",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Classic",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Council - Poll 1 Results",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}
