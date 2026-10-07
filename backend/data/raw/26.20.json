@@ -1,0 +1,483 @@
+{
+  "version": "26.20",
+  "release_date": "2026-10-06",
+  "raw_notes": "Bee wee woop - it's time for WORLDS! For Summoner's Rift, this is the patch we'll be seeing our year-defining competitive play on. Lock in, because we've got some adjustments to some pro staples like Ambessa & K'Sante, and buffs to weaker champions who might be on the edge of viability like Kennen & Kindred. Rocketbelt is getting another tap to make it a bit worse at just being a purchasable Flash for immobile characters, with some immediate compensation for some core users because this is the patch and it's the only shot we've got. There's quite a bit more, including fun stuff for Mayhem & Classic, so read on for details! Looking for more information on all things League of Legends? Check out our community-run wiki here ! Wrong patch notes? You can find the TFT patch notes here ! Prestige Classic Baron Kog'Maw, Prestige HEARTSTEEL Live My Life Sett, HEARTSTEEL Live My Life Ezreal, HEARTSTEEL Live My Life Kayn, HEARTSTEEL Live My Life Aphelios, HEARTSTEEL Live My Life Yone, and HEARTSTEEL Live My Life K'Sante will be available October 7, 2026. Starting with this patch, you will only be able to access replays from matches you played in. Other players will no longer be able to download your replays, and third-party apps & sites will lose access to replay downloads entirely. We are making this change, alongside some restrictions on third party access to game memory, to close some security vulnerabilities that have recently been exploited by cheat developers and other bad actors to build unauthorized tools around League game data. You can read more about the full context in our Game Memory Removed for Third Party Apps Player Support article. Rest assured that this change will not impact your ability to VOD review your own matches by downloading and watching your replays directly in the League client! Ambessa has been too reliable in her late game output for players with high mastery in all brackets, but especially pro-play. Ashe is one of the premier marksmen in pro play at the moment, and we're seeing her output too much raw damage given her position as the highest utility marksman in the game. Our changes two patches ago to Cassiopeia have been pretty good directionally, with most players being proportionally less impacted from those adjustments than pros. We're taking another swing at her early resources because of how dominant she still is in early laning, making her work a little harder to create an advantage. While Diana's assassin build shines, her bruiser builds tend to be lagging a good bit behind. We want to inject a bit more power into that playstyle. Stacking the odds a bit more in his favor with his signature spell (in Riftbound) and offsetting Rocketbelt changes that he'll be a bit less excited about. Kindred is currently a bit weak, so we're giving them buffs in areas that won't make them much more overwhelming in early invades. Optimistically, they'd also make a pretty unique addition to the meta. Warding off this warden from being as reliable as a blind pick in coordinated play - hurting early mana and consistent W damage reduction, which should be skewed for elite audiences. Last patch we looked to inject a bit more power into the deer, but didn't quite see the movement we were looking for. We believe there is a bit more room for her to really prance around various levels of play so we are following up with another buff that'll really help her shine. Last patch's adjustment to help normalize mid and bot performance ended up landing as a nerf for bot lane, so we're following up with a buff to make up for the lost power. Windows between Mordekaiser's ultimates make it hard to keep up with the pace of much of his opposition. His bread and butter (Q) can also feel less impactful as the pace of the game increases, so we think it can do more damage later on. Rocketbelt's adjustment this patch will probably land as a small nerf for Neeko, so we're giving her some minor compensation Smolder has lost quite a bit of power over the last few patches, with the Cleaver ranged nerf and bot lane meta changes disfavoring him significantly. We're further encouraging crit builds to bring his bruiser and full crit builds closer in power. We're giving Swain mid a moderate buff this patch while also making an adjustment that should help normalize his mid and bot lane performance. As one of the tank supports with the lowest health regen, and many health scaling values on his abilities, Tahm Kench lost out on the recent adjustments to the support item. We're giving him compensation for that. Vayne has settled into a fairly weak spot, and while we still aren't totally happy with her top vs bot skew, we're getting closer. We're adjusting her base stats to help in bot where she needs to weather harass, and reverting a mana cost to her Q that simply felt way too bad. Yunara is the leading candidate for \"handshake hyperscaler do nothing\" and we want to avoid that becoming the dominant meta, especially heading into worlds. We've been fairly unhappy with how this item has played out for ranged users, especially as a first rush in top lane where it makes them too resilient to burst and too lethal during all ins. Rocketbelt continues to be used a bit too much as an escape compared to a risky engage tool, so we are pulling back on its generic value in favor of emphasizing aggressive action with it, especially for AP Bruisers who rely on it for all ins. This item was slightly overbuffed, so pulling back on that a bit. Our recent systemic buff-bar clarity work moved a lot of numbers from buffs onto items. These numbers began terrorizing your scoreboards (thanks, Death's Dance). The scoreboard should show strategically relevant information, not noisy in-the-moment combat state, and we're hiding most item numbers on the scoreboard to reflect this principle. Strategically relevant item numbers, like Tear of the Goddess items and Mejai's Soulstealer, remain on the scoreboard icons. The following items' icon counters are now hidden on the scoreboard: Are you ready for MORE new old champions?! Because we are! This time around we've got an eclectic crew who have no business forming a band together. Everyone please welcome Aatrox, Caitlyn, Irelia, Karma, and Quinn to the Fields of Justice. As a note, the Act II Battle Pass will be arriving with Patch 26.21 NEW Aatrox Aatrox was just a baby, 3 patches old, when we chose to snapshot him for League Classic. He only ever had four balance changes before his rework in 2017 and subsequent rework in 2018, and we're excited to see how he'll perform again. He's an attack-focused fighter, damaging himself to gain attack speed and revive when he would be killed NEW Caitlyn Classic's version of Caitlyn was live from 2011-2015. Did you know when she first came out, some players were upset that she was too similar to Miss Fortune? NEW Irelia Welcome back the 2010-2018 version of Irelia! The original Trinity Force poster child is here to even the odds no matter how bad they look. She's been Q-max, W-max, and E-max at various points in time, so see what build order works for you! She's a fast but deceptively durable fighter who loves to be the underdog. NEW Karma Karma came out just two patches after Caitlyn and was only live for just over two years before being reworked in early 2013. Karma is arguably League's first battlemage, rewarding her for getting in the thick of it and making her stronger the more health she's missing. NEW Quinn and Valor Quinn and Valor have returned, having only existed in this form for just over two years, from 2013-2015. Quinn is a ranged and evasive auto-attacker, while her ultimate calls in Valor to fight as a blistering-fast melee skirmisher instead. Fiora Fiora is still the game's most dominant top laner even after her last set of nerfs, so we're back for one more round. We don't want to take down her explosive ultimate any further, so we're just going for a generic damage nerf. Graves Graves came out swinging, being both wildly popular and arguably the game's strongest champion. We've got some feel-good changes to his animations, especially his critical strike one, and some less-feel-good nerfs as he desperately needs them. We're looking to preserve his bursty shotgunning and unique aspects as a tanky ADC, so that means we simply have to reduce his sustained damage. Fizz Fizz came out right behind Graves as a super strong performer, but mostly as an AP assassin in mid lane. We want to preserve both his assassin and fighter playstyles, so we're skewing our nerfs toward his higher-AP builds. We're pulling in lighter versions of a couple of nerfs from 2013 and 2015, aimed at bringing his guaranteed burst down to size, since he has so much reliable damage already with Deathfire Grasp and 75% AP ratio Lich Bane. Kennen Kennen hasn't quite reached the same heights as his other ninja compatriots and we're confident he isn't performing as well as he should. AD Kennen needs substantially more help than his other builds, so we're skewing his buffs in ways to help those players out most of all Nautilus Unlike his other water-themed friends, Nautilus didn't come out swinging. Sometimes that anchor just weighs him down\u2026 Ultimately, he's weak in all three of his main roles (Support, Jungle, Top) and we'd like to help those latter two most of all. So we're fixing one major bug while pulling in buffs and reverting nerfs from early in his lifetime, giving him more reason to soak up experience and wade into the thick of the fight. Several of our tank items are underperforming. It turns out, they've got too little health regen, so they're being increased. And we have a shop display bugfix for Banshee's Veil so you can find it when searching for health items. Spirit Visage Force of Nature Warmog's Armor Banshee's Veil Hello Mayhemers! This patch, we're giving some champions and Augments that need a little love some extra attention. For champions, we're introducing champion-specific buffs that strengthen their core play patterns while also making them more accessible and satisfying to play in Mayhem. For Augments, we're continuing to focus on usability improvements. For example, Missile Split will now split when the missile reaches its end or is recast, rather than on the first target hit. We also lowered the cooldown on Triggered Inferno to show the real Samira fantasy. Let us know how these changes feel, and thank you for playing. See you on the Bridge! Bard Garen K'Sante Lee Sin Swain Thresh Juiced Leg Day Missile Split Shark Tempest Squishy Slappy Grab Triggered Inferno Bel'Veth Locke In case you missed it, we've extended the queue windows for Ranked 5s from the previous 4pm-2am to 4pm-4am server time. We noticed The following skins will be released in this patch: The following chromas will be released this patch:",
+  "entities": [
+    {
+      "name": "Ambessa",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Ashe",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage per Level",
+          "old_value": 3.5,
+          "new_value": 3,
+          "delta_value": -0.5,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cassiopeia",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base Health",
+          "old_value": 630,
+          "new_value": 610,
+          "delta_value": -20.0,
+          "direction": "nerf",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Base Mana",
+          "old_value": 480,
+          "new_value": 450,
+          "delta_value": -30.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diana",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Shield Bonus Health Ratio",
+          "old_value": "11%",
+          "new_value": "14%",
+          "delta_value": 3.0,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kennen",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Bonus Attack Speed",
+          "old_value": "40 / 50 / 60 / 70 / 80%",
+          "new_value": "50 / 60 / 70 / 80 / 90%",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kindred",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Monster Mod",
+          "old_value": "150%",
+          "new_value": "165%",
+          "delta_value": 15.0,
+          "direction": "buff",
+          "tags": [
+            "jungle"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Slow Duration",
+          "old_value": "1s",
+          "new_value": "1.5s",
+          "delta_value": 0.5,
+          "direction": "buff",
+          "tags": [
+            "cc"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Small Monster Targeting",
+          "old_value": "Enabled",
+          "new_value": "Removed",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": [
+            "jungle"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "K'Sante",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": "40 / 45 / 50 / 55 / 60",
+          "new_value": "45 / 50 / 55 / 60 / 65",
+          "delta_value": 5.0,
+          "direction": "nerf",
+          "tags": [
+            "mana"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "W Base/All-Out Damage Reduction",
+          "old_value": "30 / 75%",
+          "new_value": "25 / 70%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lillia",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Duration",
+          "old_value": "2.5s",
+          "new_value": "2.5 / 2.75 / 3s",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "name": "Lucian",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage",
+          "old_value": "60 + 2.5/Level",
+          "new_value": "60 + 2.9/Level",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mordekaiser",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "scaling",
+          "stat_name": "Scaling Level 10-20",
+          "old_value": "(+5/lvl)",
+          "new_value": "(+7/lvl)",
+          "delta_value": 2.0,
+          "direction": "buff",
+          "tags": []
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "140 / 120 / 100s",
+          "new_value": "120 / 110 / 100s",
+          "delta_value": -20.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Neeko",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Base Damage",
+          "old_value": "70 / 105 / 140 / 175 / 210 (+65% AP)",
+          "new_value": "80 / 115 / 150 / 185 / 220 (+65% AP)",
+          "delta_value": 10.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "scaling",
+          "stat_name": "Empowered Root Duration",
+          "old_value": "1.8 / 2.1 / 2.4 / 2.7 / 3s",
+          "new_value": "2 / 2.25 / 2.5 / 2.75 / 3s",
+          "delta_value": 0.19999999999999996,
+          "direction": "buff",
+          "tags": [
+            "cc"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smolder",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Swain",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Base Magic Resistance",
+          "old_value": 31,
+          "new_value": 34,
+          "delta_value": 3.0,
+          "direction": "buff",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Base Armor",
+          "old_value": 25,
+          "new_value": 23,
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "durability"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Damage",
+          "old_value": "70 / 105 / 140 / 175 / 210 (+60%)",
+          "new_value": "70 / 115 / 160 / 205 / 250 (+60%)",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "cooldown",
+          "stat_name": "Cooldown",
+          "old_value": "22 / 21 / 20 / 19 / 18s",
+          "new_value": "20 / 19 / 18 / 17 / 16s",
+          "delta_value": -2.0,
+          "direction": "buff",
+          "tags": [
+            "cooldown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tahm Kench",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Base Healing",
+          "old_value": "10 / 13.75 / 17.5 / 21.25 / 25",
+          "new_value": "10 / 20 / 30 / 40 / 50",
+          "delta_value": 0.0,
+          "direction": "adjustment",
+          "tags": [
+            "sustain"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vayne",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "base_stat",
+          "stat_name": "Health per 5",
+          "old_value": "4 + .5/Level",
+          "new_value": "5.5 +.4/Level",
+          "delta_value": 1.5,
+          "direction": "buff",
+          "tags": [
+            "sustain",
+            "durability"
+          ]
+        },
+        {
+          "category": "base_stat",
+          "stat_name": "Mana Cost",
+          "old_value": "46 / 42 / 38 / 34 / 30",
+          "new_value": 30,
+          "delta_value": -16.0,
+          "direction": "buff",
+          "tags": [
+            "mana"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yunara",
+      "entity_type": "system",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Passive On Hit Damage",
+          "old_value": "5 / 10 / 15 / 20 / 25 (+20% AP)",
+          "new_value": "3 / 8 / 13 / 18 / 23 (+20% AP)",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "damage",
+          "stat_name": "Active On Hit Damage",
+          "old_value": "5 / 10 / 15 / 20 / 25 (+20% AP)",
+          "new_value": "3 / 8 / 13 / 18 / 23 (+20% AP)",
+          "delta_value": -2.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        },
+        {
+          "category": "mechanic",
+          "stat_name": "Slow Stacking",
+          "old_value": "Stacks with other slows",
+          "new_value": "No longer stacks with other slows",
+          "delta_value": null,
+          "direction": "adjustment",
+          "tags": [
+            "cc"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Experimental Hexplate",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Ranged Mod",
+          "old_value": "70% of Value (35% Attack Speed, 14% Move Speed)",
+          "new_value": "50% of Value (25% Attack Speed, 10% Move Speed)",
+          "delta_value": -20.0,
+          "direction": "nerf",
+          "tags": [
+            "mobility"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hextech Rocketbelt",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "mechanic",
+          "stat_name": "Ability Haste",
+          "old_value": 20,
+          "new_value": 10,
+          "delta_value": -10.0,
+          "direction": "nerf",
+          "tags": []
+        },
+        {
+          "category": "damage",
+          "stat_name": "Active Damage",
+          "old_value": "100 (+10% AP)",
+          "new_value": "135 (+15% AP)",
+          "delta_value": 35.0,
+          "direction": "buff",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Runaan's Hurricane",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": [
+        {
+          "category": "damage",
+          "stat_name": "Attack Damage per Bolt",
+          "old_value": "65%",
+          "new_value": "60%",
+          "delta_value": -5.0,
+          "direction": "nerf",
+          "tags": [
+            "burst"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scoreboard Cleanup",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Classic",
+      "entity_type": "item",
+      "primary_role": null,
+      "changes": []
+    },
+    {
+      "name": "Ranked 5s",
+      "entity_type": "champion",
+      "primary_role": null,
+      "changes": []
+    }
+  ]
+}
